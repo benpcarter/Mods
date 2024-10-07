@@ -1,0 +1,11 @@
+{
+  "ScaleEveryNLevels": 1,
+  "ScalingRadius": 2,
+  "MinimumViewDistance": 3,
+  "AlwaysShow": false,
+  "BlinkPointers": true,
+  "NumFramesArrowsOn": 50,
+  "NumFramesArrowsOff": 20,
+  "ShowArtifactSpots": true,
+  "ShowSeedSpots": true
+}

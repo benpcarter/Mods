@@ -1,0 +1,12 @@
+{
+  "Name": "Enchanted Traveling Cart",
+  "Author": "StarAmy",
+  "Version": "1.0.0",
+  "UniqueID": "StarAmy.Cart",
+  "Description": "Recolors the traveling merchant's cart an replaces the purple pig with a friendly doe.",
+  "MinimumApiVersion": "2.5.2",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.1.0"
+  },
+}

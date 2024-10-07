@@ -1,0 +1,182 @@
+{
+   "Format": "2.0.0",
+
+   "ConfigSchema":
+	{ 
+		"SeasonalFoliage": 
+		{ 
+			"AllowValues": "true, false", 
+			"Default": "false" 
+		},
+		"SummerFlowers": 
+		{ 
+			"AllowValues": "SetColour, Pink, Red, Orange, Yellow, Azure, Blue, Indigo, Purple, White", 
+			"Default": "SetColour" 
+		},
+	},
+
+	"DynamicTokens": 
+	[
+		{
+			"Name": "SeasonalFoliageToken",
+			"Value": "Base"
+		},
+		{
+			"Name": "SeasonalFoliageToken",
+			"Value": "{{season}}",
+			"When": 
+			{
+				"SeasonalFoliage": "true"
+			}
+		}
+	],
+
+   "Changes": 
+   	[
+// VANILLA
+		{
+			"LogName": "Vanilla Obelisks",
+    		"Action": "EditImage",
+    		"Target": "Buildings/Desert Obelisk, Buildings/Earth Obelisk, Buildings/Water Obelisk, Buildings/Island Obelisk, Maps/Farm Obelisk",
+    		"FromFile": "assets/{{SeasonalFoliageToken}}/{{TargetWithoutPath}}.png",
+		},
+		{
+			"LogName": "Vanilla Obelisks - Summer Flowers",
+    		"Action": "EditImage",
+    		"Target": "Buildings/Desert Obelisk, Buildings/Earth Obelisk, Buildings/Water Obelisk, Buildings/Island Obelisk, Maps/Farm Obelisk",
+    		"FromFile": "assets/SummerFlowers/{{SummerFlowers}}/{{TargetWithoutPath}}_Flowers_{{SummerFlowers}}.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"SeasonalFoliage": "true",
+				"SummerFlowers |contains= SetColour": false,
+				"Season": "summer"
+			}
+		},
+// DEEPWOODS
+		{
+			"LogName": "Deepwoods Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Buildings/WoodsObelisk",
+    		"FromFile": "assets/{{SeasonalFoliageToken}}/{{TargetWithoutPath}}.png",
+			"When": 
+			{
+				"HasMod |contains= maxvollmer.deepwoodsmod": true
+			}
+		},
+		{
+			"LogName": "Deepwoods Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Buildings/WoodsObelisk",
+    		"FromFile": "assets/SummerFlowers/{{SummerFlowers}}/{{TargetWithoutPath}}_Flowers_{{SummerFlowers}}.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"SeasonalFoliage": "true",
+				"SummerFlowers |contains= SetColour": false,
+				"Season": "summer",
+				"HasMod |contains= maxvollmer.deepwoodsmod": true
+			}
+		},
+// RIDGESIDE
+		{
+			"LogName": "RSV Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Buildings/RSV Obelisk",
+    		"FromFile": "assets/{{SeasonalFoliageToken}}/{{TargetWithoutPath}}.png",
+			"When": 
+			{
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+		{
+			"LogName": "RSV Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Buildings/RSV Obelisk",
+    		"FromFile": "assets/SummerFlowers/{{SummerFlowers}}/{{TargetWithoutPath}}_Flowers_{{SummerFlowers}}.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"SeasonalFoliage": "true",
+				"SummerFlowers |contains= SetColour": false,
+				"Season": "summer",
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		},
+// EAST SCARP
+		{
+			"LogName": "ES Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Buildings/Scarp_Obelisk",
+    		"FromFile": "assets/{{SeasonalFoliageToken}}/{{TargetWithoutPath}}.png",
+			"When": 
+			{
+				"HasMod |contains= LemurKat.EastScarpe.CP": true
+			}
+		},
+		{
+			"LogName": "ES Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Buildings/Scarp_Obelisk",
+    		"FromFile": "assets/SummerFlowers/{{SummerFlowers}}/{{TargetWithoutPath}}_Flowers_{{SummerFlowers}}.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"SeasonalFoliage": "true",
+				"SummerFlowers |contains= SetColour": false,
+				"Season": "summer",
+				"HasMod |contains= LemurKat.EastScarpe.CP": true
+			}
+		},
+// DOWNTOWN ZUZU
+		{
+			"LogName": "DTZ Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Buildings/Zuzu Obelisk",
+    		"FromFile": "assets/{{SeasonalFoliageToken}}/{{TargetWithoutPath}}.png",
+			"When": 
+			{
+				"HasMod |contains= DTZ.DowntownZuzuCP": true
+			}
+		},
+		{
+			"LogName": "DTZ Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Buildings/Zuzu Obelisk",
+    		"FromFile": "assets/SummerFlowers/{{SummerFlowers}}/{{TargetWithoutPath}}_Flowers_{{SummerFlowers}}.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"SeasonalFoliage": "true",
+				"SummerFlowers |contains= SetColour": false,
+				"Season": "summer",
+				"HasMod |contains= DTZ.DowntownZuzuCP": true
+			}
+		},
+// VISIT MT VAPIUS
+		{
+			"LogName": "VMV Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Mods/Lumisteria.MtVapius/mtvapiusobelisk",
+    		"FromFile": "assets/{{SeasonalFoliageToken}}/VMV Obelisk.png",
+			"When": 
+			{
+				"HasMod |contains= Lumisteria.MtVapius": true
+			}
+		},
+		{
+			"LogName": "VMV Obelisk",
+    		"Action": "EditImage",
+    		"Target": "Mods/Lumisteria.MtVapius/mtvapiusobelisk",
+    		"FromFile": "assets/SummerFlowers/{{SummerFlowers}}/VMV Obelisk_Flowers_{{SummerFlowers}}.png",
+			"PatchMode": "Overlay",
+			"When": 
+			{
+				"SeasonalFoliage": "true",
+				"SummerFlowers |contains= SetColour": false,
+				"Season": "summer",
+				"HasMod |contains= Lumisteria.MtVapius": true
+			}
+		},
+	]
+}

@@ -1,0 +1,11 @@
+{
+   "Name": "Armored Boots for JsonAssets",
+   "Author": "Strato35",
+   "Version": "1.0.2",
+   "Description": "Better boots with armor.",
+   "UniqueID": "Strato35.ArmoredBoots",
+   "UpdateKeys": ["Nexus:5528"],
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

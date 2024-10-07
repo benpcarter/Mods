@@ -1,0 +1,21 @@
+{
+    "Name": "[PFM] torch to coal",
+    "Author": "Toskopado",
+    "Version": "1.0.1",
+    "Description": "turn torches into coal with charcoal kiln",
+    "UniqueID": "Toskopado.PFM.CoalTorchl",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:20315" ],
+    "Dependencies": [
+        {
+            "UniqueID": "Digus.ProducerFrameworkMod"
+        },
+        {
+            "UniqueID": "Digus.PFMAutomate",
+            "IsRequired": false
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "DIGUS.ProducerFrameworkMod"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "SpawnFreqCoal0To20": "0.03",
+  "SpawnFreqCoal0To39": "0.04",
+  "SpawnFreqCoal0To999": "0.05",
+  "SpawnFreqIceCoal40to59": "0.04",
+  "SpawnFreqIceCoal60to69": "0.05",
+  "SpawnFreqIceCoal70to79": "0.06",
+  "SpawnFreqLavaCoal80to100": "0.07",
+  "SpawnFreqLavaCoal100to120": "0.10",
+  "SpawnFreqPureCoal1to39": "0.01",
+  "SpawnFreqPureCoal40to80": "0.02",
+  "SpawnFreqPureCoal81to119": "0.03",
+  "SpawnFreqPureCoal120to999": "0.04",
+  "SpawnFreqPrisStone100To110": "0.00",
+  "SpawnFreqPrisStone111To120": "0.00",
+  "SpawnFreqPrisStone121To999": "0.00",
+  "SpawnFreqObsidian81To119": "0.00",
+  "SpawnFreqObsidian120To999": "0.00",
+  "SpawnFreqMudStone1To39": "0.00"
+}

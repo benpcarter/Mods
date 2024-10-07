@@ -1,0 +1,31 @@
+{
+    "Name": "Classical Garden Statue Obelisks",
+    "Author": "Airyn & Yri",
+    "Version": "1.1.0",
+    "Description": "Changes the obelisks to look like classical-style garden statues.",
+    "UniqueID": "AirynYri.GardenStatueObelisks",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": ["Nexus:16374"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": 
+    [
+		{
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "maxvollmer.deepwoodsmod",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "DTZ.DowntownZuzuCP",
+			"IsRequired": false,
+		},
+    ]
+}

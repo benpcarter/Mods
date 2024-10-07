@@ -1,0 +1,41 @@
+﻿[
+	{ 
+		"ProducerName": "Charcoal Kiln", 
+		"InputIdentifier": "309", 
+		"InputStack": "50", 
+		"MinutesUntilReady": "200", 
+		"OutputIdentifier": "Coal",
+		"OutputStack": "3", 
+		"OutputMaxStack": "10", 
+		"FuelIdentifier": "Sap",
+		"FuelStack": 10,
+		"Sounds": [ "furnace" ]
+			
+	},
+	{ 
+		"ProducerName": "Charcoal Kiln", 
+		"InputIdentifier": "310", 
+		"InputStack": "50", 
+		"MinutesUntilReady": "200", 
+		"OutputIdentifier": "Coal",
+		"OutputStack": "3", 
+		"OutputMaxStack": "10", 
+		"FuelIdentifier": "Sap",
+		"FuelStack": 10,
+		"Sounds": [ "furnace" ]
+			
+	},
+	{ 
+		"ProducerName": "Charcoal Kiln", 
+		"InputIdentifier": "311", 
+		"InputStack": "50", 
+		"MinutesUntilReady": "200", 
+		"OutputIdentifier": "Coal",
+		"OutputStack": "3", 
+		"OutputMaxStack": "10", 
+		"FuelIdentifier": "Sap",
+		"FuelStack": 10,
+		"Sounds": [ "furnace" ]
+			
+	}
+]

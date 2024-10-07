@@ -1,0 +1,21 @@
+{
+	"Format": "1.18.0",
+	"ConfigSchema": {
+        "DropChance": {	//   0%  10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+            "AllowValues": ".00, .10, .20, .30, .40, .50, .60, .70, .80, .90, 1.00",
+            "Default": "1.00",
+			"Description": "Dust Spirit chance to drop coal."
+        }
+    },
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Monsters",
+			"Fields": {
+				"Dust Spirit": {
+					6: "382 {{DropChance}} 433 .01 336 .001 84 .02 414 .02 97 .005 99 .001"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "EnableMod": true,
+  "CropsBlock": false,
+  "ObjectsBlock": false,
+  "TreesBlock": false,
+  "PlantAnywhere": false,
+  "FruitAllSeasons": true,
+  "FruitInWinter": false,
+  "DaysUntilMature": 28,
+  "UseBaseSaplingMaturity": false,
+  "MaxFruitPerTree": 3,
+  "MinFruitPerDay": 1,
+  "MaxFruitPerDay": 1,
+  "ColorVariation": 50,
+  "SizeVariation": 20,
+  "FruitSpawnBufferX": 5,
+  "FruitSpawnBufferY": 40,
+  "DaysUntilSilverFruit": 112,
+  "DaysUntilGoldFruit": 224,
+  "DaysUntilIridiumFruit": 336,
+  "Debug": true,
+  "GodMode": false
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Coal Spirits",
+	"Author": "Euclydes",
+	"Version": "1.0.1",
+	"Description": "Dust Spirits Have a 100% Chance of Dropping Coal.",
+	"UniqueID": "Euclydes.CoalSpirits",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:7074" ],
+	"ContentPackFor":
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    }
+}

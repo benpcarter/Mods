@@ -1,0 +1,19 @@
+{
+  "Name": "[CP] Hat Shop Restoration",
+  "Author": "PeacefulEnd",
+  "Version": "1.1.2",
+  "Description": "...",
+  "UniqueID": "PeacefulEnd.AMouseWithAHat.CP",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.28.4"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "PeacefulEnd.AMouseWithAHat.Core",
+      "IsRequired": true
+    }
+  ]
+}

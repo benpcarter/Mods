@@ -1,0 +1,9 @@
+{
+  "Name": "Multiplayer Farms Code",
+  "Author": "LyzzCL",
+  "Version": "0.7",
+  "Description": "Adds multiple farms to the valley",
+  "UniqueID": "LyzzCL.MultiplayerFarmsCode",
+  "UpdateKeys": [ "Nexus:26873" ],
+  "EntryDll": "MPF_Code.dll"
+}

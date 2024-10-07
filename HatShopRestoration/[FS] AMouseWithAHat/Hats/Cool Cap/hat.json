@@ -1,0 +1,88 @@
+{
+  "Name": "Fashionable Cool Cap",
+  "IsLocked": true,
+  "FrontHat": {
+    "ColorMasks": [
+      [ 21, 21, 21 ],
+      [ 47, 47, 47 ],
+      [ 82, 82, 82 ],
+      [ 124, 124, 124 ],
+      [ 178, 178, 178 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+  "RightHat": {
+    "ColorMasks": [
+      [ 21, 21, 21 ],
+      [ 47, 47, 47 ],
+      [ 82, 82, 82 ],
+      [ 124, 124, 124 ],
+      [ 178, 178, 178 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+  "LeftHat": {
+    "ColorMasks": [
+      [ 21, 21, 21 ],
+      [ 47, 47, 47 ],
+      [ 82, 82, 82 ],
+      [ 124, 124, 124 ],
+      [ 178, 178, 178 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+  "BackHat": {
+    "ColorMasks": [
+      [ 21, 21, 21 ],
+      [ 47, 47, 47 ],
+      [ 82, 82, 82 ],
+      [ 124, 124, 124 ],
+      [ 178, 178, 178 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 48
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "Name": "Fashionable Santa Hat",
+  "IsLocked": true,
+  "FrontHat": {
+    "ColorMaskLayers": [
+      {
+        "Name": "Base",
+        "Values": [
+          [ 42, 42, 42 ],
+          [ 52, 52, 52 ],
+          [ 110, 110, 110 ],
+          [ 168, 168, 168 ]
+        ]
+      },
+      {
+        "Name": "Trim",
+        "Values": [
+          [ 238, 238, 238 ],
+          [ 255, 255, 255 ]
+        ]
+      }
+    ],
+    "HideHair": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+  "RightHat": {
+    "ColorMaskLayers": [
+      {
+        "Name": "Base",
+        "Values": [
+          [ 42, 42, 42 ],
+          [ 52, 52, 52 ],
+          [ 110, 110, 110 ],
+          [ 168, 168, 168 ]
+        ]
+      },
+      {
+        "Name": "Trim",
+        "Values": [
+          [ 238, 238, 238 ],
+          [ 255, 255, 255 ]
+        ]
+      }
+    ],
+    "HideHair": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+  "LeftHat": {
+    "ColorMaskLayers": [
+      {
+        "Name": "Base",
+        "Values": [
+          [ 42, 42, 42 ],
+          [ 52, 52, 52 ],
+          [ 110, 110, 110 ],
+          [ 168, 168, 168 ]
+        ]
+      },
+      {
+        "Name": "Trim",
+        "Values": [
+          [ 238, 238, 238 ],
+          [ 255, 255, 255 ]
+        ]
+      }
+    ],
+    "HideHair": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 40
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+  "BackHat": {
+    "ColorMaskLayers": [
+      {
+        "Name": "Base",
+        "Values": [
+          [ 42, 42, 42 ],
+          [ 52, 52, 52 ],
+          [ 110, 110, 110 ],
+          [ 168, 168, 168 ]
+        ]
+      },
+      {
+        "Name": "Trim",
+        "Values": [
+          [ 238, 238, 238 ],
+          [ 255, 255, 255 ]
+        ]
+      }
+    ],
+    "HideHair": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 60
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    }
+  }
+}

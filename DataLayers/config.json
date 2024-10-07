@@ -1,0 +1,90 @@
+{
+  "CombineOverlappingBorders": true,
+  "ShowGrid": true,
+  "ColorScheme": "Default",
+  "Controls": {
+    "ToggleLayer": "F2",
+    "PrevLayer": "LeftControl, LeftShoulder",
+    "NextLayer": "RightControl, RightShoulder"
+  },
+  "Layers": {
+    "Accessible": {
+      "Enabled": true,
+      "UpdatesPerSecond": 2.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad7"
+    },
+    "Buildable": {
+      "Enabled": true,
+      "UpdatesPerSecond": 2.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad6"
+    },
+    "CoverageForBeeHouses": {
+      "Enabled": true,
+      "UpdatesPerSecond": 60.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad5"
+    },
+    "CoverageForJunimoHuts": {
+      "Enabled": true,
+      "UpdatesPerSecond": 60.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "Multiply"
+    },
+    "CoverageForScarecrows": {
+      "Enabled": true,
+      "UpdatesPerSecond": 60.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad4"
+    },
+    "CoverageForSprinklers": {
+      "Enabled": true,
+      "UpdatesPerSecond": 60.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad3"
+    },
+    "CropFertilizer": {
+      "Enabled": true,
+      "UpdatesPerSecond": 30.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad2"
+    },
+    "CropHarvest": {
+      "Enabled": true,
+      "UpdatesPerSecond": 2.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad1"
+    },
+    "CropWater": {
+      "Enabled": true,
+      "UpdatesPerSecond": 30.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad0"
+    },
+    "CropPaddyWater": {
+      "Enabled": true,
+      "UpdatesPerSecond": 30.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad8"
+    },
+    "Machines": {
+      "Enabled": true,
+      "UpdatesPerSecond": 2.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "NumPad9"
+    },
+    "TileGrid": {
+      "Enabled": true,
+      "UpdatesPerSecond": 1.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "None"
+    },
+    "Tillable": {
+      "Enabled": true,
+      "UpdatesPerSecond": 2.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "Divide"
+    }
+  }
+}

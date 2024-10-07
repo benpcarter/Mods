@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Coal from Tree Seeds",
+	"Author": "djoxyk",
+	"Version": "1.1.0",
+	"Description": "Make coal from tree seeds with sap as fuel",
+	"UniqueID": "djoxyk.CoalTreeSeeds",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:12902" ],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

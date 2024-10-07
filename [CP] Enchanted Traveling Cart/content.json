@@ -1,0 +1,209 @@
+{
+  "Format": "1.28.0",
+  "ConfigSchema": {
+    "Replace Cart": {
+      "AllowValues": "True, False",
+      "Default": "True"
+      },
+      "Replace Pig": {
+      "AllowValues": "True, False",
+      "Default": "True"
+      },
+      "Replace Boat": {
+      "AllowValues": "True, False",
+      "Default": "True"
+      },
+  },
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "LooseSprites/Cursors",
+      "LogName": "Enchanted Traveling Cart Replacement",
+      "FromFile": "assets/Default_Cart.png",
+      "ToArea": {
+        "X": 142,
+        "Y": 1382,
+        "Width": 109,
+        "Height": 70
+      },
+      "When": {
+        "Replace Cart": "True",
+      },
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "LooseSprites/Cursors",
+      "LogName": "Enchanted Merchant Arm Replacement",
+      "FromFile": "assets/Arm.png",
+      "ToArea": {
+        "X": 57,
+        "Y": 1430,
+        "Width": 40,
+        "Height": 12
+      },
+      "When": {
+        "Replace Cart": "True",
+      },
+    },
+     {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "LooseSprites/Cursors",
+      "LogName": "Enchanted Traveling Cart Deer Replacement",
+      "FromFile": "assets/Deer.png",
+       "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 29,
+        "Height": 26
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 1422,
+        "Width": 29,
+        "Height": 26
+      },
+      "When": {
+        "Replace Pig": "True",
+      },
+    },
+    {
+      "LogName": "Animated Cart Deer",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/Deer.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 29,
+        "Height": 26
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 1422,
+        "Width": 29,
+        "Height": 26
+      },
+      "AnimationFrameTime": 20,
+      "AnimationFrameCount": 10,
+      "When": {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        "Replace Pig": "True",
+      }
+    },
+  {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "LooseSprites/Cursors",
+      "LogName": "Enchanted Traveling Cart Head Replacement",
+      "FromFile": "assets/Head.png",
+      "ToArea": {
+        "X": 99,
+        "Y": 1423,
+        "Width": 13,
+        "Height": 19
+      },
+      "When": {
+        "Replace Pig": "True",
+      },
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "LooseSprites/Cursors",
+      "LogName": "Enchanted Traveling Cart Feet Replacement",
+      "FromFile": "assets/Feet.png",
+      "ToArea": {
+        "X": 51,
+        "Y": 1444,
+        "Width": 30,
+        "Height": 5
+      },
+      "When": {
+        "Replace Pig": "True",
+      },
+    },
+     {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "LogName": "Enchanted Traveling Boat Replacement",
+      "FromFile": "assets/Boat.png",
+      "ToArea": {
+        "X": 585,
+        "Y": 30,
+        "Width": 119,
+        "Height": 82
+      },
+      "When": {
+        "Replace Boat": "True",
+      },
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "LogName": "Enchanted Traveling Boat Merchant Replacement",
+      "FromFile": "assets/Boat_Merchant.png",
+      "ToArea": {
+        "X": 720,
+        "Y": 0,
+        "Width": 192,
+        "Height": 16
+      },
+      "When": {
+        "Replace Boat": "True",
+      },
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "LogName": "Enchanted Traveling Deer Replacement",
+      "FromFile": "assets/Tube_Deer.png",
+      "ToArea": {
+        "X": 544,
+        "Y": 62,
+        "Width": 32,
+        "Height": 25
+      },
+      "When": {
+        "Replace Pig": "True",
+      },
+    },
+     {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/night_market_tilesheet_objects",
+      "LogName": "Enchanted Traveling Deer Replacement Two",
+      "FromFile": "assets/Tube_Deer.png",
+      "ToArea": {
+        "X": 704,
+        "Y": 61,
+        "Width": 32,
+        "Height": 25
+      },
+      "When": {
+        "Replace Pig": "True",
+      },
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/Festivals",
+      "LogName": "Enchanted Traveling Deer Replacement Three",
+      "FromFile": "assets/Snow_Deer.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 480,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Replace Pig": "True",
+      },
+    },
+  ]
+}

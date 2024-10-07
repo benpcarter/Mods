@@ -1,0 +1,11 @@
+{
+  "Name": "Heavy Boots",
+  "Description": "A heavy armor boots, so heavy !",
+  "Price": 50000,
+  "PurchasePrice": 50000,
+  "CanPurchase": true,
+  "PurchaseFrom": "Marlon",
+  "Defense": 20,
+  "Immunity": 20,
+  "PurchaseRequirements" : ["b 1"]
+}

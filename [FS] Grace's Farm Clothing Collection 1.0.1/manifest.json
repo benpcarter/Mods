@@ -1,0 +1,12 @@
+{
+    "Name": "Grace’s Farm Clothing Collection for Fashion Sense",
+    "Author": "svnshxne",
+    "Version": "1.0.1",
+    "Description": "A collection of hats, matching overalls, pants, & skirts for Fashion Sense.",    
+    "UniqueID": "svnshxne.FarmClothingCollection.FS",    
+    "UpdateKeys": [ "Nexus:16351" ],
+	"ContentPackFor":
+	{
+		"UniqueID": "PeacefulEnd.FashionSense"
+	}
+}

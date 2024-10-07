@@ -1,0 +1,18 @@
+{
+  "Name": "[FS] Hat Shop Restoration",
+  "Author": "PeacefulEnd",
+  "Version": "1.1.2",
+  "Description": "...",
+  "UniqueID": "PeacefulEnd.AMouseWithAHat.FS",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "PeacefulEnd.AMouseWithAHat.Core",
+      "IsRequired": true
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "5.8.0"
+  }
+}

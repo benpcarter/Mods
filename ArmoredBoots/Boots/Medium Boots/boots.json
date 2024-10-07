@@ -1,0 +1,11 @@
+{
+  "Name": "Medium Boots",
+  "Description": "A medium armor boots, you feel better protected with them.",
+  "Price": 50000,
+  "PurchasePrice": 75000,
+  "CanPurchase": true,
+  "PurchaseFrom": "Marlon",
+  "Defense": 10,
+  "Immunity": 10,
+  "PurchaseRequirements" : ["b 1"]
+}

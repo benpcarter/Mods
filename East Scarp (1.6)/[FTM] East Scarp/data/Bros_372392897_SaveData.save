@@ -1,0 +1,428 @@
+{
+  "WeatherForYesterday": "Storm",
+  "LNOSCounter": {
+    "SmugglerDen": 1,
+    "EastScarp_SmugglerDen forage area 1": 1,
+    "Smugglers Den": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "37, 20",
+      "Type": "Monster",
+      "ID": -11,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Blue Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "44, 6",
+      "Type": "Monster",
+      "ID": -12,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "39, 7",
+      "Type": "Monster",
+      "ID": -13,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "28, 8",
+      "Type": "Monster",
+      "ID": -14,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "36, 5",
+      "Type": "Monster",
+      "ID": -15,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "9, 5",
+      "Type": "Monster",
+      "ID": -16,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "40, 6",
+      "Type": "Monster",
+      "ID": -17,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "41, 7",
+      "Type": "Monster",
+      "ID": -18,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Blue Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "3, 12",
+      "Type": "Monster",
+      "ID": -19,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "23, 5",
+      "Type": "Monster",
+      "ID": -20,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "46, 8",
+      "Type": "Monster",
+      "ID": -21,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "13, 5",
+      "Type": "Monster",
+      "ID": -22,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "20, 14",
+      "Type": "Monster",
+      "ID": -23,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "16, 18",
+      "Type": "Monster",
+      "ID": -24,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "29, 16",
+      "Type": "Monster",
+      "ID": -25,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "22, 10",
+      "Type": "Monster",
+      "ID": -26,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Green Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "6, 8",
+      "Type": "Monster",
+      "ID": -27,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Big Purple Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_SmugglerDen",
+      "Name": null,
+      "Tile": "41, 8",
+      "Type": "Monster",
+      "ID": -28,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "Red Slime",
+        "Settings": {}
+      }
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Stone",
+      "Tile": "7, 29",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Stone",
+      "Tile": "4, 32",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Stone",
+      "Tile": "10, 34",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Jade",
+      "Tile": "7, 32",
+      "Type": "Ore",
+      "ID": 6,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Stone",
+      "Tile": "29, 12",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Stone",
+      "Tile": "25, 11",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Aquamarine",
+      "Tile": "12, 33",
+      "Type": "Ore",
+      "ID": 14,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Gem",
+      "Tile": "18, 10",
+      "Type": "Ore",
+      "ID": 6,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Stone",
+      "Tile": "7, 42",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Stone",
+      "Tile": "6, 44",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "Stone",
+      "Tile": "4, 54",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "80",
+      "Tile": "39, 33",
+      "Type": "Forage",
+      "ID": "80",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepDark",
+      "Name": "80",
+      "Tile": "39, 32",
+      "Type": "Forage",
+      "ID": "80",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "394",
+      "Tile": "9, 115",
+      "Type": "Forage",
+      "ID": "394",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "723",
+      "Tile": "18, 107",
+      "Type": "Forage",
+      "ID": "723",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

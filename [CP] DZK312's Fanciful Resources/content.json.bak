@@ -1,0 +1,1190 @@
+{
+  "Format": "2.1.2",
+  "ConfigSchema": {
+       "Resources": {
+          "AllowValues": "Wood, Stone, Sap, Fiber, Moss, Clay, Coal, Ores, Bars, Gems, Prismatic, Crystals, Drops",
+          "AllowMultiple": true,
+          "AllowBlank": true,
+          "Default": "Wood, Stone, Sap, Fiber, Moss, Clay, Coal, Ores, Bars, Gems, Prismatic, Crystals, Drops",
+       },
+       "Animals": {
+          "AllowValues": "Eggs, Milk, Feather, Rabbit, Wool, Truffle, Mayo, Cheese",
+          "AllowMultiple": true,
+          "AllowBlank": true,
+          "Default": "Eggs, Milk, Feather, Rabbit, Wool, Truffle, Mayo, Cheese"
+       },
+       "Organics": {
+          "AllowValues": "Fertilizer, Cave, Tea, Seeds, Mushrooms, Taps, Shells",
+          "AllowMultiple": true,
+          "AllowBlank": true,
+          "Default": "Fertilizer, Cave, Tea, Seeds, Mushrooms, Taps, Shells",
+       },
+       "Miscellaneous": {
+          "AllowValues": "Food, Tonics, Bombs, Tonics, Battery, Trash, Quest, Special",
+          "AllowMultiple": true,
+          "AllowBlank": true,
+          "Default": "Food, Tonics, Bombs, Tonics, Battery, Trash, Quest, Special",
+       },
+       "Animations": {
+         "AllowValues": "Essence, Gems, Prismatic, Trash",
+          "AllowMultiple": true,
+          "AllowBlank": true,
+         "Default": "Essence, Gems, Prismatic, Trash",
+       },
+       "Sap": {
+          "AllowValues": "Pouch, Vial",
+          "Default": "Pouch"
+       },
+       "Clay": {
+          "AllowValues": "Red, Grey",
+          "Default": "Red"
+       },
+       "Metal Ores": {
+          "AllowValues": "Nodes, Clusters, Niblets",
+          "Default": "Nodes"
+       },
+       "Gems": {
+          "AllowValues": "Quaint, Elegant, Crystal",
+          "Default": "Quaint"
+       },
+       "Prismatic Shard": {
+          "AllowValues": "Fragment, Crystal, Crystalball, Prism",
+          "Default": "Fragment"
+       },
+       "Cinder Shard": {
+          "AllowValues": "Cluster, Quartz, Crystal",
+          "Default": "Cluster"
+       },
+       "Bug Meat": {
+          "AllowValues": "Pulp, Innards",
+          "Default": "Pulp"
+       },
+       "Magic Essence": {
+          "AllowValues": "Pouches, Elements",
+          "Default": "Pouches"
+       },
+       "Duck Feather": {
+          "AllowValues": "Duck, Mallard",
+          "Default": "Duck"
+       },
+       "Rabbit Charm": {
+          "AllowValues": "Foot, Clover",
+          "Default": "Foot"
+       },
+       "Truffle": {
+          "AllowValues": "Black, White",
+          "Default": "Black"
+       },
+       "Mayonnaise": {
+          "AllowValues": "Wide, Narrow",
+          "Default": "Wide"
+       },
+       "Coffee": {
+          "AllowValues": "Single, Pile",
+          "Default": "Single"
+       },
+       "Tickets": {
+          "AllowValues": "Horizontal, Diagonal",
+          "Default": "Horizontal"
+       }
+  },
+  "DynamicTokens": [
+       {
+	  "Name": "AnimEss",
+	  "Value": "Disable"
+       },
+       {
+	  "Name": "AnimEss",
+	  "Value": "Enable",
+	  "When": {
+	      "HasMod|contains=spacechase0.ContentPatcherAnimations": true,
+	      "Animations|contains=Essence": true
+	  }
+       },
+       {
+	  "Name": "AnimGem",
+	  "Value": "Disable"
+       },
+       {
+	  "Name": "AnimGem",
+	  "Value": "Enable",
+	  "When": {
+	      "HasMod|contains=spacechase0.ContentPatcherAnimations": true,
+	      "Animations|contains=Gems": true
+	  }
+       },
+       {
+	  "Name": "AnimPris",
+	  "Value": "Disable"
+       },
+       {
+	  "Name": "AnimPris",
+	  "Value": "Enable",
+	  "When": {
+	      "HasMod|contains=spacechase0.ContentPatcherAnimations": true,
+	      "Animations|contains=Prismatic": true
+	  }
+       },
+       {
+	  "Name": "AnimTrash",
+	  "Value": "Disable"
+       },
+       {
+	  "Name": "AnimTrash",
+	  "Value": "Enable",
+	  "When": {
+	      "HasMod|contains=spacechase0.ContentPatcherAnimations": true,
+	      "Animations|contains=Trash": true
+	  }
+       }
+  ],
+  "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Lumber.png",
+          "ToArea": { "X": 64, "Y": 256, "Width": 32, "Height": 16 },
+          "When": {
+             "Resources|contains=Wood": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Hard-Lumber.png",
+          "ToArea": { "X": 208, "Y": 464, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Wood": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Stone-Slab.png",
+          "ToArea": { "X": 96, "Y": 256, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Stone": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Sap-{{Sap}}.png",
+          "ToArea": { "X": 320, "Y": 48, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Sap": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Grass.png",
+          "ToArea": { "X": 48, "Y": 512, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Fiber": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Objects_2",
+          "FromFile": "Assets/Moss-Clump.png",
+          "ToArea": { "X": 96, "Y": 64, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Moss": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Clay-Mound-{{Clay}}.png",
+          "ToArea": { "X": 288, "Y": 208, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Clay": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Lumps-of-Coal.png",
+          "ToArea": { "X": 352, "Y": 240, "Width": 32, "Height": 16 },
+          "When": {
+             "Resources|contains=Coal": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Ore-{{Metal Ores}}.png",
+          "ToArea": { "X": 288, "Y": 240, "Width": 64, "Height": 16 },
+          "When": {
+             "Resources|contains=Ores": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Ore-{{Metal Ores}}-2.png",
+          "ToArea": { "X": 0, "Y": 256, "Width": 32, "Height": 16 },
+          "When": {
+             "Resources|contains=Ores": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Metal-Bars.png",
+          "ToArea": { "X": 352, "Y": 208, "Width": 32, "Height": 16 },
+          "When": {
+             "Resources|contains=Bars": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Metal-Bars-2.png",
+          "ToArea": { "X": 0, "Y": 224, "Width": 48, "Height": 16 },
+          "When": {
+             "Resources|contains=Bars": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Metal-Bars-3.png",
+          "ToArea": { "X": 352, "Y": 592, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Bars": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Metal-Bars-Blue.png",
+          "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Bars": true,
+             "HasMod|contains=DZK312.BlueIridium": true,
+             "HasMod|contains=Yifal.CCBars": false
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Metal-Bars-CC.png",
+          "ToArea": { "X": 16, "Y": 224, "Width": 32, "Height": 16 },
+          "When": {
+             "Resources|contains=Bars": true,
+             "HasMod|contains=DZK312.BlueIridium": false,
+             "HasMod|contains=Yifal.CCBars": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Metal-Bars-CC-2.png",
+          "ToArea": { "X": 352, "Y": 592, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Bars": true,
+             "HasMod|contains=DZK312.BlueIridium": false,
+             "HasMod|contains=Yifal.CCBars": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Metal-Bars-Blue-CC.png",
+          "ToArea": { "X": 16, "Y": 224, "Width": 32, "Height": 16 },
+          "When": {
+             "Resources|contains=Bars": true,
+             "HasMod|contains=DZK312.BlueIridium": true,
+             "HasMod|contains=Yifal.CCBars": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/{{Gems}}-Gems.png",
+          "ToArea": { "X": 192, "Y": 32, "Width": 176, "Height": 16 },
+          "When": {
+             "Resources|contains=Gems": true,
+	     "AnimGem|contains=Disable": true
+          }
+       },
+       {
+          "LogName": "Animated Shining Gems",
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Animated/Shining-{{Gems}}-Gems.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 176, "Height": 16 },
+          "ToArea": { "X": 192, "Y": 32, "Width": 176, "Height": 16 },
+          "AnimationFrameTime": 8,
+	  "AnimationFrameCount": 6,
+	  "When": {
+	     "AnimGem|contains=Enable": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/{{Gems}}-Gems-2.png",
+          "ToArea": { "X": 0, "Y": 48, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Gems": true,
+	     "AnimGem|contains=Disable": true
+          }
+       },
+       {
+          "LogName": "Animated Shining Diamond",
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Animated/Shining-{{Gems}}-Gems-2.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 48, "Width": 16, "Height": 16 },
+          "AnimationFrameTime": 8,
+	  "AnimationFrameCount": 6,
+	  "When": {
+	     "AnimGem|contains=Enable": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Prismatic-{{Prismatic Shard}}.png",
+          "ToArea": { "X": 32, "Y": 48, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Prismatic": true,
+	     "AnimPris|contains=Disable": true
+          }
+       },
+       {
+          "LogName": "Animated Prismatic Shard",
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Animated/Illustrous-Prismatic-{{Prismatic Shard}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 32, "Y": 48, "Width": 16, "Height": 16 },
+          "AnimationFrameTime": 15,
+	  "AnimationFrameCount": 6,
+	  "When": {
+	     "AnimPris|contains=Enable": true
+	  }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "74": { "5": "A very rare and powerful object with unknown origins. It looks as if a rainbow is trapped inside." }
+          },
+          "When": {
+             "Resources|contains=Prismatic": true,
+             "Prismatic Shard": "Crystalball"
+          }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "74": { "5": "A very rare and powerful object with unknown origins. A spectrum of colors is being emitted from it." }
+          },
+          "When": {
+             "Resources|contains=Prismatic": true,
+             "Prismatic Shard": "Prism"
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Crystals.png",
+          "ToArea": { "X": 128, "Y": 48, "Width": 112, "Height": 16 },
+          "When": {
+             "Resources|contains=Crystals": true
+          }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "84": { "5": "A crystal fabled to originate from the tears of a yeti." },
+             "86": { "5": "A crystal of an earthy color found near the surface." }
+          },
+          "When": {
+             "Resources|contains=Crystals": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Cinder-{{Cinder Shard}}.png",
+          "ToArea": { "X": 128, "Y": 560, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Crystals": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Bug-{{Bug Meat}}.png",
+          "ToArea": { "X": 192, "Y": 448, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Drops": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Enemy-Drops.png",
+          "ToArea": { "X": 352, "Y": 496, "Width": 32, "Height": 16 },
+          "When": {
+             "Resources|contains=Drops": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Bone-Piece.png",
+          "ToArea": { "X": 272, "Y": 576, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Drops": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Essence-{{Magic Essence}}.png",
+          "ToArea": { "X": 0, "Y": 512, "Width": 32, "Height": 16 },
+          "When": {
+             "Resources|contains=Drops": true,
+	     "AnimEss|contains=Disable": true
+          }
+       },
+       {
+          "LogName": "Animated Solar Essence",
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Animated/Radiating-Essence.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+          "AnimationFrameTime": 10,
+	  "AnimationFrameCount": 4,
+	  "When": {
+		"AnimEss|contains=Enable": true
+	  }
+       },
+       {
+          "LogName": "Animated Void Essence",
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Animated/Vortexing-Essence.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 16, "Y": 512, "Width": 16, "Height": 16 },
+          "AnimationFrameTime": 10,
+	  "AnimationFrameCount": 4,
+	  "When": {
+		"AnimEss|contains=Enable": true
+	  }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "768": { "5": "It's glowing and warm to the touch." }
+          },
+          "When": {
+             "Resources|contains=Drops": true
+          }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "768": { "5": "It's glowing and warm to the touch." }
+          },
+          "When": {
+             "AnimEss|contains=Enable": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Squid-Ink-Vial.png",
+          "ToArea": { "X": 352, "Y": 528, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Drops": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Dragon-Fang.png",
+          "ToArea": { "X": 192, "Y": 560, "Width": 16, "Height": 16 },
+          "When": {
+             "Resources|contains=Drops": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Smooth-Eggs.png",
+          "ToArea": { "X": 96, "Y": 112, "Width": 144, "Height": 192 },
+          "PatchMode": "Overlay",
+          "When": {
+             "Animals|contains=Eggs": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Smooth-Void-Egg.png",
+          "ToArea": { "X": 272, "Y": 192, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Eggs": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Smooth-Golden-Egg.png",
+          "ToArea": { "X": 256, "Y": 608, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Eggs": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Smooth-Ostrich-Egg.png",
+          "ToArea": { "X": 16, "Y": 192, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Eggs": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Milk-Bottles.png",
+          "ToArea": { "X": 256, "Y": 112, "Width": 48, "Height": 16 },
+          "When": {
+             "Animals|contains=Milk": true,
+             "HasMod|contains=andiluxe.glassmilkbottles": false
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Goat-Bottle.png",
+          "ToArea": { "X": 64, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Milk": true,
+             "HasMod|contains=andiluxe.glassmilkbottles": false
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Goat-Bottle-Large.png",
+          "ToArea": { "X": 96, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Milk": true,
+             "HasMod|contains=andiluxe.glassmilkbottles": false
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Glass-Milk-Bottles.png",
+          "ToArea": { "X": 256, "Y": 112, "Width": 48, "Height": 16 },
+          "When": {
+             "Animals|contains=Milk": true,
+             "HasMod|contains=andiluxe.glassmilkbottles": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Glass-Goat-Bottle.png",
+          "ToArea": { "X": 64, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Milk": true,
+             "HasMod|contains=andiluxe.glassmilkbottles": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Glass-Goat-Bottle-Large.png",
+          "ToArea": { "X": 96, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Milk": true,
+             "HasMod|contains=andiluxe.glassmilkbottles": true
+          }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "184": { "5": "A bottle of cow's milk." },
+             "186": { "5": "A large bottle of cow's milk." },
+             "438": { "5": "A large bottle of creamy goat's milk." }
+          },
+          "When": {
+             "Animals|contains=Milk": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/{{Duck Feather}}-Feather.png",
+          "ToArea": { "X": 192, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Feather": true
+          }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "444": { "5": "It's so pristine." }
+          },
+          "When": {
+             "Animals|contains=Feather": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Lucky-{{Rabbit Charm}}.png",
+          "ToArea": { "X": 224, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Rabbit": true
+          }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "446": { "0": "Shamrock", "4": "Shamrock" }
+          },
+          "When": {
+             "Animals|contains=Rabbit": true,
+             "Rabbit Charm": "Clover"
+          }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Strings/Locations",
+          "Entries": {
+             "Town_SpecialCharmQuestion": "Driver: Hey, kid... I need a lucky break... Why don't 'cha bring me a Shamrock? I'll make it worth your while.",
+             "Town_specialCharmNoFoot": "Driver: Come back when you got a Shamrock on ya, kid."
+          },
+          "When": {
+             "Animals|contains=Rabbit": true,
+             "Rabbit Charm": "Clover"
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Fluffy-Wool.png",
+          "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Wool": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Woven-Cloth.png",
+          "ToArea": { "X": 320, "Y": 272, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Wool": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/{{Truffle}}-Truffle.png",
+          "ToArea": { "X": 352, "Y": 272, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Truffle": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Gourmet-Truffle-Oil.png",
+          "ToArea": { "X": 0, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Truffle": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/{{Mayonnaise}}-Jarred-Mayo.png",
+          "ToArea": { "X": 288, "Y": 192, "Width": 48, "Height": 16 },
+          "When": {
+             "Animals|contains=Mayo": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Dino-Jarred-Mayo.png",
+          "ToArea": { "X": 240, "Y": 528, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Mayo": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Fresh-Cheese.png",
+          "ToArea": { "X": 256, "Y": 272, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Cheese": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Fresh-Goat-Cheese.png",
+          "ToArea": { "X": 288, "Y": 272, "Width": 16, "Height": 16 },
+          "When": {
+             "Animals|contains=Cheese": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Fertilizer-Sacks.png",
+          "ToArea": { "X": 128, "Y": 240, "Width": 64, "Height": 16 },
+          "When": {
+             "Organics|contains=Fertilizer": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Fertilizer-Sacks-2.png",
+          "ToArea": { "X": 144, "Y": 304, "Width": 32, "Height": 16 },
+          "When": {
+             "Organics|contains=Fertilizer": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Fertilizer-Sacks-3.png",
+          "ToArea": { "X": 208, "Y": 528, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Fertilizer": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Fertilizer-Sacks-4.png",
+          "ToArea": { "X": 96, "Y": 608, "Width": 48, "Height": 16 },
+          "When": {
+             "Organics|contains=Fertilizer": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Better-Bombs.png",
+          "ToArea": { "X": 352, "Y": 176, "Width": 32, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Bombs": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Better-Bombs-2.png",
+          "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Bombs": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Better-Bombs-3.png",
+          "ToArea": { "X": 144, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Bombs": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Earthy-Carrot.png",
+          "ToArea": { "X": 96, "Y": 48, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Cave": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Crisp-Tea-Leaves.png",
+          "ToArea": { "X": 368, "Y": 528, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Tea": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Stormcell.png",
+          "ToArea": { "X": 304, "Y": 512, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Battery": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Natural-Tree-Seeds.png",
+          "ToArea": { "X": 336, "Y": 192, "Width": 48, "Height": 16 },
+          "When": {
+             "Organics|contains=Seeds": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Natural-Tree-Seeds-2.png",
+          "ToArea": { "X": 64, "Y": 192, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Seeds": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Natural-Mushroom-Tree-Seed.png",
+          "ToArea": { "X": 48, "Y": 592, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Seeds": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Objects_2",
+          "FromFile": "Assets/Natural-Mossy-Tree-Seed.png",
+          "ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Seeds": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Coffee-Bean-{{Coffee}}.png",
+          "ToArea": { "X": 16, "Y": 288, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Seeds": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Organic-Mushrooms.png",
+          "ToArea": { "X": 320, "Y": 256, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Mushrooms": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Organic-Mushrooms-2.png",
+          "ToArea": { "X": 192, "Y": 272, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Mushrooms": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Organic-Mushrooms-3.png",
+          "ToArea": { "X": 224, "Y": 272, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Mushrooms": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Organic-Mushrooms-4.png",
+          "ToArea": { "X": 272, "Y": 160, "Width": 16, "Height": 32 },
+          "When": {
+             "Organics|contains=Mushrooms": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Organic-Mushrooms-5.png",
+          "ToArea": { "X": 176, "Y": 560, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Mushrooms": true
+          }
+       },
+       {
+          "Action": "Load",
+          "Target": "Characters/Monsters/False Magma Cap.xnb",
+          "FromFile": "Assets/Organic-Magma-Cap.xnb",
+          "When": {
+             "Organics|contains=Mushrooms": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Artisinal-Saps.png",
+          "ToArea": { "X": 64, "Y": 480, "Width": 48, "Height": 16 },
+          "When": {
+             "Organics|contains=Taps": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Objects_2",
+          "FromFile": "Assets/Artisinal-Mystic-Syrup.png",
+          "ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Taps": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Exuberant-Shells.png",
+          "ToArea": { "X": 192, "Y": 240, "Width": 16, "Height": 16 },
+          "When": {
+             "Organics|contains=Shells": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Exuberant-Shells-2.png",
+          "ToArea": { "X": 128, "Y": 256, "Width": 48, "Height": 16 },
+          "When": {
+             "Organics|contains=Shells": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Joja-Cola-Can.png",
+          "ToArea": { "X": 368, "Y": 96, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Trash": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Hot-Garbage.png",
+          "ToArea": { "X": 0, "Y": 112, "Width": 80, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Trash": true
+          }
+       },
+       {
+          "LogName": "Animated Trash",
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Animated/Filthy-Garbage.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 112, "Width": 16, "Height": 16 },
+          "AnimationFrameTime": 8,
+	  "AnimationFrameCount": 5,
+	  "When": {
+	     "AnimTrash|contains=Enable": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Field-Snack-Bar.png",
+          "ToArea": { "X": 304, "Y": 256, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Food": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Bakery-Bread.png",
+          "ToArea": { "X": 0, "Y": 144, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Food": true
+          }
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "216": { "5": "A crusty loaf" }
+          },
+          "When": {
+             "Miscellaneous|contains=Food": true
+          }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Quality-Tea.png",
+          "ToArea": { "X": 224, "Y": 400, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Food": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Objects_2",
+          "FromFile": "Assets/Quality-Tea-2.png",
+          "ToArea": { "X": 64, "Y": 128, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Food": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Tonics.png",
+          "ToArea": { "X": 64, "Y": 512, "Width": 32, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Tonics": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Library-Text.png",
+          "ToArea": { "X": 96, "Y": 64, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Quest": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Robin's-Hatchet.png",
+          "ToArea": { "X": 320, "Y": 512, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Quest": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Linus'-Basket.png",
+          "ToArea": { "X": 352, "Y": 512, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Quest": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Golden-Walnut.png",
+          "ToArea": { "X": 16, "Y": 48, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Special": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Polished-Qi-Gem.png",
+          "ToArea": { "X": 288, "Y": 560, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Special": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Iridium-Jug.png",
+          "ToArea": { "X": 176, "Y": 528, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Special": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Shiny-Pearl.png",
+          "ToArea": { "X": 80, "Y": 528, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Special": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Slimy-Globs.png",
+          "ToArea": { "X": 176, "Y": 576, "Width": 32, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Quest": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Horse-Flute.png",
+          "ToArea": { "X": 368, "Y": 592, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Special": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/{{Tickets}}-Movie-Ticket.png",
+          "ToArea": { "X": 272, "Y": 528, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Special": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Objects_2",
+          "FromFile": "Assets/{{Tickets}}-Prize-Ticket.png",
+          "ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Special": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Objects_2",
+          "FromFile": "Assets/Butterfly-Powder-Pouch.png",
+          "ToArea": { "X": 96, "Y": 272, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Special": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Worn-Photo.png",
+          "ToArea": { "X": 0, "Y": 576, "Width": 16, "Height": 16 },
+          "When": {
+             "Miscellaneous|contains=Quest": true
+	  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "Assets/Red-Egg-Fix.png",
+          "ToArea": { "X": 80, "Y": 288, "Width": 16, "Height": 16 }
+       }
+   ]
+}

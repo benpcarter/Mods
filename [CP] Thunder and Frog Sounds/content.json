@@ -1,0 +1,49 @@
+﻿{
+    "Format": "2.0.0",
+    "Changes": [
+    //adding custom music
+    {
+    "Action": "EditData",
+    "Target": "Data/AudioChanges",
+    "Entries": {
+        "Thunder": {
+            "Id": "thunder",
+            "Category": "Ambient",
+            "FilePaths": [
+                "{{AbsoluteFilePath: assets/thunder_far2.wav}}",
+				"{{AbsoluteFilePath: assets/thunder_far3.wav}}",
+				"{{AbsoluteFilePath: assets/thunder_far1.wav}}"
+            ],
+            "StreamedVorbis": true
+        },
+		"SmallThunder": {
+			"Id": "thunder_small",
+			"Category": "Ambient",
+			"FilePaths": [
+				"{{AbsoluteFilePath: assets/thunder_close1.wav}}",
+				"{{AbsoluteFilePath: assets/thunder_close2.wav}}"
+			],
+			"StreamedVorbis": true
+		},
+		"Croak": {
+			"Id": "croak",
+			"Category": "Ambient",
+			"FilePaths": [
+				"{{AbsoluteFilePath: assets/frog_croak1.wav}}"
+			],
+			"StreamedVorbis": true
+		},
+		"ActualCroak": {
+			"Id": "rainsound",
+			"Category": "Ambient",
+			"FilePaths": [
+				"{{AbsoluteFilePath: assets/frog_croak3.wav}}",
+				"{{AbsoluteFilePath: assets/frog_croak4.wav}}",
+				"{{AbsoluteFilePath: assets/frog_croak2.wav}}"
+			],
+			"StreamedVorbis": true
+		}
+    }
+	}
+	]
+}
