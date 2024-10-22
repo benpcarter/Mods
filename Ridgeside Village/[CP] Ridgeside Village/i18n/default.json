@@ -1272,7 +1272,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "event-75160130.08": "Flor takes off her glasses.",
 "event-75160130.09": "I get a migraine when I wear these for too long.$s",
 "event-75160130.10": "So, as I was saying...$h",
-"event-75160130.11": "Flor goes into detail about the experiment she's planning. She seems nervous at first, as if she thinks she's boring you... but when you keep listening and then start to ask questions, she gets more and more enthusiastic.#As she's explaining the trickier points of designing ethical social experiments, she locks eyes with you and -- unusually for her -- doesn't immediately look away.#Eventually, seeming to realize that she's been making direct eye contact for a while, she trails off self-consciously and ducks behind her book again.",
+"event-75160130.11": "Flor goes into detail about the experiment she's planning. She seems nervous at first, as if she thinks she's boring you... but when you keep listening and then start to ask questions, she gets more and more enthusiastic.#As she's explaining social experiments, she makes eye contact with you and -- unusual for her -- doesn't glance away.#Eventually, seeming to realize how comfortable she had become, she trails off self-consciously and ducks behind her book again.",
 "event-75160130.12": "Um, I'm sorry if I got carried away there...$12#$b#I know that was a lot to unload on you when this isn't even your field... I mean, your field *of expertise*, not... with the crops... um...$12",
 "event-75160130.13": "So! Um... @...$12#$b#I... I was hoping you'd... You'd he-help me... with my... um...$12#$b#Research... this research, I mean!$12#$b#I... don't know anyone else well enough to ask them... so, um...$12#$b#Plea-please, @... I mean! If it's not an imposition...$12",
 "event-75160130.14": "You will?! Thank you, @! I really appreciate this!$1",
@@ -4466,7 +4466,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Festivals.StardewFair.Jeric_spouse": "I'll be letting Turbo rest after this customer, he seems pretty tired.#$e#Anyway, this is my favorite festival of the year.$h#$e#Everyone comes together and shows off what they've been working on--and someone gets told they're officially the best!$h",
 "Festivals.StardewFair.Kenneth": "I'm glad that you're enjoying the festival, @!$h#$b#It was really all Mayor Lewis' hard work. I just helped with some of the wiring.$h",
 "Festivals.StardewFair.Kenneth_spouse": "Wow... the festival never ceases to amaze me.#$e#It brings so many tourists into the valley!#$b#I'm sure Lenny and Lewis love that part.",
-"Festivals.StardewFair.Maddie": "Where do Gus and Pika get all the beef for their hamburgers anyway?#$b#It can't be from anyone in the valley...#$e#I hope it's ethically sourced...$a",
+"Festivals.StardewFair.Maddie": "Where do Gus and Pika get all the beef for their hamburgers anyway?#$b#It can't all be from the valley, can it..?#$e#I hope it's fresh...$a",
 "Festivals.StardewFair.Maddie_spouse": "Oh, I want to try everything! Do you think Gus made dessert?#$e#Let's share a pink cake!$h",
 "Festivals.StardewFair.Philip": "Earlier, Alex and I challenged each other to the strength game, and I won!$h#$b#Between you and me, though, it has less to do with strength and more to do with posture and ergonomics.#$b#Then I used the money I won to buy a new comic book! Isn't it cool?$h",
 "Festivals.StardewFair.Philip_spouse": "Hi love! I'm just waiting for my order. You want anything?#$b#Oh! By the way, take a look at this new comic book I bought! It's so cool!$h",
@@ -4542,18 +4542,18 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Festivals.IceFest.Flor_spouse": "The ice looks really solid. I mean, I don't think anyone would cut holes in it if it wasn't...$s#$e#Please be careful all the same, honey.$s",
 "Festivals.IceFest.Ian": "My gloves have holes in them. I'm not bothered by the cold, so it's not that big of a deal.#$e#I wonder if Emily can teach me how to mend them.",
 "Festivals.IceFest.Ian_spouse": "Are you competing in the fishing tournament?#$e#I'll be cheering for you!$h#$b#Quietly though, since you don't want to scare the fish away.",
-"Festivals.IceFest.Jeric": "Looking good, @.#$e#Can't lie, I love a cutie all bundled up.$h",
+"Festivals.IceFest.Jeric": "Hey @, enjoying the cold?^Looking good, @.#$e#Run in place with me so I don't look stupid alone.^Can't lie, I love a cutie all bundled up.$h",
 "Festivals.IceFest.Jeric_spouse": "Hey, @. Be sure to catch me if I slip and fall on the ice, okay?$h",
 "Festivals.IceFest.Kenneth": "They release the fish after the festival.#$b#They'd just go bad if we didn't.",
 "Festivals.IceFest.Kenneth_spouse": "All those fish I caught, yet my favorite catch is you.$h#$e#What? Can't a guy use a terrible pickup line once in a while?$h",
 "Festivals.IceFest.Maddie": "Y'all know that one could die from hypothermia right?? RIGHT?#$b#I just don't understand the point of all this.$a",
-"Festivals.IceFest.Maddie_spouse": "Yoba, it's so cold.$a#$b#You're an amazing person and all, but there are some things love can't conquer, and this cold is one of them. I can't wait to go home.$a",
+"Festivals.IceFest.Maddie_spouse": "Yoba, it's so cold.$a#$b#You're an amazing person and all, but there are some things love can't conquer, and this cold is one of them. I can't wait to go home. And... snuggle.$a",
 "Festivals.IceFest.Philip": "Good luck!$h#$e#Remember to engage your core. Shoulder injuries are the worst.",
 "Festivals.IceFest.Philip_spouse": "I've seen you fish, I know you don't need any warnings about injuries. Good luck!",
 "Festivals.IceFest.Shiro": "I hope Yuuma is able to play a bit today.#$b#To be honest, that's really all I want.",
 "Festivals.IceFest.Shiro_spouse": "Hey love. It's really cold...#$b#Can I ask for a hug?$l",
 "Festivals.IceFest.Ysabelle": "The ice sculptures remind me of marble statues at the ballet theatre back in the city.$h#$b#I used to try to copy their poses when I was little.",
-"Festivals.IceFest.Ysabelle_spouse": "Do you know how to sculpt, my sweet?#$b#We could make art with ice, or with our... $l#$b#Ha ha, I'm only teasing!$h#$b#Now certainly isn't the place, after all.$h",
+"Festivals.IceFest.Ysabelle_spouse": "Do you know how to sculpt, my sweet?#$b#We could make art with ice, or makeout... $l#$b#Ha ha, I'm only teasing!$h#$b#This certainly isn't the place, after all... Later...$h",
 
 //Feast of the WinterStar
 
@@ -5481,7 +5481,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Flor.Dialogue.Tue6": "I visited the Water Research Facility yesterday.#$b#Maddie is very intense, but she's not as mean as some people seem to think she is. She's just very focused.$h",
 "Flor.Dialogue.Wed6": "I try to assist Penny when she's teaching the children, but I'm much better one-on-one than with a group, so I mostly end up reminding the kids to listen to her. #$b#She's really good at staying patient and going at their pace.$h",
 "Flor.Dialogue.Thu6": "Oh, hi @! How are you doing today?$h#$b#I accidentally had too much coffee this morning, and I can feel the dopamine running laps in my brain.$h#$b#I'm going to crash really hard in a bit, though...",
-"Flor.Dialogue.Fri6": "Pierre and Caroline have a really interesting relationship.#$b#I want to speak up when I see things, but they didn't ask for advice from me as a friend or as a therapist so I can't say anything.#$b#It'd be unethical.",
+"Flor.Dialogue.Fri6": "Pierre and Caroline have a really interesting relationship.#$b#I want to speak up when I see things, but they didn't ask for advice from me as a friend or as a therapist so I shouln't say anything.#$b#It'd be unethical... right?",
 "Flor.Dialogue.Sat6": "My original plan was to go straight from my graduate program to inpatient work with young adults, but...#$b#Well, plans rarely work out the way you think they will. #$b# I ended up here. I miss the city sometimes, but it's much more peaceful out here, and still really fulfilling.",
 "Flor.Dialogue.Sun6": "I just noticed how almost no one out here has a car.#$b#It seems so normal to walk everywhere that I didn't even think about long-distance transportation until I started trying to figure out how to increase sample population sizes for a potential study... $s",
 
@@ -6293,7 +6293,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
 //Winter
 "Lenny.Dialogue.winter_1": "Most farmers relax during the winter, if they can afford it, but money can get tight.$s#$e#You can always find something worth selling in the mines, but if you go down there, be sure to watch your back.",
-"Lenny.Dialogue.winter_7": "Fishing has never been my thing.#$b#You seem to be managing fine, though!#$e#Good luck on beating Willy!$h#$b#That man can handle a rod!$4",
+"Lenny.Dialogue.winter_7": "Fishing has never been my thing.#$b#You seem to be managing fine, though!#$e#Good luck on beating Willy!$h#$b#That man can handle a fishing rod!$4",
 "Lenny.Dialogue.winter_14": "We're lucky the Night Market takes the time to stop in our little valley!",
 "Lenny.Dialogue.winter_15": "There are always the most fascinating people here at the market.",
 "Lenny.Dialogue.winter_16": "You can get things here that you can't get anywhere else!$h#$e#The free coffee is pretty great, too.",
@@ -8246,7 +8246,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
 ///Winter
 "Maddie.MarriageDialogue.winter_1": "I wish I was a bear, just able to hibernate through the whole winter.$7#$e#I wish you were there with me.$s#$b#Oh well, we both have work to do.$6",
-"Maddie.MarriageDialogue.winter_7": "I still think don't fishing is ethical, but I'll cheer you on if you insist on competing.$6#$b#To be honest, I'd much rather build a snowgoon than go fishing.$6",
+"Maddie.MarriageDialogue.winter_7": "I still think don't fishing is fun, but I'll cheer you on if you insist on competing.$6#$b#To be honest, I'd much rather build a snowgoon than go fishing.$6",
 "Maddie.MarriageDialogue.winter_14": "I hope I find some cute trinkets at the night market!#$b#It's always a mystery what they're going to sell.$7",
 //"Maddie.MarriageDialogue.winter_15": "Honey, look at this one! I think I might buy it, I bet it'd look good on the counter.$h",
 "Maddie.MarriageDialogue.winter_16": "I actually don't mind the amount of people here right now.#$b#Hmm... Maybe it's because you're here with me, huh?$h",
@@ -9376,7 +9376,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
 //Winter
 "Daia.Dialogue.winter_1": "The cold isn't really friendly for my piercings.$a#$b#I'd have to remove them.$8",
-"Daia.Dialogue.winter_7": "Good luck with your fishing contest tomorrow, cutie.$h#$b#I wonder if I can hook someone up tomorrow as well?$7#$b#Teehee! You heard nothing! Mind your own business, cutie!$6",
+"Daia.Dialogue.winter_7": "Good luck with your fishing contest tomorrow, cutie.$h#$b#I wonder if I can swipe all the good ones.$7#$b#Teehee! You heard nothing! Mind your own business, cutie!$6",
 "Daia.Dialogue.winter_24": "Alright, alright! I'll behave tomorrow!$a#$b#Stupid 'be good' rule and 'holiday spirit will haunt you' superstitions.$8",
 
 //Special Dialogue
@@ -10297,7 +10297,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 //Winter
 "Blair.Dialogue.winter_1": "Dontcha think it's a good day to cuddle indoors?$7#$b#Hmm, wanna hang out by the fire, @?$7#$b#Hahaha, just kidding.$h#$b#Well, we could make it real if you want.$4",
 "Blair.Dialogue.winter_7": "Betcha couldn't beat me in ice fishing tomorrow!$h#$b#You better put your game face on, @!",
-"Blair.Dialogue.winter_24": "Hmm... I wonder what's the best crop to plant next spring.#$b#You know, one that would gather up the most income?#$b#Hmph! We need the extra income, you know!$a#$e#Fishing doesn't exactly cover all the expenses.$7#$b#*sigh* All this math is tiresome. I'll figure this out later when I'm getting a beer.$7",
+"Blair.Dialogue.winter_24": "Hmm... I wonder what's the best crop to plant next spring.#$b#You know, one that would gather up the most income?#$b#Hmph! We need the extra income, you know!$a#$e#Fishing doesn't exactly cover all the expenses.$7#$b#*sigh* All this math is tiresome. I'll figure this out later.$7",
 
 //Days of the Week
 
@@ -10788,7 +10788,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
 //Winter
 "Kiarra.Dialogue.winter_1": "Ready for the start of your long vacation, @?$h",
-"Kiarra.Dialogue.winter_7": "Maybe this'll be the year that I join in the fishing competition.#$b#Who am I kidding, even if it's catch and release, I can't bear to do that to the fish.$h",
+"Kiarra.Dialogue.winter_7": "Maybe this'll be the year that I join in the fishing competition.#$b#Who am I kidding, I can't compete with some of you crazy people. Hard to sit that still that looooong.$h",
 "Kiarra.Dialogue.winter_24": "Hey, @! Hope you're ready for some Legame quality casserole at the feast tomorrow!$h",
 
 //Days of the Week
@@ -11263,7 +11263,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
 //Winter
 "Sean.Dialogue.winter_1": "Hibernation sounds like a great idea, actually. Why don't humans do that?",
-"Sean.Dialogue.winter_7": "I'm pretty cool with the Ice Festival, but I don't think Kiarra's a fan of the fishing.#$b#She says it's not very ice to the fishes.$h",
+"Sean.Dialogue.winter_7": "I'm pretty cool with the Ice Festival, but I don't think Kiarra's a fan of the fishing.#$b#She says it's boring even for the fishes.$h",
 "Sean.Dialogue.winter_24": "I heard a rumor that the Governor's going to show up for the Feast of the Winter Star.#$b#That'd make it a real star-studded event.#$b#Pierre would probably be pretty starry-eyed.#$b#You're tired of the puns? But I haven't even star-ted!$h",
 "Sean.Dialogue.winter_27": "I was thinking of making my resolution at the Ember of Resolutions to stop making festival puns.#$b#But I never rem-ember my resolutions.$h",
 
@@ -12264,9 +12264,9 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 // Opening the spirit realm portal
 "event-75160256.01": "You did it, @!$h#$b#You have activated all the pedestals!$h#$b#Thank you so much for your hard work.$4",
 "event-75160256.02": "Why, such a wonderful sight!$h#$b#You did well, dear farmer.$4",
-"event-75160256.03": "It's time for us to open the portal, my love.",
+"event-75160256.03": "It's time for us to open the portal, my sister.",
 "event-75160256.04": "I agree.#$b#Everyone, make room.$h",
-"event-75160256.05": "Are you ready, my love?",
+"event-75160256.05": "Are you ready, my sister?",
 "event-75160256.06": "You know I've been anticipating this moment, Rae.$h",
 "event-75160256.07": "For her.",
 "event-75160256.08": "For her.",
@@ -12296,7 +12296,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "event-75160265.05": "The mountain is slowly healing.$h#$b#The summit must've finally showed itself after all these years.$4",
 "event-75160265.06": "The summit?#$b#It sounds familiar.",
 "event-75160265.07": "A long lost forgotten farm resides there.#$b#When the corruption started, that place got stranded when I tried to contain Gabriella's magic.$s#$b#Unfortunately, I wasn't able to save the old couple that lived there...$s",
-"event-75160265.08": "You did what you had to do, my love.$s#$b#At least they were saved from the corruption.$4",
+"event-75160265.08": "You did what you had to do, my sister.$s#$b#At least they were saved from the corruption.$4",
 "event-75160265.09": "Thank you, love.$4#$b#I shall pray for their souls once again soon.$4",
 "event-75160265.10": "I'm sorry for relaying such a sad story in this time of victory, everyone.$4#$b#Oh farmer, thank you, once again.$4",
 "event-75160265.11": "Oh, farmer!#$b#If you have time, can you visit the mountain summit for me?$4#$b#Please just check upon the old couple up there.$4#$b#They must've had a hard life.$s",
@@ -12307,7 +12307,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "event-75160265.16": "Agreed, our Seer.",
 "event-75160265.17": "We'll do our best, my lady.",
 "event-75160265.18": "Splendid!$h#$b#I'll meet you all again soon enough.#$b#For now, I have an important task to attend to.$4",
-"event-75160265.19": "My love, are you still investigating that mysterious man?$s#$b#Be careful. He doesn't seem to be just a mere mortal.$a",
+"event-75160265.19": "My sister, are you still investigating that mysterious man?$s#$b#Be careful. He doesn't seem to be just a mere mortal.$a",
 "event-75160265.20": "He's an anomaly, Rae.$a#$b#And he seems to know who I was before I became a corrupted spirit.$a#$b#I must find that blue-skinned man.$a",
 "event-75160265.21": "I understand.$4#$b#Just make sure to visit here soon enough, alright?$4#$b#And please, let's not fight any more when you do. I don't want to get sealed again.$h",
 "event-75160265.22": "My! That brought back memories!$h#$b#I'll see you soon, love.$4",
@@ -14048,7 +14048,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
 ///Winter
 "Kiarra.MarriageDialogue.winter_1": "A lot of people like fall the most, but I think winter's my favorite season. Snow's just so much fun.$h",
-"Kiarra.MarriageDialogue.winter_7": "I won't tell you not to participate in the fishing competition. Just be gentle with the fish, okay?#$b#While you're trouncing the competition, of course.$h",
+"Kiarra.MarriageDialogue.winter_7": "I guess you've got to participate in the fishing competition. Maybe keep it interesting with a little booty dance?#$b#While you're trouncing the competition, of course.$h",
 "Kiarra.MarriageDialogue.winter_24": "I'll give you your present after the Feast.#$b#Just make sure you have plenty of energy to receive it!$4",
 
 ///Room
@@ -17766,10 +17766,10 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "Offering.Prismatic": "This is an intriguing and colorful offering! I'm grateful, oh farmer.#$b#I'll bestow upon you a blessing!$h",
 
   //Torts + spirits
-  "event-75160407.01": "What's the matter, my love? You've been lost in thought all day.$s",
+  "event-75160407.01": "What's the matter, my sister? You've been lost in thought all day.$s",
   "event-75160407.02": "Yes, there has been something on my mind now for quite some time...$s",
   "event-75160407.03": "Not long ago I noticed that on the last day of each season, the valley's magical aura suddenly spikes in intensity.$s#$b#I have tried and tried to find the source, but to no avail. It disappears just as quickly as it came.$s",
-  "event-75160407.04": "Ah, yes, that has been happening for as long as I can remember.$h#$b#You shouldn't let it trouble you, my love. In all my years, nothing negative has ever come from it.",
+  "event-75160407.04": "Ah, yes, that has been happening for as long as I can remember.$h#$b#You shouldn't let it trouble you, my sister. In all my years, nothing negative has ever come from it.",
   "event-75160407.05": "Even so, that much magic is never a good sign.$s#$b#It would be a waste not to search for it today, while its cause may still linger - even if just so we are finally able to put this question to rest.$a",
   "event-75160407.06": "Well, my dear, you know I'm never one to turn down a bit of adventure.$h",
   "event-75160407.07": "For quite some time there has been a potent source of magic seeping into this soil.#$b#Could this be the source of it?",
@@ -20794,7 +20794,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
  	///Room
  	"Jio.MarriageDialogue.spouseRoom_Jio.1": "My angel, I've noticed that the locals here have an odd proclivity for showing up on your doorstep unannounced.#$b#I know they mean no harm, but please be wary of inviting them in.$s#$b#The unwavering trust you place in others is one of the traits of yours I've grown most fond of... But there are some beings out there who would take advantage of such a virtue, given the opportunity.$7",
  	"Jio.MarriageDialogue.spouseRoom_Jio.2": "Come here, my sunbeam. There's something I desire to show you...$1#$b#Do you see this piece of paper? It's silly, I know, but... This is the receipt from Pierre's, when you were kind enough to assist me all those moons ago.$l#$b#For some reason, I couldn't bring myself to throw it out... Now, finally, I know why.$9",
- 	"Jio.MarriageDialogue.spouseRoom_Jio.3": "Should you be curious, I would be happy to show you the contents of my drawers - but please note that what you find within may be dangerous to touch.#$b#Hm? Is something amusing, my love?", // For translators: 'drawers' can also mean underwear, so it's a dick joke :^)
+ 	"Jio.MarriageDialogue.spouseRoom_Jio.3": "Should you be curious, I would be happy to show you the contents of my drawers - but please note that what you find within may be dangerous to touch.#$b#", // For translators: 'drawers' can also mean underwear, so it's a dick joke :^)
  	"Jio.MarriageDialogue.spouseRoom_Jio.4": "A private space to call my own... It's new to me, but it's pleasant. Just like everything else in my life since you came into it, my blessing.$9",
  	"Jio.MarriageDialogue.spouseRoom_Jio.5": "It's strange... Weapon maintenance has always been important to me - That much was drilled into all of us who grew up in the Cult.#$b#But here, I find myself sharpening my blades over and over like a man possessed, as if they might dull the moment I set them down.$7#$b#I suppose that preparedness is all the more crucial to me, now that I'm no longer protecting solely myself.",
 
