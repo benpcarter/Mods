@@ -1,0 +1,153 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {
+    "Farm Meteorite Block": 1,
+    "Farm Meteorites x2 - If no giant crop is present on preexisting save on day 1": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Farm",
+      "Name": "Stone",
+      "Tile": "46, 151",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "Copper",
+      "Tile": "46, 148",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "Gold",
+      "Tile": "22, 138",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "Stone",
+      "Tile": "43, 147",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": "Stone",
+      "Tile": "43, 142",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "80, 100",
+      "Type": "ResourceClump",
+      "ID": "622",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "78, 99",
+      "Type": "ResourceClump",
+      "ID": "622",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "77, 117",
+      "Type": "ResourceClump",
+      "ID": "622",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DeepCave",
+      "Name": "554",
+      "Tile": "13, 26",
+      "Type": "Forage",
+      "ID": "554",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DeepCave",
+      "Name": "546",
+      "Tile": "46, 29",
+      "Type": "Forage",
+      "ID": "546",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DeepCave",
+      "Name": "546",
+      "Tile": "31, 18",
+      "Type": "Forage",
+      "ID": "546",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DeepCave",
+      "Name": "538",
+      "Tile": "33, 16",
+      "Type": "Forage",
+      "ID": "538",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DeepCave",
+      "Name": "535",
+      "Tile": "45, 28",
+      "Type": "Forage",
+      "ID": "535",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

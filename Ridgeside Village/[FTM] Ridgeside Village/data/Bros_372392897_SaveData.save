@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {
     "RSV Summit Farm Initial Debris": 1,
     "RSV Summit Farm large objects": 1
@@ -238,34 +238,12 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "679",
-      "Tile": "86, 73",
-      "Type": "Forage",
-      "ID": "679",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_Ridgeside_AguarCave",
       "Name": "Summit Snowbell",
       "Tile": "12, 10",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Summit_Snowbell",
-      "DaysUntilExpire": 11,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "678",
-      "Tile": "68, 57",
-      "Type": "Forage",
-      "ID": "678",
-      "DaysUntilExpire": 0,
+      "DaysUntilExpire": 10,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -298,17 +276,6 @@
       "Tile": "62, 66",
       "Type": "Forage",
       "ID": "295",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "786",
-      "Tile": "55, 77",
-      "Type": "Forage",
-      "ID": "786",
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -349,17 +316,6 @@
     },
     {
       "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "678",
-      "Tile": "78, 52",
-      "Type": "Forage",
-      "ID": "678",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
       "Name": "450",
       "Tile": "77, 66",
       "Type": "Forage",
@@ -381,34 +337,12 @@
       "MonType": null
     },
     {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "786",
-      "Tile": "87, 76",
-      "Type": "Forage",
-      "ID": "786",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_Ridgeside_AguarCave",
       "Name": "Sierra Wintergreen",
       "Tile": "12, 8",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Sierra_Wintergreen",
-      "DaysUntilExpire": 12,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "786",
-      "Tile": "31, 48",
-      "Type": "Forage",
-      "ID": "786",
-      "DaysUntilExpire": 0,
+      "DaysUntilExpire": 11,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -419,17 +353,6 @@
       "Tile": "26, 42",
       "Type": "Forage",
       "ID": "295",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "786",
-      "Tile": "29, 41",
-      "Type": "Forage",
-      "ID": "786",
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -459,32 +382,10 @@
     },
     {
       "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "678",
-      "Tile": "26, 50",
-      "Type": "Forage",
-      "ID": "678",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
       "Name": "295",
       "Tile": "56, 68",
       "Type": "Forage",
       "ID": "295",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "679",
-      "Tile": "25, 52",
-      "Type": "Forage",
-      "ID": "679",
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -518,6 +419,94 @@
       "Tile": "7, 18",
       "Type": "Forage",
       "ID": "Rafseazz.RSVCP_Sierra_Wintergreen",
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "678",
+      "Tile": "51, 78",
+      "Type": "Forage",
+      "ID": "678",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "295",
+      "Tile": "34, 40",
+      "Type": "Forage",
+      "ID": "295",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "450",
+      "Tile": "67, 56",
+      "Type": "Forage",
+      "ID": "450",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "450",
+      "Tile": "70, 63",
+      "Type": "Forage",
+      "ID": "450",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "678",
+      "Tile": "42, 69",
+      "Type": "Forage",
+      "ID": "678",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "295",
+      "Tile": "75, 61",
+      "Type": "Forage",
+      "ID": "295",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "679",
+      "Tile": "52, 60",
+      "Type": "Forage",
+      "ID": "679",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Lava Lily",
+      "Tile": "5, 16",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Lava_Lily",
       "DaysUntilExpire": 13,
       "SpawnTime": 600,
       "ConfigItem": null,
