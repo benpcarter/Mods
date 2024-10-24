@@ -3,6 +3,8 @@
   "LargerGreenhouse": "true",
   "RemoveGreenhouseObjects": "true",
   "RemovePicnicTable": "true",
+  "RemoveEasternVerticalFence": "true",
+  "RemoveStonePathways": "true",
   "SmallerBackyardFence": "true",
   "InstantlyUnlockBridge": "false",
   "InstantlyUnlockDesertShortcut": "false",
