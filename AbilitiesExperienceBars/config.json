@@ -2,7 +2,7 @@
   "ToggleKey": "X",
   "UITheme": "Vanilla",
   "SmallIcons": false,
-  "ShowUI": true,
+  "ShowUI": false,
   "ShowExperienceInfo": true,
   "ShowExperienceGain": true,
   "ShowBoxBackground": false,
