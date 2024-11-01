@@ -1,6 +1,6 @@
 {
   "IsEnableQuickStack": true,
-  "QuickStackRange": "3",
+  "QuickStackRange": "1",
   "IsQuickStackIntoBuildingsWithInventories": true,
   "IsQuickStackIntoDressers": true,
   "IsQuickStackOverflowItems": true,
