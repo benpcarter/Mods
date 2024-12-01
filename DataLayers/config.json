@@ -1,6 +1,6 @@
 {
   "CombineOverlappingBorders": true,
-  "ShowGrid": true,
+  "ShowGrid": false,
   "ColorScheme": "Default",
   "Controls": {
     "ToggleLayer": "F2",
@@ -12,67 +12,67 @@
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad7"
+      "ShortcutKey": "None"
     },
     "Buildable": {
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad6"
+      "ShortcutKey": "None"
     },
     "CoverageForBeeHouses": {
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad5"
+      "ShortcutKey": "None"
     },
     "CoverageForJunimoHuts": {
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "Multiply"
+      "ShortcutKey": "None"
     },
     "CoverageForScarecrows": {
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad4"
+      "ShortcutKey": "None"
     },
     "CoverageForSprinklers": {
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad3"
+      "ShortcutKey": "None"
     },
     "CropFertilizer": {
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad2"
+      "ShortcutKey": "None"
     },
     "CropHarvest": {
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad1"
+      "ShortcutKey": "None"
     },
     "CropWater": {
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad0"
+      "ShortcutKey": "None"
     },
     "CropPaddyWater": {
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad8"
+      "ShortcutKey": "None"
     },
     "Machines": {
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad9"
+      "ShortcutKey": "None"
     },
     "TileGrid": {
       "Enabled": true,
@@ -84,7 +84,7 @@
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "Divide"
+      "ShortcutKey": "None"
     }
   }
 }

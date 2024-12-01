@@ -3,7 +3,7 @@
     "ReloadConfig": "None",
     "DoAutoCast": "None"
   },
-  "SkipMinigamePopup": false,
+  "SkipMinigamePopup": true,
   "DisableVibrations": false,
   "TreasureInBarMultiplier": 1.0,
   "FishInBarMultiplier": 1.0,
@@ -14,7 +14,7 @@
   "AllowCatchingFish": true,
   "AllowCatchingRubbish": true,
   "AllowCatchingOther": true,
-  "SkipFishingMinigame": false,
+  "SkipFishingMinigame": true,
   "SkipFishingMinigameCatchesRequired": 0,
   "SkipFishingMinigamePerfectChance": 1.0,
   "SkipFishingMinigameTreasureChance": 1.0,
@@ -37,9 +37,9 @@
     ""
   ],
   "OverrideAttachmentLimit": false,
-  "ResetAttachmentsLimitWhenNotEquipped": false,
+  "ResetAttachmentsLimitWhenNotEquipped": true,
   "InfiniteBait": false,
-  "InfiniteTackle": true,
+  "InfiniteTackle": false,
   "AutoLootTreasure": false,
   "DifficultyMultiplier": 1.0,
   "AdjustXpGainDifficulty": true,
@@ -49,5 +49,5 @@
   "AddEfficientToolEnchantment": false,
   "AddMasterEnchantment": false,
   "AddPreservingEnchantment": false,
-  "ResetEnchantmentsWhenNotEquipped": false
+  "ResetEnchantmentsWhenNotEquipped": true
 }

@@ -5300,7 +5300,7 @@
         "UniqueAreaID": "Forest forage area 3",
         "MapName": "Forest",
         "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "Grass",
           "Diggable"
@@ -5356,7 +5356,7 @@
         "UniqueAreaID": "Desert forage spawns",
         "MapName": "Desert",
         "MinimumSpawnsPerDay": 2,
-        "MaximumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -5982,7 +5982,7 @@
         "UniqueAreaID": "Mountain forage area 2",
         "MapName": "Mountain",
         "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "Grass",
           "Diggable"
@@ -6025,7 +6025,7 @@
         "UniqueAreaID": "RailRoad forage area 1",
         "MapName": "RailRoad",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "Grass",
           "Diggable"
@@ -6074,7 +6074,9 @@
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
         "ExcludeCoordinates": [
-          "56,58;0,47"
+          "45,46;11,28",
+          "56,50;10,48",
+          "10,53;0,50"
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
@@ -6509,7 +6511,7 @@
         "UniqueAreaID": "Lucky Four Leaf Clover Forest West spawns",
         "MapName": "Custom_ForestWest",
         "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -6549,8 +6551,8 @@
         "WinterItemIndex": [],
         "UniqueAreaID": "Mushroom Colony Forest West spawns",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 8,
-        "MaximumSpawnsPerDay": 16,
+        "MinimumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 12,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -6610,8 +6612,8 @@
         ],
         "UniqueAreaID": "Forest West forage area 1",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 10,
-        "MaximumSpawnsPerDay": 18,
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 14,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -6674,8 +6676,8 @@
         ],
         "UniqueAreaID": "Forest West forage area 2",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 2,
-        "MaximumSpawnsPerDay": 5,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -6876,7 +6878,7 @@
         "UniqueAreaID": "Forest West forage area 6",
         "MapName": "Custom_ForestWest",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -7014,7 +7016,7 @@
         ],
         "UniqueAreaID": "Forest West forage area 9",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 3,
+        "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
@@ -10481,8 +10483,8 @@
         ],
         "UniqueAreaID": "Junimo Woods Junimo Noises",
         "MapName": "Custom_JunimoWoods",
-        "MinimumSpawnsPerDay": 35,
-        "MaximumSpawnsPerDay": 35,
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 50,
         "IncludeTerrainTypes": [
           "Any"
         ],
@@ -10494,7 +10496,55 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2200,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          30
+        ],
+        "SummerItemIndex": [
+          30
+        ],
+        "FallItemIndex": [
+          30
+        ],
+        "WinterItemIndex": [
+          30
+        ],
+        "UniqueAreaID": "Sprite Spring Junimo Noises",
+        "MapName": "Custom_SpriteSpring2",
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 50,
+        "IncludeTerrainTypes": [
+          "Any"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "8,7;0,0"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 1,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -11314,8 +11364,8 @@
         },
         "UniqueAreaID": "Highlands Cavern Stone + Geode Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 380,
-        "MaximumSpawnsPerDay": 380,
+        "MinimumSpawnsPerDay": 300,
+        "MaximumSpawnsPerDay": 300,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -11343,7 +11393,64 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MiningLevelRequired": {
+          "Stone": 0,
+          "Geode": 0,
+          "OmniGeode": 0
+        },
+        "StartingSpawnChance": {
+          "Stone": 96,
+          "Geode": 2,
+          "OmniGeode": 2
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 96,
+          "Geode": 2,
+          "OmniGeode": 2
+        },
+        "UniqueAreaID": "Highlands Cavern Stone + Geode Spawns - Low Memory",
+        "MapName": "Custom_HighlandsCavern",
+        "MinimumSpawnsPerDay": 200,
+        "MaximumSpawnsPerDay": 200,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "156,156;0,0"
+        ],
+        "ExcludeCoordinates": [
+          "122,150;118,141",
+          "34,46;16,30",
+          "138,18;94,0"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -11983,7 +12090,7 @@
               "SpawnWeight": 1,
               "SeesPlayersAtSpawn": false,
               "HP": 180,
-              "Damage": 35,
+              "Damage": 31,
               "DodgeChance": 0,
               "ExtraLoot": true,
               "Loot": [
@@ -12123,7 +12230,7 @@
               "SpawnWeight": 1,
               "SeesPlayersAtSpawn": false,
               "HP": 220,
-              "Damage": 37,
+              "Damage": 33,
               "DodgeChance": 0,
               "ExtraLoot": true,
               "Loot": [
@@ -12265,7 +12372,7 @@
               "SpawnWeight": 1,
               "SeesPlayersAtSpawn": false,
               "HP": 200,
-              "Damage": 35,
+              "Damage": 33,
               "DodgeChance": 0,
               "ExtraLoot": true,
               "Loot": [
@@ -14446,6 +14553,66 @@
             "Settings": {
               "SpawnWeight": 1,
               "HP": 2000,
+              "Damage": 105,
+              "DodgeChance": 10,
+              "ExtraLoot": false,
+              "Loot": [
+                "Void Pebble",
+                "Void Delight",
+                769,
+                769,
+                768
+              ],
+              "Sprite": "Characters/Monsters/CorruptMummy"
+            }
+          }
+        ],
+        "UniqueAreaID": "Crimson Badlands Mummy Cave Guards - Void Delight",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "9,138;5,136",
+          "14,141;14,141",
+          "24,135;24,135",
+          "8,143;8,143",
+          "8,153;8,151"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 15,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.5"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
               "Damage": 100,
               "DodgeChance": 10,
               "ExtraLoot": false,
@@ -14486,6 +14653,62 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 100,
+              "DodgeChance": 10,
+              "ExtraLoot": false,
+              "Loot": [
+                "Void Pebble",
+                "Void Delight",
+                769,
+                769,
+                768
+              ],
+              "Sprite": "Characters/Monsters/CorruptMummy"
+            }
+          }
+        ],
+        "UniqueAreaID": "Crimson Badlands Corrupt Mummy Guard - Void Delight",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "20,144;20,144"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 15,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.4"
+          ],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -15023,6 +15246,66 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryBadlands": "true",
+            "HasFlag |contains=SVE_ChallengingBadlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 75,
+              "DodgeChance": 20,
+              "SeesPlayersAtSpawn": true,
+              "Loot": [
+                "Void Pebble",
+                "Void Salmon Sushi",
+                769,
+                769,
+                769,
+                226
+              ],
+              "Sprite": "Characters/Monsters/CorruptSerpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Corrupt Serpent Timed Spawns - Low Memory - Void Salmon Sushi",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,155;0,100"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "None",
+        "SpawnTiming": {
+          "StartTime": 830,
+          "EndTime": 2500,
+          "MinimumTimeBetweenSpawns": 100,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.4"
+          ],
           "CPConditions": {
             "HasFlag |contains=SVE_LowMemoryBadlands": "true",
             "HasFlag |contains=SVE_ChallengingBadlands": "false"
@@ -16778,6 +17061,65 @@
               "HP": 2000,
               "Damage": 75,
               "DodgeChance": 20,
+              "SeesPlayersAtSpawn": true,
+              "Loot": [
+                "Void Pebble",
+                "Void Salmon Sushi",
+                769,
+                769,
+                769,
+                226
+              ],
+              "Sprite": "Characters/Monsters/CorruptSerpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Corrupt Serpent Timed Spawns - Void Salmon Sushi",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,155;0,100"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "None",
+        "SpawnTiming": {
+          "StartTime": 830,
+          "EndTime": 2500,
+          "MinimumTimeBetweenSpawns": 120,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.4"
+          ],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryBadlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 75,
+              "DodgeChance": 20,
               "SeesPlayersAtSpawn": false,
               "Loot": [
                 "Void Pebble",
@@ -16873,6 +17215,66 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_ChallengingBadlands": "true",
+            "HasFlag |contains=SVE_LowMemoryBadlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 75,
+              "DodgeChance": 20,
+              "SeesPlayersAtSpawn": true,
+              "Loot": [
+                "Void Pebble",
+                "Void Salmon Sushi",
+                769,
+                769,
+                769,
+                226
+              ],
+              "Sprite": "Characters/Monsters/CorruptSerpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Corrupt Serpent Timed Spawns - Challenging - Void Salmon Sushi",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,155;0,100"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "None",
+        "SpawnTiming": {
+          "StartTime": 830,
+          "EndTime": 2500,
+          "MinimumTimeBetweenSpawns": 110,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.33"
+          ],
           "CPConditions": {
             "HasFlag |contains=SVE_ChallengingBadlands": "true",
             "HasFlag |contains=SVE_LowMemoryBadlands": "false"
@@ -17116,6 +17518,62 @@
       {
         "MonsterTypes": [
           {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 110,
+              "DodgeChance": 15,
+              "ExtraLoot": false,
+              "Loot": [
+                "Void Pebble",
+                "Void Delight",
+                769,
+                769,
+                768
+              ],
+              "Sprite": "Characters/Monsters/CorruptMummy"
+            }
+          }
+        ],
+        "UniqueAreaID": "Corrupt Mummy's at iridium quarry - Void Delight",
+        "MapName": "Custom_IridiumQuarry",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "56,39;0,0"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 16,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM .70"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
             "MonsterName": "Wilderness Golem",
             "Settings": {
               "HP": 10000,
@@ -17235,16 +17693,15 @@
               "Loot": [
                 766,
                 766,
-                766,
-                "Void Pebble"
+                766
               ]
             }
           }
         ],
         "UniqueAreaID": "Highlands Night Spawns",
         "MapName": "Custom_Highlands",
-        "MinimumSpawnsPerDay": 200,
-        "MaximumSpawnsPerDay": 200,
+        "MinimumSpawnsPerDay": 80,
+        "MaximumSpawnsPerDay": 80,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -17291,7 +17748,7 @@
           "StartTime": 2000,
           "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 20,
-          "MaximumSimultaneousSpawns": 30,
+          "MaximumSimultaneousSpawns": 15,
           "OnlySpawnIfAPlayerIsPresent": true,
           "SpawnSound": ""
         },
@@ -17303,7 +17760,113 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "HP": 700,
+              "Damage": 55,
+              "SpawnWeight": 8,
+              "DodgeChance": 20,
+              "Color": "31 31 31",
+              "SeesPlayersAtSpawn": true,
+              "Loot": [
+                766
+              ]
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "HP": 1500,
+              "Damage": 66,
+              "SpawnWeight": 1,
+              "Segments": 3,
+              "DodgeChance": 30,
+              "Color": "31 31 31",
+              "SeesPlayersAtSpawn": true,
+              "Loot": [
+                766,
+                766,
+                766
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Night Spawns - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 50,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "142,83;142,83",
+          "155,155;105,90",
+          "155,43;126,0",
+          "118,23;94,9",
+          "31,28;29,24",
+          "51,38;48,34",
+          "21,63;20,62",
+          "15,20;14,19",
+          "54,31;53,30",
+          "89,73;88,72",
+          "137,71;136,70",
+          "138,25;137,24",
+          "21,17;20,16",
+          "23,17;22,16",
+          "58,16;57,15",
+          "55,22;54,21",
+          "49,26;48,25",
+          "41,28;40,27",
+          "33,35;32,34",
+          "30,42;29,41",
+          "24,47;25,48",
+          "22,48;23,49",
+          "19,51;20,50",
+          "30,28;29,27",
+          "48,38;47,37",
+          "50,38;49,37",
+          "49,40;48,39",
+          "46,40;45,39",
+          "51,41;50,40",
+          "47,42;46,41",
+          "49,43;48,42",
+          "25,12;24,11",
+          "24,14;23,13",
+          "21,17;20,16"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 2000,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 20,
+          "MaximumSimultaneousSpawns": 10,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -17345,6 +17908,218 @@
           }
         ],
         "UniqueAreaID": "Highlands Night Spawns - shadow mobs",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 80,
+        "MaximumSpawnsPerDay": 80,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "142,83;142,83",
+          "155,155;105,90",
+          "155,43;126,0",
+          "118,23;94,9",
+          "31,28;29,24",
+          "51,38;48,34",
+          "21,63;20,62",
+          "15,20;14,19",
+          "54,31;53,30",
+          "89,73;88,72",
+          "137,71;136,70",
+          "138,25;137,24",
+          "21,17;20,16",
+          "23,17;22,16",
+          "58,16;57,15",
+          "55,22;54,21",
+          "49,26;48,25",
+          "41,28;40,27",
+          "33,35;32,34",
+          "30,42;29,41",
+          "24,47;25,48",
+          "22,48;23,49",
+          "19,51;20,50",
+          "30,28;29,27",
+          "48,38;47,37",
+          "50,38;49,37",
+          "49,40;48,39",
+          "46,40;45,39",
+          "51,41;50,40",
+          "47,42;46,41",
+          "49,43;48,42",
+          "25,12;24,11",
+          "24,14;23,13",
+          "21,17;20,16"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 2000,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 10,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": "shadowpeep"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasSeenEvent |contains=1090508": "false",
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 400,
+              "Damage": 60,
+              "SpawnWeight": 8,
+              "DodgeChance": 5,
+              "SeesPlayersAtSpawn": true,
+              "Sprite": "Characters/Monsters/ShadowBruteDangerous"
+            }
+          },
+          {
+            "MonsterName": "Shadow Shaman",
+            "Settings": {
+              "HP": 300,
+              "Damage": 50,
+              "SpawnWeight": 5,
+              "DodgeChance": 10,
+              "SeesPlayersAtSpawn": true,
+              "Sprite": "Characters/Monsters/ShadowShamanDangerous"
+            }
+          },
+          {
+            "MonsterName": "Shadow Sniper",
+            "Settings": {
+              "HP": 300,
+              "Damage": 45,
+              "SpawnWeight": 4,
+              "DodgeChance": 15,
+              "SeesPlayersAtSpawn": true
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Night Spawns - shadow mobs - low memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 30,
+        "MaximumSpawnsPerDay": 30,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "142,83;142,83",
+          "155,155;105,90",
+          "155,43;126,0",
+          "118,23;94,9",
+          "31,28;29,24",
+          "51,38;48,34",
+          "21,63;20,62",
+          "15,20;14,19",
+          "54,31;53,30",
+          "89,73;88,72",
+          "137,71;136,70",
+          "138,25;137,24",
+          "21,17;20,16",
+          "23,17;22,16",
+          "58,16;57,15",
+          "55,22;54,21",
+          "49,26;48,25",
+          "41,28;40,27",
+          "33,35;32,34",
+          "30,42;29,41",
+          "24,47;25,48",
+          "22,48;23,49",
+          "19,51;20,50",
+          "30,28;29,27",
+          "48,38;47,37",
+          "50,38;49,37",
+          "49,40;48,39",
+          "46,40;45,39",
+          "51,41;50,40",
+          "47,42;46,41",
+          "49,43;48,42",
+          "25,12;24,11",
+          "24,14;23,13",
+          "21,17;20,16"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 2000,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 7,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": "shadowpeep"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasSeenEvent |contains=1090508": "false",
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 400,
+              "Damage": 80,
+              "SpawnWeight": 8,
+              "DodgeChance": 5,
+              "SeesPlayersAtSpawn": true,
+              "Sprite": "Characters/Monsters/ShadowBruteDangerous"
+            }
+          },
+          {
+            "MonsterName": "Shadow Shaman",
+            "Settings": {
+              "HP": 300,
+              "Damage": 70,
+              "SpawnWeight": 5,
+              "DodgeChance": 10,
+              "SeesPlayersAtSpawn": true,
+              "Sprite": "Characters/Monsters/ShadowShamanDangerous"
+            }
+          },
+          {
+            "MonsterName": "Shadow Sniper",
+            "Settings": {
+              "HP": 300,
+              "Damage": 65,
+              "SpawnWeight": 4,
+              "DodgeChance": 15,
+              "SeesPlayersAtSpawn": true
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Night Spawns - shadow mobs - betrayed",
         "MapName": "Custom_Highlands",
         "MinimumSpawnsPerDay": 120,
         "MaximumSpawnsPerDay": 120,
@@ -17391,7 +18166,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 1800,
+          "StartTime": 2000,
           "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 30,
@@ -17407,7 +18182,9 @@
           "WeatherTomorrow": [],
           "GameStateQueries": [],
           "CPConditions": {
-            "HasSeenEvent |contains=1090508": "false"
+            "HasSeenEvent |contains=1090508": "true",
+            "HasFlag |contains=SVE_BetrayalShrineActivated": "true",
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
           },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -17449,10 +18226,10 @@
             }
           }
         ],
-        "UniqueAreaID": "Highlands Night Spawns - shadow mobs - betrayed",
+        "UniqueAreaID": "Highlands Night Spawns - shadow mobs - betrayed - low memory",
         "MapName": "Custom_Highlands",
-        "MinimumSpawnsPerDay": 160,
-        "MaximumSpawnsPerDay": 160,
+        "MinimumSpawnsPerDay": 40,
+        "MaximumSpawnsPerDay": 40,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -17499,7 +18276,7 @@
           "StartTime": 1800,
           "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": 30,
+          "MaximumSimultaneousSpawns": 4,
           "OnlySpawnIfAPlayerIsPresent": true,
           "SpawnSound": "shadowpeep"
         },
@@ -17513,7 +18290,8 @@
           "GameStateQueries": [],
           "CPConditions": {
             "HasSeenEvent |contains=1090508": "true",
-            "HasFlag |contains=SVE_BetrayalShrineActivated": "true"
+            "HasFlag |contains=SVE_BetrayalShrineActivated": "true",
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
           },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -17656,7 +18434,9 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -17798,7 +18578,9 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -17940,7 +18722,9 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -18082,7 +18866,585 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 1,
+              "DodgeChance": 15,
+              "Color": "0 255 0",
+              "Loot": [
+                430
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "0 255 0",
+              "Loot": [
+                245
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "0 255 0",
+              "Loot": [
+                184
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 3,
+              "DodgeChance": 15,
+              "Color": "0 255 0",
+              "Loot": [
+                408
+              ]
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 3,
+              "DodgeChance": 10,
+              "Loot": [
+                430
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemSpring"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Loot": [
+                245
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemSpring"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Loot": [
+                184
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemSpring"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 6,
+              "DodgeChance": 10,
+              "Loot": [
+                408
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemSpring"
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Haunted Chocolatier Homeage Spawns - Spring - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 15,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "137,27;79,13"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 20,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 1,
+              "DodgeChance": 15,
+              "Color": "255 255 102",
+              "Loot": [
+                430
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "255 255 102",
+              "Loot": [
+                245
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "255 255 102",
+              "Loot": [
+                184
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 3,
+              "DodgeChance": 15,
+              "Color": "255 255 102",
+              "Loot": [
+                408
+              ]
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 3,
+              "DodgeChance": 10,
+              "Loot": [
+                430
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemSummer"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Loot": [
+                245
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemSummer"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Loot": [
+                184
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemSummer"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 6,
+              "DodgeChance": 10,
+              "Loot": [
+                408
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemSummer"
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Haunted Chocolatier Homeage Spawns - Summer - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 15,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "137,27;79,13"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 20,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Summer"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 1,
+              "DodgeChance": 15,
+              "Color": "255 153 51",
+              "Loot": [
+                430
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "255 153 51",
+              "Loot": [
+                245
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "255 153 51",
+              "Loot": [
+                184
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 3,
+              "DodgeChance": 15,
+              "Color": "255 153 51",
+              "Loot": [
+                408
+              ]
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 3,
+              "DodgeChance": 10,
+              "Loot": [
+                430
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemFall"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Loot": [
+                245
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemFall"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Loot": [
+                184
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemFall"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 6,
+              "DodgeChance": 10,
+              "Loot": [
+                408
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemFall"
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Haunted Chocolatier Homeage Spawns - Fall - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 15,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "137,27;79,13"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 20,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 1,
+              "DodgeChance": 15,
+              "Color": "51 153 255",
+              "Loot": [
+                430
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "51 153 255",
+              "Loot": [
+                245
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "51 153 255",
+              "Loot": [
+                184
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 3,
+              "DodgeChance": 15,
+              "Color": "51 153 255",
+              "Loot": [
+                408
+              ]
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 3,
+              "DodgeChance": 10,
+              "Loot": [
+                430
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemWinter"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Loot": [
+                245
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemWinter"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Loot": [
+                184
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemWinter"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 6,
+              "DodgeChance": 10,
+              "Loot": [
+                408
+              ],
+              "Sprite": "Characters/Monsters/WildernessGolemWinter"
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Haunted Chocolatier Homeage Spawns - Winter - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 15,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "137,27;79,13"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 20,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Winter"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -18188,7 +19550,9 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -18291,7 +19655,9 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -18394,7 +19760,9 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -18497,7 +19865,432 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 33,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "0 255 0",
+              "Loot": [
+                766
+              ]
+            }
+          },
+          {
+            "MonsterName": "iridium golem",
+            "Settings": {
+              "HP": 800,
+              "Damage": 65,
+              "SpawnWeight": 1,
+              "DodgeChance": 15,
+              "Sprite": "Characters/Monsters/WildernessGolemSpring"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Sprite": "Characters/Monsters/WildernessGolemSpring"
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Primary Spawns Spring - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 40,
+        "MaximumSpawnsPerDay": 40,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "142,83;142,83",
+          "155,155;105,90",
+          "155,43;126,0",
+          "118,23;94,9",
+          "31,28;29,24",
+          "51,38;48,34",
+          "21,63;20,62",
+          "15,20;14,19",
+          "54,31;53,30",
+          "89,73;88,72",
+          "137,71;136,70",
+          "138,25;137,24",
+          "21,17;20,16",
+          "23,17;22,16",
+          "58,16;57,15",
+          "55,22;54,21",
+          "49,26;48,25",
+          "41,28;40,27",
+          "33,35;32,34",
+          "30,42;29,41",
+          "24,47;25,48",
+          "22,48;23,49",
+          "19,51;20,50",
+          "30,28;29,27",
+          "48,38;47,37",
+          "50,38;49,37",
+          "49,40;48,39",
+          "46,40;45,39",
+          "51,41;50,40",
+          "47,42;46,41",
+          "49,43;48,42",
+          "25,12;24,11",
+          "24,14;23,13",
+          "21,17;20,16"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 40,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 35,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "255 255 102",
+              "Loot": [
+                766
+              ]
+            }
+          },
+          {
+            "MonsterName": "iridium golem",
+            "Settings": {
+              "HP": 800,
+              "Damage": 65,
+              "SpawnWeight": 1,
+              "DodgeChance": 15,
+              "Sprite": "Characters/Monsters/WildernessGolemSummer"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 48,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Sprite": "Characters/Monsters/WildernessGolemSummer"
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Primary Spawns Summer - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 40,
+        "MaximumSpawnsPerDay": 40,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "142,83;142,83",
+          "155,155;105,90",
+          "155,43;126,0",
+          "118,23;94,9",
+          "31,28;29,24",
+          "51,38;48,34",
+          "21,63;20,62",
+          "15,20;14,19",
+          "54,31;53,30",
+          "89,73;88,72",
+          "137,71;136,70",
+          "138,25;137,24",
+          "21,17;20,16",
+          "23,17;22,16",
+          "58,16;57,15",
+          "55,22;54,21",
+          "49,26;48,25",
+          "41,28;40,27",
+          "33,35;32,34",
+          "30,42;29,41",
+          "24,47;25,48",
+          "22,48;23,49",
+          "19,51;20,50",
+          "30,28;29,27",
+          "48,38;47,37",
+          "50,38;49,37",
+          "49,40;48,39",
+          "46,40;45,39",
+          "51,41;50,40",
+          "47,42;46,41",
+          "49,43;48,42"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 40,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Summer"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 30,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "255 153 51",
+              "Loot": [
+                766
+              ]
+            }
+          },
+          {
+            "MonsterName": "iridium golem",
+            "Settings": {
+              "HP": 800,
+              "Damage": 65,
+              "SpawnWeight": 1,
+              "DodgeChance": 15,
+              "Sprite": "Characters/Monsters/WildernessGolemFall"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 45,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Sprite": "Characters/Monsters/WildernessGolemFall"
+            }
+          }
+        ],
+        "UniqueAreaID": "Primary Highlands Spawns Fall - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 40,
+        "MaximumSpawnsPerDay": 40,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "142,83;142,83",
+          "155,155;105,90",
+          "155,43;126,0",
+          "118,23;94,9",
+          "31,28;29,24",
+          "51,38;48,34",
+          "21,63;20,62",
+          "15,20;14,19",
+          "54,31;53,30",
+          "89,73;88,72",
+          "137,71;136,70",
+          "138,25;137,24",
+          "21,17;20,16",
+          "23,17;22,16",
+          "58,16;57,15",
+          "55,22;54,21",
+          "49,26;48,25",
+          "41,28;40,27",
+          "33,35;32,34",
+          "30,42;29,41",
+          "24,47;25,48",
+          "22,48;23,49",
+          "19,51;20,50",
+          "30,28;29,27",
+          "48,38;47,37",
+          "50,38;49,37",
+          "49,40;48,39",
+          "46,40;45,39",
+          "51,41;50,40",
+          "47,42;46,41",
+          "49,43;48,42"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 40,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "HP": 350,
+              "Damage": 30,
+              "SpawnWeight": 2,
+              "DodgeChance": 15,
+              "Color": "51 153 255",
+              "Loot": [
+                766
+              ]
+            }
+          },
+          {
+            "MonsterName": "iridium golem",
+            "Settings": {
+              "HP": 800,
+              "Damage": 65,
+              "SpawnWeight": 1,
+              "DodgeChance": 15,
+              "Sprite": "Characters/Monsters/WildernessGolemWinter"
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 525,
+              "Damage": 45,
+              "SpawnWeight": 4,
+              "DodgeChance": 10,
+              "Sprite": "Characters/Monsters/WildernessGolemWinter"
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Primary Spawns Winter - Low Memory",
+        "MapName": "Custom_Highlands",
+        "MinimumSpawnsPerDay": 40,
+        "MaximumSpawnsPerDay": 40,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "142,83;142,83",
+          "155,155;105,90",
+          "155,43;126,0",
+          "118,23;94,9",
+          "31,28;29,24",
+          "51,38;48,34",
+          "21,63;20,62",
+          "15,20;14,19",
+          "54,31;53,30",
+          "89,73;88,72",
+          "137,71;136,70",
+          "138,25;137,24",
+          "21,17;20,16",
+          "23,17;22,16",
+          "58,16;57,15",
+          "55,22;54,21",
+          "49,26;48,25",
+          "41,28;40,27",
+          "33,35;32,34",
+          "30,42;29,41",
+          "24,47;25,48",
+          "22,48;23,49",
+          "19,51;20,50",
+          "30,28;29,27",
+          "48,38;47,37",
+          "50,38;49,37",
+          "49,40;48,39",
+          "46,40;45,39",
+          "51,41;50,40",
+          "47,42;46,41",
+          "49,43;48,42"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 40,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Winter"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryHighlands": "true"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -18634,7 +20427,8 @@
             "RANDOM 0.15"
           ],
           "CPConditions": {
-            "HasSeenEvent: AnyPlayer|contains=55134263": "true"
+            "HasSeenEvent: AnyPlayer|contains=55134263": "true",
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
           },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -18773,7 +20567,8 @@
             "RANDOM 0.15"
           ],
           "CPConditions": {
-            "HasSeenEvent: AnyPlayer|contains=55134263": "true"
+            "HasSeenEvent: AnyPlayer|contains=55134263": "true",
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
           },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -18911,7 +20706,8 @@
             "RANDOM 0.15"
           ],
           "CPConditions": {
-            "HasSeenEvent: AnyPlayer|contains=55134263": "true"
+            "HasSeenEvent: AnyPlayer|contains=55134263": "true",
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
           },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -19049,7 +20845,8 @@
             "RANDOM 0.15"
           ],
           "CPConditions": {
-            "HasSeenEvent: AnyPlayer|contains=55134263": "true"
+            "HasSeenEvent: AnyPlayer|contains=55134263": "true",
+            "HasFlag |contains=SVE_LowMemoryHighlands": "false"
           },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -20934,8 +22731,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 70,
-        "MaximumSpawnsPerDay": 70,
+        "MinimumSpawnsPerDay": 120,
+        "MaximumSpawnsPerDay": 120,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -20949,7 +22746,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 5,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -21015,8 +22812,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns - Aggro",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 20,
-        "MaximumSpawnsPerDay": 20,
+        "MinimumSpawnsPerDay": 30,
+        "MaximumSpawnsPerDay": 30,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -21030,7 +22827,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 2,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -21096,8 +22893,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns - betrayed",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 50,
-        "MaximumSpawnsPerDay": 50,
+        "MinimumSpawnsPerDay": 70,
+        "MaximumSpawnsPerDay": 70,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -21111,7 +22908,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 4,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -21193,7 +22990,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 2,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -21260,8 +23057,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns - Challenging",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 160,
-        "MaximumSpawnsPerDay": 160,
+        "MinimumSpawnsPerDay": 180,
+        "MaximumSpawnsPerDay": 180,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -21275,7 +23072,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -21341,8 +23138,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns - Aggro - Challenging",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 40,
-        "MaximumSpawnsPerDay": 40,
+        "MinimumSpawnsPerDay": 45,
+        "MaximumSpawnsPerDay": 45,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -21356,7 +23153,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 4,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -22272,8 +24069,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Bat Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 25,
-        "MaximumSpawnsPerDay": 25,
+        "MinimumSpawnsPerDay": 40,
+        "MaximumSpawnsPerDay": 40,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -22285,8 +24082,8 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 2600,
+          "StartTime": 700,
+          "EndTime": 2400,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 1,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -22332,8 +24129,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Bat Spawns - Challenging",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 35,
-        "MaximumSpawnsPerDay": 50,
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 60,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -22345,8 +24142,8 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 2600,
+          "StartTime": 700,
+          "EndTime": 2400,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 2,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -24985,6 +26782,7 @@
               "DodgeChance": 5,
               "Sprite": "Characters/Monsters/BullyRex",
               "InstantKillImmunity": true,
+              "StunImmunity": true,
               "Loot": [
                 "Golden Key",
                 "Ornate Treasure Chest",
@@ -25046,6 +26844,7 @@
               "DodgeChance": 5,
               "Sprite": "Characters/Monsters/BullyRex",
               "InstantKillImmunity": true,
+              "StunImmunity": true,
               "Loot": [
                 "Ornate Treasure Chest",
                 166,
@@ -25183,8 +26982,8 @@
               "DodgeChance": 30,
               "SeesPlayersAtSpawn": true,
               "Segments": 7,
-              "StunImmunity": true,
-              "InstantKillImmunity": true,
+              "StunImmunity": false,
+              "InstantKillImmunity": false,
               "Loot": [
                 166,
                 769,
@@ -25356,7 +27155,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 8,
@@ -25477,7 +27276,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
@@ -25542,7 +27341,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 6,
@@ -25608,7 +27407,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 8,
@@ -25693,7 +27492,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 5,
@@ -25814,7 +27613,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 6,
@@ -25879,7 +27678,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 3,
@@ -25945,7 +27744,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 3,
@@ -26030,7 +27829,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 8,
@@ -26151,7 +27950,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 11,
@@ -26216,7 +28015,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 3,
@@ -26282,7 +28081,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 12,
@@ -26367,7 +28166,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 8,
@@ -26488,7 +28287,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 12,
@@ -26553,7 +28352,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 5,
@@ -26619,7 +28418,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 5,
@@ -26704,7 +28503,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 5,
@@ -26827,7 +28626,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 8,
@@ -26894,7 +28693,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 4,
@@ -26962,7 +28761,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 4,
@@ -27047,7 +28846,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 12,
@@ -27179,7 +28978,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 20,
@@ -27247,7 +29046,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
@@ -27316,7 +29115,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 20,
@@ -27398,7 +29197,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 14,
@@ -27521,7 +29320,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 14,
@@ -27588,7 +29387,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
@@ -27656,7 +29455,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
@@ -27741,7 +29540,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 7,
@@ -27862,7 +29661,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 9,
@@ -27927,7 +29726,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 6,
@@ -27993,7 +29792,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 12,
@@ -28077,7 +29876,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 7,
@@ -28123,7 +29922,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 5,
@@ -28244,7 +30043,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 13,
@@ -28309,7 +30108,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 5,
@@ -28375,7 +30174,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 12,
@@ -28461,7 +30260,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 8,
@@ -28590,7 +30389,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 22,
@@ -28655,7 +30454,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 13,
@@ -28721,7 +30520,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 16,
@@ -28806,7 +30605,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 5,
@@ -28935,7 +30734,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 11,
@@ -29000,7 +30799,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 6,
@@ -29066,7 +30865,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 15,

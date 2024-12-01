@@ -1,0 +1,121 @@
+{ 
+	"Name": "Belted Overalls",
+	"Description": "Classic overalls with a white t-shirt and a belt.",
+	"FrontShirt": {
+		"ColorMaskLayers": [
+		    {
+			    "Name": "Color",
+			    "Values": [
+					[ 240, 240, 240 ],
+					[ 190, 190, 190 ],
+					[ 150, 150, 150 ]
+			    ]
+		    }
+		],
+		"SleeveColors": [
+		    [ 102, 97, 92 ],
+		    [ 179, 175, 168 ],
+		    [ 230, 226, 220 ]
+		],
+		"StartingPosition": {
+		    "X": 0,
+		    "Y": 0
+		},
+		"BodyPosition": {
+		    "X": 0,
+		    "Y": 0
+		},
+		"ShirtSize": {
+		    "Width": 8,
+		    "Length": 8
+		}
+	},
+	"RightShirt": {
+		"ColorMaskLayers": [
+		    {
+			    "Name": "Color",
+			    "Values": [
+					[ 240, 240, 240 ],
+					[ 190, 190, 190 ],
+					[ 150, 150, 150 ]
+			    ]
+		    }
+		],
+		"SleeveColors": [
+		    [ 102, 97, 92 ],
+		    [ 179, 175, 168 ],
+		    [ 230, 226, 220 ]
+		],
+		"StartingPosition": {
+		    "X": 0,
+		    "Y": 8
+		},
+		"BodyPosition": {
+		    "X": 0,
+		    "Y": 0
+		},
+		"ShirtSize": {
+		    "Width": 8,
+		    "Length": 8
+		}
+    },
+	"LeftShirt": {
+		"ColorMaskLayers": [
+		    {
+			    "Name": "Color",
+			    "Values": [
+					[ 240, 240, 240 ],
+					[ 190, 190, 190 ],
+					[ 150, 150, 150 ]
+			    ]
+		    }
+		],
+		"SleeveColors": [
+		    [ 102, 97, 92 ],
+		    [ 179, 175, 168 ],
+		    [ 230, 226, 220 ]
+		],
+		"Flipped": "True",
+		"StartingPosition": {
+		    "X": 0,
+		    "Y": 8
+		},
+		"BodyPosition": {
+		    "X": 0,
+		    "Y": 0
+		},
+		"ShirtSize": {
+		    "Width": 8,
+		    "Length": 8
+		}
+    },
+    "BackShirt": {
+		"ColorMaskLayers": [
+		    {
+			    "Name": "Color",
+			    "Values": [
+					[ 240, 240, 240 ],
+					[ 190, 190, 190 ],
+					[ 150, 150, 150 ]
+			    ]
+		    }
+		],
+		"SleeveColors": [
+		    [ 102, 97, 92 ],
+		    [ 179, 175, 168 ],
+		    [ 230, 226, 220 ]
+		],
+		"StartingPosition": {
+		    "X": 0,
+		    "Y": 16
+		},
+		"BodyPosition": {
+		    "X": 0,
+		    "Y": 0
+		},
+		"ShirtSize": {
+		    "Width": 8,
+		    "Length": 8
+		}
+    }
+}

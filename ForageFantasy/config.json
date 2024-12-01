@@ -3,6 +3,7 @@
   "MushroomBoxQuality": true,
   "TapperQualityOptions": 1,
   "TapperQualityRequiresTapperPerk": false,
+  "TapperSapHasQuality": false,
   "TapperXPAmount": 3,
   "SmallStumpBonusXPAmount": 1,
   "TwigDebrisXPAmount": 1,

@@ -1190,7 +1190,7 @@
           },
           { //Leaf patches
                "Action": "EditMap",
-               "Target": "Maps/Town",
+               "Target": "Maps/Town, Maps/Town-Fair, Maps/Town-Fair2, Maps/Town-Halloween, Maps/Town-Halloween2",
                "FromFile": "Assets/Maps/MapPatches/Town_Leaves.tbin",
                "When": {
                     "Season": "Fall",
@@ -1742,6 +1742,21 @@
                },
                "ToArea": {
                     "X": 20,
+                    "Y": 18,
+                    "Width": 1,
+                    "Height": 1
+               }
+          },
+		  { //Patches Witch Hut warp in wizard tower
+               "Action": "EditMap",
+               "Target": "Maps/Custom_WizardBasement",
+               "FromFile": "Assets/Maps/MapPatches/WizardBasement_WitchHut.tbin",
+               "When": {
+                    "HasWalletItem": "MagicInk"
+               },
+			   "Update": "OnLocationChange",
+               "ToArea": {
+                    "X": 11,
                     "Y": 18,
                     "Width": 1,
                     "Height": 1
@@ -3062,7 +3077,7 @@
                     "FarmType": "Standard"
                },
                "Entries": {
-                    "BusStop.1": "` {{i18n:BusStop}}^> {{i18n:PelicanTown}}^= {{FarmName}} {{i18n:Farm}}^@ {{FarmName}} {{i18n:Farm}}",
+                    "BusStop.1": "` {{i18n:BusStop}}^> {{i18n:PelicanTown}}^= {{i18n:Farm |FarmName={{FarmName}}}}^@ {{i18n:Farm |FarmName={{FarmName}}}}",
                }
           },
           {
@@ -3073,7 +3088,7 @@
                     "FarmType": "Standard"
                },
                "Entries": {
-                    "BusStop.1": "` {{i18n:BusStop}}^> {{i18n:PelicanTown}}^= {{FarmName}} {{i18n:Farm}}^@ {{FarmName}} {{i18n:Farm}}",
+                    "BusStop.1": "` {{i18n:BusStop}}^> {{i18n:PelicanTown}}^= {{i18n:Farm |FarmName={{FarmName}}}}^@ {{i18n:Farm |FarmName={{FarmName}}}}",
                }
           },
 		  

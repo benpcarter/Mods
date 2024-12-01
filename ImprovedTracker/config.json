@@ -2,5 +2,6 @@
   "Berries": true,
   "CoconutTrees": true,
   "FishingSpots": true,
-  "Underground": true
+  "Underground": true,
+  "SeedSpots": true
 }

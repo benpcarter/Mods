@@ -6,7 +6,7 @@
   "ReplaceDefaultFences": "true",
   "ReplaceHardwoodFences": "false",
   "ImmersiveShadows": "true",
-  "MistEffects": "false",
+  "MistEffects": "true",
   "SVECommunityBundles": "true",
   "HardSVECommunityBundles": "false",
   "RetexturedFarmhouseKitchen": "true",
@@ -23,10 +23,12 @@
   "ChallengingHighlandsCavern": "false",
   "ChallengingBadlands": "false",
   "LowMemoryBadlands": "false",
+  "LowMemoryHighlands": "false",
   "OlderSophiaPortraits": "false",
   "VanillaSandyPortraits": "false",
-  "MatureEvents": "true",
+  "MatureEvents": "false",
   "ShorterPathToBlueMoonVineyard": "false",
+  "GaldoranGemMuseumMoveable": "false",
   "UseGaldoranThemeAllTimes": "false",
   "DisableGaldoranTheme": "false"
 }

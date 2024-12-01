@@ -6,5 +6,8 @@
   "PrismaticToolWidth": 2,
   "PrismaticToolCost": 100000,
   "PrismaticBarShardCost": 1,
-  "PrismaticBarNumberProduced": 5
+  "PrismaticBarNumberProduced": 5,
+  "SprinklersNeedBattery": true,
+  "SprinklersBatteriesNeeded": 2,
+  "SprinklersBarsNeeded": 2
 }

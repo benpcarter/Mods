@@ -40,6 +40,7 @@
   "CarolsBonus": 15,
   "EnableCoffee": true,
   "CoffeePrice": 75000,
+  "CoffeeBonus": 3,
   "EnableSketchbook": true,
   "SketchbookPrice": 30000,
   "DebugBook": false

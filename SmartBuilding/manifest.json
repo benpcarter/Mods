@@ -10,7 +10,7 @@
   "UniqueID": "DecidedlyHuman.SmartBuilding",
   "Name": "Smart Building",
   "Author": "DecidedlyHuman",
-  "Version": "1.8.11",
+  "Version": "1.9.1",
   "Description": "Allows you to build fences/walls/paths, etc. in a much more streamlined way.",
   "MinimumApiVersion": "4.0.0",
   "EntryDll": "SmartBuilding.dll",

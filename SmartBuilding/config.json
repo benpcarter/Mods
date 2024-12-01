@@ -2,7 +2,7 @@
   "CancelBuild": "None",
   "CanDestroyChests": false,
   "CommitBuild": "None",
-  "CrabPotsInAnyWaterTile": true,
+  "CrabPotsInAnyWaterTile": false,
   "ShouldControlItemStowing": false,
   "DrawnLayer": "None",
   "DrawTool": "None",
