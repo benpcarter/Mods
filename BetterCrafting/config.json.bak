@@ -21,7 +21,7 @@
   "ShowKeybindTooltip": "ForController",
   "SuppressBC": "LeftShift",
   "ModiferKey": "LeftShift, RightTrigger",
-  "FavoriteKey": "None",
+  "FavoriteKey": "F, ControllerBack",
   "BulkCraftKey": "None",
   "SearchKey": "F3",
   "LeftClick": "Craft",
@@ -48,13 +48,11 @@
   "UseDiagonalConnections": true,
   "DisallowFishSources": true,
   "InvalidStorages": [],
-  "ValidConnectors": [
-    "Wood Path"
-  ],
+  "ValidConnectors": [],
   "EnableCookoutWorkbench": true,
   "EnableCookoutLongevity": false,
   "EnableCookoutExpensive": false,
-  "UseTransfer": false,
+  "UseTransfer": true,
   "AddToBehaviors": {
     "UseTool": {
       "Mode": "All",

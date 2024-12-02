@@ -1,13 +1,13 @@
 {
   "SandboxLayout": "false",
   "LargerGreenhouse": "true",
-  "RemoveGreenhouseObjects": "false",
-  "RemovePicnicTable": "false",
-  "RemoveEasternVerticalFence": "false",
-  "RemoveStonePathways": "false",
-  "RemoveTreeHidingBackyardMouseStatue": "false",
-  "SmallerBackyardFence": "false",
+  "RemoveGreenhouseObjects": "true",
+  "RemovePicnicTable": "true",
+  "RemoveEasternVerticalFence": "true",
+  "RemoveStonePathways": "true",
+  "RemoveTreeHidingBackyardMouseStatue": "true",
+  "SmallerBackyardFence": "true",
   "InstantlyUnlockBridge": "false",
   "InstantlyUnlockDesertShortcut": "false",
-  "MistEffects": "true"
+  "MistEffects": "false"
 }

@@ -1,4 +1,4 @@
 {
   "HoldToCarryNpc": "LeftShift",
-  "AnimalsScaredOfBeingCarried": true
+  "AnimalsScaredOfBeingCarried": false
 }
