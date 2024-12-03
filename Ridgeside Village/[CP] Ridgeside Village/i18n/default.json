@@ -1581,7 +1581,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "event-75160153.09": "See now! It ain't so bad.$h",
 "event-75160153.10": "Turbo here was given to me by the governor's family when I left the city.#$b#He and his family took me in and gave me a job after I saved his cat from getting hit by a car.#$b#Such a weird story, really. Never thought saving a cat would lead me to having my own life!$h#$b#But yeah, he took me in, gave me a job, and eventually, I asked him if I could leave the city.#$b#He was fine with it and gave me one of his old horses.#$b#And, well, I moved into this valley and started a farm.#$b#I was lucky there was this vacant land that the governor used for storage, so I got permission to turn it into a farm.#$b#Been through ups and downs, though. Many times I almost went bankrupt, because I didn't know what I didn't know.$s#$b#But I kept at it. This is my chance to finally live a good life.$h",
 "event-75160153.11": "I gotta say, @, I really admire your hands.#$b#They show how hard you have been working, and I find that amazing.#$b#You're doing great as a farmer, @, keep it up!#$b#I mean... I could say...$l",
-"event-75160153.12": "Oh! No! I won't concede defeat yet!$h#$b#I'm gonna work hard, too!$h#$b#But yeah, I admire you, @.#$b#You're an amazing guy.^You're an amazing girl. A pretty one, too.#$b#Maybe we could be buddies after you admit defeat... Ha! Maybe.^Would you mind if I court you one day, by the way?$h",
+"event-75160153.12": "Oh! No! I won't concede defeat yet!$h#$b#I'm gonna work hard, too!$h#$b#But yeah, I admire you, @.#$b#You're an amazing guy.^You're an amazing girl. A pretty one, too.#$b#Maybe we could be buddies after you admit defeat... Ha! Maybe.^Would you mind if I take you out some day, by the way?$h",
 "event-75160153.13": "Wahaha! I'm just messing with you, @. Ofcourse we're already buddies.^Wahaha! I'm just messing with you, @.$h",
 "event-75160153.14": "A farmer's life is pretty simple, isn't it?#$b#But I do love this kind of lifestyle.#$b#I wouldn't have it any other way, I tell you.$h",
 "event-75160153.15": "Well, I'll be preparing myself for the next harvest now.#$b#Wanna stay for a while and watch me work?#$b#Maybe you'll learn something. Ha!^Maybe you'll fall for me and concede defeat that way?$6",
@@ -4544,7 +4544,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Festivals.IceFest.Ian_spouse": "Are you competing in the fishing tournament?#$e#I'll be cheering for you!$h#$b#Quietly though, since you don't want to scare the fish away.",
 "Festivals.IceFest.Jeric": "Hey @, enjoying the cold?^Looking good, @.#$e#Run in place with me so I don't look stupid alone.^Can't lie, I love a cutie all bundled up.$h",
 "Festivals.IceFest.Jeric_spouse": "Hey, @. Be sure to catch me if I slip and fall on the ice, okay?$h",
-"Festivals.IceFest.Kenneth": "They release the fish after the festival.#$b#They'd just go bad if we didn't.",
+"Festivals.IceFest.Kenneth": "They release the fish after the festival.#$b#Wonder what one Earth the fish think just happened to them. If they CAN think, that is...",
 "Festivals.IceFest.Kenneth_spouse": "All those fish I caught, yet my favorite catch is you.$h#$e#What? Can't a guy use a terrible pickup line once in a while?$h",
 "Festivals.IceFest.Maddie": "Y'all know that one could die from hypothermia right?? RIGHT?#$b#I just don't understand the point of all this.$a",
 "Festivals.IceFest.Maddie_spouse": "Yoba, it's so cold.$a#$b#You're an amazing person and all, but there are some things love can't conquer, and this cold is one of them. I can't wait to go home. And... snuggle.$a",
@@ -4968,7 +4968,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Alissa.Dialogue.Tue8": "Hi there, @! I'm happy to see you today!$h#$b#It's such a nice day today, right?!$h#$e#It's a great day to spend with friends!$h",
 "Alissa.Dialogue.Wed8": "Good day to you, @! It's nice seeing you.$h#$e#I sometimes see the old couple who lives just north of my farm spend time around the second waterfall.#$b#I want what they have someday.$u#$e#What about you, @? Would you like to have a family with someone someday?",
 "Alissa.Dialogue.Thu8": "Hey there, @! Are you visiting?#$b#HEY, TRINNIE! DON'T YOU DARE!$u#$b#That girl's going to get in trouble.$u",
-"Alissa.Dialogue.Fri8": "%Alissa is singing a beautiful song.#$b#~And he comes around my place, looking all worn out from work. I'd been wanting to hold him close...~^~And she comes around my place, looking all worn out from work. I'd been wanting to hold her close...~$6#$b#Oh! Hey, @! What was I singing? Oh, nothing much! Just something I've been dabbling around with!$h",
+"Alissa.Dialogue.Fri8": "%Alissa is singing a beautiful song.#$b#~And he comes around my place, looking all worn out from work. I'd been wanting to hold him close...~^~And she comes around my place, looking all worn out from work. I'd been wanting to help her out...~$6#$b#Oh! Hey, @! What was I singing? Oh, nothing much! Just something I've been dabbling around with!$h",
 "Alissa.Dialogue.Sat8": "Hello, @! I hope you're doing fine today!#$e#Earlier when Auntie was tired during work, Uncle came all the way from their home just to bring her an apple juice and a back rub.#$b#They are just so cute!$h",
 "Alissa.Dialogue.Sun8": "Hi, @! How are you today?#$b#Your company is welcome anytime! I really enjoy hanging out with you! You're a great friend, @!$h",
 
@@ -4976,7 +4976,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Alissa.Dialogue.Tue8.dating": "Hi there, @! I'm happy to see you today!$l#$b#Er-- I mean-- It's such a nice day today, right?!$l#$e#%Alissa starts to talk to herself.#$b#Alissa, you blew it!$7",
 "Alissa.Dialogue.Wed8.dating": "Good day to you, @! It's nice seeing you.$h#$e#I sometimes see the old couple who lives just north of my farm spend time around the second waterfall.#$b#I want what they have someday.$u#$e#EEP! Oh! I mean--! Sorry! That was just a little song of mine on the works! Yeah! That's it! That's all that it was!$7",
 "Alissa.Dialogue.Thu8.dating": "Hey there, @! Are you visiting?#$b#%Alissa then whispers to herself.#$e#I'm glad you did.$l#$b#I MEAN, UM, HEY LOOK IT'S TRINNIE PULLING A PRANK AGAIN!$l#$b#Please disregard what I said earlier!$7",
-"Alissa.Dialogue.Fri8.dating": "%Alissa is singing a beautiful song.#$b#~And he comes around my place, looking all worn out from work. I'd been wanting to hold him close...~^~And she comes around my place, looking all worn out from work. I'd been wanting to hold her close...~$6#$b#Oh! Hey, @! What was I singing? Oh, nothing much! Just something I've been dabbling around with!$l",
+"Alissa.Dialogue.Fri8.dating": "%Alissa is singing a beautiful song.#$b#~And he comes around my place, looking all worn out from work. I'd been wanting to hold him close...~^~And she comes around my place, looking all worn out from work. I'd been wanting to help her out...~$6#$b#Oh! Hey, @! What was I singing? Oh, nothing much! Just something I've been dabbling around with!$l",
 "Alissa.Dialogue.Sat8.dating": "Hello, @! I hope you're doing fine today!#$e#Earlier when Auntie was tired during work, Uncle came all the way from their home just to bring her an apple juice and a back rub.#$b#They are just so cute!$h",
 "Alissa.Dialogue.Sun8.dating": "Hi, @! How are you today?#$b#Your company is welcome anytime! I really enjoy spending time with you!$h",
 
@@ -5682,7 +5682,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Ian.Dialogue.Mon2": "Hey what's up, @?#$b#No, it's fine.#$b#I can do this on my own.",
 "Ian.Dialogue.Tue2": "Robin's a kind boss.#$b#She lets me take a break pretty regularly.$h#$b#Even still, most of my breaks are spent doing work for Pierre.",
 "Ian.Dialogue.Wed2": "He might be rough around the edges, but Pierre is a funny boss.$h#$b#He sometimes cracks good ones while on the job.#$b#He makes work less of a drag.",
-"Ian.Dialogue.Thu2": "Yesterday, Abigail helped me move some boxes.#$b#Her hair looks real pretty.$h#$b#Oh... h-hey!$l#$b#Don't tell her I said that!$a",
+"Ian.Dialogue.Thu2": "Yesterday, Abigail helped me move some boxes.#$b#Her purple hair looks real pretty.$h#$b#Oh... h-hey!$l#$b#Don't tell her I said that!$a",
 "Ian.Dialogue.Fri2": "How's it going, @?#$b#You look like you could use a break.#$b#Haha, who am I to say that?$h#$b#I can't remember the last time I just sat and breathed.",
 "Ian.Dialogue.Sat2": "Philip told me to take some time to rest my body.#$b#I suppose he's right.#$b#That's why I increased my sleep schedule by 10 mins.$h",
 "Ian.Dialogue.Sun2": "Shane's a good buddy of mine.#$b#We both go hang around the lake to drink sometimes.$h#$b#He's a little cranky, but he's a good guy.",
@@ -5720,7 +5720,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Ian.Dialogue.Thu8.dating": "Hi @!#$b#How's it going?#$b#Hey, what's your favorite food?#$b#Why?#$b#Oh nothing.$h#$b#I was just curious.$l",
 "Ian.Dialogue.Fri8.dating": "I helped Robin build your renovation.#$b#Knowing it was for you, I tried my best!$h",
 "Ian.Dialogue.Sat8.dating": "I picked up a book at the library the other day to read by myself.#$b#It was hard.$s#$b#But I managed to read all the way through the Table of Contents!$h",
-"Ian.Dialogue.Sun8.dating": "Hi @!#$b#You look even more handsome today.$l^You look even more beautiful today.$l#$b#Ah, w-wait!$u#$b#I'm sorry!$u#$b#W-was that weird?$l#$b#But... I mean it!$l",
+"Ian.Dialogue.Sun8.dating": "Hi @!#$b#You look even more ghey today.$l^You look even more beautiful today.$l#$b#Ah, w-wait!$u#$b#I'm sorry!$u#$b#W-was that weird?$l#$b#But... I mean it!$l",
 
 //10 Hearts
 "Ian.Dialogue.Mon10": "Hey there, @!#$b#How's the farm going?$h#$b#Just say the word if you need any help today.#$b#I'll always put you first.$l",
@@ -5834,7 +5834,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Jeric.Dialogue.Sun8.dating": "My farm is doing great!$h#$b#Amazing harvest this week, turned a tidy profit.#$e#How about you? Anything neat happen last week?",
 
 //10 Hearts
-"Jeric.Dialogue.Mon10": "Having a good day, handsome?$6^Having a good day, beautiful?$6#$b#Seeing your face takes a weight off my shoulders, I swear.$l",
+"Jeric.Dialogue.Mon10": "Having a good day, ghey boy?$6^Having a good day, beautiful?$6#$b#Seeing your face takes a weight off my shoulders, I swear.$l",
 "Jeric.Dialogue.Tue10": "You need something??#$b#Anything?#$e#If there's any way I can help, I want you to let me know, ok?$l",
 "Jeric.Dialogue.Wed10": "I've got plans for us next time you have a free evening.$l#$b#Just let me know--and make sure to wear something comfortable.$7",
 "Jeric.Dialogue.Thu10": "Hey, hot stuff. Doing good?$6",
@@ -6688,7 +6688,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Philip.Dialogue.winter_7": "You have fishing experience, right?#$b#I'm worried about someone overexerting themselves and pulling something, tomorrow.$s",
 "Philip.Dialogue.winter_14": "The Night Market starts tomorrow?$u#$b#I wonder if they'll have any rare books...",
 //"Philip.Dialogue.winter_15": "Did you see the mermaid?$u#$b#I'm not crazy, right?#$b#That really happened?$u",
-"Philip.Dialogue.winter_16": "I think I need to stop trying to make all this make sense.$s#$b#Mermaids exist, pigs can pull boats, it's fine.$u",
+"Philip.Dialogue.winter_16": "I think I need to stop trying to make all this make sense.$s#$b#Mermaids exist, deer can pull boats, it's fine.$u",
 //"Philip.Dialogue.winter_17": "I don't know how, but they had a first-run copy of Cyberman no. 13!$u#$b#I've wanted this for years!$h",
 "Philip.Dialogue.winter_24": "It'll be a new year soon.#$e#Time sure does fly. Was it a good year for you?$h",
 
@@ -7310,7 +7310,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Yuuma.Dialogue.winter_7": "My brother and I used to go fishing a lot near the waterfalls.$h#$b#That was before he went to the army though.$s",
 "Yuuma.Dialogue.winter_14": "I wonder where these merchants come from.#$b#Do you think they come from the other side of the ocean?#$b#That's where mommy and daddy are working.$h",
 //"Yuuma.Dialogue.winter_15": "Do you think if I gave them a letter, they'd take it to my mom and dad?$h",
-"Yuuma.Dialogue.winter_16": "I asked the lady with the pig.#$b#She said she'd try to take a letter if it had an address on it, but it might take a long time.$s",
+"Yuuma.Dialogue.winter_16": "I asked the lady with the deer.#$b#She said she'd try to take a letter if it had an address on it, but it might take a long time.$s",
 //"Yuuma.Dialogue.winter_17": "I wrote a letter.#$b#I told mom and dad that we're doing okay and I'm doing a good job taking care of Shiro.$h",
 "Yuuma.Dialogue.winter_24": "If you have me as your secret person, please give me something you think Shiro would like.#$b#Why?$u#$b#Oh, no reason. Thank you.$h",
 
@@ -8552,7 +8552,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 ///Rainy Day
 "Shiro.MarriageDialogue.Rainy_Day_0": "Whoops, I woke up a little late today. The rain is making me drowsy...",
 "Shiro.MarriageDialogue.Rainy_Day_1": "I was planning on taking a walk with you today, but it's raining hard.$s#$b# Oh well, I guess we can still do stuff indoors, right?$h",
-"Shiro.MarriageDialogue.Rainy_Day_2": "Good morning handsome. It's raining, so take it easy now, okay? We can have some fun indoors.$h^Good morning beautiful. It's raining, so take it easy now, okay? We can have some fun indoors.$h#$b#I'm looking forward to spending the day with you.$l",
+"Shiro.MarriageDialogue.Rainy_Day_2": "Good morning, handsome. It's raining, so take it easy now, okay? We can have some fun indoors.$h^Good morning, beautiful. It's raining, so take it easy now, okay? We can have some fun indoors.$h#$b#I'm looking forward to spending the day with you.$l",
 "Shiro.MarriageDialogue.Rainy_Day_3": "I miss working out.$s#$b#But Philip and the doc said I'm getting closer and closer to being able to get back to my old routine. I'll do my best! Then maybe we can exercise together!$h",
 "Shiro.MarriageDialogue.Rainy_Day_4": "The rain is pouring down hard. It's kinda relaxing, though. I hope Yuuma's doing okay back home. I know Lenny checks on him, but I still hate that he's there alone so much. Let's visit him sometime soon, okay, @?",
 "Shiro.MarriageDialogue.Rainy_Day_Shiro": "It's a little cold, isn't it, @?#$b#Maybe we can spend the day indoors together and keep warm.$h",
@@ -9256,9 +9256,21 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
 "Offering.Opal.1": "Ah, this relic is an interesting one.#$b#It's associated with a story from the ancient times.#$b#It goes...#$b#'Once, a child born in the month of the opal stone, was brought unto the world with no sight, golden hair, pale skin, and constrained movement.'#$b#'However, even with such misfortunes, the child was loved dearly by his family; in spite of knowing he won't stay in this world for long.'#$b#'But, his oldest sibling took this for granted, and never spent time with the child.'$s#$b#'When the unwelcomed but expected time has arrived, grief struck the family.'$s#$b#'And along with grief, regret held stronger for the eldest sibling. Regret for not spending enough time with his late brother.'$s#$b#'Driven with emotion, this relic was made to remember the child.'#$b#'And since then, the eldest sibling wore this everyday until his last breath.'#$b#The simple story seems to speak about regret for not spending enough time with a loved one.#$b#I sure hope that spirit has healed his wounds.$s#$b#And that's about it! I'll return the relic to you now!$h#$b#I don't think you should offer it here for it is far too valuable for these waters.",
 
+"Offering.Candle.1": "Oh! This actually once belonged to my sister!$h#$b#It's a special relic that prevents Corrupted Spirits from appearing to those who kept these close with them through the night.#$b#You might need this more than me, oh farmer.$h#$b#Thank you for the intention, though!$h",
+"Offering.Frost.1": "Ah! The legendary stone of the winter!$h#$b#This once belonged to the spirit of blizzards and snow.#$b#But it made his power a bit too cold, and it brought sadness to the humans in the village that he established a connection with.$s#$b#It's just a piece of once a powerful artifact, though it's still powerful.#$b#Its cold aura prevents dreaded Wraiths from approaching you, so it may prove useful to you.#$b#So here you go!$h",
+"Offering.Music.1": "Meladila's box! It's here in the village!?$u#$b#Well that's a surprise!$h#$b#This relic was one of the harmony spirit's favorite toys!$h#$b#Its music seems to prevent those hideous Viperials from ever coming near you.#$b#So I'll be returning this to you - I hope it can be of some use.$h",
+"Offering.Hero.1": "Oh! Isn't this Cyril's statue?$h#$b#He was once a brave adventurer who saved this village from a hoard of Serpentine Beasts.#$b#In his final days, he was also the one who taught your grandmother how to fight.#$b#This statue commemorates his memory, though some mysterious flash of light seemed to wipe out the memories of the locals about this.$s#$b#So his stories of heroism are now lost.$s#$b#I'm surprised you found this relic though.$h#$b#It wards off any Serpentine Beast in the forest.#$b#So I'll be returning this back to you.$h",
+"Offering.OldFox.1": "Isn't this?$l#$b#Yes... It's hers...$l#$b#A bundle of my fur, a piece of my sister's scarf, and her special green rubber band to tie them all as one.$4#$b#This was her lucky charm. It means so much to me to have it once more...$4#$b#Please receive this blessing, dear farmer.$4",
+"Offering.OldFox.2": "You now have max luck for the rest of the day!",
+"Offering.mistbloom": "Oh! These flowers sure are beautiful, aren't they? And rare, too!$1#$b#I know how hard they are to come by, so I'll bless you with a chance to get some again tomorrow.#$b#Thank you, dear farmer.$1",
+"Offering.amancay": "Ah, what a gorgeous flower! Its petals reflect the sunlight so beautifully.$4#$b#You've inspired me, farmer! Tomorrow we will all be blessed with sunny weather.$1#$b#Thank you, thank you!$1",
+"Offering.loverPie": "Oh, isn't this sweet!$1#$b#You know, I heard that it's a tradition in the village to give this to someone you love... Perhaps this blessing will help you out in that arena?$4#$b#No, I won't explain what it is! Perhaps you'll find out tonight, oh farmer.$4",
+"Offering.fairyFish": "Oh! I thought I saw you fishing here the other day!$1#$b#The mermaids say these fish are what fairies look like beneath the water... If it's true, maybe this fairy will visit you tonight!$1#$b#Thank you, dear farmer!$1",
+"Offering.nightblack": "Oh, my! You braved that monster-infested forest in the dark just to bring this to me? Thank you, farmer!$1#$b#This rock is not of this earth, you know. Perhaps... Perhaps I can show you it in its original form?#$b#It will be difficult, but I'll do my best to bring you a blessing tonight, oh farmer!$1",
+
 "MapString.rsv.summitgrave1": "'May the spirit of the mountain guide your soul towards Yoba's arms.'#'Rest well, Rafael.'",
 "MapString.rsv.summitgrave2": "'This beautiful land shall forever remember your love and care as you took care of it.'#'Sleep well, Marese.'",
-"MapString.rsv.summitmail": "'Tillo Residence'#There's an etched text...#'You made it...'",
+"MapString.rsv.summitmail": "'Tillo Residence'#There's some text etched into it...#'You made it...'",
 "MapString.rsv.summitkitchen": "The kitchen is in a state of disrepair.",
 "MapString.rsv.hikenote": "Stargazing guide for Cookie:#The stars are most visible after 11 PM on a clear night.#Don't stray too far from the house, okay?#- A.",
 
@@ -10352,7 +10364,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Blair.Dialogue.Wed10": "Hey, @! Can you close your eyes for me for just a second?#$b#Okay, now open them.#$b#Now, did you see how my world would be without you?$6#$b#Haha, just kidding. I like it when your cheeks turn red!$h#$b#*giggles* How are things around town today?$h",
 "Blair.Dialogue.Thu10": "%Blair seems to be daydreaming.#$e#Whoa! My head was on the clouds!$h#$b#Thanks for waking me up, bestie!",
 "Blair.Dialogue.Fri10": "Although my mom explained why she didn't like my dad, I still miss him.$s#$e#Thanks a lot for comforting me, bestie!$h",
-"Blair.Dialogue.Sat10": "I'm really glad you stuck around here big guy!^I'm really glad you stuck around, @.#$b#You're one of the best people to come into town.$4",
+"Blair.Dialogue.Sat10": "I'm really glad you stuck around here, big guy!^I'm really glad you stuck around, @.#$b#You're one of the best people to come into town.$4",
 "Blair.Dialogue.Sun10": "Heya, @!#$b#Thank you for listening to my problems.#$b#I feel like I'm a big burden to you sometimes.$s",
 
 //BRYLE DIALOGUE
@@ -11417,7 +11429,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "keahiprank.Sonny": "Oh! Mr. @!^Oh! Ms. @!$u#$b#It's very obvious that Mr. Keahi is involved in all of this.$a#$b#I suggest a good bath to wash it off. ",
 
 //Introduction
-"Sonny.Dialogue.Introduction": "Hello. You must be Mr. @!^Hello. You must be Ms. @!#$b# Welcome to the Valley! My name is Sonny, I am the Amethyne family butler. $h#$b# It's always a pleasure when a new face comes to the region.$h#$b# I have errands to attend to now. May Yoba bless your journey, young @.$h",
+"Sonny.Dialogue.Introduction": "Hello. You must be Mr. @!^Hello. You must be Ms. @!#$b# Welcome to the Valley! My name is Sonny, I am the Amethyne family butler. $h#$b# It's always a pleasure when a new face comes to the region.$h#$b#I have errands to attend to now. May Yoba bless your journey, young @.$h",
 
 //rain
 //"Sonny.Dialogue.Rain1": "Oh hello, Mr. @! Sorry, you startled me. $u#$b#^Oh hello, Ms. @! Sorry, you startled me. $u#$b# There is a magical thing about rain that always makes me lost in thought. #$b# It feels like Yoba's blessing is falling upon us all, and nature can continue its cycle. $4",
@@ -11665,20 +11677,20 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Festivals.IceFest.Maive": "This festival is just a waste of time and resources.#$b#You spend so much time waiting for the fish, but if you catch one they just tell you to let it go at the end of the day.",
 "Festivals.IceFest.Louie": "The ice sculptures are cool! I'll ask grandmother if I can have one for my birthday.$h",
 "Festivals.IceFest.Irene": "This time, I'm staying as far away from the holes as possible.$a",
-"Festivals.IceFest.Sonny": "I'm glad the fish are returned to the pond after the contest. It's wrong to disturb the natural balance for sport. ",
+"Festivals.IceFest.Sonny": "I'm glad the fish are returned to the pond after the contest. I don't really care for the smell. ",
 "Festivals.IceFest.Paula": "Remember to keep track of your temperature.#$b#If you ever feel unwell, don't hesitate to approach me, Philip, or Dr. Harvey.",
 "Festivals.IceFest.Carmen": "Ay, my daughter thinks she's the best angler in town. Hah!$4#$b#How can she forget where those genes come from?$4",
 "Festivals.IceFest.Blair": "Good luck on the contest later!$7#$b#May the best fisher win.$7#$b#Which is me, of course!$h",
 "Festivals.IceFest.Lorenzo": "I don't know how to fish.$h#$b#I'd like to learn one day, though.",
 "Festivals.IceFest.Shanice": "Where can I get a cup of hot coffee around here?$s#$b#I need to warm up.$s",
 "Festivals.IceFest.Anton": "Those ice sculptures look really good.$h",
-"Festivals.IceFest.Kiarra": "I got Lewis to equip the poles with these more humane hooks. It seems like a small thing, but I'm glad he listened!",
+"Festivals.IceFest.Kiarra": "Seems like a waste to do all this work and then release the fish. Fried fish a la Ridge sounds fantastic right now!",
 "Festivals.IceFest.Sean": "Lemme tell you, igloo building is NOT as easy as it looks. I don't know how the old hermit does it.",
 "Festivals.IceFest.Faye": "I tried building a snowman, but it fell apart right away. I guess snow is harder to work with than cloth and sequins.",
 "Festivals.IceFest.Malaya": "Too... cold...$u#$b#I should've brought more coats!$s",
 "Festivals.IceFest.Kimpoi": "The cold never really bothered me.#$b#I'm more worried about my wife... She isn't really fond of this season.$s",
 "Festivals.IceFest.Naomi": "I wonder what's going on in Yuuma's head.#$b#He's been staring at the other kids for a while but he insists he stays here.$s",
-"Festivals.IceFest.Daia": "Fishe are gross.$6",
+"Festivals.IceFest.Daia": "Fish are gross.$6",
 "Festivals.IceFest.Daia_spouse": "Baby! I'm cold!$a#$b#After hooking some fish come and hook me, too, okay?$a#$b#That's a promise! Yay! I'll be waiting then.$7#$e#Go win quickly!$h",
 "Festivals.IceFest.Torts": "*Makes snow turtle-angel*",
 
@@ -12636,7 +12648,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 // Ysabelle 14 heart event part 1
 "event-75160239.01": "Love!$h#$b#OH MY!$h",
 "event-75160239.02": "Okay, so here's the gist.#$b#Grandpa has been thinking of adding a ballroom for the hotel.#$b#And he recently set up a prototype to see if it would work.#$b#I don't know what he meant by it, but all I know is he invited us both to see it!$h#$b#We'll judge if the design's good or not, something like that.$h",
-"event-75160239.03": "Ah! I'm excited!$h#$b#It's been a while since I've been a ballroom, so pardon my enthusiasm.$13",
+"event-75160239.03": "Ah! I'm excited!$h#$b#It's been a while since I've been in a ballroom, so pardon my enthusiasm.$13",
 "event-75160239.04": "I'll meet you at the Log Cabin Hotel, okay?$h#$b#Let me just prepare some stuff!$h",
 "event-75160239.05": "Oh, nothing much.#$b#Just snacks and whatever.$h#$b#I'll see you there, okay love?$h",
 "event-75160239.06": "A ballroom! Ahh!!!$h",
@@ -13035,13 +13047,6 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "event-afterEggHunt.04": "And now, the winner of this year's egg hunt...",
 "event-afterEggHunt.05": "Here's your prize! Enjoy.",
 "event-afterEggHunt.06": "Well, that's it for this year's Egg Festival. Thanks for coming, everyone!",
-
-// Raeriyala relic offering responses
-"Offering.Candle.1": "Oh! This actually once belonged to my beloved!$h#$b#It's a special relic that prevents Corrupted Spirits from appearing to those who kept these close with them through the night.#$b#You might need this more than me, oh farmer.$h#$b#Thank you for the intention though!$h",
-"Offering.Frost.1": "Ah! The legendary stone of the winter!$h#$b#This once belonged to the spirit of blizzards and snow.#$b#But it made his power a bit too cold, and it brought sadness to the humans in the village that he established a connection with.$s#$b#It's just a piece of once a powerful artifact, though it's still powerful.#$b#Its cold aura prevents dreaded Wraiths from approaching you, so it may prove useful to you.#$b#So here you go!$h",
-"Offering.Music.1": "Meladila's box! It's here in the village!?$u#$b#Well that's a surprise!$h#$b#This relic was one of the harmony spirit's favorite toys!$h#$b#Its music seems to prevent those hideous Viperials from ever coming near you.#$b#So I'll be returning this to you - I hope it can be of some use.$h",
-"Offering.Hero.1": "Oh! Isn't this Cyril's statue?$h#$b#He was once a brave adventurer who saved this village from a hoard of Serpentine Beasts.#$b#In his final days, he was also the one who taught your grandmother how to fight.#$b#This statue commemorates his memory, though some mysterious flash of light seemed to wipe out the memories of the locals about this.$s#$b#So his stories of heroism are now lost.$s#$b#I'm surprised you found this relic though.$h#$b#It wards off any Serpentine Beast in the forest.#$b#So I'll be returning this back to you.$h",
-"Offering.OldFox.1": "Isn't this?$l#$b#Yes... It's hers...$l#$b#A bundle of my fur, a piece of my beloved's scarf, and her special green rubber band to tie them all as one.$4#$b#This was her lucky charm.$4#$b#Please take care of it, dear farmer.$4",
 
 //Island dialogue for 2.0 NPCs
 	"Anton.Dialogue.Resort_Entering": "Nice!$h#$b#I'm gonna make a beeline for the bar before I clock out in a lounge chair.$h",
@@ -17578,8 +17583,8 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 	"ezekiel_cavecarrot.reactiontext": "Bah, this tastes disgusting. Though it does remind me of old times.#$b#Thanks.",
 
 	"freddie_shadowbrute.title": "Brutal Shadows",
-	"freddie_shadowbrute.description": "Serpentine Beasts are dangerous feral creatures. Slay some Serpentine Beasts to bring peace to the village. Go forth, young adventurer. \n        -Freddie. \n \n- 3000g on Completion",
-	"freddie_shadowbrute.objective": "Slay 10 Serpentine Beasts",
+	"freddie_shadowbrute.description": "Shadow Brutes are dangerous feral creatures. Slay some Shadow Brutes to bring peace to the village. Go forth, young adventurer. \n        -Freddie. \n \n- 3000g on Completion",
+	"freddie_shadowbrute.objective": "Slay 10 Shadow Brutes",
 	"freddie_shadowbrute.reactiontext" : "You have done a great job, young adventurer! You have made this village a little bit safer.$h",
 
 	"freddie_pepperrex.title": "A Wonderful Hobby",
@@ -18925,14 +18930,14 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "June.secondChance_Boys": "Okay, maybe I overreacted...$3",
   "June.reject_two_heartA": "Um... I'm sorry, but... pass.$7",
   "June.reject_two_heartB": "I'm sorry, but I don't move that fast...$7",
-  "June.reject_four_heartA": "Oh... Sorry, @, but I think we're better off as, well, acquaintances.$7",
+  "June.reject_four_heartA": "Oh... Sorry, @, but I think we're better off as, well, friends.$7",
   "June.reject_four_heartB": "Huh? ...Well, this is awkward. Sorry, but no...$7",
   "June.engageA": "@, what are you doing? You're already engaged.$6",
   "June.engageB": "Uh, you know you're getting married in a matter of days, right?$6",
   "June.marriedA": "Are you serious? This is awfully rude to your spouse, you know.$5",
   "June.marriedB": "You think I would want to marry someone who cheats on their spouse?$5",
-  "June.refusal_no_heartsA": "...Sorry, who are you?$6",
-  "June.refusal_no_heartsB": "...Um, do I know you?$6",
+  "June.refusal_no_heartsA": "...Is this some kind of joke?$6",
+  "June.refusal_no_heartsB": "Wow, what a beautiful necklace! The glazework on that shell is exquisite.$1",
   "June.refusal_knownA": "I'm sorry, @, but I'm not ready for that quite yet.$7",
   "June.refusal_knownB": "I don't mean to disappoint you, but I just don't see us like that.$7",
   "June.refusal_botherA": "Please just stop. I don't have time for this.$5",
@@ -19033,8 +19038,8 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "June.seven_heart.19": "Later, @.$2",
   "June.seven_heart.after": "...What? I'm fine.$3",
 
-  "June.eight_heart.1": "@? What are you doing here?$7",
-  "June.eight_heart.2": "Actually, I'm glad you came. What happened by the Saloon... I feel like I should explain.$2",
+  "June.eight_heart.1": "...@? So you must've seen my letter, then.$7",
+  "June.eight_heart.2": "I'm glad you came. What happened by the Saloon... I feel like I should explain.$2",
   "June.eight_heart.3": "So, before I came here, I worked at a jazz bar in Zuzu City. It was everything I'd ever wanted in my music career.#$b#Every day I got to push my creative limits and play whatever came to me, surrounded by musicians who truly exceled at their instruments.#$b#It was honestly a dream come true.$1",
   "June.eight_heart.4": "But, I don't know... Something about it just didn't feel right. And for the life of me, I couldn't figure out why.$2#$b#Then one day I was smoking in the back alley, and I realized that... I didn't like who I was anymore.$2#$b#I couldn't even remember when I'd first picked up smoking, but I knew I didn't before I got there.$2",
   "June.eight_heart.5": "The jazz club environment was a lot of fun, don't get me wrong, but it was almost too fun.#$b#I was always fulfilled musically, so I stopped challenging myself in other areas, and eventually the apathy became depression...$2",
@@ -19494,7 +19499,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "GuestDialogue.49": "I noticed there are some kids in this village, but no schools!#Homeschool or freedom?",
 "GuestDialogue.50": "I was walking past by the Blooming Hill farm and I saw a chicken outside the coop!#I hope it doesnt stay outside when it's dark. ",
 "GuestDialogue.51": "I heard the Mayor talking about a very spicy romance book.#It sounded interesting tho! ",
-"GuestDialogue.52": "Who do you think would win in a fight, the brunette at the restaurant or the dark-haired girl that lives in the shop down in Pelican? They're both pretty buff.",
+"GuestDialogue.52": "Who do you think would win in a fight, the brunette at the restaurant or the purple-haired girl down in Pelican? They're both pretty buff.",
 "GuestDialogue.53": "I decided to try out my amateur radio setup while I was here, and I found someone else to talk to! He thought I was a pilot at first, haha.",
 "GuestDialogue.54": "My doc got me an appointment with a local physical therapist while I'm out here.#He was real good, but wouldn't stop talking about something called 'Incrediman'.#I was fascinated, but I still have no idea what it is, to be honest.",
 "GuestDialogue.55": "I saw some blonde girl in the woods to the south taking photos... think she has a portfolio?",
@@ -19628,7 +19633,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "MovieData.Bryle.WinterMovie1.Dislike.AfterMovie": "It was... interesting? Thanks for the invite anyway.$s",
 
 //New Faye and Bryle events
-  // Faye 6 heart
+  // Faye 8 heart pt 1
   "event-75160319.01": "Greetings, Miss Faye!",
   "event-75160319.02": "What the-!?!?$3",
   "event-75160319.03": "Hi dear!",
@@ -19773,7 +19778,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "event-75160319.75160319NOOptions.40": "Ooooh! I better start planning right away!$h#$b#Oh yes! And saving up for it as well.$h",
   "event-75160319.75160319NOOptions.41": "But first! A visit to Pika's!$h#$b#All this emotion, drama, and inspiration has left me absotively famished!$u#$b#Why don't you come with, @?$h",
   "event-75160319.75160319NOOptions.42": "*burp* Ah! Now I feel like I could plan a fabulous fashion show!$h",
-  // Faye 8 hearts pt 2
+  // Faye 8 hearts pt 3
   "event-75160449.01": "@! You came! Wonderful!$h#$b#Just a minute.",
   "event-75160449.02": "Pst! Faye! Does @ know about our little secret?$4",
   "event-75160449.03": "Shh! Yes! It's such a fun little secret!$h#$b#Everyone thinks I'm just helping out this anonymous designer.#$b#Even my parents!$h",
@@ -19951,7 +19956,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "event-75160449.75160449Brayle.99": "The event was fun!#Faye and Bryle seems happy with how it all turned out.",
   "event-75160449.75160449Brayle.100": "Unlocked new clothing at Faye's shop!",
   "event-75160449.75160449Brayle.101": "*Yawn* I think I need a beauty rest...$6",
-  // Faye 8 hearts pt 1
+  // Faye 8 hearts pt 2
   "event-75160320.01": "@! I. Have. Fabulous news!$h#$b#I've done it!!!$h#$b#It took a while but it's all ready!$h",
   "event-75160320.02": "My fashion show, silly!$h#$b#A number of sleepless nights and drowsy work days but I'm like, really ready to show off my collection!$h#$b#I call it the \"Dream Fairytale Collection\"!$h",
   "event-75160320.03": "It's going to be fantastically fabulous, @!$h#$b#It'll all be ready in 3 days.#$b#So as a wonderful friend of mine, I wanted to personally invite you.$h#$b#You kept being a good friend to me even when I was super busy with preparing for all this.$l#$b#So I want you to be there, okay?$h",
@@ -20722,7 +20727,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
  // Jio re-write
   "Jio.summit.1": "...This world has never belonged to me, and yet I've never belonged to my own world. From my earliest memory, all I'd ever known was that desolate feeling.",
  	"Jio.summit.2": "But since the moment I chose to devote my life to you, that cynical thought never crossed my mind again.#$b#What I am, what I'm supposed to be... None of that matters to me anymore. My values are no longer dictated by what others have and I lack.#$b#Whatever world has you in it - that's where I belong. Next to you, now and forever more.$9",
- 	"Festivals.EggFest.Jio_spouse": "This event is an excellent opportunity for the young ones to hone their tracking and observation skills from an early age.$8#$b#Of course, you are far too clever to find it more than a mere game, my beloved.$8#$b#Still, should you wish to participate, I would be happy to offer my aid.$1#$b#Perhaps I could use my skills in sabotage against the dark-haired sword wielding girl?",
+ 	"Festivals.EggFest.Jio_spouse": "This event is an excellent opportunity for the young ones to hone their tracking and observation skills from an early age.$8#$b#Of course, you are far too clever to find it more than a mere game, my beloved.$8#$b#Still, should you wish to participate, I would be happy to offer my aid.$1#$b#Perhaps I could use my skills in sabotage against the purple-haired girl?",
  	"Festivals.FlowerDance.Jio_spouse": "I have studied the steps of this \"flower dance\"to perfection. I am confident that I will be up to the task at hand.$8#$b#...I am also quite confident that I will pale in comparison to the unparalleled brilliance of your beauty, my flower.$9",
  	"Festivals.Luau.Jio_spouse": "Kiwi is assisting me in ridding the soup of any potential poisonous agents, but...$s#$b#Well, should we fall, at least I will have died by my true love's side.$7",
  	"Festivals.Jellies.Jio_spouse": "I asked Bliss to keep an eye on the flow of magic in this area tonight in my stead, so that I may experience this spectacle by your side.#$b#Although even now, I know that I have already laid eyes upon the most breathtaking sight there is this night.$9",
@@ -21300,8 +21305,8 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "objects.matcha-latte.description": "Coffee and green tea live in perfect harmony.",
   "objects.mistbloom-syrup.name": "Mistbloom Syrup",
   "objects.mistbloom-syrup.description": "Squeezed nectar from Mountain Mistblooms, this strange liquid can help cure nausea.",
-  "objects.moose-statue.name": "Moose Statue",
-  "objects.moose-statue.description": "A sculpture of an ancient species of moose. It seems to emit a mysterious aura.",
+  "objects.moose-statue.name": "Great River Spirit Statue",
+  "objects.moose-statue.description": "A sculpture of a long-forgotten deity.",
   "objects.mountain-arugula.name": "Mountain Arugula",
   "objects.mountain-arugula.description": "A cool-weather crop found in mountain ridges. According to the locals, it gives a temporary boost in luck.",
   "objects.mountain-chico.name": "Mountain Chico",
@@ -21490,16 +21495,29 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
         "AguarSOLetter.text": "@,^Excellent work on the geodes. These are clearly very high-quality specimens. In case I require your aid again, I think it best that you have a faster way to get to the village. Perhaps this will be of use.^^- Aguar^P.S. You didn't learn this from me...",
 
         // June
+		"Mail.JuneLetter": "@,^Well, after last night, I guess I owe you an explanation... Or maybe you don't even care for one, but still -- this has been weighing on me all night, so I'd appreciate it if you would hear me out. If it's alright, would you meet me at the beach so we can talk? I'll be there from noon til the sun sets or so... I hope to see you there.^^Best,^June",
         "June.PlatonicArrival.title": "Notice From Hotel",
         "June.PlatonicArrival.text": "Dear @,^^The Log Cabin Hotel is pleased to announce that our resident musician will be returning tomorrow for the fall and winter seasons of this year. Perfomances will be held from 5 PM to 9 PM Thursdays through Saturdays, and from noon to 3 PM on Saturdays and Sundays. We look forward to your attendance.^^Hotel Management",
         "June.PlatonicDeparture.title": "Goodbye Note From June",
         "June.PlatonicDeparture.text": "Dear @,^^Unfortunately my residence at the Log Cabin Hotel is over for the year, so I'll have left the village early this morning by the time you read this letter. I wish you a good new year, and I look forward to seeing you upon my return in the fall.^^Best,^June",
-        "June.RomanticArrival.title": "June's Surprise",
-        "June.RomanticArrival.text": "Dear @,^^I wrote this letter on the bus over and snuck it into your mailbox as soon as I got off. If you're reading this it means I'm back at the hotel - it also means you're wasting time reading this letter when you could be spending time with me!! So get on over here and let's make up for some lost time - you and I both have a lot of cramming to do...^^I'm waiting,^June",
-        "June.RomanticDeparture.title": "June's Goodbye",
+        "June.RomanticDeparture.title": "Goodbye For Now",
         "June.RomanticDeparture.text": "Dear @,^^I'm writing this letter to you in the dead dark of 3 AM, on top of the post box by the clifftop cable car station. I'll soon be taking my final ride down the mountain for the year. I'll get to see the roof of your farm one last time, and that will be my last glimpse of you till next fall... As you sleep in your cozy little farmhouse, I wonder if you're dreaming of me the same way I'll be dreaming of you every night for the next half year? Luckily the memories we've made are more than enough to keep me up in these clouds till I can see you again. Don't forget me, and I promise to do the same.^^All my love,^June",
-        "June.RomanticSummer.title": "Love Letter From June",
+        "June.Week1.title": "",
+        "June.Week1.text": "Dear @,^^I was planning on sleeping during this bus ride to the airport, but it seems my body's just not interested in sleeping without you by my side. So here I am, writing to you again, not two hours after writing you last. Of course, I won't be able to send this letter until tomorrow at the earliest, and then it'll take who knows how long to reach you... I can't help but wonder what you'll have been up to by the time you read this. Knowing you, @, I'm sure you've been running around non-stop, like you always do. I remember how you were telling me that Spring is particularly busy for farmers, right? I know you have to work and all, but... if I'm gone, then who's going to make sure you get the rest you need? That you remember to drink plenty of water, and don't skip any meals by accident? Stay out of the sun when you can, and put sunscreen on when you can't? (And reapply regularly, of course! My baby is absolutely forbidden from getting skin cancer with me away!) Ugh, this sucks already... Promise me you'll take care of yourself, okay? I know, I know, I'm worrying needlessly, but I just miss you so, so much, and writing to you is the only thing that seems to put my nerves at ease. That, and reminiscing about our time together, of course... Maybe I'll put the pen down for now and imagine that radiant smile of yours, and hopefully then sleep will find me.^^Hopefully dreaming of you within the hour,^June",
+        "June.Week2.title": "",
+        "June.Week2.text": "Dear @,^^Remember how I ended my last letter hoping that I would dream about you? Well, I did, and I've been seeing you in my dreams every night since. In fact, I saw you again just last night -- and a lot of you, at that. So much that writing this letter is the second thing I did after waking up. (I can practically see that face you're making at me right now, and I'll have you know that I had no choice! Or else my fingers would've been drifting off the keys all day.) My focus is still shot, of course, but that can't be helped -- My mind is consumed with thoughts of you no matter what, and I've got to say, it's become quite the familiar feeling. It's warm cozy, just like when I wrap my coat around you and hold you in my arms to warm you up in the cold. Ah, speaking of which, perhaps a cold shower will snap me out of this spell you've cast on me from across the continent? We'll see.^^Not cold at all right now, not even a little bit,^June",
+        "June.Week3.title": "",
+        "June.Week3.text": "Dear @,^^Today is the thirteenth, which means it's the Flower Dance in Pelican Town. And as glad as I am to be far, far away from all that pollen and heteronormativity, I have to admit that there's a small part of me (okay, fine, a big part) that wishes I were there to share it with you. Just the thought of holding you close, spinning you in my arms, dipping you and hearing your brilliant laughter in response, brighter than any sunny Spring day... Honestly, I would down a bottle full of antihistamines to be there if I could, seasonal allergies be damned. Maybe one day I'll have a reason to stay and spend it with you... Til then, I'll just be here alone in this tiny hotel room, turning green with envy as I wonder who exactly got to dance with my love amongst the flowers. Don't worry, I won't hold a grudge against them -- so long as they don't take for granted how damn lucky they are.^^Lovesick,^June",
+        "June.RomanticSummer.title": "",
         "June.RomanticSummer.text": "Dear @,^^It's hard to believe it's only been a month since I last saw you when it feels like a lifetime. I just want you to know that not an hour goes by I don't think about you. That may sound like I'm moping, but what I mean to say is - I really do cherish our memories together. You brighten my world so much, even when you're not physically in it.^^Missing you always,^June",
+		"June.Week5.title": "",
+        "June.Week5.text": "Dear @,^^I've been thinking a lot lately about adversity. In other words, yes, I've been moping... but no more than I usually do, I promise! Anyway, what I meant to say is - sometimes, life decides to throw you a curveball to test your mettle, be it having to start your life over from scratch in a literal one-horse town, or not being able to see the love of your life for half a year. There’s no point in getting angry or upset, since there’s really no way around it, and trying to find one will only end in frustration. So I’ve decided to use this opportunity to flip the script on the fates and show them that no matter what they try to do to me, they can’t wear me down. I’ll come out of it with my heart deeper, my world view wider, and my connections to those I love even stronger. I hope you’re able to do the same.^^In this together with you,^June",
+        "June.Week6.title": "",
+        "June.Week6.text": "",
+        "June.Week7.title": "",
+        "June.Week7.text": "",
+        "June.RomanticArrival.title": "Surprise, Dear!",
+        "June.RomanticArrival.text": "Dear @,^^I wrote this letter on the bus over and snuck it into your mailbox as soon as I got off. If you're reading this it means I'm back at the hotel - it also means you're wasting time reading this letter when you could be spending time with me!! So get on over here and let's make up for some lost time - you and I both have a lot of cramming to do...^^I'm waiting,^June",
 
 //Shops
 	"RSVJericShop": "Hey! How can I help you?",
@@ -21712,5 +21730,24 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "RSV.cjbwarps.spiritrealm": "Spirit Realm",
 "RSV.cjbwarps.summitfarm": "Summit Farm",
 
+/Faye 6 heart
+  "event-75160416.01": "Hi, @!$h#$b#Wait up just a sec. I'm waiting for Keahi.",
+  "event-75160416.02": "Almost done, Faye!$h",
+  "event-75160416.03": "Hey come on and make it look pretty, Keahi.",
+  "event-75160416.04": "That fabulous father-and-son duo wanted me to try Keahi's take on an Omelette!$h#$b#Isn't that fabulous?!$h",
+  "event-75160416.05": "Done!$h#$b#Let's go! Woop woop!$h",
+  "event-75160416.06": "OMY It's here!$h",
+  "event-75160416.07": "Try it! Try it!$h",
+  "event-75160416.08": "Thanks again for humouring his request, Faye.#$b#Don't worry! This little man has some decent cooking skills.$h",
+  "event-75160416.09": "You know I'm always welcome for a meal!$h#$b#It looks fabulous!$h",
+  "event-75160416.10": "Dig in! Dig in!$h",
+  "event-75160416.11": "Fabulously delicious!$h",
+  "event-75160416.12": "Yay! Faye said it was tasty, Dad!$h",
+  "event-75160416.13": "Good job, kiddo!$h",
+  "event-75160416.14": "Hey @! Come eat some with me.$h#$b#Hold on. One more big bite then it's all yours.",
+  "event-75160416.15": "*munch munch* Wait! Last bite! I swear!$8",
+  "event-75160416.16": "*munch* Wait I swear this is the last bite!$8",
+  "event-75160416.17": "Faye eventually only managed to spare you a spoonful of Omelette.#It sure was tasty though!",
+  "event-75160416.18": "*Burp* I'm so sorry I got carried away! It was just so tasty!$h",
 
 }

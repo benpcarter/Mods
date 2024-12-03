@@ -7,6 +7,15 @@
     "config.AllowNagito.description": "If set to true, Nagito's house will move to East Scarp",
     "config.BeatriceAltPortraits.description": "Sets Fellowclown's alternative Beatrice portraits if Beatrice is installed",
     "config.GenderNeutral.description": "Set to 'true' for NPCs to use fake and made up retarded pronouns for farmer",
+	"FairyPenguin.Inspection.1": "Brawk?",
+    "FairyPenguinChick.Inspection.1": "What sort of bird is this? It looks like a ball of fuzz!",
+    "FriendGull.Inspection.1": "Friend Gull wonders if you have any chips.",
+    "Munchboi.Inspection.1": "Baron Munchington does not look impressed.",
+    "VoidBilly.Inspection.1": "This goat looks like he has attitude.",
+    "VoidNanny.Inspection.1": "There's something weird about this goat.",
+    "VoidKid.Inspection.1": "There's something weird about this goat.",
+    "LittleGruff.Inspection.1": "The kid regards you with uncanny intelligence.",
+    "Alpaca.Inspection.1": "The alpaca clicks at you in an amicable fashion.",
     //Locations
     "EastScarp.Locations.VetAwayWarp": "Vet is away on work",
     "EastScarp.Locations.TNPCWaitingRoom": "The NPC Waiting Room",
@@ -387,6 +396,7 @@
     // luau
     //*************
     "festivals.beatrice.summer11": "Mmm, this roast smells délicieuse!",
+	"festivals.beatrice.summer11.2": "Willy has such tales of the sea.$1",
     "festivals.eloise.summer11": "Dancing's so silly! I hope we haven't scared all the birds away.",
     "festivals.eloise.summer11.2": "Have you tried this miniature food? They're all bite-sized so you can eat everything!$1",
     "festivals.jacob.summer11": "Hello @. Just grabbing a little space to myself.",
@@ -426,6 +436,7 @@
     "festivals.rosa.summer28.false": "Howdy @, these little jellies are pretty amazing... If they have no brains, how do they remember the route?",
     "festivals.rosa.summer28.juliet": "Sometimes I feel like my sole purpose is to stop Juliet diving into the water...$2#$b#I guess someone's got to be the responsible grown up, right?$1",
     "festivals.tori.summer28": "These little guys are almost as adorable as slimes. I wonder if they're related.",
+	"festivals.linus.summer28.2": "I thought no one was using this dock, until this ship sailed in.#$e#I hope no one minds... I like watching the jellies, too.",
     // fair
     //*************
     "festivals.aideen.fall16.single": "Are you intending to get your fortune told, @?#$b#Oh! I've already had mine! Apparently my quest for a suitor shall be fulfilled before the year reaches its end!$4",
@@ -1833,7 +1844,7 @@
     "ESOrchard_part2.01": "East Scarp was a mining town in those days, full of people - and she's written about all of them. Mr. Mullner included!$1#$b#There's illustrations too. Although she's not the best artist.",
     "ESOrchard_part2.02": "Life was pretty rough, and by her accounts, it seems her grandfather was probably in the stages of advanced dementia.$2",
     "ESOrchard_part2.03": "Yet, she writes with humor, insight, and a touch of melancholy.",
-    "ESOrchard_part2.04": "It's crazy, but I think I might be a little bit in love with her.$5",
+    "ESOrchard_part2.04": "It's crazy, but I feel like I know her better than I do the people around me.$1",
     "ESOrchard_part2.05": "The last fifty pages or so... they're just sort of melted away. Whatever was written on them is impossible to read.$2",
     "ESOrchard_part2.06": "I wonder what happened to her?",
     "ESOrchard_part2.07": "I'm sure she left town and lived her best life.", //farmer
@@ -4203,7 +4214,7 @@
     "Aideen_refusal_knownA": "I'm afeared you are not what I seek in a suitor, @. I am truly sorry.$6",
     "Aideen_refusal_knownB": "Please, let us not rush things. We must prove well suited before I can commit.$6",
     //question responses
-    "Aideen_102": "Next door? Oh, surely not Sterling, he may exude a certain boyish charm, but no, he is barely civilized!$3#$b#Or do you mean Dr Jacob? Hmm... well, he is certainly kind and we have, on occasion, engaged in a rousing discussions of literature and the arts.$1#$b#Also, Baron Munchington is certainly fond of him. But I fear he would regard me as a mere shadow of his wife.$2",
+    "Aideen_102": "Next door? Dr Jacob? Hmm... well, he is certainly kind and we have, on occasion, engaged in a rousing discussions of literature and the arts.$1#$b#Also, Baron Munchington is certainly fond of him. But I fear he would regard me as a mere shadow of his wife... and Eloise is sweet, but perhaps a little TOO much.$2",
     "Aideen_103": "Why, Mr @!$4^Why Ms @!$4#$b#Are you wishing to court me?$7#$b#Well, you do exude a quaint rural charm.$1^I have never been courted by a lady before! This is most illuminating.$1#$b#And I have certainly grown fond of you. But love? Well, perhaps our tale is a slow burn, rather than a quick spark, yes?$7",
     "Aideen_104": "Baron Munchington is certainly fine company, although he is not noted for his conversation.#$b#And I guess that I hoped I one day might have both.",
     "Aideen_105": "Such a nihilistic perspective, @. I am not sure I appreciate your cynicism. Please, take it elsewhere.",
@@ -4439,7 +4450,7 @@
     "eloise.strings.vethouse.001": "Hey Princess Midnight, you're a good kitty, aren't you? You don't hunt birds!",
     "eloise.strings.schoolday.000": "Bye Dad.Hope you make heaps of animals better! Miss you already.",
     "eloise.strings.schoolday.001": "Yes Dad, I promise I won't ask Miss Penny too many questions today! Even though she likes questions!",
-    "eloise.strings.winter_17.000": "That pig is so funny! It seems to think it's a person.$1",
+    "eloise.strings.winter_17.000": "That deer is so beautiful!$1",
     "eloise.strings.winter_17.100": "That's a rose-headed parrot, farmer @.They can live a really long time and are super-smart.$1#$b#They need lots of attention and can learn to talk!$1#$b#I asked if I could buy her, but she's not for sale.$2",
     //Alternative DIalogue
     "Eloise.Town.Randy": "Hello farmer @! I'm helping Randy with his reading.#$b#(whispers) But I'm not sure he really understands how books work.$1",
@@ -5044,7 +5055,7 @@
     "Oliver_Wed8": "Mom hardly left my side when I was ill. I don't think she knows what to do with herself anymore.$4",
     "Oliver_fall_Sat10": "Hey @. Mom wants me to go onto Uni after I'm done with school.$2#$b#$b#And that's cool and I; but I reckon I want to do a gap year first... See a bit of the world and all, y'know?",
     "Oliver_summer_Sat8": "Hey, do you think Rosa likes me?$4#$b#What? No, I don't have a crush on her! She's just pretty cool, is all.$a",
-    "Oliver_summer_Sat10": "Oh, hi @. Hey, I'm catching up with the guys tonight online, we've got a ton of raids planned on ",
+    "Oliver_summer_Sat10": "Oh, hi @. Hey, I'm catching up with the guys tonight online, we've got a ton of raids planned.",
     "Oliver_winter_Mon8": "Are you any good at calculus, @? It's such a waste of time.$a#$b#I mean, statistics I get, and even algebra, but when am I ever going to need differentiation?$2",
     "Oliver_winter_Fri8": "Hey @. Today's biology class was pretty cool. Got to digitally dissect a frog. Neat, eh?$4#$b#And the best thing? Nothing dies, and you don't have to clean up all the blood and guts afterwards.$1",
     "Oliver_summer_Tue8": "Mom caught me doing a chemistry experiment in the kitchen. Yoba, was she pissed!$2#$b#It sucks; where else am I supposed to do labwork around here?$a",
