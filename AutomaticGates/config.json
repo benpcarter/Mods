@@ -1,5 +1,5 @@
 {
-  "HideOverlayScroll": false,
+  "HideOverlayScroll": true,
   "GateDelay": 0,
   "DelayIncrement": 100,
   "ToggleOverlay": "NumPad9",
