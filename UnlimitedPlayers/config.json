@@ -1,9 +1,0 @@
-{
-  "PlayerLimit": 20,
-  "ClientMods": {
-    "Denylist": [
-      "CJBok.CheatsMenu",
-      "Ryaon.JunimoKartCheater"
-    ]
-  }
-}
