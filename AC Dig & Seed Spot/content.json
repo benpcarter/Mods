@@ -1,26 +1,30 @@
 {
-  "Format": "2.3.0",
-  "ConfigSchema":{
+  "Format": "2.4.0",
+  "ConfigSchema": {
     //Artifact Dig Spots
     "Animal Crossing Dig Spot": {
-      "AllowValues": "Enabled, Disabled",
-      "Default": "Enabled",
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Changes the worm artifact spot with the digspot from Animal Crossing.",
       "Section": "Artifact Dig Spots"
     },
     "Artifact Spot Typing": {
       "AllowValues": "Normal, Glowy",
-      "Default": "Glowy",
+      "Default": "Normal",
+      "Description": "A normal brown spot or a glowy spot",
       "Section": "Artifact Dig Spots"
     },
     //Seed Dig Spots
     "Animal Crossing Seed Spots": {
-      "AllowValues": "Enabled, Disabled",
-      "Default": "Enabled",
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Changes the grass seed spot with a green digspot from Animal Crossing.",
       "Section": "Seed Dig Spots"
     },
     "Seed Spot Typing": {
       "AllowValues": "Normal, Light",
       "Default": "Normal",
+      "Description": "Set if the spot is normal, a darker green, or light green.",
       "Section": "Seed Dig Spots"
     }
   },
@@ -37,7 +41,7 @@
           "Height": 16
         },
         "When": {
-          "Animal Crossing Dig Spot": "Enabled",
+          "Animal Crossing Dig Spot": "true",
           "Artifact Spot Typing": "Glowy"
         }
       },
@@ -52,7 +56,7 @@
           "Height": 16
         },
         "When": {
-          "Animal Crossing Dig Spot": "Enabled",
+          "Animal Crossing Dig Spot": "true",
           "Artifact Spot Typing": "Normal"
         }
       },
@@ -67,7 +71,7 @@
           "Height": 16
         },
         "When":{
-          "Animal Crossing Seed Spots": "Enabled",
+          "Animal Crossing Seed Spots": "true",
           "Seed Spot Typing": "Normal"
         }
       },
@@ -82,7 +86,7 @@
           "Height": 16
         },
         "When":{
-          "Animal Crossing Seed Spots": "Enabled",
+          "Animal Crossing Seed Spots": "true",
           "Seed Spot Typing": "Light"
         }
       }
