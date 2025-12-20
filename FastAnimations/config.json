@@ -29,6 +29,7 @@
   "TreeFallSpeed": 2.0,
   "WheelSpinSpeed": 4.0,
   "DialogueTypeSpeed": 4.0,
+  "ShippingMenuTransitionSpeed": 1.0,
   "TitleMenuTransitionSpeed": 20.0,
   "LoadGameBlinkSpeed": 2.0,
   "Experimental_EventSpeed": 1.0
