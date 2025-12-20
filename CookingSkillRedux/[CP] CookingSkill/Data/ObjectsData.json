@@ -1,11 +1,6 @@
 ﻿{
     "Changes": [
         {
-            "Action": "Load",
-            "Target": "Mods/moonslime.CookingSkill/textures",
-            "FromFile": "Assets/sprites.png"
-        },
-        {
             "Action": "EditData",
             "Target": "Data/BigCraftables",
             "Entries": {
@@ -14,7 +9,7 @@
                     "DisplayName": "{{i18n:moonslime.Cooking.oven.name}}",
                     "Description": "{{i18n:moonslime.Cooking.oven.description}}",
                     "Price": 50,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 15
                 },
                 "moonslime.Cooking.soda_machine": {
@@ -22,7 +17,7 @@
                     "DisplayName": "{{i18n:moonslime.Cooking.soda_machine.name}}",
                     "Description": "{{i18n:moonslime.Cooking.soda_machine.description}}",
                     "Price": 50,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 17
                 }
             }
@@ -38,34 +33,11 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 100,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 0,
                     "Edibility": 10,
                     "IsDrink": false,
-                    "Buffs": [
-                        {
-                            "Id": "Food",
-                            "BuffId": null,
-                            "IconTexture": null,
-                            "IconSpriteIndex": 0,
-                            "Duration": 480,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0,
-                                "FishingLevel": 0,
-                                "MiningLevel": 0,
-                                "LuckLevel": 0,
-                                "ForagingLevel": 0,
-                                "MaxStamina": 0,
-                                "MagneticRadius": 0,
-                                "Speed": 0,
-                                "Defense": 0,
-                                "Attack": 0
-                            },
-                            "CustomFields": {}
-                        }
-                    ],
+                    "Buffs": null,
                     "GeodeDropsDefaultItems": false,
                     "GeodeDrops": null,
                     "ArtifactSpotChances": null,
@@ -85,7 +57,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 500,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 1,
                     "Edibility": 50,
                     "IsDrink": false,
@@ -132,7 +104,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 400,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 2,
                     "Edibility": 70,
                     "IsDrink": false,
@@ -158,7 +130,6 @@
                                 "Attack": 0
                             },
                             "CustomFields": {
-                                "spacechase.SpaceCore.SkillBuff.drbirbdev.Socializing": "1"
                             }
                         }
                     ],
@@ -181,7 +152,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 200,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 3,
                     "Edibility": 40,
                     "IsDrink": false,
@@ -228,7 +199,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 500,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 4,
                     "Edibility": 45,
                     "IsDrink": false,
@@ -254,7 +225,6 @@
                                 "Attack": 0
                             },
                             "CustomFields": {
-                                "spacechase.SpaceCore.SkillBuff.drbirbdev.Socializing": "2"
                             }
                         }
                     ],
@@ -277,7 +247,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 300,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 5,
                     "Edibility": 60,
                     "IsDrink": false,
@@ -324,7 +294,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 200,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 6,
                     "Edibility": 58,
                     "IsDrink": false,
@@ -371,7 +341,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 300,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 7,
                     "Edibility": 70,
                     "IsDrink": false,
@@ -418,7 +388,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 450,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 8,
                     "Edibility": 110,
                     "IsDrink": false,
@@ -466,7 +436,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 310,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 9,
                     "Edibility": 45,
                     "IsDrink": false,
@@ -492,7 +462,6 @@
                                 "Attack": 0
                             },
                             "CustomFields": {
-                                "spacechase.SpaceCore.SkillBuff.drbirbdev.Binning": "2"
                             }
                         }
                     ],
@@ -515,7 +484,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 60,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 10,
                     "Edibility": 20,
                     "IsDrink": false,
@@ -564,7 +533,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 460,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 11,
                     "Edibility": 100,
                     "IsDrink": false,
@@ -611,9 +580,9 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 1000,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 12,
-                    "Edibility": 5,
+                    "Edibility": -60,
                     "IsDrink": true,
                     "Buffs": [
                         {
@@ -621,7 +590,7 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 60,
+                            "Duration": 87,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
@@ -636,7 +605,9 @@
                                 "Defense": 5,
                                 "Attack": 5
                             },
-                            "CustomFields": {}
+                            "CustomFields": {
+                                "spacechase.SpaceCore.SkillBuff.moonslime.Cooking": "5"
+                            }
                         }
                     ],
                     "GeodeDropsDefaultItems": false,
@@ -647,7 +618,8 @@
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
                         "color_white",
-                        "food_sweet"
+                        "food_sweet",
+                        "moonslime.ManaBarApi.ManaFill/50"
                     ],
                     "CustomFields": null
                 },
@@ -658,7 +630,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 250,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 13,
                     "Edibility": 25,
                     "IsDrink": false,
@@ -684,7 +656,6 @@
                                 "Attack": 0
                             },
                             "CustomFields": {
-                                "spacechase.SpaceCore.SkillBuff.drbirbdev.Socializing": "2"
                             }
                         }
                     ],
@@ -707,7 +678,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 400,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 14,
                     "Edibility": 50,
                     "IsDrink": false,
@@ -733,7 +704,6 @@
                                 "Attack": 0
                             },
                             "CustomFields": {
-                                "spacechase.SpaceCore.SkillBuff.drbirbdev.Socializing": "4"
                             }
                         }
                     ],
@@ -756,7 +726,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 240,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 15,
                     "Edibility": 28,
                     "IsDrink": false,
@@ -804,7 +774,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 500,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 16,
                     "Edibility": 88,
                     "IsDrink": false,
@@ -830,7 +800,6 @@
                                 "Attack": 0
                             },
                             "CustomFields": {
-                                "spacechase.SpaceCore.SkillBuff.moonslime.Archaeology": "2"
                             }
                         }
                     ],
@@ -853,7 +822,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 405,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 17,
                     "Edibility": 110,
                     "IsDrink": false,
@@ -900,7 +869,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 205,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 18,
                     "Edibility": 11,
                     "IsDrink": false,
@@ -948,7 +917,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 250,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 19,
                     "Edibility": 27,
                     "IsDrink": false,
@@ -986,7 +955,8 @@
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
                         "color_white",
-                        "food_sweet"
+                        "food_sweet",
+                        "moonslime.ManaBarApi.ManaFill/10"
                     ],
                     "CustomFields": null
                 },
@@ -997,9 +967,9 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 1000,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 20,
-                    "Edibility": 200,
+                    "Edibility": -60,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -1007,22 +977,24 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 60,
+                            "Duration": 87,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
-                                "FarmingLevel": 2,
-                                "FishingLevel": 2,
-                                "MiningLevel": 2,
-                                "LuckLevel": 2,
-                                "ForagingLevel": 2,
-                                "MaxStamina": 2,
-                                "MagneticRadius": 2,
-                                "Speed": 2,
-                                "Defense": 2,
-                                "Attack": 2
+                                "FarmingLevel": 5,
+                                "FishingLevel": 5,
+                                "MiningLevel": 5,
+                                "LuckLevel": 5,
+                                "ForagingLevel": 5,
+                                "MaxStamina": 32,
+                                "MagneticRadius": 32,
+                                "Speed": 5,
+                                "Defense": 5,
+                                "Attack": 5
                             },
-                            "CustomFields": {}
+                            "CustomFields": {
+                                "spacechase.SpaceCore.SkillBuff.moonslime.Cooking": "5"
+                            }
                         }
                     ],
                     "GeodeDropsDefaultItems": false,
@@ -1032,7 +1004,8 @@
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "color_purple"
+                        "color_purple",
+                        "moonslime.ManaBarApi.ManaFill/50"
                     ],
                     "CustomFields": null
                 },
@@ -1043,7 +1016,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 40,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 21,
                     "Edibility": 25,
                     "IsDrink": false,
@@ -1090,7 +1063,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 700,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 22,
                     "Edibility": 110,
                     "IsDrink": true,
@@ -1137,7 +1110,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 510,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 23,
                     "Edibility": 36,
                     "IsDrink": false,
@@ -1185,7 +1158,7 @@
                     "Type": "asdf",
                     "Category": -103,
                     "Price": 500,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 24,
                     "Edibility": -300,
                     "IsDrink": false,
@@ -1210,7 +1183,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 550,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 25,
                     "Edibility": 105,
                     "IsDrink": false,
@@ -1257,7 +1230,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 175,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 26,
                     "Edibility": 38,
                     "IsDrink": true,
@@ -1303,7 +1276,7 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 675,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 27,
                     "Edibility": 100,
                     "IsDrink": false,
@@ -1329,7 +1302,6 @@
                                 "Attack": 0
                             },
                             "CustomFields": {
-                                "spacechase.SpaceCore.SkillBuff.drbirbdev.Socializing": "2"
                             }
                         }
                     ],
@@ -1353,7 +1325,7 @@
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 25,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 28,
                     "Edibility": 1,
                     "IsDrink": true,
@@ -1401,7 +1373,7 @@
                     "Description": "{{i18n:moonslime.Cooking.soda_Mystic.description}}",
                     "Type": "Basic",
                     "Category": -26,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 34,
                     "Edibility": 5,
                     "IsDrink": true,
@@ -1449,7 +1421,7 @@
                     "Description": "{{i18n:moonslime.Cooking.yeast.description}}",
                     "Type": "Basic",
                     "Category": 0,
-                    "Texture": "Mods/moonslime.CookingSkill/textures",
+                    "Texture": "Mods/moonslime.CookingSkill/objects/textures",
                     "SpriteIndex": 39,
                     "ColorOverlayFromNextIndex": false,
                     "Edibility": 5,

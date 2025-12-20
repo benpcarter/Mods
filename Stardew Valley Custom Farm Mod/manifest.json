@@ -1,0 +1,12 @@
+{
+    "Name": "Extra Large Farm",
+    "Author": "Mogeekan",
+    "Version": "1.5.0",
+    "Description": "Big farm that has a tons of space for farming.",
+    "UniqueID": "Mogeekan.ExtraLargeFarm",
+    "UpdateKeys": ["Nexus:37467"],
+    "MinimumApiVersion": "4.0.0",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher", "MinimumVersion": "2.7.5"
+    }
+}

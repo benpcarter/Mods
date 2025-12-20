@@ -6,8 +6,8 @@
   "PlantAnywhere": true,
   "FruitAllSeasons": false,
   "FruitInWinter": false,
+  "FruitStayThroughSeasons": false,
   "DaysUntilMature": 24,
-  "UseBaseSaplingMaturity": false,
   "MaxFruitPerTree": 6,
   "MinFruitPerDay": 1,
   "MaxFruitPerDay": 1,
@@ -18,6 +18,5 @@
   "DaysUntilSilverFruit": 112,
   "DaysUntilGoldFruit": 224,
   "DaysUntilIridiumFruit": 336,
-  "Debug": false,
-  "GodMode": false
+  "Debug": false
 }

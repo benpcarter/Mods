@@ -1,0 +1,21 @@
+{
+	"config.Animal Crossing Dig Spot.name": "Animal Crossing Dig Spot",
+	"config.Animal Crossing Dig Spot.description": "Changes the worm artifact spot with the digspot from Animal Crossing.",
+
+	"config.Artifact Spot Typing.name": "Artifact Spot Typing",
+	"config.Artifact Spot Typing.description": "A normal brown spot or a glowy spot",
+	"config.Artifact Spot Typing.values.Normal": "Normal",
+	"config.Artifact Spot Typing.values.Glowy": "Glowy",
+	"config.Artifact Spot Typing.values.Animated": "Animated",
+
+	"config.Animal Crossing Seed Spots.name": "Animal Crossing Seed Spots",
+	"config.Animal Crossing Seed Spots.description": "Changes the grass seed spot with a green digspot from Animal Crossing.",
+
+	"config.Seed Spot Typing.name": "Seed Spot Typing",
+	"config.Seed Spot Typing.description": "Set if the spot is normal, a darker green, or light green.",
+	"config.Seed Spot Typing.values.Normal": "Normal",
+	"config.Seed Spot Typing.values.Light": "Light",
+
+	"config.section.Artifact Dig Spots.name": "Artifact Dig Spots",
+	"config.section.Seed Dig Spots.name": "Seed Dig Spots",
+}

@@ -8,10 +8,22 @@
 {
     "Default": {
         /****
+        ** Generic colors for custom layers
+        ****/
+        "Generic_Yes": "Green", // covered, ready, enabled, etc
+        "Generic_No": "Red", // not covered, not ready, disabled, etc
+        "Generic_Highlight": "Blue", // special color to highlight one group (e.g. to show the range for a selected object)
+
+
+        /****
         ** Coverage
         ****/
         "BeeHouseCoverage_Covered": "Green",
         "BeeHouseCoverage_Selected": "Blue",
+
+        "BombCoverage_Dig": "Red",
+        "BombCoverage_Explosion": "Magenta",
+        "BombCoverage_Shockwave": "Black",
 
         "JunimoHutCoverage_Covered": "Green",
         "JunimoHutCoverage_NotCovered": "Red",

@@ -1,0 +1,712 @@
+{
+  "Format": "2.2.0",
+   "ConfigSchema": {
+      "Beach Cabin": {
+         "AllowValues": "true, false",
+         "Default": "true",
+	 "Description": "For the vanilla placeholder only. Only set this to false if you are using a compatible Buildings mod!"
+      },
+
+      "Log Cabin": {
+         "AllowValues": "true, false",
+         "Default": "true",
+	 "Description": "For the vanilla placeholder only. Only set this to false if you are using a compatible Buildings mod!"
+      },
+
+      "Neighbor Cabin": {
+         "AllowValues": "true, false",
+         "Default": "true",
+	 "Description": "For the vanilla placeholder only. Only set this to false if you are using a compatible Buildings mod!"
+      },
+
+      "Plank Cabin": {
+         "AllowValues": "true, false",
+         "Default": "true",
+	 "Description": "For the vanilla placeholder only. Only set this to false if you are using a compatible Buildings mod!"
+      },
+
+      "Rustic Cabin": {
+         "AllowValues": "true, false",
+         "Default": "true",
+	 "Description": "For the vanilla placeholder only. Only set this to false if you are using a compatible Buildings mod!"
+      },
+
+      "Stone Cabin": {
+         "AllowValues": "true, false",
+         "Default": "true",
+	 "Description": "For the vanilla placeholder only. Only set this to false if you are using a compatible Buildings mod!"
+      },
+
+      "Trailer Cabin": {
+         "AllowValues": "true, false",
+         "Default": "true",
+	 "Description": "For the vanilla placeholder only. Only set this to false if you are using a compatible Buildings mod!"
+      }
+   },
+
+  "Changes": [
+// Base Buildings Image Adjustments
+
+    {
+    "Action": "Load",
+    "Target": "Buildings/Beach Cabin, Buildings/Log Cabin, Buildings/Neighbor Cabin, Buildings/Plank Cabin, Buildings/Rustic Cabin, Buildings/Stone Cabin, Buildings/Trailer Cabin, Buildings/Default Cabin",
+    "FromFile": "assets/base/cabins.png",
+    "Priority": "Medium"
+    },
+
+    {
+    "Action": "Load",
+    "Target": "Buildings/Beach Cabin_PaintMask, Buildings/Log Cabin_PaintMask, Buildings/Neighbor Cabin_PaintMask, Buildings/Plank Cabin_PaintMask, Buildings/Rustic Cabin_PaintMask, Buildings/Stone Cabin_PaintMask, Buildings/Trailer Cabin_PaintMask, Buildings/Default Cabin_PaintMask",
+    "FromFile": "assets/base/cabins_mask.png",
+    "Priority": "Medium"
+    },
+
+// Buildings Mod Compatibility for farmhouses that go down the tilesheet vertically instead of horizontally
+// Each can be turned off in the config to further improve compatibility
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Beach Cabin",
+    "FromFile": "assets/Beach/BeachCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Beach Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Beach Cabin",
+    "FromFile": "assets/Beach/BeachCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 144, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 160, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Beach Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Beach Cabin",
+    "FromFile": "assets/Beach/BeachCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Beach Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Beach Cabin_PaintMask",
+    "FromFile": "assets/Beach/PaintMask.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Beach Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Log Cabin",
+    "FromFile": "assets/Log/LogCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Log Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Log Cabin",
+    "FromFile": "assets/Log/LogCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 144, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 160, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Log Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Log Cabin",
+    "FromFile": "assets/Log/LogCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Log Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Log Cabin_PaintMask",
+    "FromFile": "assets/Log/PaintMask.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Log Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Neighbor Cabin",
+    "FromFile": "assets/Neighbor/NeighborCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Neighbor Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Neighbor Cabin",
+    "FromFile": "assets/Neighbor/NeighborCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 144, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 160, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Neighbor Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Neighbor Cabin",
+    "FromFile": "assets/Neighbor/NeighborCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Neighbor Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Neighbor Cabin_PaintMask",
+    "FromFile": "assets/Neighbor/PaintMask.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Neighbor Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Plank Cabin",
+    "FromFile": "assets/Plank/PlankCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Plank Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Plank Cabin",
+    "FromFile": "assets/Plank/PlankCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 144, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 160, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Plank Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Plank Cabin",
+    "FromFile": "assets/Plank/PlankCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Plank Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Plank Cabin_PaintMask",
+    "FromFile": "assets/Plank/PaintMask.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Plank Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Rustic Cabin",
+    "FromFile": "assets/Rustic/RusticCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Rustic Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Rustic Cabin",
+    "FromFile": "assets/Rustic/RusticCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 144, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 160, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Rustic Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Rustic Cabin",
+    "FromFile": "assets/Rustic/RusticCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Rustic Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Rustic Cabin_PaintMask",
+    "FromFile": "assets/Rustic/PaintMask.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Rustic Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Stone Cabin",
+    "FromFile": "assets/Stone/StoneCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Stone Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Stone Cabin",
+    "FromFile": "assets/Stone/StoneCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 144, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 160, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Stone Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Stone Cabin",
+    "FromFile": "assets/Stone/StoneCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Stone Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Stone Cabin_PaintMask",
+    "FromFile": "assets/Stone/PaintMask.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Stone Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Trailer Cabin",
+    "FromFile": "assets/Trailer/TrailerCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Trailer Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Trailer Cabin",
+    "FromFile": "assets/Trailer/TrailerCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 144, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 160, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Trailer Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Trailer Cabin",
+    "FromFile": "assets/Trailer/TrailerCabin_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Trailer Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Trailer Cabin_PaintMask",
+    "FromFile": "assets/Trailer/PaintMask_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10",
+    "When": {
+	"Trailer Cabin": "true" }
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Default Cabin",
+    "FromFile": "assets/Default/Default_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10"
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Default Cabin",
+    "FromFile": "assets/Default/Default_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 144, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 160, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10"
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Default Cabin",
+    "FromFile": "assets/Default/Default_{{season}}.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10"
+    },
+
+    {
+    "Action": "EditImage",
+    "PatchMode":"Replace",
+    "Target": "Buildings/Default Cabin_PaintMask",
+    "FromFile": "assets/Default/PaintMask.png",
+    "FromArea": { "X": 0, "Y": 288, "Width": 160, "Height": 144 },
+    "ToArea": { "X": 320, "Y": 0, "Width": 160, "Height": 144 },
+    "Priority": "Late - 10"
+    },
+
+
+    {
+      "LogName": "Paintable Default Cabin",
+      "Action": "EditData",
+      "Target": "Data/PaintData",
+      "Entries": {
+	"Default Cabin": "Building/-50 -10/Roof/-25 0/Trim/-25 -8"
+    }
+    },
+
+
+// Buildings Data
+   {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "TargetField": [ "Cabin" ],
+      "Entries": {
+    "Name": "[LocalizedText Strings\\Buildings:Cabin_Name]",
+    "Description": "[LocalizedText Strings\\Buildings:Cabin_Description]",
+    "Texture": "Buildings\\Stone Cabin",
+    "Skins": [
+      {
+        "Id": "Plank Cabin",
+        "Name": "[LocalizedText Strings\\Buildings:Cabin_Name]",
+        "Description": "[LocalizedText Strings\\Buildings:Cabin_Description]",
+        "Texture": "Buildings\\Plank Cabin",
+        "Condition": null,
+        "BuildDays": null,
+        "BuildCost": null,
+        "BuildMaterials": null,
+        "ShowAsSeparateConstructionEntry": false,
+        "Metadata": {
+          "ChimneyPosition": "125 8",
+          "ChimneyPosition3": "139 8"
+        }
+      },
+      {
+        "Id": "Log Cabin",
+        "Name": "[LocalizedText Strings\\Buildings:Cabin_Name]",
+        "Description": "[LocalizedText Strings\\Buildings:Cabin_Description]",
+        "Texture": "Buildings\\Log Cabin",
+        "Condition": null,
+        "BuildDays": null,
+        "BuildCost": null,
+        "BuildMaterials": null,
+        "ShowAsSeparateConstructionEntry": false,
+        "Metadata": {
+          "ChimneyPosition": "125 8",
+          "ChimneyPosition3": "139 8"
+        }
+      },
+      {
+        "Id": "Neighbor Cabin",
+        "Name": "[LocalizedText Strings\\Buildings:Cabin_Name]",
+        "Description": "[LocalizedText Strings\\Buildings:Cabin_Description]",
+        "Texture": "Buildings\\Neighbor Cabin",
+        "Condition": null,
+        "BuildDays": null,
+        "BuildCost": null,
+        "BuildMaterials": null,
+        "ShowAsSeparateConstructionEntry": false,
+        "Metadata": {
+          "ChimneyPosition": "125 8",
+          "ChimneyPosition3": "139 8"
+        }
+      },
+      {
+        "Id": "Rustic Cabin",
+        "Name": "[LocalizedText Strings\\Buildings:Cabin_Name]",
+        "Description": "[LocalizedText Strings\\Buildings:Cabin_Description]",
+        "Texture": "Buildings\\Rustic Cabin",
+        "Condition": null,
+        "BuildDays": null,
+        "BuildCost": null,
+        "BuildMaterials": null,
+        "ShowAsSeparateConstructionEntry": false,
+        "Metadata": {
+          "ChimneyPosition": "125 8",
+          "ChimneyPosition3": "139 8"
+        }
+      },
+      {
+        "Id": "Beach Cabin",
+        "Name": "[LocalizedText Strings\\Buildings:Cabin_Name]",
+        "Description": "[LocalizedText Strings\\Buildings:Cabin_Description]",
+        "Texture": "Buildings\\Beach Cabin",
+        "Condition": null,
+        "BuildDays": null,
+        "BuildCost": null,
+        "BuildMaterials": null,
+        "ShowAsSeparateConstructionEntry": false,
+        "Metadata": {
+          "ChimneyPosition": "125 8",
+          "ChimneyPosition3": "139 8"
+        }
+      },
+      {
+        "Id": "Trailer Cabin",
+        "Name": "[LocalizedText Strings\\Buildings:Cabin_Name]",
+        "Description": "[LocalizedText Strings\\Buildings:Cabin_Description]",
+        "Texture": "Buildings\\Trailer Cabin",
+        "Condition": null,
+        "BuildDays": null,
+        "BuildCost": null,
+        "BuildMaterials": null,
+        "ShowAsSeparateConstructionEntry": false,
+        "Metadata": {
+          "ChimneyPosition": "125 36",
+          "ChimneyPosition2": "125 31",
+          "ChimneyPosition3": "125 31",
+        }
+      },
+      {
+        "Id": "Default Cabin",
+        "Name": "[LocalizedText Strings\\Buildings:Cabin_Name]",
+        "Description": "[LocalizedText Strings\\Buildings:Cabin_Description]",
+        "Texture": "Buildings\\Default Cabin",
+        "Condition": null,
+        "BuildDays": null,
+        "BuildCost": null,
+        "BuildMaterials": null,
+        "ShowAsSeparateConstructionEntry": false,
+        "Metadata": {
+      	  "ChimneyPosition": "125 8",
+          "ChimneyPosition3": "139 8"
+        }
+      }
+    ],
+    "Size": {
+      "X": 9,
+      "Y": 5
+    },
+    "SourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 160,
+      "Height": 144
+    },
+    "DrawOffset": "-16,2",
+    "SortTileOffset": 2.0,
+    "CollisionMap": "\n          XXXXXXXXX\n          XXXXXXXXX\n          XXXXXXXXX\n          XOOOOOOOX\n          XXXXOOOXXX\n        ",
+    "AdditionalPlacementTiles": [
+      {
+        "TileArea": {
+          "X": 9,
+          "Y": 4,
+          "Width": 1,
+          "Height": 1
+        },
+        "OnlyNeedsToBePassable": false
+      },
+      {
+        "TileArea": {
+          "X": 5,
+          "Y": 5,
+          "Width": 1,
+          "Height": 1
+        },
+        "OnlyNeedsToBePassable": true
+      }
+    ],
+    "HumanDoor": {
+      "X": 5,
+      "Y": 2
+    },
+    "Metadata": {
+      "ChimneyPosition": "125 8",
+      "ChimneyPosition3": "139 8"
+    },
+    "AdditionalTilePropertyRadius": 1,
+    "ActionTiles": [
+      {
+        "Id": "Default_OpenMailbox",
+        "Tile": {
+          "X": 9,
+          "Y": 4
+        },
+        "Action": "Mailbox"
+      }
+    ],
+    "TileProperties": [
+      {
+        "Id": "Default_Porch_NoSpawn",
+        "Name": "NoSpawn",
+        "Value": "All",
+        "Layer": "Back",
+        "TileArea": {
+          "X": 4,
+          "Y": 3,
+          "Width": 4,
+          "Height": 2
+        }
+      },
+      {
+        "Id": "Default_Porch_NotBuildable",
+        "Name": "Buildable",
+        "Value": "f",
+        "Layer": "Back",
+        "TileArea": {
+          "X": 4,
+          "Y": 3,
+          "Width": 4,
+          "Height": 2
+        }
+      },
+      {
+        "Id": "Default_Porch_NotDiggable",
+        "Name": "Diggable",
+        "Value": null,
+        "Layer": "Back",
+        "TileArea": {
+          "X": 4,
+          "Y": 3,
+          "Width": 4,
+          "Height": 2
+        }
+      },
+      {
+        "Id": "Default_Porch_Type",
+        "Name": "Type",
+        "Value": "Wood",
+        "Layer": "Back",
+        "TileArea": {
+          "X": 4,
+          "Y": 3,
+          "Width": 4,
+          "Height": 2
+        }
+      },
+      {
+        "Id": "Default_Porch_NoFurniture",
+        "Name": "NoFurniture",
+        "Value": "f",
+        "Layer": "Back",
+        "TileArea": {
+          "X": 4,
+          "Y": 3,
+          "Width": 4,
+          "Height": 2
+        }
+      }
+    ],
+    "DrawLayers": [
+      {
+        "Id": "Default_CabinMailbox",
+        "Texture": "Buildings\\Mailbox",
+        "SourceRect": {
+          "X": 0,
+          "Y": 0,
+          "Width": 16,
+          "Height": 32
+        },
+        "DrawPosition": "146, 112",
+        "DrawInBackground": false,
+        "SortTileOffset": 0.0,
+        "OnlyDrawIfChestHasContents": null,
+        "FrameDuration": 90,
+        "FrameCount": 1,
+        "FramesPerRow": -1,
+        "AnimalDoorOffset": {
+          "X": 0,
+          "Y": 0
+        }
+      }
+    ]
+  },
+
+   }
+]
+}

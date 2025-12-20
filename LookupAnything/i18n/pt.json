@@ -37,7 +37,6 @@
     "type.building": "Construção",
     "type.bush": "Arbusto",
     "type.fruit-tree": "Árvore Frutífera",
-    "type.map-tile": "Bloco",
     "type.monster": "Monstro",
     "type.player": "Jogador",
     "type.tree": "Árvore",
@@ -60,6 +59,14 @@
     "friendship-status.married": "Casados",
     "friendship-status.divorced": "Divorciados",
     "friendship-status.kicked-out": "Enxotado",
+
+    // custom content (shows which mod added an item, NPC, etc)
+    // TODO
+    "added-by-mod": "Added by mod",
+    "added-by-mod.summary": "{{modName}}",
+
+    // internal ID
+    "internal-id": "Internal ID", // TODO
 
 
     /*********
@@ -113,6 +120,10 @@
     "location.forest.island-tip": "Rio da Floresta Cinzaseiva (ponta sul da ilha grande)",
     "location.forest.lake": "Lagoa da Floresta Cinzaseiva",
     "location.forest.river": "Rio da Floresta Cinzaseiva",
+    "location.HarveyRoom": "Harvey's Room", // TODO
+    "location.LeoTreeHouse": "Treehouse", // TODO
+    "location.SandyHouse": "Oasis", // TODO
+    "location.SebastianRoom": "Sebastian's Room", // TODO
     "location.submarine": "Submarino de Pesca do Mercado Noturno",
     "location.town.northmost-bridge": "Cidade (ponte mais ao norte)",
     "location.undergroundMine": "Minas",
@@ -137,6 +148,8 @@
     ** Conditions & context tags
     *********/
     // TODO
+    "conditions-summary": "[conditions: {{conditions}}]", // wraps 'game state query' conditions that often can't be translated. For example: "[conditions: ITEM_ID Input (O)128]".
+
     "condition-or-context-tag.negate": "not {{value}}",
 
     "condition.day-of-month": "on specific days ({{days}})",
@@ -174,6 +187,7 @@
     "animal.produce-ready": "Produto pronto",
     "animal.growth": "Crescimento",
     "animal.sells-for": "Vende por",
+    "animal.golden-cracker": "Golden animal cracker", // also used for fish ponds // TODO
 
     // values
     "animal.complaints.hungry": "Não foi alimentado ontem",
@@ -182,6 +196,8 @@
     "animal.complaints.no-heater": "Sem aquecedor no inverno",
     "animal.complaints.not-petted": "Não recebeu carinho hoje",
     "animal.complaints.wild-animal-attack": "Foi atacado por animais selvagens durante a noite",
+    "animal.golden-cracker.none": "None. Add a golden animal cracker to double produced items.", // TODO
+    "animal.golden-cracker.applied": "Applied; produced items are doubled.", // TODO
 
 
     /*********
@@ -302,6 +318,8 @@
     "crop.summary.drops-X-to-Y": "Solta de {{min}} pra no máximo {{max}} unidades({{percent}}% chance de colher unidades a mais)",
     "crop.summary.harvest-once": "Colher após {{daysToFirstHarvest}} dias",
     "crop.summary.harvest-multi": "Colhe depois de {{daysToFirstHarvest}} dias, depois a cada {{daysToNextHarvests}} dias",
+    "crop.summary.farming-xp": "gives +{{amount}} farming XP per harvest", // TODO
+    "crop.summary.foraging-xp": "gives +{{amount}} foraging XP per harvest", // TODO
     "crop.summary.seasons": "Cresce no(a) {{seasons}}",
     "crop.summary.sells-for": "Vende por {{price}}",
     "crop.harvest.too-late": "Muito tarde para colher nessa estação (deveria ser no {{date}})",
@@ -311,7 +329,6 @@
     ** Item > generic lookups
     *********/
     // labels
-    "item.custom-item": "Item personalizado",
     "item.contents": "Conteúdo",
     "item.loves-this": "Ama isso",
     "item.likes-this": "Gosta disso",
@@ -319,6 +336,7 @@
     "item.dislikes-this": "Não gosta disso",
     "item.hates-this": "Odeia isso",
     "item.needed-for": "Preciso para",
+    "item.flavor": "Flavor", // TODO // links to the flavor item (e.g. 'Blueberry' for Blueberry Wine)
     "item.number-owned": "Possui",
     "item.number-cooked": "Cozinhado",
     "item.number-crafted": "Criados",
@@ -330,7 +348,6 @@
     "item.produces-dye": "Produz corante",
 
     // values
-    "item.custom-item.summary": "Adicionado por {{modName}}",
     "item.contents.placed": "{{name}} colocado",
     "item.contents.ready": "{{name}} pronto",
     "item.contents.partial": "{{name}} em {{time}}",
@@ -344,15 +361,17 @@
     "item.needed-for.gourmet-chef": "conquista de Chefe Gourmet (cozinhe {{recipes}})",
     "item.needed-for.craft-master": "conquista de Mestre do Artesanato (crie {{recipes}})",
     "item.needed-for.quests": "Missões atuais ({{quests}})",
+    "item.needed-for.trash-bear": "trash bear (deliver one)", // TODO
     "item.unknown-recipes": "{{count}} unknown recipes", // TODO
     "item.sells-to.shipping-box": "Caixa de envio",
     "item.recipes-for-ingredient.entry": "{{name}} (precisa de {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x {{count}}",
     "item.recipes-for-machine.same-as-input": "[same as input]", // e.g. crystalarium produces same item that was put in // TODO
-    "item.recipes-for-machine.conditions": "[conditions: {{conditions}}]", // TODO
     "item.recipes-for-machine.too-complex": "Some machine rules are too dynamic to display.", // TODO
     "item.number-owned.summary": "Possui {{count}} desses",
+    "item.number-owned-flavored.summary": "you own {{count}} ({{name}}) or {{baseCount}} ({{baseName}}) of these", // TODO // e.g. "you own 5 (Sturgeon Roe) or 20 (Roe) of these"
     "item.number-crafted.summary": "Criou {{count}} desses",
+    "item.internal-id.summary": "{{itemId}} (globally unique 'qualified ID': {{qualifiedItemId}})", // TODO
 
 
     /*********
@@ -408,6 +427,7 @@
     "item.fish-spawn-rules.time": "Horário do dia: {{times}}",
     "item.fish-spawn-rules.weather-sunny": "Clima: Ensolarado",
     "item.fish-spawn-rules.weather-rainy": "Clima: Chuva",
+    "item.uncaught-fish": "{{count}} uncaught fish", // TODO
 
 
     /*********
@@ -492,6 +512,7 @@
     "npc.neutral-gifts": "Presentes neutros",
     "npc.dislikes-gifts": "Presentes que não gosta",
     "npc.hates-gifts": "Presentes que odeia",
+    "npc.schedule": "Today's schedule", // TODO
 
     // values
     "npc.can-romance.married": "Você é casado! <", // < turns into a heart
@@ -501,6 +522,12 @@
     "npc.friendship.need-points": "Precisa de {{count}} pontos para prosseguir",
     "npc.undiscovered-gift-taste": "{{count}} itens não revelados",
     "npc.unowned-gift-taste": "{{count}} itens não possuídos",
+    "npc.schedule.current-position": "Currently at {{locationName}} ({{x}}, {{y}}).", // TODO
+    "npc.schedule.no-entries": "No schedule loaded.", // TODO
+    "npc.schedule.not-following-schedule": "Currently not following a schedule. This usually means the NPC is doing special behaviors (e.g. at the movie theater).", //  TODO
+    "npc.schedule.entry": "{{time}}: walk to {{locationName}} ({{x}}, {{y}}).", // TODO
+    "npc.schedule.farmhand.unknown-position": "Currently in an unknown location on the host.", // TODO
+    "npc.schedule.farmhand.unknown-schedule": "In multiplayer, NPCs are managed by the host so their schedule isn't available.", // TODO
 
 
     /*********
@@ -612,19 +639,30 @@
     /*********
     ** Tile lookups
     *********/
+    // Note for translators:
+    // The translations in this section are a bit more technical. Quick summary:
+    //
+    //  - A 'map' sets the layout and appearance for an in-game location (like the farmhouse).
+    //  - Each map is divided into a grid of 64x64 pixel 'tiles'. A map can have multiple 'layers' of tiles (e.g. 'Back', 'Front', 'Buildings', etc).
+    //  - Each tile's visual appearance is set by assigning it a 'tile index', which is its position in a larger texture called a 'tilesheet'.
+    //  - Each tile can be assigned 'properties'. These are metadata which tell the game about the tile (like "Type: Dirt" or "Action: OpenShop HatMouse").
+    //  - There are two property types: 'tile property' (set for a specific tile position) and 'index property' (set for all tiles which use that tile index).
+
     // labels
+    "tile.title": "Bloco ({{x}}, {{y}})",
     "tile.description": "A posição de um bloco no mapa. Isso é exibido porque você ativou as pesquisas de blocos na configuração",
-    "tile.game-location": "Localização",
     "tile.map-name": "Nome do mapa",
-    "tile.tile": "Bloco",
-    "tile.tile-index": "{{layerName}}: Índice do bloco",
-    "tile.tilesheet": "{{layerName}}: Planilha",
-    "tile.blend-mode": "{{layerName}}: Modo de mistura",
-    "tile.index-property": "{{layerName}}: Índice da propriedade: {{propertyName}}",
-    "tile.tile-property": "{{layerName}}: Propriedade: {{propertyName}}",
+    "tile.map-properties": "Map properties", // TODO
+    "tile.layer-tile": "{{layer}} tile", // TODO
+    "tile.layer-tile-none": "Bloco",
 
     // values
-    "tile.tile.none-here": "Sem blocos aqui",
+    "tile.map-properties.value": "{{name}}: {{value}}", // TODO
+    "tile.layer-tile.appearance": "index {{index}} from tilesheet '{{tilesheetId}}' (path: '{{tilesheetPath}}')", // TODO
+    "tile.layer-tile.blend-mode": "Modo de mistura: {{value}}",
+    "tile.layer-tile.index-property": "Índice da propriedade: {{name}}: {{value}}",
+    "tile.layer-tile.tile-property": "Propriedade: {{name}}: {{value}}",
+    "tile.layer-tile.none-here": "Sem blocos aqui",
 
 
     /*********
@@ -673,16 +711,42 @@
 
 
     /*********
+    ** Data mining fields
+    *********/
+    // TODO
+    "data-mining.name": "Raw data",
+    "data-mining.name.map-tile": "Raw data (map tile)",
+    "data-mining.name.map-location": "Raw data (location)",
+
+    "data-mining.section-pinned": "Pinned", // 'pinned' section has notable values (i.e. it's pinned at the top of the list)
+
+
+    /*********
     ** Generic Mod Config Menu UI
     *********/
-    // main options
-    "config.title.main-options": "Opções principais",
+    // appearance
+    // TODO
+    "config.title.appearance": "Appearance",
+
+    "config.theme.name": "Visual theme",
+    "config.theme.desc": "The appearance to apply for the lookup and search menu.",
+
+    "config.theme.values.Parchment": "Parchment",
+    "config.theme.values.Joja": "Joja",
+    "config.theme.values.MenuBox_Border": "Menu box (border)",
+    "config.theme.values.MenuBox_Inset": "Menu box (inset)",
+    "config.theme.values.MenuBox_Raised": "Menu box (raised)",
+    "config.theme.values.Plain": "Plain",
+
     "config.force-full-screen.name": "Forçar tela cheia",
     "config.force-full-screen.desc": "Se o menu deve estar sempre em tela cheia, em vez de centralizado na janela. Isso é útil principalmente ao visualizar campos de mineração de dados.",
 
     // progression mode
     // TODO
     "config.title.progression": "Modo de progressão",
+
+    "config.progression.show-uncaught-fish-spawn-rules.name": "Show uncaught fish spawn rules", // TODO
+    "config.progression.show-uncaught-fish-spawn-rules.desc": "Whether to show spawn conditions for fish you haven't caught yet.", // TODO
 
     "config.progression.show-unknown-gift-tastes.name": "Show unknown gift tastes",
     "config.progression.show-unknown-gift-tastes.desc": "Whether to show gift tastes you haven't learned about in-game yet (e.g. from dialogue text or experimenting).",
@@ -753,5 +817,13 @@
     "config.page-down.name": "Página abaixo",
     "config.page-down.desc": "As teclas que rolam para baixo o conteúdo longo por uma página inteira.",
     "config.toggle-debug.name": "Alternar depuração",
-    "config.toggle-debug.desc": "As teclas que alternam a exibição de informações de depuração."
+    "config.toggle-debug.desc": "As teclas que alternam a exibição de informações de depuração.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    // TODO
+    "icon.toggle-search.name": "Lookup Anything",
+    "icon.toggle-search.desc": "Toggle Lookup Anything Search"
 }

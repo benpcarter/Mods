@@ -1,0 +1,45 @@
+{
+  "Format": "2.7.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Maps/Extra_Large_Farm",
+      "FromFile": "assets/Extra_Large_Farm.tmx",
+      "When": { "FarmType": "Mogeekan.ExtraLargeFarm" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AdditionalFarms",
+      "Entries": {
+        "Mogeekan.ExtraLargeFarm": {
+          "ID": "Mogeekan.ExtraLargeFarm",
+          "TooltipStringPath": "Strings/UI:Mogeekan_ExtraLargeFarm",
+          "MapName": "Extra_Large_Farm",
+          "IconTexture": "Mods/Mogeekan.ExtraLargeFarm/Icon"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "Mogeekan_ExtraLargeFarm": "Extra Large Farm_A wide-open vanilla-style farm about twice the size, with no natural water—perfect for mega fields and clean builds."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Farm_Mogeekan.ExtraLargeFarm": {
+          "DisplayName": "[LocalizedText Strings\\StringsFromCSFiles:MapPage.cs.11064 [EscapedText [FarmName]]]",
+          "CanPlantHere": true
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/Mogeekan.ExtraLargeFarm/Icon",
+      "FromFile": "assets/icon.png"
+    }
+  ]
+}

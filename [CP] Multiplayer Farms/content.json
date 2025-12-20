@@ -9,755 +9,238 @@
       "Section": "General"
     },
 
-    //* Farm 1
-    "F1_Enabled": {
+    "Path_Farms": {
+      "Default": "false",
+      "AllowValues": "true, false",
+      "Section": "General"
+    },
+
+    "MF_F1": {
       "Default": "true",
       "AllowValues": "true, false",
-      "Section": "Farm1"
+      "Section": "General"
     },
+
+    //* Farm 1
     "F1_Name": {
       "Default": "Wilderness",
       "Section": "Farm1"
     },
-    "F1_X": {
-      "Default": "40",
+    "F1_Coords": {
+      "Default": "40, 2",
+      "AllowMultiple": "true",
       "Section": "Farm1"
+      
     },
-    "F1_Y": {
-      "Default": "2",
+    "F1_FileName": {
+      "Default": "Wilderness.tmx",
       "Section": "Farm1"
     },
 
     //* Farm2
-    "F2_Enabled": {
-      "Default": "true",
-      "AllowValues": "true, false",
-      "Section": "Farm2"
-    },
     "F2_Name": {
       "Default": "Forest",
       "Section": "Farm2"
     },
-    "F2_X": {
-      "Default": "40",
+    "F2_Coords": {
+      "Default": "40, 2",
+      "AllowMultiple": "true",
       "Section": "Farm2"
     },
-    "F2_Y": {
-      "Default": "2",
+    "F2_FileName": {
+      "Default": "Forest.tmx",
       "Section": "Farm2"
     },
 
     //* Farm 3
-    "F3_Enabled": {
-      "Default": "true",
-      "AllowValues": "true, false",
-      "Section": "Farm3"
-    },
     "F3_Name": {
       "Default": "Beach",
       "Section": "Farm3"
     },
-    "F3_X": {
-      "Default": "40",
+    "F3_Coords": {
+      "Default": "40, 2",
+      "AllowMultiple": "true",
       "Section": "Farm3"
     },
-    "F3_Y": {
-      "Default": "2",
+    "F3_FileName": {
+      "Default": "Beach.tmx",
       "Section": "Farm3"
     },
 
     //* Farm 4
-    "F4_Enabled": {
-      "Default": "true",
-      "AllowValues": "true, false",
-      "Section": "Farm4"
-    },
     "F4_Name": {
       "Default": "Riverland",
       "Section": "Farm4"
     },
-    "F4_X": {
-      "Default": "77",
+    "F4_Coords": {
+      "Default": "77, 15",
+      "AllowMultiple": "true",
       "Section": "Farm4"
     },
-    "F4_Y": {
-      "Default": "15",
+    "F4_FileName": {
+      "Default": "Riverland.tmx",
       "Section": "Farm4"
     },
 
     //* Farm 5
-    "F5_Enabled": {
-      "Default": "true",
-      "AllowValues": "true, false",
-      "Section": "Farm5"
-    },
     "F5_Name": {
       "Default": "Meadowlands",
       "Section": "Farm5"
     },
-    "F5_X": {
-      "Default": "52",
+    "F5_Coords": {
+      "Default": "52, 72",
+      "AllowMultiple": "true",
       "Section": "Farm5"
     },
-    "F5_Y": {
-      "Default": "72",
+    "F5_FileName": {
+      "Default": "Meadowlands.tmx",
       "Section": "Farm5"
     },
 
     //* Farm 6
-    "F6_Enabled": {
-      "Default": "true",
-      "AllowValues": "true, false",
-      "Section": "Farm6"
-    },
     "F6_Name": {
       "Default": "Hilltop",
       "Section": "Farm6"
     },
-    "F6_X": {
-      "Default": "40",
+    "F6_Coords": {
+      "Default": "40, 62",
+      "AllowMultiple": "true",
       "Section": "Farm6"
     },
-    "F6_Y": {
-      "Default": "62",
+    "F6_FileName": {
+      "Default": "Hilltop.tmx",
       "Section": "Farm6"
     },
 
+    //* Main Farm to Farm 1
+    "MF_F1_Coords_R": {
+      "Default": "0, 19",
+      "AllowMultiple": "true",
+      "Section": "IntersectionMF"
+    },
+    "MF_F1_Coords_L": {
+      "Default": "79, 16",
+      "AllowMultiple": "true",
+      "Section": "IntersectionMF"
+    },
+
     //* Farm 1 to Farm 2
-    "F1_F2_X_R": {
-      "Default": "-1",
+    "F1_F2_Coords_R": {
+      "Default": "-1, 12",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
-    "F1_F2_Y_R": {
-      "Default": "12",
-      "Section": "Intersections"
-    },
-    "F1_F2_X_L": {
-      "Default": "79",
-      "Section": "Intersections"
-    },
-    "F1_F2_Y_L": {
-      "Default": "15",
+    "F1_F2_Coords_L": {
+      "Default": "79, 15",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
 
     //* Farm 2 to Farm 3
-    "F2_F3_X_R": {
-      "Default": "3",
+    "F2_F3_Coords_R": {
+      "Default": "3, 8",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
-    "F2_F3_Y_R": {
-      "Default": "8",
-      "Section": "Intersections"
-    },
-    "F2_F3_X_L": {
-      "Default": "79",
-      "Section": "Intersections"
-    },
-    "F2_F3_Y_L": {
-      "Default": "20",
+    "F2_F3_Coords_L": {
+      "Default": "79, 20",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
 
     //* Farm 3 to Farm 4
-    "F3_F4_X_B": {
-      "Default": "7",
+    "F3_F4_Coords_B": {
+      "Default": "7, -1",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
-    "F3_F4_Y_B": {
-      "Default": "-1",
-      "Section": "Intersections"
-    },
-    "F3_F4_X_T": {
-      "Default": "40",
-      "Section": "Intersections"
-    },
-    "F3_F4_Y_T": {
-      "Default": "64",
+    "F3_F4_Coords_T": {
+      "Default": "40, 64",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
 
     //* Farm 4 to Farm 5
-    "F4_F5_X_B": {
-      "Default": "40",
+    "F4_F5_Coords_B": {
+      "Default": "40, 0",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
-    "F4_F5_Y_B": {
-      "Default": "0",
-      "Section": "Intersections"
-    },
-    "F4_F5_X_T": {
-      "Default": "13",
-      "Section": "Intersections"
-    },
-    "F4_F5_Y_T": {
-      "Default": "74",
+    "F4_F5_Coords_T": {
+      "Default": "13, 74",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
 
     //* Farm 5 to Farm 6
-    "F5_F6_X_R": {
-      "Default": "-1",
+    "F5_F6_Coords_R": {
+      "Default": "-1, 10",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
-    "F5_F6_Y_R": {
-      "Default": "10",
+    "F5_F6_Coords_L": {
+      "Default": "99, 21",
+      "AllowMultiple": "true",
       "Section": "Intersections"
     },
-    "F5_F6_X_L": {
-      "Default": "99",
-      "Section": "Intersections"
+
+    //* SVE Config
+    "SVE_WildernessPatch": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "SVE"
     },
-    "F5_F6_Y_L": {
-      "Default": "21",
-      "Section": "Intersections"
+
+    "SVE_ForestPatch": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "SVE"
     }
   },
 
   "Changes": [
-    //* Add custom locations - Path to Farms
+
+    //* Adds Custom Locations (Path & Farms)
     {
-      "Action": "Load",
-      "Target": "Maps/Custom_MPF_PathToFarms",
-      "FromFile": "assets/PathToFarms.tmx"
+      "Action": "Include",
+      "FromFile": "main/locations.json"
     },
 
+    //* Patches vanilla locations (Backwoods, Railroad & Main Farms)
     {
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "Custom_MPF_PathToFarms": {
-          "DisplayName": "PathToFarm",
-          "DefaultArrivalTile": {
-            "X": 50,
-            "Y": 15
-          },
-          "CreateOnLoad": {
-            "MapPath": "Maps/Custom_MPF_PathToFarms",
-            "Type": "StardewValley.GameLocation"
-          }
-        }
-      }
+      "Action": "Include",
+      "FromFile": "main/patches_vanilla.json"
     },
 
-    //* Add custom locations - 1. Wilderness
+    //* Patches modded locations (SVE, Coal Point Farm, Walk To The Desert)
     {
-      "Action": "Load",
-      "Target": "Maps/Custom_MPF_Wilderness",
-      "FromFile": "assets/Farms/Wilderness.tmx"
+      "Action": "Include",
+      "FromFile": "main/patches_mods.json"
     },
 
+    //* Adds most warps between locations
     {
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "Custom_MPF_Wilderness": {
-          "DisplayName": "{{F1_Name}}",
-          "DefaultArrivalTile": {
-            "X": 48,
-            "Y": 7
-          },
-          "CreateOnLoad": {
-            "MapPath": "Maps/Custom_MPF_Wilderness",
-            "Type": "StardewValley.GameLocation",
-            "AlwaysActive": true
-          },
-          "CanPlantHere": true
-        }
-      },
-      "When": {
-        "F1_Enabled": "true"
-      }
+      "Action": "Include",
+      "FromFile": "main/warps.json"
     },
 
-    //* Add custom locations - 2. Forest
+    //* Included Buildings patches
     {
-      "Action": "Load",
-      "Target": "Maps/Custom_MPF_Forest",
-      "FromFile": "assets/Farms/Forest.tmx"
+      "Action": "Include",
+      "FromFile": "main/buildings.json"
     },
 
-    {
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "Custom_MPF_Forest": {
-          "DisplayName": "{{F2_Name}}",
-          "DefaultArrivalTile": {
-            "X": 48,
-            "Y": 7
-          },
-          "CreateOnLoad": {
-            "MapPath": "Maps/Custom_MPF_Forest",
-            "Type": "StardewValley.GameLocation",
-            "AlwaysActive": true
-          },
-          "CanPlantHere": true
-        }
-      },
-      "When": {
-        "F2_Enabled": "true"
-      }
-    },
-
-    //* Add custom locations - 3. Beach
-    {
-      "Action": "Load",
-      "Target": "Maps/Custom_MPF_Beach",
-      "FromFile": "assets/Farms/Beach.tmx"
-    },
-
-    {
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "Custom_MPF_Beach": {
-          "DisplayName": "{{F3_Name}}",
-          "DefaultArrivalTile": {
-            "X": 82,
-            "Y": 29
-          },
-          "CreateOnLoad": {
-            "MapPath": "Maps/Custom_MPF_Beach",
-            "Type": "StardewValley.GameLocation",
-            "AlwaysActive": true
-          },
-          "CanPlantHere": true
-        }
-      },
-      "When": {
-        "F3_Enabled": "true"
-      }
-    },
-
-    //* Add custom locations - 4. Riverland
-    {
-      "Action": "Load",
-      "Target": "Maps/Custom_MPF_Riverland",
-      "FromFile": "assets/Farms/Riverland.tmx"
-    },
-
-    {
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "Custom_MPF_Riverland": {
-          "DisplayName": "{{F4_Name}}",
-          "DefaultArrivalTile": {
-            "X": 48,
-            "Y": 7
-          },
-          "CreateOnLoad": {
-            "MapPath": "Maps/Custom_MPF_Riverland",
-            "Type": "StardewValley.GameLocation",
-            "AlwaysActive": true
-          },
-          "CanPlantHere": true
-        }
-      },
-      "When": {
-        "F4_Enabled": "true"
-      }
-    },
-
-    //* Add custom locations - 5. Meadowlands
-    {
-      "Action": "Load",
-      "Target": "Maps/Custom_MPF_Meadowlands",
-      "FromFile": "assets/Farms/Meadowlands.tmx"
-    },
-
-    {
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "Custom_MPF_Meadowlands": {
-          "DisplayName": "{{F5_Name}}",
-          "DefaultArrivalTile": {
-            "X": 71,
-            "Y": 6
-          },
-          "CreateOnLoad": {
-            "MapPath": "Maps/Custom_MPF_Meadowlands",
-            "Type": "StardewValley.GameLocation",
-            "AlwaysActive": true
-          },
-          "CanPlantHere": true
-        }
-      },
-      "When": {
-        "F5_Enabled": "true"
-      }
-    },
-
-    //* Add custom locations - 6. Hilltop
-    {
-      "Action": "Load",
-      "Target": "Maps/Custom_MPF_Hilltop",
-      "FromFile": "assets/Farms/Hilltop.tmx"
-    },
-
-    {
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "Custom_MPF_Hilltop": {
-          "DisplayName": "{{F6_Name}}",
-          "DefaultArrivalTile": {
-            "X": 48,
-            "Y": 7
-          },
-          "CreateOnLoad": {
-            "MapPath": "Maps/Custom_MPF_Hilltop",
-            "Type": "StardewValley.GameLocation",
-            "AlwaysActive": true
-          },
-          "CanPlantHere": true
-        }
-      },
-      "When": {
-        "F6_Enabled": "true"
-      }
-    },
-
-    //* Adds warp Hilltop -> Railroad
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Railroad",
-      "FromFile": "assets/Patches/Railroad_Patch.tmx",
-      "ToArea": { "X": 0, "Y": 51, "Width": 2, "Height": 5 },
-      "AddWarps": [
-        "-1 53 Custom_MPF_Hilltop 79 16",
-        "-1 54 Custom_MPF_Hilltop 79 17",
-        "-1 55 Custom_MPF_Hilltop 79 18"
-      ],
-      "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
-      }
-    },
-
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Railroad",
-      "FromFile": "assets/Patches/RailroadSVE_Patch.tmx",
-      "ToArea": { "X": 0, "Y": 51, "Width": 3, "Height": 6 },
-      "AddWarps": [
-        "-1 54 Custom_MPF_Hilltop 79 16",
-        "-1 55 Custom_MPF_Hilltop 79 17",
-        "-1 56 Custom_MPF_Hilltop 79 18"
-      ],
-      "When": {
-        "HasMod": "FlashShifter.StardewValleyExpandedCP"
-      }
-    },
-
-    //? To enter path to farms from backwoods
-    //? -> Use patch for SVE just to remove fences if SVE installed
-    //? -> Exclude when Coal Point Farm is installed to patch that location instead
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Backwoods",
-      "FromFile": "assets/Patches/Backwoods_Patch.tmx",
-      "ToArea": { "X": 8, "Y": 14, "Width": 7, "Height": 9 },
-      "AddWarps": [
-        "7 19 Custom_MPF_PathToFarms 98 14",
-        "7 20 Custom_MPF_PathToFarms 98 15",
-        "7 21 Custom_MPF_PathToFarms 98 16"
-      ],
-      "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
-        "HasMod |contains=AndrewJC.CoalPointFarm": false
-      }
-    },
-
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Backwoods",
-      "FromFile": "assets/Patches/BackwoodsSVE_Patch.tmx",
-      "ToArea": { "X": 8, "Y": 14, "Width": 7, "Height": 9 },
-      "AddWarps": [
-        "7 19 Custom_MPF_PathToFarms 98 14",
-        "7 20 Custom_MPF_PathToFarms 98 15",
-        "7 21 Custom_MPF_PathToFarms 98 16"
-      ],
-      "When": {
-        "HasMod": "FlashShifter.StardewValleyExpandedCP",
-        "HasMod |contains=AndrewJC.CoalPointFarm": false
-      }
-    },
-
-    {
-      "Action": "EditMap",
-      "Target": "Maps/CoalPointFarm",
-      "FromFile": "assets/Patches/CPF_Patch.tmx",
-      "ToArea": { "X": 0, "Y": 43, "Width": 6, "Height": 11 },
-      "AddWarps": [
-        "-1 48 Custom_MPF_PathToFarms 98 14",
-        "-1 49 Custom_MPF_PathToFarms 98 15",
-        "-1 50 Custom_MPF_PathToFarms 98 16",
-        "-1 51 Custom_MPF_PathToFarms 98 17"
-      ],
-      "When": {
-        "HasMod": "AndrewJC.CoalPointFarm"
-      }
-    },
-
-    //? Warps to return to backwoods or other location if any mod is installed
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_PathToFarms",
-      "AddWarps": [
-        "100 14 Backwoods 11 19",
-        "100 15 Backwoods 11 20",
-        "100 16 Backwoods 11 21",
-        "100 17 Backwoods 11 21"
-      ],
-      "When": {
-        "HasMod |contains=AndrewJC.CoalPointFarm": false
-      }
-    },
-
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_PathToFarms",
-      "AddWarps": [
-        "100 14 CoalPointFarm 1 48",
-        "100 15 CoalPointFarm 1 49",
-        "100 16 CoalPointFarm 1 50",
-        "100 17 CoalPointFarm 1 51"
-      ],
-      "When": {
-        "HasMod": "AndrewJC.CoalPointFarm"
-      }
-    },
-
-    //? Edits warps from the path to the farms
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_PathToFarms",
-      "AddWarps": [
-        //* Wilderness
-        "76 30 Custom_MPF_Wilderness {{F1_X}} {{F1_Y}}",
-        "77 30 Custom_MPF_Wilderness {{F1_X}} {{F1_Y}}",
-        "78 30 Custom_MPF_Wilderness {{query: {{F1_X}} + 1}} {{F1_Y}}",
-        "79 30 Custom_MPF_Wilderness {{query: {{F1_X}} + 1}} {{F1_Y}}",
-
-        //* Forest
-        "54 26 Custom_MPF_Forest {{F2_X}} {{F2_Y}}",
-        "55 26 Custom_MPF_Forest {{F2_X}} {{F2_Y}}",
-        "56 26 Custom_MPF_Forest {{query: {{F2_X}} + 1}} {{F2_Y}}",
-        "57 26 Custom_MPF_Forest {{query: {{F2_X}} + 1}} {{F2_Y}}",
-
-        //* Beach
-        "7 30 Custom_MPF_Beach {{F3_X}} {{F3_Y}}",
-        "8 30 Custom_MPF_Beach {{F3_X}} {{F3_Y}}",
-        "9 30 Custom_MPF_Beach {{F3_X}} {{F3_Y}}",
-        "10 30 Custom_MPF_Beach {{query: {{F3_X}} + 1}} {{F3_Y}}",
-        "11 30 Custom_MPF_Beach {{query: {{F3_X}} + 1}} {{F3_Y}}",
-
-        //* Riverland
-        "-1 14 Custom_MPF_Riverland {{F4_X}} {{F4_Y}}",
-        "-1 15 Custom_MPF_Riverland {{F4_X}} {{query: {{F4_Y}} + 1}}",
-        "-1 16 Custom_MPF_Riverland {{F4_X}} {{query: {{F4_Y}} + 2}}",
-        "-1 17 Custom_MPF_Riverland {{F4_X}} {{query: {{F4_Y}} + 3}}",
-
-        //* Meadowlands
-        "11 -1 Custom_MPF_Meadowlands {{F5_X}} {{F5_Y}}",
-        "12 -1 Custom_MPF_Meadowlands {{F5_X}} {{F5_Y}}",
-        "13 -1 Custom_MPF_Meadowlands {{query: {{F5_X}} + 1}} {{F5_Y}}",
-        "14 -1 Custom_MPF_Meadowlands {{query: {{F5_X}} + 1}} {{F5_Y}}",
-
-        //* Hilltop
-        "64 -1 Custom_MPF_Hilltop {{F6_X}} {{F6_Y}}",
-        "65 -1 Custom_MPF_Hilltop {{F6_X}} {{F6_Y}}",
-        "66 -1 Custom_MPF_Hilltop {{query: {{F6_X}} + 1}} {{F6_Y}}",
-        "67 -1 Custom_MPF_Hilltop {{query: {{F6_X}} + 1}} {{F6_Y}}"
-      ]
-    },
-
-    //? Edits warps from farms to path / farms + make location buildable
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_Wilderness",
-      "MapProperties": { "CanBuildHere": "T", "IsFarm": "T" },
-      "AddWarps": [
-        "{{F1_X}} {{query: {{F1_Y}} - 3}} Custom_MPF_PathToFarms 77 28",
-        "{{query: {{F1_X}} + 1}} {{query: {{F1_Y}} - 3}} Custom_MPF_PathToFarms 78 28",
-
-        //* F1 to F2
-        "{{F1_F2_X_R}} {{F1_F2_Y_R}} Custom_MPF_Forest {{F1_F2_X_L}} {{F1_F2_Y_L}}",
-        "{{F1_F2_X_R}} {{query: {{F1_F2_Y_R}} + 1}} Custom_MPF_Forest {{F1_F2_X_L}} {{query: {{F1_F2_Y_L}} + 1}}",
-        "{{F1_F2_X_R}} {{query: {{F1_F2_Y_R}} + 2}} Custom_MPF_Forest {{F1_F2_X_L}} {{query: {{F1_F2_Y_L}} + 2}}"
-      ]
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_Forest",
-      "MapProperties": { "CanBuildHere": "T", "IsFarm": "T" },
-      "AddWarps": [
-        "{{F2_X}} {{query: {{F2_Y}} - 3}} Custom_MPF_PathToFarms 55 24",
-        "{{query: {{F2_X}} + 1}} {{query: {{F2_Y}} - 3}} Custom_MPF_PathToFarms 56 24",
-
-        //* F2 to F1
-        "{{query: {{F1_F2_X_L}} + 1}} {{F1_F2_Y_L}} Custom_MPF_Wilderness {{query: {{F1_F2_X_R}} + 2}} {{F1_F2_Y_R}}",
-        "{{query: {{F1_F2_X_L}} + 1}} {{query: {{F1_F2_Y_L}} + 1}} Custom_MPF_Wilderness {{query: {{F1_F2_X_R}} + 2}} {{query: {{F1_F2_Y_R}} + 1}}",
-        "{{query: {{F1_F2_X_L}} + 1}} {{query: {{F1_F2_Y_L}} + 2}} Custom_MPF_Wilderness {{query: {{F1_F2_X_R}} + 2}} {{query: {{F1_F2_Y_R}} + 1}}",
-        "{{query: {{F1_F2_X_L}} + 1}} {{query: {{F1_F2_Y_L}} + 3}} Custom_MPF_Wilderness {{query: {{F1_F2_X_R}} + 2}} {{query: {{F1_F2_Y_R}} + 2}}",
-
-        //* F2 to F3
-        "{{F2_F3_X_R}} {{F2_F3_Y_R}} Custom_MPF_Beach {{F2_F3_X_L}} {{F2_F3_Y_L}}",
-        "{{F2_F3_X_R}} {{query: {{F2_F3_Y_R}} + 1}} Custom_MPF_Beach {{F2_F3_X_L}} {{query: {{F2_F3_Y_L}} + 1}}",
-        "{{F2_F3_X_R}} {{query: {{F2_F3_Y_R}} + 2}} Custom_MPF_Beach {{F2_F3_X_L}} {{query: {{F2_F3_Y_L}} + 2}}"
-      ]
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_Beach",
-      "MapProperties": { "CanBuildHere": "T", "IsFarm": "T" },
-      "AddWarps": [
-        "{{F3_X}} {{query: {{F3_Y}} - 3}} Custom_MPF_PathToFarms 9 28",
-        "{{query: {{F3_X}} + 1}} {{query: {{F3_Y}} - 3}} Custom_MPF_PathToFarms 9 28",
-
-        //* F3 to F2
-        "{{query: {{F2_F3_X_L}} + 1}} {{F2_F3_Y_L}} Custom_MPF_Forest {{query: {{F2_F3_X_R}} + 2}} {{F2_F3_Y_R}}",
-        "{{query: {{F2_F3_X_L}} + 1}} {{query: {{F2_F3_Y_L}} + 1}} Custom_MPF_Forest {{query: {{F2_F3_X_R}} + 2}} {{query: {{F2_F3_Y_R}} + 1}}",
-        "{{query: {{F2_F3_X_L}} + 1}} {{query: {{F2_F3_Y_L}} + 2}} Custom_MPF_Forest {{query: {{F2_F3_X_R}} + 2}} {{query: {{F2_F3_Y_R}} + 1}}",
-        "{{query: {{F2_F3_X_L}} + 1}} {{query: {{F2_F3_Y_L}} + 3}} Custom_MPF_Forest {{query: {{F2_F3_X_R}} + 2}} {{query: {{F2_F3_Y_R}} + 2}}",
-
-        //* F3 to F4
-        "{{F3_F4_X_B}} {{F3_F4_Y_B}} Custom_MPF_Riverland {{F3_F4_X_T}} {{F3_F4_Y_T}}",
-        "{{query: {{F3_F4_X_B}} + 1}} {{F3_F4_Y_B}} Custom_MPF_Riverland {{query: {{F3_F4_X_T}} + 1}} {{F3_F4_Y_T}}"
-      ]
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_Riverland",
-      "MapProperties": { "CanBuildHere": "T", "IsFarm": "T" },
-      "AddWarps": [
-        "{{query: {{F4_X}} + 3}} {{F4_Y}} Custom_MPF_PathToFarms 2 14",
-        "{{query: {{F4_X}} + 3}} {{query: {{F4_Y}} + 1}} Custom_MPF_PathToFarms 2 15",
-        "{{query: {{F4_X}} + 3}} {{query: {{F4_Y}} + 2}} Custom_MPF_PathToFarms 2 16",
-        "{{query: {{F4_X}} + 3}} {{query: {{F4_Y}} + 3}} Custom_MPF_PathToFarms 2 17",
-
-        //* F4 to F3
-        "{{F3_F4_X_T}} {{query: {{F3_F4_Y_T}} + 1}} Custom_MPF_Beach {{F3_F4_X_B}} {{query: {{F3_F4_Y_B}} + 1}}",
-        "{{query: {{F3_F4_X_T}} + 1}} {{query: {{F3_F4_Y_T}} + 1}} Custom_MPF_Beach {{query: {{F3_F4_X_B}} + 1}} {{query: {{F3_F4_Y_B}} + 1}}",
-
-        //* F4 to F5
-        "{{F4_F5_X_B}} {{F4_F5_Y_B}} Custom_MPF_Meadowlands {{F4_F5_X_T}} {{F4_F5_Y_T}}",
-        "{{query: {{F4_F5_X_B}} + 1}} {{F4_F5_Y_B}} Custom_MPF_Meadowlands {{query: {{F4_F5_X_T}} + 1}} {{F4_F5_Y_T}}"
-      ]
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_Meadowlands",
-      "MapProperties": { "CanBuildHere": "T", "IsFarm": "T" },
-      "AddWarps": [
-        "{{F5_X}} {{query: {{F5_Y}} + 3}} Custom_MPF_PathToFarms 12 2",
-        "{{query: {{F5_X}} + 1}} {{query: {{F5_Y}} + 3}} Custom_MPF_PathToFarms 13 2",
-
-        //* F5 to F4
-        "{{F4_F5_X_T}} {{query: {{F4_F5_Y_T}} + 1}} Custom_MPF_Riverland {{F4_F5_X_B}} {{query: {{F4_F5_Y_B}} + 1}}",
-        "{{query: {{F4_F5_X_T}} + 1}} {{query: {{F4_F5_Y_T}} + 1}} Custom_MPF_Riverland {{query: {{F4_F5_X_B}} + 1}} {{query: {{F4_F5_Y_B}} + 1}}",
-
-        //* F5 to F6
-        "{{query: {{F5_F6_X_L}} + 1}} {{F5_F6_Y_L}} Custom_MPF_Hilltop {{query: {{F5_F6_X_R}} + 2}} {{F5_F6_Y_R}}",
-        "{{query: {{F5_F6_X_L}} + 1}} {{query: {{F5_F6_Y_L}} + 1}} Custom_MPF_Hilltop {{query: {{F5_F6_X_R}} + 2}} {{query: {{F5_F6_Y_R}} + 1}}",
-        "{{query: {{F5_F6_X_L}} + 1}} {{query: {{F5_F6_Y_L}} + 2}} Custom_MPF_Hilltop {{query: {{F5_F6_X_R}} + 2}} {{query: {{F5_F6_Y_R}} + 1}}",
-        "{{query: {{F5_F6_X_L}} + 1}} {{query: {{F5_F6_Y_L}} + 3}} Custom_MPF_Hilltop {{query: {{F5_F6_X_R}} + 2}} {{query: {{F5_F6_Y_R}} + 2}}"
-      ]
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_Hilltop",
-      "MapProperties": { "CanBuildHere": "T", "IsFarm": "T" },
-      "AddWarps": [
-        "{{F6_X}} {{query: {{F6_Y}} + 3}} Custom_MPF_PathToFarms 65 2",
-        "{{query: {{F6_X}} + 1}} {{query: {{F6_Y}} + 3}} Custom_MPF_PathToFarms 66 2",
-
-        //* F6 to F5
-        "{{F5_F6_X_R}} {{F5_F6_Y_R}} Custom_MPF_Meadowlands {{F5_F6_X_L}} {{F5_F6_Y_L}}",
-        "{{F5_F6_X_R}} {{query: {{F5_F6_Y_R}} + 1}} Custom_MPF_Meadowlands {{F5_F6_X_L}} {{query: {{F5_F6_Y_L}} + 1}}",
-        "{{F5_F6_X_R}} {{query: {{F5_F6_Y_R}} + 2}} Custom_MPF_Meadowlands {{F5_F6_X_L}} {{query: {{F5_F6_Y_L}} + 2}}",
-
-        //* To Railroad
-        "80 16 Railroad 1 53",
-        "80 17 Railroad 1 54",
-        "80 18 Railroad 1 55"
-      ]
-    },
-
-    //? Adds patches when Walk to the Desert is installed
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_Meadowlands",
-      "FromFile": "assets/Patches/WTD_Meadows_WR.tmx",
-      "ToArea": { "X": 62, "Y": 0, "Width": 4, "Height": 7 },
-      "AddWarps": [
-        "63 -1 Tarniyar.CP.WalkToDesert_Winding_Road 14 89",
-        "64 -1 Tarniyar.CP.WalkToDesert_Winding_Road 15 89"
-      ],
-      "When": {
-        "HasMod": "Tarniyar.CP.WalkToDesert"
-      }
-    },
-
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Tarniyar.CP.WalkToDesert_Winding_Road",
-      "FromFile": "assets/Patches/WTD_WR_Meadows.tmx",
-      "ToArea": { "X": 13, "Y": 88, "Width": 4, "Height": 2 },
-      "AddWarps": [
-        "13 90 Custom_MPF_Meadowlands 63 0",
-        "14 90 Custom_MPF_Meadowlands 63 0",
-        "15 90 Custom_MPF_Meadowlands 64 0",
-        "16 90 Custom_MPF_Meadowlands 64 0"
-      ],
-      "When": {
-        "HasMod": "Tarniyar.CP.WalkToDesert"
-      }
-    },
-
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_MPF_Hilltop",
-      "FromFile": "assets/Patches/WTD_Hilltop_FR.tmx",
-      "ToArea": { "X": 39, "Y": 0, "Width": 4, "Height": 8 },
-      "AddWarps": [
-        "40 -1 Tarniyar.CP.WalkToDesert_Forest_Road 13 29",
-        "41 -1 Tarniyar.CP.WalkToDesert_Forest_Road 15 29"
-      ],
-      "When": {
-        "HasMod": "Tarniyar.CP.WalkToDesert"
-      }
-    },
-
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Tarniyar.CP.WalkToDesert_Forest_Road",
-      "FromFile": "assets/Patches/WTD_FR_Hilltop.tmx",
-      "ToArea": { "X": 11, "Y": 26, "Width": 7, "Height": 4 },
-      "AddWarps": [
-        "13 30 Custom_MPF_Hilltop 40 0",
-        "14 30 Custom_MPF_Hilltop 40 0",
-        "15 30 Custom_MPF_Hilltop 41 0"
-      ],
-      "When": {
-        "HasMod": "Tarniyar.CP.WalkToDesert"
-      }
-    },
-
-    //? Adds patches when Stardew Valley Expanded is installed
-
-    //? Strings
+    //* Strings for signs or other stuff
     {
       "Action": "EditData",
       "Target": "Strings/StringsFromMaps",
       "Entries": {
-        "mpf.toPathSign": "{{i18n:mpf.toPathSign}}"
+        "mpf.toPathSign": "{{i18n:mpf.toPathSign}}",
+        "mpf.railroadConstruction": "{{i18n:mpf.railroadConstruction}}"
       }
     },
 
+    //* Makes cabins free
     {
       "Action": "EditData",
       "Target": "Data/Buildings",
@@ -767,5 +250,6 @@
       },
       "When": { "Free_Cabins": "true" }
     }
+    
   ]
 }

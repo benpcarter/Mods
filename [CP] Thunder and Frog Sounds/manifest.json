@@ -2,7 +2,7 @@
   "$schema": "https://smapi.io/schemas/manifest.json",
   "Name": "Thunder and Frog Sounds For Content Patcher",
   "Author": "Chrisdegod",
-  "Version": "1.0.1",
+  "Version": "1.0.3",
   "Description": "Replaces some sounds played on rainy days",
   "UniqueID": "Chrisdegod.ThunderAndFrogSoundsForContentPatcher",
   "UpdateKeys": [ "Nexus:20489" ],

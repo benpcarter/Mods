@@ -1,0 +1,13 @@
+{
+   "Name": "Animal Crossing Dig & Seed Spot",
+   "Author": "N3rdGirl",
+   "Version": "2.0.0",
+   "Description": "Makes the Artifact spots into glowing AC digspots and makes the seed spots into green AC digspots",
+   "UniqueID": "N3rdGirl.ACDSS",
+   "UpdateKeys": [ "Nexus: 22793" ],
+   "MinimumApiVersion": "4.1.10",
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.5.1"
+  }
+}

@@ -1,5 +1,12 @@
 ﻿{
     /*********
+    ** In-game messages
+    *********/
+    "mod-paused": "Fast Animations paused; animations will play at default speed. Press {{keybind}} again to unpause it.",
+    "mod-unpaused": "Fast Animations resumed; animations will play at configured speeds. Press {{keybind}} again to pause it.",
+
+
+    /*********
     ** Generic Mod Config Menu UI
     *********/
     /****
@@ -71,6 +78,9 @@
     "config.fade.name": "Fade",
     "config.fade.tooltip": "How fast the screen fades to black and fades back in. Default {{defaultValue}}x.",
 
+    "config.fishing-text.name": "Fishing minigame text",
+    "config.fishing-text.tooltip": "How fast fishing minigame text animations like 'HIT!' and 'PERFECT' play. Default {{defaultValue}}x.",
+
     "config.fishing-treasure.name": "Fishing treasure chest",
     "config.fishing-treasure.tooltip": "How fast you open a fishing treasure chest. Default {{defaultValue}}x.",
 
@@ -106,11 +116,25 @@
     "config.open-dialogue-box.name": "Open dialogue box",
     "config.open-dialogue-box.tooltip": "How fast dialogue boxes open. Default {{defaultValue}}x.",
 
+    "config.shipping-menu.name": "Shipping menu transitions",
+    "config.shipping-menu.tooltip": "How fast the shipping menu transitions between screens. Default {{defaultValue}}x.",
+
     "config.title-menu.name": "Title menu transitions",
     "config.title-menu.tooltip": "How fast the title menu transitions between screens. Default {{defaultValue}}x.",
 
     "config.load-game-blink.name": "Load game blink",
     "config.load-game-blink.tooltip": "How fast the blinking-slot delay happens after you click a load-save slot. Default {{defaultValue}}x.",
+
+    /****
+    ** 'Pause Mod' section
+    ****/
+    "config.pause-mod-section": "Pause mod",
+
+    "config.mod-paused.name": "Paused temporarily",
+    "config.mod-paused.tooltip": "Whether the mod is temporarily paused, so all animations play at the default speed. This only applies during the current session.",
+
+    "config.pause-mod.name": "Pause key",
+    "config.pause-mod.tooltip": "The keybind which temporarily pauses the mod, so all animations play at the default speed. Pressing it again will unpause the mod.",
 
     /****
     ** 'Experimental' section

@@ -1,0 +1,19 @@
+{
+    "Name": "Cabins to Farmhouses",
+    "Author": "jenf1",
+    "Version": "1.1.0",
+    "UniqueID": "jenf1.cabinstofarmhouses",
+    "MinimumApiVersion": "4.0.0",
+    "Description": "Converts cabins into farmhouses.",
+	"UpdateKeys": [ "Nexus:25081" ],
+     "ContentPackFor": {
+         "UniqueID": "Pathoschild.ContentPatcher",
+         "MinimumVersion": "2.2.0"
+    },
+    "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.2.0"
+    }
+  ]
+}

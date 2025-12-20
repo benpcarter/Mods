@@ -1,42 +1,32 @@
 {
-	"Format": "2.0.0",
+	"Format": "2.8.1",
 	"Changes":
 	[
 		{
-			"LogName": "FishShop Rod Refund",
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": [ "FishShop" ],
-			"Entries":
-				{ "SalableItemTags": [
-					"item_bamboopole",
-					"item_trainingrod",
-					"item_fiberglassrod",
-					"item_advancediridiumrod",
-					"item_iridiumrod",
-					"category_bait",
-					"category_fish",
-					"category_sell_at_fish_shop",
-					"category_tackle"
-					]
-				}
+			"TargetField": ["FishShop","SalableItemTags"],
+			"Entries": {
+			"item_bamboopole": "item_bamboopole",
+			"item_trainingrod": "item_trainingrod",
+			"item_fiberglassrod": "item_fiberglassrod",
+			"item_advancediridiumrod": "item_advancediridiumrod",
+			"item_iridiumrod": "item_iridiumrod"
+			}
 		},
 		{
-			"LogName": "Training Rod Sale Price Fix",
 			"Action": "EditData",
 			"Target": "Data/Tools",
 			"TargetField": [ "TrainingRod" ],
 			"Entries": { "SalePrice": 25 },
 		},
 		{
-			"LogName": "Fiberglass Rod Sale Price Fix",
 			"Action": "EditData",
 			"Target": "Data/Tools",
 			"TargetField": [ "FiberglassRod" ],
 			"Entries": { "SalePrice": 1800 },
 		},
 		{
-			"LogName": "Iridium Rod Sale Price Fix",
 			"Action": "EditData",
 			"Target": "Data/Tools",
 			"TargetField": [ "IridiumRod" ],

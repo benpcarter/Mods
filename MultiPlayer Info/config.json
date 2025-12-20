@@ -4,6 +4,7 @@
   "ShowSelf": false,
   "ShowHostCrown": true,
   "HideHealthBars": false,
+  "ShowPlayerIcon": true,
   "Position": "BottomLeft",
   "XOffset": 0,
   "YOffset": 0,

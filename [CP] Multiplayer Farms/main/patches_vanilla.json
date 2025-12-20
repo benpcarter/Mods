@@ -1,0 +1,130 @@
+{
+  "Changes": [
+    //* Adds patch Hilltop -> Railroad (Boulder)
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Hilltop",
+      "FromFile": "assets/Patches/Hilltop_Railroad_Patch.tmx",
+      "ToArea": { "X": 78, "Y": 15, "Width": 2, "Height": 4 },
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "Query: {{DaysPlayed}} <= 30": true
+      }
+    },
+
+    //* Adds warps Hilltop -> Railroad (Warps)
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Hilltop",
+      "AddWarps": ["80 16 Railroad 1 53", "80 17 Railroad 1 54", "80 18 Railroad 1 55"]
+    },
+
+    //* Adds warp Railroad -> Hilltop
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Railroad",
+      "FromFile": "assets/Patches/Railroad_Patch.tmx",
+      "ToArea": { "X": 0, "Y": 50, "Width": 2, "Height": 6 },
+      "AddWarps": [
+        "-1 53 Custom_MPF_Hilltop 79 16",
+        "-1 54 Custom_MPF_Hilltop 79 17",
+        "-1 55 Custom_MPF_Hilltop 79 18"
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+    },
+
+    //* To enter path to farms from backwoods
+    //? -> Use patch for SVE just to remove fences if SVE installed
+    //? -> Exclude when Coal Point Farm is installed to patch that location instead
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/Patches/Backwoods_Patch.tmx",
+      "ToArea": { "X": 0, "Y": 0, "Width": 15, "Height": 23 },
+      "AddWarps": [
+        "-1 18 Custom_MPF_PathToFarms 98 14",
+        "-1 19 Custom_MPF_PathToFarms 98 15",
+        "-1 20 Custom_MPF_PathToFarms 98 16"
+      ],
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "HasMod |contains=AndrewJC.CoalPointFarm": false
+      }
+    },
+
+    //* To fix the trees always growing big on next days (3 in 8 chance for trees to spawn)
+    //? Wilderness
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Wilderness",
+      "FromFile": "assets/Patches/Random/Wild_R_{{Random:1, 2, 3, 4, 4, 4, 4, 4}}.tmx",
+      "ToArea": { "X": 0, "Y": 0, "Width": 80, "Height": 65 },
+      "When": {
+        "F1_FileName": "Wilderness.tmx",
+        "Day": "{{Range: 1, 27}}"
+      }
+    },
+
+    //? Forest
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Forest",
+      "FromFile": "assets/Patches/Random/Forest_R_{{Random:1, 2, 3, 4, 4, 4, 4, 4}}.tmx",
+      "ToArea": { "X": 0, "Y": 0, "Width": 80, "Height": 65 },
+      "When": {
+        "F2_FileName": "Forest.tmx",
+        "Day": "{{Range: 1, 27}}"
+      }
+    },
+
+    //? Beach
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Beach",
+      "FromFile": "assets/Patches/Random/Beach_R_{{Random:1, 2, 3, 4, 4, 4, 4, 4}}.tmx",
+      "ToArea": { "X": 0, "Y": 0, "Width": 110, "Height": 110 },
+      "When": {
+        "F3_FileName": "Beach.tmx",
+        "Day": "{{Range: 1, 27}}"
+      }
+    },
+
+    //? Riverland
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Riverland",
+      "FromFile": "assets/Patches/Random/River_R_{{Random:1, 2, 3, 4, 4, 4, 4, 4}}.tmx",
+      "ToArea": { "X": 0, "Y": 0, "Width": 80, "Height": 65 },
+      "When": {
+        "F4_FileName": "Riverland.tmx",
+        "Day": "{{Range: 1, 27}}"
+      }
+    },
+
+    //? Meadowlands
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Meadowlands",
+      "FromFile": "assets/Patches/Random/Meadow_R_{{Random:1, 2, 3, 4, 4, 4, 4, 4}}.tmx",
+      "ToArea": { "X": 0, "Y": 0, "Width": 100, "Height": 75 },
+      "When": {
+        "F5_FileName": "Meadowlands.tmx",
+        "Day": "{{Range: 1, 27}}"
+      }
+    },
+
+    //? Hilltop
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Hilltop",
+      "FromFile": "assets/Patches/Random/Hills_R_{{Random:1, 2, 3, 4, 4, 4, 4, 4}}.tmx",
+      "ToArea": { "X": 0, "Y": 0, "Width": 80, "Height": 65 },
+      "When": {
+        "F6_FileName": "Hilltop.tmx",
+        "Day": "{{Range: 1, 27}}"
+      }
+    }
+  ]
+}

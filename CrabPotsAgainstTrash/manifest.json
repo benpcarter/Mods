@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Crab Pots Against Trash",
+  "Author": "stardemod",
+  "Version": "1.0.2",
+  "Description": "Crab pots reduces chance of fishing trash",
+  "UniqueID": "stardemod.CrabPotsAgainstTrash",
+  "EntryDll": "CrabPotsAgainstTrash.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:40330" ]
+}

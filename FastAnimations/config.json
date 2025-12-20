@@ -1,4 +1,5 @@
 {
+  "PauseModKey": "None",
   "DisableEatAndDrinkConfirmation": false,
   "EatAndDrinkSpeed": 5.0,
   "FishingSpeed": 1.0,
@@ -16,6 +17,7 @@
   "BreakGeodeSpeed": 20.0,
   "CasinoSlotsSpeed": 8.0,
   "FadeSpeed": 4.0,
+  "FishingTextSpeed": 1.0,
   "FishingTreasureSpeed": 4.0,
   "ForgeSpeed": 8.0,
   "OpenChestSpeed": 4.0,
@@ -26,7 +28,7 @@
   "TailorSpeed": 4.0,
   "TreeFallSpeed": 2.0,
   "WheelSpinSpeed": 4.0,
-  "DialogueTypeSpeed": 3.0,
+  "DialogueTypeSpeed": 4.0,
   "TitleMenuTransitionSpeed": 20.0,
   "LoadGameBlinkSpeed": 2.0,
   "Experimental_EventSpeed": 1.0

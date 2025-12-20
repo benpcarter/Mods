@@ -1,0 +1,109 @@
+{
+  "Format": "2.5.0",
+  "ConfigSchema": {
+    //Artifact Dig Spots
+    "Animal Crossing Dig Spot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Changes the worm artifact spot with the digspot from Animal Crossing.",
+      "Section": "Artifact Dig Spots"
+    },
+    "Artifact Spot Typing": {
+      "AllowValues": "Normal, Glowy, Animated",
+      "Default": "Normal",
+      "Description": "A normal brown spot or a glowy spot",
+      "Section": "Artifact Dig Spots"
+    },
+    //Seed Dig Spots
+    "Animal Crossing Seed Spots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Changes the grass seed spot with a green digspot from Animal Crossing.",
+      "Section": "Seed Dig Spots"
+    },
+    "Seed Spot Typing": {
+      "AllowValues": "Normal, Light",
+      "Default": "Normal",
+      "Description": "Set if the spot is normal, a darker green, or light green.",
+      "Section": "Seed Dig Spots"
+    }
+  },
+  "Changes":
+    [
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/GlowingSpot.png",
+        "ToArea": {
+          "X": 368,
+          "Y": 32,
+          "Width": 64,
+          "Height": 16
+        },
+        "When": {
+          "Animal Crossing Dig Spot": "true",
+          "Artifact Spot Typing": "Glowy"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/NormalSpot.png",
+        "ToArea": {
+          "X": 368,
+          "Y": 32,
+          "Width": 64,
+          "Height": 16
+        },
+        "When": {
+          "Animal Crossing Dig Spot": "true",
+          "Artifact Spot Typing": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/AnimatedGlowingSpot.png",
+        "ToArea": {
+          "X": 368,
+          "Y": 32,
+          "Width": 64,
+          "Height": 16
+        },
+        "When": {
+          "Animal Crossing Dig Spot": "true",
+          "Artifact Spot Typing": "Animated"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors_1_6",
+        "FromFile": "assets/GSeedSpot.png",
+        "ToArea": {
+          "X": 160,
+          "Y": 0,
+          "Width": 64,
+          "Height": 16
+        },
+        "When":{
+          "Animal Crossing Seed Spots": "true",
+          "Seed Spot Typing": "Normal"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors_1_6",
+        "FromFile": "assets/LGSeedSpot.png",
+        "ToArea": {
+          "X": 160,
+          "Y": 0,
+          "Width": 64,
+          "Height": 16
+        },
+        "When":{
+          "Animal Crossing Seed Spots": "true",
+          "Seed Spot Typing": "Light"
+        }
+      }
+    ]
+}

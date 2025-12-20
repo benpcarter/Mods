@@ -1,0 +1,524 @@
+{
+  "Changes": [
+    //* Add custom locations - Path to Farms
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_MPF_PathToFarms",
+      "FromFile": "assets/PathToFarms.tmx"
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MPF_PathToFarms": {
+          "DisplayName": "PathToFarm",
+          "DefaultArrivalTile": {
+            "X": 50,
+            "Y": 15
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps/Custom_MPF_PathToFarms",
+            "Type": "StardewValley.GameLocation"
+          }
+        }
+      }
+    },
+
+    //* Add custom farm - 1. Wilderness
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_MPF_Wilderness",
+      "FromFile": "assets/Farms/{{F1_FileName}}"
+    },
+
+    //? Main properties
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MPF_Wilderness": {
+          "DisplayName": "{{F1_Name}}",
+          "CanPlantHere": true,
+          "CanHaveGreenRainSpawns": true,
+          "MinDailyWeeds": 3,
+          "MaxDailyWeeds": 9,
+          "FirstDayWeedMultiplier": 15,
+          "ChanceForClay": 0.03,
+          "ExcludeFromNpcPathfinding": true,
+          "Fish": [
+            {
+              "Chance": 0.35,
+              "Id": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+              "ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
+            },
+            {
+              "Chance": 0.35,
+              "Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+              "ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH"
+            }
+          ],
+          "DefaultArrivalTile": {
+            "X": 48,
+            "Y": 7
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps/Custom_MPF_Wilderness",
+            "Type": "StardewValley.GameLocation",
+            "AlwaysActive": true
+          }
+        }
+      },
+      "When": {
+        "LyzzCL.MPF_Core/FarmOne": true
+      }
+    },
+
+    //? Disable intersections
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Wilderness",
+      "FromFile": "assets/Patches/Intersections/Wilderness_F2.tmx",
+      "ToArea": { "X": 0, "Y": 7, "Width": 3, "Height": 8 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmOne": true,
+        "LyzzCL.MPF_Core/FarmTwo": false,
+        "F1_FileName": "Wilderness.tmx"
+      }
+    },
+
+    //? Patch for when farm is disabled
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_PathToFarms",
+      "FromFile": "assets/Patches/PTF_Disabled1.tmx",
+      "ToArea": { "X": 75, "Y": 16, "Width": 6, "Height": 14 },
+      "When": {
+        "LyzzCL.MPF_Core/FarmOne": false
+      }
+    },
+
+    //* Add custom locations - 2. Forest
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_MPF_Forest",
+      "FromFile": "assets/Farms/{{F2_FileName}}"
+    },
+
+    //? Main properties
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MPF_Forest": {
+          "DisplayName": "{{F2_Name}}",
+          "CanPlantHere": true,
+          "CanHaveGreenRainSpawns": true,
+          "MinDailyWeeds": 3,
+          "MaxDailyWeeds": 9,
+          "FirstDayWeedMultiplier": 15,
+          "ChanceForClay": 0.03,
+          "ExcludeFromNpcPathfinding": true,
+          "MinDailyForageSpawn": 1,
+          "MaxDailyForageSpawn": 4,
+          "MaxSpawnedForageAtOnce": 6,
+          "Fish": [
+            {
+              "Chance": 0.45,
+              "Id": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+              "ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
+            },
+            {
+              "Chance": 0.05,
+              "Id": "Woodskip",
+              "ItemId": "(O)734"
+            }
+          ],
+          "DefaultArrivalTile": {
+            "X": 48,
+            "Y": 7
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps/Custom_MPF_Forest",
+            "Type": "StardewValley.GameLocation",
+            "AlwaysActive": true
+          }
+        }
+      },
+      "When": {
+        "LyzzCL.MPF_Core/FarmTwo": true
+      }
+    },
+
+    //? Disable intersections
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Forest",
+      "FromFile": "assets/Patches/Intersections/Forest_F1.tmx",
+      "ToArea": { "X": 76, "Y": 13, "Width": 4, "Height": 6 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmTwo": true,
+        "LyzzCL.MPF_Core/FarmOne": false,
+        "F2_FileName": "Forest.tmx"
+      }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Forest",
+      "FromFile": "assets/Patches/Intersections/Forest_F3.tmx",
+      "ToArea": { "X": 0, "Y": 4, "Width": 6, "Height": 8 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmTwo": true,
+        "LyzzCL.MPF_Core/FarmThree": false,
+        "F2_FileName": "Forest.tmx"
+      }
+    },
+
+    //? Patch for when farm is disabled
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_PathToFarms",
+      "FromFile": "assets/Patches/PTF_Disabled2.tmx",
+      "ToArea": { "X": 54, "Y": 16, "Width": 7, "Height": 9 },
+      "When": {
+        "LyzzCL.MPF_Core/FarmTwo": false
+      }
+    },
+
+    //* Add custom locations - 3. Beach
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_MPF_Beach",
+      "FromFile": "assets/Farms/{{F3_FileName}}"
+    },
+
+    //? Main properties
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MPF_Beach": {
+          "DisplayName": "{{F3_Name}}",
+          "CanPlantHere": true,
+          "CanHaveGreenRainSpawns": true,
+          "MinDailyWeeds": 3,
+          "MaxDailyWeeds": 9,
+          "FirstDayWeedMultiplier": 15,
+          "ChanceForClay": 0.03,
+          "ExcludeFromNpcPathfinding": true,
+          "Fish": [
+            {
+              "Chance": 0.53,
+              "Id": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+              "ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH"
+            },
+            {
+              "Chance": 0.15,
+              "Id": "Seaweed",
+              "ItemId": "(O)152"
+            },
+            {
+              "Chance": 0.15,
+              "Id": "(O)718|(O)719|(O)723|(O)393",
+              "RandomItemId": ["(O)718","(O)719","(O)723","(O)393"]
+            }
+          ],
+          "DefaultArrivalTile": {
+            "X": 82,
+            "Y": 29
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps/Custom_MPF_Beach",
+            "Type": "StardewValley.GameLocation",
+            "AlwaysActive": true
+          }
+        }
+      },
+      "When": {
+        "LyzzCL.MPF_Core/FarmThree": true
+      }
+    },
+
+    //? Disable intersections
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Beach",
+      "FromFile": "assets/Patches/Intersections/Beach_F2.tmx",
+      "ToArea": { "X": 77, "Y": 18, "Width": 4, "Height": 6 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmThree": true,
+        "LyzzCL.MPF_Core/FarmTwo": false,
+        "F3_FileName": "Beach.tmx"
+      }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Beach",
+      "FromFile": "assets/Patches/Intersections/Beach_F4.tmx",
+      "ToArea": { "X": 6, "Y": 0, "Width": 4, "Height": 10 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmThree": true,
+        "LyzzCL.MPF_Core/FarmFour": false,
+        "F3_FileName": "Beach.tmx"
+      }
+    },
+
+    //? Patch for when farm is disabled
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_PathToFarms",
+      "FromFile": "assets/Patches/PTF_Disabled3.tmx",
+      "ToArea": { "X": 6, "Y": 16, "Width": 33, "Height": 14 },
+      "When": {
+        "LyzzCL.MPF_Core/FarmThree": false
+      }
+    },
+
+    //* Add custom locations - 4. Riverland
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_MPF_Riverland",
+      "FromFile": "assets/Farms/{{F4_FileName}}"
+    },
+
+    //? Main properties
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MPF_Riverland": {
+          "DisplayName": "{{F4_Name}}",
+          "CanPlantHere": true,
+          "CanHaveGreenRainSpawns": true,
+          "MinDailyWeeds": 3,
+          "MaxDailyWeeds": 9,
+          "FirstDayWeedMultiplier": 15,
+          "ChanceForClay": 0.03,
+          "ExcludeFromNpcPathfinding": true,
+          "Fish": [
+            {
+              "Chance": 0.30,
+              "Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+              "ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH"
+            },
+            {
+              "Chance": 0.70,
+              "Id": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+              "ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
+            }
+          ],
+          "DefaultArrivalTile": {
+            "X": 48,
+            "Y": 7
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps/Custom_MPF_Riverland",
+            "Type": "StardewValley.GameLocation",
+            "AlwaysActive": true
+          }
+        }
+      },
+      "When": {
+        "LyzzCL.MPF_Core/FarmFour": true
+      }
+    },
+
+    //? Disable intersections
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Riverland",
+      "FromFile": "assets/Patches/Intersections/Riverland_F3.tmx",
+      "ToArea": { "X": 39, "Y": 62, "Width": 4, "Height": 3 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmFour": true,
+        "LyzzCL.MPF_Core/FarmThree": false,
+        "F4_FileName": "Riverland.tmx"
+      }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Riverland",
+      "FromFile": "assets/Patches/Intersections/Riverland_F5.tmx",
+      "ToArea": { "X": 39, "Y": 0, "Width": 4, "Height": 6 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmFour": true,
+        "LyzzCL.MPF_Core/FarmFive": false,
+        "F4_FileName": "Riverland.tmx"
+      }
+    },
+
+    //? Patch for when farm is disabled
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_PathToFarms",
+      "FromFile": "assets/Patches/PTF_Disabled4.tmx",
+      "ToArea": { "X": 0, "Y": 12, "Width": 20, "Height": 7 },
+      "When": {
+        "LyzzCL.MPF_Core/FarmFour": false
+      }
+    },
+
+    //* Add custom locations - 5. Meadowlands
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_MPF_Meadowlands",
+      "FromFile": "assets/Farms/{{F5_FileName}}"
+    },
+
+    //? Main properties
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MPF_Meadowlands": {
+          "DisplayName": "{{F5_Name}}",
+          "CanPlantHere": true,
+          "CanHaveGreenRainSpawns": true,
+          "MinDailyWeeds": 3,
+          "MaxDailyWeeds": 9,
+          "FirstDayWeedMultiplier": 15,
+          "ChanceForClay": 0.03,
+          "ExcludeFromNpcPathfinding": true,
+          "DefaultArrivalTile": {
+            "X": 71,
+            "Y": 6
+          },
+          "Fish": [
+            {
+              "Chance": 0.40,
+              "Id": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+              "ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH"
+            }
+          ],
+          "CreateOnLoad": {
+            "MapPath": "Maps/Custom_MPF_Meadowlands",
+            "Type": "StardewValley.GameLocation",
+            "AlwaysActive": true
+          }
+        }
+      },
+      "When": {
+        "LyzzCL.MPF_Core/FarmFive": true
+      }
+    },
+
+    //? Disable intersections
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Meadowlands",
+      "FromFile": "assets/Patches/Intersections/Meadowlands_F4.tmx",
+      "ToArea": { "X": 11, "Y": 67, "Width": 6, "Height": 8 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmFive": true,
+        "LyzzCL.MPF_Core/FarmFour": false,
+        "F5_FileName": "Meadowlands.tmx"
+      }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Meadowlands",
+      "FromFile": "assets/Patches/Intersections/Meadowlands_F6.tmx",
+      "ToArea": { "X": 91, "Y": 19, "Width": 9, "Height": 6 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmFive": true,
+        "LyzzCL.MPF_Core/FarmSix": false,
+        "F5_FileName": "Meadowlands.tmx"
+      }
+    },
+
+    //? Patch for when farm is disabled
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_PathToFarms",
+      "FromFile": "assets/Patches/PTF_Disabled5.tmx",
+      "ToArea": { "X": 9, "Y": 0, "Width": 14, "Height": 15 },
+      "When": {
+        "LyzzCL.MPF_Core/FarmFive": false
+      }
+    },
+
+    //* Add custom locations - 6. Hilltop
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_MPF_Hilltop",
+      "FromFile": "assets/Farms/{{F6_FileName}}"
+    },
+
+    //? Main properties
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MPF_Hilltop": {
+          "DisplayName": "{{F6_Name}}",
+          "CanPlantHere": true,
+          "CanHaveGreenRainSpawns": true,
+          "MinDailyWeeds": 3,
+          "MaxDailyWeeds": 9,
+          "FirstDayWeedMultiplier": 15,
+          "ChanceForClay": 0.03,
+          "ExcludeFromNpcPathfinding": true,
+          "Fish": [
+            {
+              "Chance": 0.5,
+              "Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+              "ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH"
+            }
+          ],
+          "DefaultArrivalTile": {
+            "X": 48,
+            "Y": 7
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps/Custom_MPF_Hilltop",
+            "Type": "StardewValley.GameLocation",
+            "AlwaysActive": true
+          }
+        }
+      },
+      "When": {
+        "LyzzCL.MPF_Core/FarmSix": true
+      }
+    },
+
+    //? Disable intersections
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_Hilltop",
+      "FromFile": "assets/Patches/Intersections/Hilltop_F5.tmx",
+      "ToArea": { "X": 0, "Y": 5, "Width": 5, "Height": 7 },
+      "When":{
+        "LyzzCL.MPF_Core/FarmSix": true,
+        "LyzzCL.MPF_Core/FarmFive": false,
+        "F6_FileName": "Hilltop.tmx"
+      }
+    },
+
+    //? Patch for when farm is disabled
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_PathToFarms",
+      "FromFile": "assets/Patches/PTF_Disabled6.tmx",
+      "ToArea": { "X": 63, "Y": 0, "Width": 9, "Height": 15 },
+      "When": {
+        "LyzzCL.MPF_Core/FarmSix": false
+      }
+    },
+
+    //? Patch for when both Farm 4 and 5 are disabled
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MPF_PathToFarms",
+      "FromFile": "assets/Patches/PTF_Disabled4_5_Fix.tmx",
+      "ToArea": { "X": 9, "Y": 12, "Width": 11, "Height": 7 },
+      "When": {
+        "LyzzCL.MPF_Core/FarmFour": false,
+        "LyzzCL.MPF_Core/FarmFive": false
+      }
+    }
+  ]
+}

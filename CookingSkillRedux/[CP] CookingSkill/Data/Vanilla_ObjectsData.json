@@ -58,35 +58,6 @@
                         }
                     ]
                 },
-                "206": {
-                    "Price": 420,
-                    "Buffs": [
-                        {
-                            "Id": "Food",
-                            "BuffId": null,
-                            "IconTexture": null,
-                            "IconSpriteIndex": 0,
-                            "Duration": 60,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0,
-                                "FishingLevel": 0,
-                                "MiningLevel": 0,
-                                "LuckLevel": 0,
-                                "ForagingLevel": 0,
-                                "MaxStamina": 32,
-                                "MagneticRadius": 0,
-                                "Speed": 0,
-                                "Defense": 0,
-                                "Attack": 0
-                            },
-                            "CustomFields": {
-                                "spacechase.SpaceCore.SkillBuff.drbirbdev.Socializing": "3"
-                            }
-                        }
-                    ]
-                },
                 "213": {
                     "Buffs": [
                         {
@@ -112,6 +83,9 @@
                             "CustomFields": {}
                         }
                     ]
+                },
+                "216": {
+                    "Price": 50
                 },
                 "456": {
                     "Buffs": [

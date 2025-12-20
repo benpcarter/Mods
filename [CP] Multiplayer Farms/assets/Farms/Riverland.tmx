@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="80" height="65" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="60">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="80" height="65" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="68">
  <properties>
+  <property name="AllowGiantCrops" value="T"/>
   <property name="AllowGrassSurviveInWinter" value="T"/>
+  <property name="CanBuildHere" value="T"/>
+  <property name="ClearEmptyDirtOnNewMonth" value="T"/>
+  <property name="EnableGrassSpread" value="T"/>
+  <property name="ForceAllowTreePlanting" value="T"/>
+  <property name="IsFarm" value="T"/>
   <property name="Outdoors" value="T"/>
+  <property name="PassOutSafe" value="T"/>
+  <property name="SpawnDebrisOnNewMonth" value="T"/>
+  <property name="SpawnDebrisOnNewYear" value="T"/>
+  <property name="SpawnGrassFromPathsOnNewYear" value="T"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
-  <image source="paths" width="64" height="256"/>
+  <image source="paths.png" width="64" height="256"/>
  </tileset>
  <tileset firstgid="65" name="spring_outdoorTileSheet_extra" tilewidth="16" tileheight="16" tilecount="64" columns="8">
-  <image source="spring_outdoorTileSheet_extra" width="128" height="128"/>
+  <image source="spring_outdoorTileSheet_extra.png" width="128" height="128"/>
   <tile id="0">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
@@ -71,7 +81,7 @@
   </tile>
  </tileset>
  <tileset firstgid="129" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="spring_outdoorsTileSheet" width="400" height="1264"/>
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
@@ -1808,7 +1818,7 @@
   </tile>
  </tileset>
  <tileset firstgid="2104" name="v16_Outdoors2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
-  <image source="spring_outdoorsTileSheet2" width="256" height="1120"/>
+  <image source="spring_outdoorsTileSheet2.png" width="256" height="1120"/>
   <tile id="740">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
@@ -2745,9 +2755,51 @@
     <property name="NPCBarrier" value="T"/>
    </properties>
   </object>
-  <object id="44" name="TileData" x="672" y="992" width="16" height="16">
+  <object id="60" name="TileData" x="656" y="96" width="16" height="16">
    <properties>
     <property name="NPCBarrier" value="T"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="61" name="TileData" x="656" y="16" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="62" name="TileData" x="1264" y="240" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="T"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="63" name="TileData" x="1264" y="256" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="T"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="64" name="TileData" x="1264" y="272" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="T"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="65" name="TileData" x="1264" y="288" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="T"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="66" name="TileData" x="640" y="992" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="T"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="67" name="TileData" x="656" y="992" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="T"/>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </object>
  </objectgroup>

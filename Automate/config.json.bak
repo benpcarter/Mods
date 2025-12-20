@@ -10,6 +10,8 @@
   "JunimoHutBehaviorForSeeds": "AutoDetect",
   "CollectTreeMoss": true,
   "WarnForMissingBridgeMod": true,
+  "ChestsEnabledByDefault": true,
+  "ChestOverrides": {},
   "MachineOverrides": {},
   "MinMinutesForFairyDust": 20
 }

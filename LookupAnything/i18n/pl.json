@@ -37,7 +37,6 @@
     "type.building": "Budowla",
     "type.bush": "Krzak",
     "type.fruit-tree": "Drzewo Owocowe",
-    "type.map-tile": "Kafelek Mapy",
     "type.monster": "Potwór",
     "type.player": "Gracz",
     "type.tree": "Drzewo",
@@ -60,6 +59,14 @@
     "friendship-status.married": "Poślubiono",
     "friendship-status.divorced": "Rozwiedziono",
     "friendship-status.kicked-out": "Porzucono",
+
+    // custom content (shows which mod added an item, NPC, etc)
+    // TODO
+    "added-by-mod": "Added by mod",
+    "added-by-mod.summary": "{{modName}}",
+
+    // internal ID
+    "internal-id": "Internal ID", // TODO
 
 
     /*********
@@ -113,6 +120,10 @@
     "location.forest.island-tip": "leśna rzeka (południowy kraniec dużej wyspy)",
     "location.forest.lake": "leśny staw",
     "location.forest.river": "leśna rzeka",
+    "location.HarveyRoom": "Harvey's Room", // TODO
+    "location.LeoTreeHouse": "Treehouse", // TODO
+    "location.SandyHouse": "Oasis", // TODO
+    "location.SebastianRoom": "Sebastian's Room", // TODO
     "location.submarine": "łódź podwodna Nocnego Rynku",
     "location.town.northmost-bridge": "miasto (kładka na północy)",
     "location.undergroundMine": "kopalnia",
@@ -136,6 +147,8 @@
     /*********
     ** Conditions & context tags
     *********/
+    "conditions-summary": "[warunki: {{conditions}}]", // wraps 'game state query' conditions that often can't be translated. For example: "[conditions: ITEM_ID Input (O)128]".
+
     "condition-or-context-tag.negate": "nie {{value}}",
 
     "condition.day-of-month": "w konkretne dni ({{days}})",
@@ -173,6 +186,7 @@
     "animal.produce-ready": "Produkt gotowy",
     "animal.growth": "Wiek",
     "animal.sells-for": "Sprzedaż za",
+    "animal.golden-cracker": "Golden animal cracker", // also used for fish ponds // TODO
 
     // values
     "animal.complaints.hungry": "nie było wczoraj karmione",
@@ -181,6 +195,8 @@
     "animal.complaints.no-heater": "brak ogrzewania zimą",
     "animal.complaints.not-petted": "nie zostało dzisiaj pogłaskane",
     "animal.complaints.wild-animal-attack": "zaatakowane przez dzikie zwierzęta w nocy",
+    "animal.golden-cracker.none": "None. Add a golden animal cracker to double produced items.", // TODO
+    "animal.golden-cracker.applied": "Applied; produced items are doubled.", // TODO
 
 
     /*********
@@ -301,6 +317,8 @@
     "crop.summary.drops-X-to-Y": "można zebrać od {{min}} do {{max}} ({{percent}}% szans na dodatkowe plony)",
     "crop.summary.harvest-once": "zbiory po {{daysToFirstHarvest}} dniach",
     "crop.summary.harvest-multi": "zbiory po {{daysToFirstHarvest}} dniach, następnie co {{daysToNextHarvests}} dni",
+    "crop.summary.farming-xp": "gives +{{amount}} farming XP per harvest", // TODO
+    "crop.summary.foraging-xp": "gives +{{amount}} foraging XP per harvest", // TODO
     "crop.summary.seasons": "rośnie w {{seasons}}",
     "crop.summary.sells-for": "sprzedaż za {{price}}",
     "crop.harvest.too-late": "za późno w sezonie na następne zbiory (byłyby na {{date}})",
@@ -310,7 +328,6 @@
     ** Item > generic lookups
     *********/
     // labels
-    "item.custom-item": "Niestandardowy przedmiot",
     "item.contents": "Zawartość",
     "item.loves-this": "Kocha to",
     "item.likes-this": "Lubi to",
@@ -318,6 +335,7 @@
     "item.dislikes-this": "Nie lubi tego",
     "item.hates-this": "Nienawidzi tego",
     "item.needed-for": "Potrzebne do",
+    "item.flavor": "Flavor", // TODO // links to the flavor item (e.g. 'Blueberry' for Blueberry Wine)
     "item.number-owned": "Posiadane",
     "item.number-cooked": "Przyrządzone",
     "item.number-crafted": "Wytworzone",
@@ -329,7 +347,6 @@
     "item.produces-dye": "Tworzy barwnik",
 
     // values
-    "item.custom-item.summary": "dodane przez {{modName}}",
     "item.contents.placed": "{{name}} umieszczono",
     "item.contents.ready": "{{name}} ukończono",
     "item.contents.partial": "{{name}} za {{time}}",
@@ -343,15 +360,17 @@
     "item.needed-for.gourmet-chef": "osiągnięcie smakosz (przyrządź {{recipes}})",
     "item.needed-for.craft-master": "osiągnięcie mistrz rzemieślników (wytwórz {{recipes}})",
     "item.needed-for.quests": "aktualne zadania ({{quests}})",
+    "item.needed-for.trash-bear": "trash bear (deliver one)", // TODO
     "item.unknown-recipes": "{{count}} nieznanych przepisów",
     "item.sells-to.shipping-box": "skrzynka sprzedaży",
     "item.recipes-for-ingredient.entry": "{{name}} (potrzeba {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
     "item.recipes-for-machine.same-as-input": "[tak samo jak wejście]", // e.g. crystalarium produces same item that was put in
-    "item.recipes-for-machine.conditions": "[warunki: {{conditions}}]",
     "item.recipes-for-machine.too-complex": "Wyświetlenie niektórych reguł maszynowych jest zbyt dynamiczne.",
     "item.number-owned.summary": "masz takich {{count}}",
+    "item.number-owned-flavored.summary": "you own {{count}} ({{name}}) or {{baseCount}} ({{baseName}}) of these", // TODO // e.g. "you own 5 (Sturgeon Roe) or 20 (Roe) of these"
     "item.number-crafted.summary": "zrobiono takich {{count}}",
+    "item.internal-id.summary": "{{itemId}} (globally unique 'qualified ID': {{qualifiedItemId}})", // TODO
 
 
     /*********
@@ -407,6 +426,7 @@
     "item.fish-spawn-rules.time": "pora dnia: {{times}}",
     "item.fish-spawn-rules.weather-sunny": "pogoda: słonecznie",
     "item.fish-spawn-rules.weather-rainy": "pogoda: deszczowo",
+    "item.uncaught-fish": "{{count}} uncaught fish", // TODO
 
 
     /*********
@@ -491,6 +511,7 @@
     "npc.neutral-gifts": "Neutralne prezenty",
     "npc.dislikes-gifts": "Nielubiane prezenty",
     "npc.hates-gifts": "Znienawidzone prezenty",
+    "npc.schedule": "Today's schedule", // TODO
 
     // values
     "npc.can-romance.married": "Jesteście małżeństwem! <", // < turns into a heart
@@ -500,6 +521,12 @@
     "npc.friendship.need-points": "następne za {{count}} pkt",
     "npc.undiscovered-gift-taste": "{{count}} nieodkrytych przedmiotów",
     "npc.unowned-gift-taste": "{{count}} nieposiadanych przedmiotów",
+    "npc.schedule.current-position": "Currently at {{locationName}} ({{x}}, {{y}}).", // TODO
+    "npc.schedule.no-entries": "No schedule loaded.", // TODO
+    "npc.schedule.not-following-schedule": "Currently not following a schedule. This usually means the NPC is doing special behaviors (e.g. at the movie theater).", //  TODO
+    "npc.schedule.entry": "{{time}}: walk to {{locationName}} ({{x}}, {{y}}).", // TODO
+    "npc.schedule.farmhand.unknown-position": "Currently in an unknown location on the host.", // TODO
+    "npc.schedule.farmhand.unknown-schedule": "In multiplayer, NPCs are managed by the host so their schedule isn't available.", // TODO
 
 
     /*********
@@ -611,19 +638,30 @@
     /*********
     ** Tile lookups
     *********/
+    // Note for translators:
+    // The translations in this section are a bit more technical. Quick summary:
+    //
+    //  - A 'map' sets the layout and appearance for an in-game location (like the farmhouse).
+    //  - Each map is divided into a grid of 64x64 pixel 'tiles'. A map can have multiple 'layers' of tiles (e.g. 'Back', 'Front', 'Buildings', etc).
+    //  - Each tile's visual appearance is set by assigning it a 'tile index', which is its position in a larger texture called a 'tilesheet'.
+    //  - Each tile can be assigned 'properties'. These are metadata which tell the game about the tile (like "Type: Dirt" or "Action: OpenShop HatMouse").
+    //  - There are two property types: 'tile property' (set for a specific tile position) and 'index property' (set for all tiles which use that tile index).
+
     // labels
+    "tile.title": "Kafelek Mapy ({{x}}, {{y}})",
     "tile.description": "Położenie kafelka na mapie. Jest to wyświetlane, ponieważ w konfiguracji włączono podgląd kafelków.",
-    "tile.game-location": "Lokacja",
     "tile.map-name": "Nazwa mapy",
-    "tile.tile": "Kafelek",
-    "tile.tile-index": "{{layerName}}: indeks kafelka",
-    "tile.tilesheet": "{{layerName}}: arkusz kafelka",
-    "tile.blend-mode": "{{layerName}}: rodzaj łączenia",
-    "tile.index-property": "{{layerName}}: ix props: {{propertyName}}",
-    "tile.tile-property": "{{layerName}}: props: {{propertyName}}",
+    "tile.map-properties": "Map properties", // TODO
+    "tile.layer-tile": "{{layer}} tile", // TODO
+    "tile.layer-tile-none": "Kafelek",
 
     // values
-    "tile.tile.none-here": "brak tutaj kafelka",
+    "tile.map-properties.value": "{{name}}: {{value}}", // TODO
+    "tile.layer-tile.appearance": "index {{index}} from tilesheet '{{tilesheetId}}' (path: '{{tilesheetPath}}')", // TODO
+    "tile.layer-tile.blend-mode": "rodzaj łączenia: {{value}}",
+    "tile.layer-tile.index-property": "index property: {{name}}: {{value}}", // TODO
+    "tile.layer-tile.tile-property": "tile property: {{name}}: {{value}}", // TODO
+    "tile.layer-tile.none-here": "brak tutaj kafelka",
 
 
     /*********
@@ -672,15 +710,41 @@
 
 
     /*********
+    ** Data mining fields
+    *********/
+    // TODO
+    "data-mining.name": "Raw data",
+    "data-mining.name.map-tile": "Raw data (map tile)",
+    "data-mining.name.map-location": "Raw data (location)",
+
+    "data-mining.section-pinned": "Pinned", // 'pinned' section has notable values (i.e. it's pinned at the top of the list)
+
+
+    /*********
     ** Generic Mod Config Menu UI
     *********/
-    // main options
-    "config.title.main-options": "Opcje główne",
+    // appearance
+    // TODO
+    "config.title.appearance": "Appearance",
+
+    "config.theme.name": "Visual theme",
+    "config.theme.desc": "The appearance to apply for the lookup and search menu.",
+
+    "config.theme.values.Parchment": "Parchment",
+    "config.theme.values.Joja": "Joja",
+    "config.theme.values.MenuBox_Border": "Menu box (border)",
+    "config.theme.values.MenuBox_Inset": "Menu box (inset)",
+    "config.theme.values.MenuBox_Raised": "Menu box (raised)",
+    "config.theme.values.Plain": "Plain",
+
     "config.force-full-screen.name": "Wymuś pełny ekran",
     "config.force-full-screen.desc": "Czy interfejs podglądu powinien być zawsze pełnoekranowy, a nie wyśrodkowany w oknie. Jest to przydatne głównie podczas przeglądania pól data miningu.",
 
     // progression mode
     "config.title.progression": "Tryb progresji",
+
+    "config.progression.show-uncaught-fish-spawn-rules.name": "Show uncaught fish spawn rules", // TODO
+    "config.progression.show-uncaught-fish-spawn-rules.desc": "Whether to show spawn conditions for fish you haven't caught yet.", // TODO
 
     "config.progression.show-unknown-gift-tastes.name": "Pokaż nieznane upodobania prezentowe",
     "config.progression.show-unknown-gift-tastes.desc": "Czy pokazywać upodobania prezentowe, których jeszcze nie ${nauczyłeś¦nauczyłaś}$ się w grze (np. z tekstu dialogowego lub eksperymentując).",
@@ -751,5 +815,13 @@
     "config.page-down.name": "Strona w dół",
     "config.page-down.desc": "Skrót klawiszowy, który przesuwa długą treść podglądu o całą stronę w dół.",
     "config.toggle-debug.name": "Przełącz debugowanie",
-    "config.toggle-debug.desc": "Skrót klawiszowy, który włącza i wyłącza wyświetlanie informacji debugowania."
+    "config.toggle-debug.desc": "Skrót klawiszowy, który włącza i wyłącza wyświetlanie informacji debugowania.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    // TODO
+    "icon.toggle-search.name": "Lookup Anything",
+    "icon.toggle-search.desc": "Toggle Lookup Anything Search"
 }

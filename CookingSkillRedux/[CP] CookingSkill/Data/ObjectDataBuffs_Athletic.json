@@ -1,0 +1,20 @@
+﻿{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "moonslime.Cooking.wizards_brew", "Buffs", "Drink", "CustomFields" ],
+            "Entries": {
+                "spacechase.SpaceCore.SkillBuff.moonslime.Athletic": "5"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "moonslime.Cooking.wizard_casserole", "Buffs", "Food", "CustomFields" ],
+            "Entries": {
+                "spacechase.SpaceCore.SkillBuff.moonslime.Athletic": "5"
+            }
+        }
+    ]
+}

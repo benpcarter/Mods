@@ -1,78 +1,100 @@
 {
   "CombineOverlappingBorders": true,
-  "ShowGrid": true,
+  "ShowGrid": false,
   "ColorScheme": "Default",
+  "LegendAlphaOnHover": 0.2,
   "Controls": {
     "ToggleLayer": "F2",
     "PrevLayer": "LeftControl, LeftShoulder",
     "NextLayer": "RightControl, RightShoulder"
   },
   "Layers": {
+    "AutoLayer": {
+      "Enabled": true,
+      "UpdatesPerSecond": 6.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "None"
+    },
     "Accessible": {
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad7"
+      "ShortcutKey": "None"
     },
     "Buildable": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad6"
+      "ShortcutKey": "None"
     },
     "CoverageForBeeHouses": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad5"
+      "ShortcutKey": "None"
+    },
+    "CoverageForBombs": {
+      "EnabledForAutoLayer": true,
+      "Enabled": true,
+      "UpdatesPerSecond": 4.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "None"
     },
     "CoverageForJunimoHuts": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "Multiply"
+      "ShortcutKey": "None"
     },
     "CoverageForScarecrows": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad4"
+      "ShortcutKey": "None"
     },
     "CoverageForSprinklers": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad3"
+      "ShortcutKey": "None"
     },
     "CropFertilizer": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad2"
+      "ShortcutKey": "None"
     },
     "CropHarvest": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad1"
+      "ShortcutKey": "None"
     },
     "CropWater": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad0"
+      "ShortcutKey": "None"
     },
     "CropPaddyWater": {
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad8"
+      "ShortcutKey": "None"
     },
     "Machines": {
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad9"
+      "ShortcutKey": "None"
     },
     "TileGrid": {
       "Enabled": true,
@@ -81,10 +103,12 @@
       "ShortcutKey": "None"
     },
     "Tillable": {
+      "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "Divide"
+      "ShortcutKey": "None"
     }
-  }
+  },
+  "ModLayers": {}
 }
