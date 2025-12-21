@@ -29,9 +29,9 @@
   "CabinMenuButton": "None",
   "EnableFreeHouseUpgrade": false,
   "EnableFreeRenovations": false,
-  "EnableCaskFunctionality": false,
+  "EnableCaskFunctionality": true,
   "EnableFreeCommunityUpgrade": false,
   "EnableJukeboxFunctionality": false,
   "EnableGoldClockAnywhere": true,
-  "MultipleMiniObelisks": false
+  "MultipleMiniObelisks": true
 }
