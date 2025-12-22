@@ -1,0 +1,12 @@
+{
+    "Name": "Grace’s Dyeable Farm Clothing Collection",
+    "Author": "svnshxne",
+    "Version": "1.1.0",
+    "Description": "A collection of hats & overalls for Fashion Sense.",    
+    "UniqueID": "svnshxne.DyeableFarmClothingCollection.FS",    
+    "UpdateKeys": [ "Nexus:16351@Dyeable" ],
+	"ContentPackFor":
+	{
+		"UniqueID": "PeacefulEnd.FashionSense"
+	}
+}

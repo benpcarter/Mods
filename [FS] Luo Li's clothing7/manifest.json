@@ -1,0 +1,11 @@
+{
+   "Name": "[FS] LuoLi's clothing7",
+   "Author": "Luoli",
+   "Description": "洛离的服装7.",
+   "Version": "1.0.0",
+   "UniqueID": "Luoli.LuoLiClothing7.FS",
+   "ContentPackFor": {
+	"UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.1"
+  }
+}

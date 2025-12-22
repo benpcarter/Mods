@@ -1,0 +1,106 @@
+{
+	"Name": "Simple Headband",
+	"Description": "A simple pretty headband.",
+	"FrontHat":
+	{
+		"StartingPosition":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"HeadPosition":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"HatSize":
+		{
+			"Width": 20,
+			"Length": 20
+		}
+	},
+	"RightHat":
+	{
+		"ColorMaskLayers": [
+			{
+				"Name": "Color",
+				"Values": [
+					[ 210, 210, 210 ],
+					[ 170, 170, 170 ],
+					[ 140, 140, 140 ]					
+				]
+			}
+		],
+		"StartingPosition":
+		{
+			"X": 0,
+			"Y": 20
+		},
+		"HeadPosition":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"HatSize":
+		{
+			"Width": 20,
+			"Length": 20
+		}
+	},
+	"LeftHat":
+	{
+		"ColorMaskLayers": [
+			{
+				"Name": "Color",
+				"Values": [
+					[ 210, 210, 210 ],
+					[ 170, 170, 170 ],
+					[ 140, 140, 140 ]					
+				]
+			}
+		],
+		"StartingPosition":
+		{
+			"X": 0,
+			"Y": 40
+		},
+		"HeadPosition":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"HatSize":
+		{
+			"Width": 20,
+			"Length": 20
+		}
+	},
+	"BackHat":
+	{
+		"ColorMaskLayers": [
+			{
+				"Name": "Color",
+				"Values": [
+					[ 210, 210, 210 ],
+					[ 170, 170, 170 ],
+					[ 140, 140, 140 ]					
+				]
+			}
+		],
+		"StartingPosition":
+		{
+			"X": 0,
+			"Y": 60
+		},
+		"HeadPosition":
+		{
+			"X": 0,
+			"Y": 0
+		},
+		"HatSize":
+		{
+			"Width": 20,
+			"Length": 20
+		}
+	}
+}

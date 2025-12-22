@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS]Calwes Animated Sailor Moon hairstyle PACK for Fashion Sense",
+  "Author": "Calwes",
+  "Version": "0.5.1",
+  "Description": "Sailor Moon animated hairstyle PACK.",
+  "UniqueID": "Calwes.AnimatedHairstyles.FashionSensePack",
+  "UpdateKeys": ["Nexus:26994"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.3"
+  }
+}

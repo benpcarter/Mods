@@ -1,0 +1,200 @@
+{
+  "Name": "Short Front Braids",
+  "FrontAccessory": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 1
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 0
+    },
+    "AccessorySize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+       {
+        "Frame": 0,
+        "Duration": 85
+      },
+	  {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      },
+      {
+        "Frame": 3,
+        "Duration": 85
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      },
+      {
+        "Frame": 5,
+        "Duration": 85
+      },
+      {
+        "Frame": 6,
+        "Duration": 85
+      },
+      {
+        "Frame": 7,
+        "Duration": 85
+      },
+    ]
+  },
+  "RightAccessory": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 33
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 0
+    },
+    "AccessorySize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+      {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 3,
+        "Duration": 85
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 5,
+        "Duration": 85
+      },
+      {
+        "Frame": 6,
+        "Duration": 85
+      },
+      {
+        "Frame": 7,
+        "Duration": 85
+      },
+    ]
+  },
+  "LeftAccessory": {
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 33
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 0
+    },
+    "AccessorySize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+	  {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      },
+      {
+        "Frame": 3,
+        "Duration": 85
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      },
+      {
+        "Frame": 5,
+        "Duration": 85
+      },
+      {
+        "Frame": 6,
+        "Duration": 85
+      },
+      {
+        "Frame": 7,
+        "Duration": 85
+      },
+    ]
+  },
+  "BackAccessory": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 64
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 0
+    },
+    "AccessorySize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+      {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 3,
+        "Duration": 85
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 5,
+        "Duration": 85
+      },
+      {
+        "Frame": 6,
+        "Duration": 85
+      },
+      {
+        "Frame": 7,
+        "Duration": 85
+      },
+    ]
+  }
+}

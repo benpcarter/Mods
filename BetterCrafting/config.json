@@ -16,7 +16,7 @@
   "TasteStyle": "Heads",
   "NewRecipes": "Disabled",
   "NewRecipesPrismatic": false,
-  "MaxQuality": "Iridium",
+  "MaxQuality": "None",
   "LowQualityFirst": true,
   "ShowKeybindTooltip": "ForController",
   "SuppressBC": "LeftShift",

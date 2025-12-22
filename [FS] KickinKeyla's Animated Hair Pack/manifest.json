@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Kickin Keyla's Animated Hairstyles For Fashion Sense",
+  "Author": "KickinKeyla",
+  "Version": "1.0.5",
+  "Description": "My first mod pack, Adds new animated hairs and hair pieces.",
+  "UniqueID": "KickinKeyla.AnimatedHairstyles.FashionSensePack",
+  "UpdateKeys": ["Nexus:30803"],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.0.0"
+  }
+}
