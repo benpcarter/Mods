@@ -1,0 +1,14 @@
+{
+  "Name": "[🐾] Make Pet Bowls Small",
+  "Author": "mushymato",
+  "Version": "1.0.0",
+  "Description": "Make the pet bowl 1x1 size.",
+  "UniqueID": "mushymato.MakePetBowlsSmall",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [
+    "Nexus:39587"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

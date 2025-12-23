@@ -1,0 +1,108 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "2.8.0",
+  "ConfigSchema": {
+    "ShowBedding": {
+      "Default": "false",
+      "AllowValues": "true,false"
+    },
+    "PassableBowl": {
+      "Default": "false",
+      "AllowValues": "true,false"
+    },
+    "InvisiBowl": {
+      "Default": "false",
+      "AllowValues": "true,false"
+    }
+  },
+  "DynamicTokens": [
+    {
+      "Name": "CollisionMap",
+      "Value": "X"
+    },
+    {
+      "Name": "CollisionMap",
+      "Value": "O",
+      "When": {
+        "PassableBowl": true
+      }
+    },
+    {
+      "Name": "SourceRectY",
+      "Value": 0
+    },
+    {
+      "Name": "SourceRectY",
+      "Value": 16,
+      "When": {
+        "InvisiBowl": true
+      }
+    }
+  ],
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Fields": {
+        "Pet Bowl": {
+          "Size": {
+            "X": 1,
+            "Y": 1
+          },
+          "DrawOffset": "-16,0",
+          "CollisionMap": "{{CollisionMap}}",
+          "SourceRect": {
+            "X": 32,
+            "Y": "{{SourceRectY}}",
+            "Width": 32,
+            "Height": 16
+          },
+          "TileProperties": [
+            {
+              "Id": "Default_PetBowl",
+              "Name": "PetBowl",
+              "Value": "T",
+              "Layer": "Buildings",
+              "TileArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "TargetField": [
+        "Pet Bowl",
+        "DrawLayers"
+      ],
+      "Entries": {
+        "Default_Background": null
+      },
+      "When": {
+        "ShowBedding": false
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "TargetField": [
+        "Pet Bowl",
+        "DrawLayers"
+      ],
+      "Fields": {
+        "Default_Background": {
+          "DrawPosition": "-16,0",
+        }
+      },
+      "When": {
+        "ShowBedding": true
+      }
+    },
+  ]
+}
