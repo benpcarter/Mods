@@ -7,7 +7,7 @@
   "ShowExperienceGain": true,
   "ShowBoxBackground": false,
   "HideExperienceMax": true,
-  "mainPosX": 0,
+  "mainPosX": 80,
   "mainPosY": 0,
   "mainScale": 3,
   "ShowExpPopup": false,

@@ -19,21 +19,21 @@
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad8"
     },
     "Buildable": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad7"
     },
     "CoverageForBeeHouses": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad5"
     },
     "CoverageForBombs": {
       "EnabledForAutoLayer": true,
@@ -54,47 +54,47 @@
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad3"
     },
     "CoverageForSprinklers": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad2"
     },
     "CropFertilizer": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad4"
     },
     "CropHarvest": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad1"
     },
     "CropWater": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad0"
     },
     "CropPaddyWater": {
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad6"
     },
     "Machines": {
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "None"
+      "ShortcutKey": "NumPad9"
     },
     "TileGrid": {
       "Enabled": true,
