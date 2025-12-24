@@ -1,0 +1,12 @@
+{
+   "Name": "Improved And New Hairstyles",
+   "Author": "Chrysanthe/Alvadea",
+   "Version": "3.1.0",
+   "Description": "Minor improvements to certain existing hairstyles for both male and females. Also includes 16 new hairstyles.",
+   "UniqueID": "Chrysanthe.RefinedHairstyles",
+   "MinimumApiVersion": "3.0.1",
+   "UpdateKeys": [ "Nexus:132" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
