@@ -1,7 +1,7 @@
 {
   "Free_Cabins": "true",
   "Path_Farms": "false",
-  "MF_F1": "true",
+  "MF_F1": "false",
   "F1_Name": "Wilderness",
   "F1_Coords": "40, 2",
   "F1_FileName": "Wilderness.tmx",
