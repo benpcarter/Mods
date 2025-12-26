@@ -30,6 +30,17 @@
           "8, 21"
         ]
       }
+    },
+    "3678043733937379339": {
+      "Name": "Chels",
+      "Farm": "Cartley",
+      "TilesLocation": {
+        "UndergroundMine51": [
+          "58, 55",
+          "59, 56",
+          "59, 57"
+        ]
+      }
     }
   }
 }

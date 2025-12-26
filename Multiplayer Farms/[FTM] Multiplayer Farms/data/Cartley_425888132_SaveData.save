@@ -1,0 +1,13 @@
+{
+  "WeatherForYesterday": "Sun",
+  "LNOSCounter": {
+    "Starting Chest - Wilderness": 1,
+    "Starting Chest - Forest": 1,
+    "Starting Chest - Beach": 1,
+    "Starting Chest - Riverland": 1,
+    "Starting Chest - Meadowlands": 1,
+    "Starting Chest - Hilltop": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": []
+}
