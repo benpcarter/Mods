@@ -1,6 +1,6 @@
 {
   "Name": "Heavy Boots",
-  "Description": "A heavy armor boots, so heavy !",
+  "Description": "Heavily armored boots, so heavy!",
   "Price": 50000,
   "PurchasePrice": 250000,
   "CanPurchase": true,

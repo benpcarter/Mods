@@ -1,6 +1,6 @@
 {
   "Name": "Medium Boots",
-  "Description": "A medium armor boots, you feel better protected with them.",
+  "Description": "Medium armored boots, you feel safer with them.",
   "Price": 50000,
   "PurchasePrice": 75000,
   "CanPurchase": true,
