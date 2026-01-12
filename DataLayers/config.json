@@ -19,21 +19,21 @@
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad8"
+      "ShortcutKey": "None"
     },
     "Buildable": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad7"
+      "ShortcutKey": "None"
     },
     "CoverageForBeeHouses": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad5"
+      "ShortcutKey": "None"
     },
     "CoverageForBombs": {
       "EnabledForAutoLayer": true,
@@ -54,47 +54,54 @@
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad3"
+      "ShortcutKey": "None"
     },
     "CoverageForSprinklers": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 60.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad2"
+      "ShortcutKey": "None"
     },
     "CropFertilizer": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad4"
+      "ShortcutKey": "None"
     },
     "CropHarvest": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad1"
+      "ShortcutKey": "None"
     },
     "CropWater": {
       "EnabledForAutoLayer": true,
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad0"
+      "ShortcutKey": "None"
     },
     "CropPaddyWater": {
       "Enabled": true,
       "UpdatesPerSecond": 30.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad6"
+      "ShortcutKey": "None"
+    },
+    "FishingDepth": {
+      "EnabledForAutoLayer": true,
+      "Enabled": true,
+      "UpdatesPerSecond": 2.0,
+      "UpdateWhenViewChange": true,
+      "ShortcutKey": "None"
     },
     "Machines": {
       "Enabled": true,
       "UpdatesPerSecond": 2.0,
       "UpdateWhenViewChange": true,
-      "ShortcutKey": "NumPad9"
+      "ShortcutKey": "None"
     },
     "TileGrid": {
       "Enabled": true,
