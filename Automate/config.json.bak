@@ -4,10 +4,7 @@
   "Controls": {
     "ToggleOverlay": "U"
   },
-  "ConnectorNames": [
-    "Workbench",
-    "Wood Path"
-  ],
+  "ConnectorNames": [],
   "JunimoHutBehaviorForGems": "AutoDetect",
   "JunimoHutBehaviorForFertilizer": "AutoDetect",
   "JunimoHutBehaviorForSeeds": "AutoDetect",
@@ -15,15 +12,6 @@
   "WarnForMissingBridgeMod": true,
   "ChestsEnabledByDefault": true,
   "ChestOverrides": {},
-  "MachineOverrides": {
-    "MiniShippingBin": {
-      "Priority": -2,
-      "Enabled": false
-    },
-    "ShippingBin": {
-      "Priority": -1,
-      "Enabled": false
-    }
-  },
+  "MachineOverrides": {},
   "MinMinutesForFairyDust": 20
 }
