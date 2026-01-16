@@ -1,0 +1,21 @@
+{
+  "OpenMenuKey": "J",
+  "UseDarkTheme": false,
+  "RememberFilters": true,
+  "OverlayScale": 100,
+  "ListScale": 100,
+  "DetailScale": 100,
+  "MenuHeightScale": 100,
+  "MaxPinnedQuests": 3,
+  "OverlayPosition": "Right",
+  "OverlayOffsetX": 0,
+  "OverlayOffsetY": 100,
+  "EnableCheats": false,
+  "AllowTeleport": true,
+  "AllowComplete": true,
+  "AllowResetTime": true,
+  "AllowSpawnItems": true,
+  "LastViewFilter": 0,
+  "LastSortMode": 0,
+  "LastSortAscending": true
+}

@@ -1,7 +1,7 @@
 {
     "Name": "MH Quest Manager",
     "Author": "mahsouto",
-    "Version": "1.0.5",
+    "Version": "1.1.0",
     "License": "MH Mods EULA – © MH Mods / Author: mahsouto – All Rights Reserved. No redistribution, modification, or decompilation permitted.",
     "MinimumApiVersion": "4.0.0",
     "Description": "Enhanced quest manager with advanced filtering, sorting, favorites, and detailed quest information display.",

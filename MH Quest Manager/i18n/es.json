@@ -129,6 +129,8 @@
   "config.listScale.tooltip": "Tamaño del panel de listado de misiones (50-200%)",
   "config.detailScale": "Escala del Panel de Detalles",
   "config.detailScale.tooltip": "Tamaño del panel de detalles (50-200%)",
+  "config.menuHeightScale": "Altura del Menú",
+  "config.menuHeightScale.tooltip": "Reduce la altura del menú para pantallas 1080p (70-100%). Valores menores muestran menos misiones pero caben en pantallas más pequeñas.",
   
   "msg.teleported": "¡Teletransportado a {{npc}}!",
   "msg.questCompleted": "¡Misión completada!",

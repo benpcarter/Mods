@@ -129,6 +129,8 @@
   "config.listScale.tooltip": "Size of the quest list panel (50-200%)",
   "config.detailScale": "Detail Panel Scale",
   "config.detailScale.tooltip": "Size of the detail panel (50-200%)",
+  "config.menuHeightScale": "Menu Height",
+  "config.menuHeightScale.tooltip": "Reduce menu height for 1080p displays (70-100%). Lower values show fewer quests but fit smaller screens.",
   
   "msg.teleported": "Teleported to {{npc}}!",
   "msg.questCompleted": "Quest completed!",
