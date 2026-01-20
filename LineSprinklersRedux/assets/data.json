@@ -11,7 +11,7 @@
             "Texture": "/Mods/{0}/Objects",
           "SpriteIndex": "0",
           "CustomFields": {
-            "Range": 2
+            "Range": 4
           }
         },
         "Recipe": "599 1 /Field/{0}/true/Farming 2",
@@ -29,7 +29,7 @@
         "Texture": "/Mods/{0}/Objects",
         "SpriteIndex": "4",
         "CustomFields": {
-          "Range": 4
+          "Range": 8
         }
       },
         "Recipe": "621 1 /Field/{0}/true/Farming 6",
@@ -47,7 +47,7 @@
       "Texture": "/Mods/{0}/Objects",
       "SpriteIndex": "8",
       "CustomFields": {
-        "Range": 16
+        "Range": 24
       }
     },
     "Recipe": "645 1 /Field/{0}/true/Farming 9",

@@ -1,3 +1,4 @@
 {
-  "RotateSprinklerKeybindList": "MouseMiddle"
+  "RotateSprinklerKeybindList": "MouseMiddle, ControllerA",
+  "AllowRotatePlaced": true
 }
