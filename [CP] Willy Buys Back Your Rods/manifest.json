@@ -1,7 +1,7 @@
 {
     "Name": "Willy Buys Back Your Rods",
     "Author": "ASLaneZero",
-    "Version": "1.2.4",
+    "Version": "1.2.5",
     "Description": "Adds the ability for the player to sell their old rods to Willy.",
     "UniqueID": "ASLane.WBBYR",
     "MinimumApiVersion": "4.0.4",

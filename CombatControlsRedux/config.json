@@ -4,7 +4,7 @@
   "RegularToolsFix": false,
   "AutoSwing": false,
   "AutoSwingDagger": true,
-  "ClubSpecialSpamAttack": true,
+  "ClubSpecialSpamAttack": false,
   "SlickMoves": true,
   "SwordSpecialSlickMove": true,
   "ClubSpecialSlickMove": false,
