@@ -1,0 +1,563 @@
+{
+    "Format": "2.4.0",
+	
+    "ConfigSchema": {
+	
+	"Starter Gift": { 
+		"AllowValues": "Farming, Foraging, Floristing, Fishing, Combating, Ranching, Jojaing",
+		"Default": "Farming",
+		"Description": "Changes the stuff you get from starter gift box (will only work if you start fresh game - choose before creating new save file.)",
+		"Section": "Tweaks",
+			},
+			
+			
+			
+	 "Spawn Forage": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allows forest forage to spawn in Farm."
+        },
+		 "Spawn Ore": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allows quarry ore nodes to spawn in Farm quarry area."
+        },
+		 "Spawn Stumps": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Allows 6 hardwood stumps to spawn in the bottom left corner of the Farm Map."
+        },
+		 "Grass Tiles Marks for Trees": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Adds dark grass patches in top left corner for easier fruit trees placement."
+        },
+	
+		},
+	
+
+    "Changes": [
+	
+		{
+            "Action": "Load",
+            "Target": "Maps/zzz_aimon_4cornerfarm_spring",
+            "FromFile": "assets/Tilesheets/zzz_aimon_4cornerfarm_spring.png",
+			
+        },
+		{
+            "Action": "EditImage",
+            "Target": "Maps/zzz_aimon_4cornerfarm_spring",
+            "FromFile": "assets/Tilesheets/zzz_aimon_4cornerfarm_{{season}}.png",
+			
+        },
+	
+		
+		
+//custom farm
+
+		{
+            "Action": "Load",
+            "Target": "Maps/Aimon4Corners",
+            "FromFile": "assets/Aimon4Corners.tmx",
+			
+        },
+		
+		
+		
+		
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalFarms",
+            "Entries": {
+				"Aimon4Corners": {
+					"ID": "Aimon4Corners",
+					"TooltipStringPath": "Strings/UI:Aimon4Corners_Description",
+					"MapName": "Aimon4Corners",
+					"IconTexture": "Mods/Aimon4Corners/Icon",
+					//"WorldMapTexture": "Mods/Aimon4Corners/WorldMap"
+
+				},
+			},
+		},
+		{
+            "Action": "EditData",
+            "Target": "Strings/UI",
+            "Entries": { "Aimon4Corners_Description": "Mega Four Corners Farm_ =  Forest themed farm map with huge amount of space for building, growing crops and more!  =" }
+		},
+		
+	
+		
+	
+
+        {
+            "Action": "Load",
+            "Target": "Mods/Aimon4Corners/Icon",
+            "FromFile": "assets/Tilesheets/Aimon4Corners_Icon.png"
+        },
+		
+		
+	
+		
+		
+			{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Farm_Aimon4Corners": {
+				
+					"DefaultArrivalTile": {
+						"X": 107,
+						"Y": 51
+					},
+					"ExcludeFromNpcPathfinding": false,
+					"CreateOnLoad": null,
+					"FormerLocationNames": [],
+					"CanPlantHere": true,
+					"CanHaveGreenRainSpawns": true,
+					  "ArtifactSpots": [
+      {
+        "Chance": 0.5,
+        "ApplyGenerousEnchantment": true,
+        "OneDebrisPerDrop": true,
+        "Precedence": 0,
+        "ContinueOnDrop": false,
+        "Condition": null,
+        "Id": "(O)382",
+        "ItemId": "(O)382",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 1,
+        "MaxStack": 3,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+      {
+        "Chance": 0.1,
+        "ApplyGenerousEnchantment": true,
+        "OneDebrisPerDrop": true,
+        "Precedence": 0,
+        "ContinueOnDrop": false,
+        "Condition": null,
+        "Id": "(O)770",
+        "ItemId": "(O)770",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 1,
+        "MaxStack": 3,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+      {
+        "Chance": 0.25,
+        "ApplyGenerousEnchantment": true,
+        "OneDebrisPerDrop": true,
+        "Precedence": 0,
+        "ContinueOnDrop": false,
+        "Condition": null,
+        "Id": "(O)390",
+        "ItemId": "(O)390",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 1,
+        "MaxStack": 3,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      }
+    ],
+    "FishAreas":  
+	  {
+		 "Aimon4cornersForestPond": {
+        "DisplayName": null,
+        "Position": {
+          "X": 0,
+          "Y": 46,
+          "Width": 157,
+          "Height": 85
+        },
+        //"CrabPotFishTypes": [],
+        "CrabPotJunkChance": 0.2
+      },
+	  "Aimon4cornersMountainPond": {
+        "DisplayName": null,
+        "Position": {
+          "X": 0,
+          "Y": 0,
+          "Width": 157,
+          "Height": 46
+        },
+        //"CrabPotFishTypes": [],
+        "CrabPotJunkChance": 0.2
+      },
+	 
+	 },
+    "Fish": [
+	{
+       "Chance": 0.8,
+        "Season": null,
+        "FishAreaId": "Aimon4cornersForestPond",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": -10,
+        "IgnoreFishDataRequirements": true,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+         "Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+        "ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+	  {
+       "Chance": 0.8,
+        "Season": null,
+        "FishAreaId": "Aimon4cornersMountainPond",
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "CatchLimit": -1,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": -10,
+        "IgnoreFishDataRequirements": true,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": 0,
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+         "Id": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+        "ItemId": "LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": 0,
+        "QualityModifiers": null,
+        "QualityModifierMode": 0,
+        "ModData": null,
+        "PerItemCondition": null
+      },
+], 
+},
+},		
+},		
+
+
+		
+
+//	MAP PROPERTIES
+
+{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			"MapProperties": { 
+			"AllowGrassSurviveInWinter": "T",
+			"IsFarm": "T",
+			"BrookSounds": "13 7 4 24 7 4 37 21 4 79 21 4 108 20 4 120 13 4 79 44 4 37 44 4 36 48 4 5 103 4 25 114 4 22 116 4 76 75 4 88 75 4 154 110 4 141 96 4 121 90 4 125 88 4 ",
+
+			"Warp": "134 51 BusStop 11 23 134 52 BusStop 11 23 134 53 BusStop 11 23 134 54 BusStop 11 23 80 110 Forest 68 0 81 110 Forest 68 0 82 110 Forest 68 0 84 35 Backwoods 14 39 85 35 Backwoods 14 39 86 35 Backwoods 14 39 87 35 Backwoods 14 39 88 35 Backwoods 14 39 125 47 FarmCave 8 11",
+			
+			
+
+			"BusStopEntry": "131 52",
+			"BackwoodsEntry": "86 40",
+			"ForestEntry": "81 106",
+			"FarmCaveEntry": "125 50",
+			"FarmHouseEntry": "104 58",
+			"GrandpaShrineLocation": "19 6",
+			"PetBowlLocation": "110 50",
+			"ShippingBinLocation": "110 57",
+			"SpouseAreaLocation": "116 47",
+			"WarpTotemEntry": "107 51",
+
+		"GreenhouseLocation": "78 72",
+		"Outdoors": "T",
+		
+		
+		"FarmHouseFurniture": "1466 1 4 0 1602 2 1 0 1616 4 1 0 1616 7 1 0 0 4 4 0 1134 5 4 0 1748 5 4 0 1792 8 4 0 1376 10 4 0 1377 1 10 0 1618 6 8 0",
+		"FarmHouseStarterSeedsPosition": "3 8",
+		"FarmHouseWallpaper": "29",
+		"FarmHouseFlooring": "1",
+		 
+
+	
+	
+	
+"Light": "126 49 4 148 112 4 27 124 4 97 38 4 99 42 4 103 42 4 105 39 4 103 35 4 99 35 4 33 22 4 33 64 4 36 97 4 68 116 4 129 108 4 139 72 4 107 50 4",
+"DayTiles": "Buildings 126 49 510",
+"NightTiles": "Buildings 126 49 507",
+			}
+        },
+		
+		
+		//starter gift
+			{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			
+			"When": { "Starter Gift": "Farming" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)472 15 (O)599 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			
+			"When": { "Starter Gift": "Foraging" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)CarrotSeeds 10 (O)403 3 (H)90 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			
+			"When": { "Starter Gift": "Fishing" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)710 1 (T)TrainingRod 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			
+			"When": { "Starter Gift": "Ranching" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)178 20 (O)223 3",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			
+			"When": { "Starter Gift": "Combating" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)286 3 (W)12 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			
+			"When": { "Starter Gift": "Floristing" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(O)427 9 (O)429 9 (H)19 1",
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			
+			"When": { "Starter Gift": "Jojaing" },
+			"MapProperties": { 
+			"FarmHouseStarterGift": "(H)JojaCap 1 (S)1105 1 (O)306 1",
+			}
+        },
+		
+		
+			
+//
+
+
+
+
+{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			 "When": { "Spawn Forage": "true", },
+			"MapProperties": { 
+			
+		"SpawnForestFarmForage": "T",
+		
+			}
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			 "When": { "Spawn Ore": "true", },
+			"MapProperties": { 
+		"SpawnMountainFarmOreRect": "116 14 11 8",
+			}
+        },
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+			 "When": { "Spawn Stumps": "true", },
+			"MapProperties": { 
+		"Stumps": "36 124 1 38 121 1 42 119 1 47 122 1 57 118 1 65 116 1 54 120 1",
+		
+			},
+		},
+			
+		
+		//warp woods
+
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+			 "When": { "FarmType": "Aimon4Corners", },
+
+            "AddWarps": [ "46 3 Farm 40 124" ]
+	
+			},
+			{
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+			 "When": {  "FarmType": "Aimon4Corners", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+
+            "AddWarps": [ "66 6 Farm 40 124" ]
+	
+			},
+			{
+            "Action": "EditMap",
+              "Target": "Maps/Aimon4Corners",
+			 "When": {  "FarmType": "Aimon4Corners", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+
+            "AddWarps": [ "40 128 Woods 66 7", "41 128 Woods 66 7", ]
+	
+			},
+			
+			{
+            "Action": "EditMap",
+               "Target": "Maps/Aimon4Corners",
+			 "When": {  "FarmType": "Aimon4Corners", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
+
+            "AddWarps": [ "40 128 Woods 46 4", "41 128 Woods 46 4", ]
+	
+			},
+			
+		
+		
+	//sve shed warps
+			
+			{
+            "Action": "EditMap",
+               "Target": "Maps/Aimon4Corners",
+			 "When": {  "FarmType": "Aimon4Corners", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+
+               "AddWarps": [ "157 64 Custom_GrandpasShedOutside 3 12", "157 65 Custom_GrandpasShedOutside 3 12", "157 66 Custom_GrandpasShedOutside 3 12" ]
+	
+			},
+				{
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GrandpasShedOutside",
+			 "When": {  "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true , },
+
+            "AddWarps": [ "0 12 Farm 154 66", "0 13 Farm 154 66", "0 11 Farm 154 66", "0 14 Farm 154 66" ]
+	
+			},
+			
+			//sve grshed
+		
+		{ 
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GrandpasShedOutside",
+		"FromFile": "assets/mappatches_sve.tmx",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 6 },
+		 "ToArea":   { "X": 0, "Y": 9, "Width": 6, "Height": 6 },
+		 "PatchMode": "Replace",
+			"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,   "FarmType": "Aimon4Corners",  },
+					
+        },
+			{ 
+            "Action": "EditMap",
+            "Target": "Maps/Aimon4Corners",
+		"FromFile": "assets/mappatches_nograss.tmx",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 73, "Height": 79 },
+		 "ToArea":   { "X": 0, "Y": 0, "Width": 73, "Height": 79 },
+		 "PatchMode": "Overlay",
+			"When": {  "Grass Tiles Marks for Trees": "false",  },
+					
+        },
+		
+		
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/FarmExtensionData",
+			"Entries":{
+				"Aimon4Corners":{
+					"Buildings": [
+						{
+							"Id": "Default Coop",
+							"Type": "Coop",
+							"Position": "136, 59",
+							"Animals": {
+								"Chicky": "Brown Chicken",
+								"Chucky": "White Chicken",
+							}
+						}
+					],
+					
+				}
+			}
+		},
+		
+
+
+    ]
+}

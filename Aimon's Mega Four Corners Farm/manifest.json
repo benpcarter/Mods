@@ -1,0 +1,21 @@
+{
+    "Name": "Aimon's Mega Four Corners Farm",
+    "Author": "Aimon111",
+    "Version": "1.0.1",
+    "UniqueID": "Aimon111.MegaFourCornersFarm",
+    "Description": "New custom four corners forest themed farm map with huge amount of space for building, growing crops and more!",	
+    "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:29745"],
+    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+	 "Dependencies": [
+ {
+            "UniqueID":"DaisyNiko.Tilesheets",
+            "IsRequired":true
+        },
+		{
+            "UniqueID":"alvadea.tilesheet",
+            "IsRequired":true
+        },
+	
+	]
+}
