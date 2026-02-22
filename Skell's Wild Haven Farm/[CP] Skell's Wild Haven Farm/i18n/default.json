@@ -1,0 +1,53 @@
+{
+  // Farm Data
+  "WHF.Farm.Name": "Skell's Wild Haven Farm",
+  "WHF.Farm.Description": "A large, scenic haven with plenty of space to farm, decorate and build! You start with two fruit trees.",
+  "WHF.Cave.Name": "Wild Haven Cave",
+
+  // Minecart Data
+  "WHF.Minecart.Name": "Farm",
+  
+  // Teleporation Data
+  "WHF.Teleport.NorthernTree": "Northern Tree",
+  "WHF.Teleport.VastField": "Vast Field",
+  "WHF.Teleport.Center": "Center",
+  "WHF.Teleport.BerryCanopy": "Berry Canopy",
+  "WHF.Teleport.WesternWaterfalls": "Western Waterfalls",
+  "WHF.Teleport.HeartField": "Heart Field",
+  "WHF.Teleport.Orchard": "Orchard",
+
+  // Config Descriptions
+  "config.Change Starter Gift.description": "Changes the starter gift to one preserve jar and 10 strawberry seeds. Choose BEFORE creating a new save to take effect.",
+  "config.Disable Right Fences.description": "Disables the fences and decor on the right side.",
+  "config.Disable Center Fences.description": "Disables the fences and decor in the center, below the heart field.",
+  "config.Disable Left Fences.description": "Disables the fences and decor on the left side.",
+  "config.Allow Fruit Tree Changes.description": "Allows the type of the fruit trees to change based on what mods you have installed. If set to true, you will start with different trees when WAG or RatA are installed. If set to false, you will always have the Cherry and Orange trees. Choose BEFORE creating a new save to take effect.",
+
+  // Map String
+  "WHF.Crystal.Broken": "It seems to be broken... Maybe there's a way to fix it.",
+
+  // Bundle Data
+  "WHF.StarterBundle.Name": "Is it time?",
+  "WHF.StarterBundle.Description": "Someone is here! Someone is back!",
+  "WHF.StarterBundle.01": "It's been so long...",
+  "WHF.StarterBundle.02": "Come back tomorrow... There's more to do.",
+
+  "WHF.BerryCanopyBundle.Name": "Berry Canopy",
+  "WHF.BerryCanopyBundle.Description": "Completing this bundle unlocks the warp crystal in the south.",
+
+  "WHF.HeartFieldBundle.Name": "Heart Field",
+  "WHF.HeartFieldBundle.Description": "Completing this bundle unlocks the warp crystal by the heart field.",
+
+  "WHF.OrchardBundle.Name": "Orchard",
+  "WHF.OrchardBundle.Description": "Completing this bundle unlocks the warp crystal by the orchard.",
+
+  "WHF.VastFieldBundle.Name": "Vast Field",
+  "WHF.VastFieldBundle.Description": "Completing this bundle unlocks the warp crystal in the east.",
+
+  "WHF.WesternWaterfallsBundle.Name": "Western Waterfalls",
+  "WHF.WesternWaterfallsBundle.Description": "Completing this bundle unlocks the warp crystal by the western waterfalls.",
+
+  "WHF.WineryBundle.Name": "Winery",
+  "WHF.WineryBundle.Description": "Completing this bundle unlocks the warp crystal in the center of the map.",
+
+}

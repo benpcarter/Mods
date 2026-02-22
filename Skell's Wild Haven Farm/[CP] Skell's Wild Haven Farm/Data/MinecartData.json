@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        // Minecart Destination
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations"
+            ],
+            "Entries": {
+                "{{ModId}}_WildHavenFarm": {
+                    "Id": "{{ModId}}_WildHavenFarm",
+                    "DisplayName": "{{i18n:WHF.Minecart.Name}}",
+                    "TargetLocation": "Farm",
+                    "TargetTile": {
+                        "X": 100,
+                        "Y": 6
+                    },
+                    "TargetDirection": "down",
+                    "Condition": "FARM_TYPE skellady.WHF_WildHavenFarm"
+                }
+            }
+        },
+    ]
+}

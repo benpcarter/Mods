@@ -1,0 +1,113 @@
+{
+  "Changes": [
+    // Location Data
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "{{ModId}}_WildHavenFarm": {
+          "DisplayName": "{{i18n:WHF.Farm.Name}}",
+          "CanPlantHere": true,
+          "FirstDayWeedMultiplier": 10,
+          "MinDailyForageSpawn": 2,
+          "MaxDailyForageSpawn": 6,
+          "ChanceForClay": 0.1,
+          "MusicIgnoredInRain": true,
+          "CanHaveGreenRainSpawns": true,
+          "ArtifactSpots": [
+            {
+              "Chance": 0.1,
+              "ApplyGenerousEnchantment": true,
+              "Precedence": 0,
+              "Id": "{{ModId}}_Clay",
+              "ItemId": "(O)330", // Clay
+              "MinStack": 1,
+              "MaxStack": 3
+            },
+            {
+              "Chance": 1.0,
+              "ApplyGenerousEnchantment": true,
+              "OneDebrisPerDrop": true,
+              "Precedence": 0,
+              "ContinueOnDrop": true,
+              "Id": "{{ModId}}_RandomArtifact",
+              "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "Fish": [
+            {
+              "Id": "{{ModId}}_GreenAlgae",
+              "ItemId": "(O)153"
+            },
+            {
+              "Id": "{{ModId}}_LargemouthBass",
+              "ItemId": "(O)136"
+            },
+            {
+              "Id": "{{ModId}}_Sturgeon",
+              "ItemId": "(O)698",
+              "Condition": "LOCATION_SEASON Here summer winter"
+            },
+            {
+              "Id": "{{ModId}}_RainbowTrout",
+              "ItemId": "(O)138",
+              "Season": "Summer"
+            },
+            {
+              "Id": "{{ModId}}_Walleye",
+              "ItemId": "(O)140",
+              "Condition": "LOCATION_SEASON Here fall winter"
+            },
+            {
+              "Id": "{{ModId}}_Perch",
+              "ItemId": "(O)141",
+              "Season": "Winter"
+            },
+            {
+              "Id": "{{ModId}}_Chub",
+              "ItemId": "(O)702"
+            },
+            {
+              "Id": "{{ModId}}_MBullhead",
+              "ItemId": "(O)700"
+            }
+          ],
+          "FishAreas": {
+            "Default": {
+              "CrabPotFishTypes": [
+                "freshwater"
+              ],
+              "CrabPotJunkChance": 0.2
+            }
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "{{ModId}}_WildHavenCave": {
+          "CreateOnLoad": {
+            "MapPath": "Maps/skellady.WHF_WildHavenCave"
+          },
+          "DisplayName": "{{i18n:WHF.Cave.Name}}",
+          "DefaultArrivalTile": {
+            "X": 6,
+            "Y": 9
+          },
+          "ExcludeFromNpcPathfinding": true,
+          "ArtifactSpots": [],
+          "FishAreas": {},
+          "Fish": [],
+          "Forage": []
+        }
+      },
+      "When": {
+        "FarmType": "{{ModId}}_WildHavenFarm"
+      }
+    }
+  ]
+}

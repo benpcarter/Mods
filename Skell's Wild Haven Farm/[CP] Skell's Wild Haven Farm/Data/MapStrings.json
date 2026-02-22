@@ -1,0 +1,147 @@
+{
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 115,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"WHF.crystal.broken\""
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains=skellady.WHF_StarterBundleComplete": false
+            }
+            /*"When": {
+                "DLX.Bundles/Purchased |contains={{ModId}}_StarterBundle": "false"
+            }*/
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 121,
+                        "Y": 60
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"WHF.crystal.broken\""
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains=skellady.WHF_VastFieldBundleComplete": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 75,
+                        "Y": 16
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"WHF.crystal.broken\""
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains=skellady.WHF_HeartFieldBundleComplete": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 61,
+                        "Y": 56
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"WHF.crystal.broken\""
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains=skellady.WHF_WineryBundleComplete": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 33,
+                        "Y": 96
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"WHF.crystal.broken\""
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains=skellady.WHF_BerryCanopyBundleComplete": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 61
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"WHF.crystal.broken\""
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains=skellady.WHF_WesternWaterfallsBundleComplete": false
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 22,
+                        "Y": 4
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"WHF.crystal.broken\""
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains=skellady.WHF_OrchardBundleComplete": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "WHF.crystal.broken": "{{i18n:WHF.Crystal.Broken}}"
+            }
+        },
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "Skell's Wild Haven Farm",
+  "Author": "skellady",
+  "Version": "1.0.4",
+  "Description": "Adds a new custom farm type.",
+  "UniqueID": "skellady.WHF",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [
+    "Nexus:34784"
+  ],
+  "Dependencies": [
+    // required mods
+    {
+      "UniqueID": "DLX.Bundles",
+      "IsRequired": true
+    },
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

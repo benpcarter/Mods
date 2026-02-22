@@ -1,0 +1,215 @@
+{
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/WHFPatches.tmx",
+            "FromArea": {
+                "X": 114,
+                "Y": 22,
+                "Width": 15,
+                "Height": 34
+            },
+            "ToArea": {
+                "X": 114,
+                "Y": 22,
+                "Width": 15,
+                "Height": 34
+            },
+            "When": {
+                "Disable Right Fences": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/WHFPatches.tmx",
+            "FromArea": {
+                "X": 62,
+                "Y": 37,
+                "Width": 23,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 62,
+                "Y": 37,
+                "Width": 23,
+                "Height": 32
+            },
+            "When": {
+                "Disable Center Fences": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/WHFPatches.tmx",
+            "FromArea": {
+                "X": 1,
+                "Y": 30,
+                "Width": 15,
+                "Height": 30
+            },
+            "ToArea": {
+                "X": 1,
+                "Y": 30,
+                "Width": 15,
+                "Height": 30
+            },
+            "When": {
+                "Disable Left Fences": "true"
+            }
+        },
+        // Teleport Crystals 
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/MainCrystal.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 115,
+                "Y": 5,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_StarterBundle": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/BerryCanopyCrystal.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 33,
+                "Y": 95,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_BerryCanopyBundle": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/HeartFieldCrystal.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 75,
+                "Y": 15,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_HeartFieldBundle": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/CenterCrystal.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 61,
+                "Y": 55,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_WineryBundle": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/OrchardCrystal.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 22,
+                "Y": 3,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_OrchardBundle": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/WesternWaterfallCrystal.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 14,
+                "Y": 60,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_WesternWaterfallsBundle": "true"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/MapPatches/VastFieldCrystal.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 121,
+                "Y": 59,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_VastFieldBundle": "true"
+            }
+        },
+    ]
+}

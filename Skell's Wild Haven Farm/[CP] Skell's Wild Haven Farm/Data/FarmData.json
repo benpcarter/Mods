@@ -1,0 +1,88 @@
+{
+    "Changes": [
+        // Farm Data & Tilesheets
+        {
+            "Action": "Load",
+            "Target": "Maps/spring_skellextra",
+            "FromFile": "Assets/Tilesheets/spring_skellextra.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/summer_skellextra",
+            "FromFile": "Assets/Tilesheets/summer_skellextra.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/fall_skellextra",
+            "FromFile": "Assets/Tilesheets/fall_skellextra.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/winter_skellextra",
+            "FromFile": "Assets/Tilesheets/winter_skellextra.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/WHFJunimoScene",
+            "FromFile": "Assets/Maps/WHFJunimoScene.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/WHFCaveColors",
+            "FromFile": "Assets/Tilesheets/WHFCaveColors.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/WHFJunimoBackground",
+            "FromFile": "Assets/Tilesheets/WHFJunimoBackground.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalFarms",
+            "Entries": {
+                "{{ModId}}_WildHavenFarm": {
+                    "ID": "{{ModId}}_WildHavenFarm",
+                    "TooltipStringPath": "Strings/UI:{{ModId}}_WildHavenFarm",
+                    "MapName": "{{ModId}}_WildHavenFarm",
+                    "IconTexture": "Mods/{{ModId}}/Icon"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/UI",
+            "Entries": {
+                "{{ModId}}_WildHavenFarm": "{{i18n:WHF.Farm.Name}}_{{i18n:WHF.Farm.Description}}"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_WildHavenFarm",
+            "FromFile": "Assets/Maps/WildHavenFarm.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_WildHavenCave",
+            "FromFile": "Assets/Maps/WildHavenCave.tmx",
+            "When": {
+                "FarmType": "{{ModId}}_WildHavenFarm"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Icon",
+            "FromFile": "Assets/Icon/WHFIcon.png"
+        },
+        // Starter Gift
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_WildHavenFarm",
+            "MapProperties": {
+                "FarmHouseStarterGift": "(BC)15 1 (O)745 10"
+            },
+            "When": {
+                "Change Starter Gift": true
+            }
+        },
+    ]
+}

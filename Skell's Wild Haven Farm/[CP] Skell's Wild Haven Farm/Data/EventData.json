@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        // Event Data
+        {
+            "LogName": "Load Sparkles Temp Actor",
+            "Action": "Load",
+            "Target": "Characters/WHFSparkles",
+            "FromFile": "Assets/Tilesheets/WHFSparkles.png"
+        },
+        {
+            "LogName": "Berry Canopy Unlock",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "WHF_BerryCanopyUnlock/G {{DLX.Bundles/Purchased|contains=skellady.WHF_BerryCanopyBundle}}": "none/-100 -100/farmer -100 -100 0/ignoreEventTileOffset/addTemporaryActor WHFSparkles 16 32 -999 -462 2 false/warp WHFSparkles 33 96 true/hideShadow WHFSparkles true/animate WHFSparkles false true 200 0 1 2 3 4 5 6 7 8/viewport 33 87 clamp/viewport move 0 1 3000/pause 1000/playSound secret1/pause 3000/globalFade/viewport -999 -999/end",
+                "WHF_VastFieldUnlock/G {{DLX.Bundles/Purchased|contains=skellady.WHF_VastFieldBundle}}": "none/-100 -100/farmer -100 -100 0/ignoreEventTileOffset/addTemporaryActor WHFSparkles 16 32 -999 -462 2 false/warp WHFSparkles 121 60 true/hideShadow WHFSparkles true/animate WHFSparkles false true 200 0 1 2 3 4 5 6 7 8/viewport 121 57 clamp/viewport move 0 1 3000/pause 1000/playSound secret1/pause 3000/globalFade/viewport -999 -999/end",
+                "WHF_CenterUnlock/G {{DLX.Bundles/Purchased|contains=skellady.WHF_WineryBundle}}": "none/-100 -100/farmer -100 -100 0/ignoreEventTileOffset/addTemporaryActor WHFSparkles 16 32 -999 -462 2 false/warp WHFSparkles 61 56 true/hideShadow WHFSparkles true/animate WHFSparkles false true 200 0 1 2 3 4 5 6 7 8/viewport 61 52/viewport move 0 1 3000/pause 1000/playSound secret1/pause 3000/globalFade/viewport -999 -999/end",
+                "WHF_HeartFieldUnlock/G {{DLX.Bundles/Purchased|contains=skellady.WHF_HeartFieldBundle}}": "none/-100 -100/farmer -100 -100 0/ignoreEventTileOffset/addTemporaryActor WHFSparkles 16 32 -999 -462 2 false/warp WHFSparkles 75 16 true/hideShadow WHFSparkles true/animate WHFSparkles false true 200 0 1 2 3 4 5 6 7 8/viewport 75 11/viewport move 0 1 3000/pause 1000/playSound secret1/pause 3000/globalFade/viewport -999 -999/end",
+                "WHF_WesternWaterfallsUnlock/G {{DLX.Bundles/Purchased|contains=skellady.WHF_WesternWaterfallsBundle}}": "none/-100 -100/farmer -100 -100 0/ignoreEventTileOffset/addTemporaryActor WHFSparkles 16 32 -999 -462 2 false/warp WHFSparkles 14 61 true/hideShadow WHFSparkles true/animate WHFSparkles false true 200 0 1 2 3 4 5 6 7 8/changeLocation Farm/viewport 14 56 clamp/viewport move 0 1 3000/pause 1000/playSound secret1/pause 3000/globalFade/viewport -999 -999/end",
+                "WHF_OrchardUnlock/G {{DLX.Bundles/Purchased|contains=skellady.WHF_OrchardBundle}}": "none/-100 -100/farmer -100 -100 0/ignoreEventTileOffset/addTemporaryActor WHFSparkles 16 32 -999 -462 2 false/warp WHFSparkles 22 4 true/hideShadow WHFSparkles true/animate WHFSparkles false true 200 0 1 2 3 4 5 6 7 8/changeLocation Farm/viewport 22 -2 clamp/viewport move 0 1 3000/pause 1000/playSound secret1/pause 3000/globalFade/viewport -999 -999/end",
+            }
+        }
+    ]
+}

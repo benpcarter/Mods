@@ -1,0 +1,208 @@
+{
+    "Changes": [
+        {
+            "LogName": "Teleport Network - Define Network",
+            "Action": "EditData",
+            "Target": "sophie.WHF/TeleportNetworks",
+            "Entries": {
+                "{{ModId}}_WHNetwork": {
+                    "Id": "{{ModId}}_WHNetwork",
+                    "Locations": {
+                        "WHNorthernTree": {
+                            "Id": "WHNorthernTree",
+                            "Precedence": 0,
+                            "DisplayName": "{{i18n:WHF.Teleport.NorthernTree}}",
+                            "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_StarterBundleComplete Any",
+                            "Destination": "Farm 115 7"
+                        },
+                        "WHVastField": {
+                            "Id": "WHVastField",
+                            "Precedence": 1,
+                            "DisplayName": "{{i18n:WHF.Teleport.VastField}}",
+                            "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_VastFieldBundleComplete Any",
+                            "Destination": "Farm 121 61"
+                        },
+                        "WHCenter": {
+                            "Id": "WHCenter",
+                            "Precedence": 2,
+                            "DisplayName": "{{i18n:WHF.Teleport.Center}}",
+                            "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_WineryBundleComplete Any",
+                            "Destination": "Farm 61 57"
+                        },
+                        "WHBerryCanopy": {
+                            "Id": "WHBerryCanopy",
+                            "Precedence": 3,
+                            "DisplayName": "{{i18n:WHF.Teleport.BerryCanopy}}",
+                            "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_BerryCanopyBundleComplete Any",
+                            "Destination": "Farm 33 95"
+                        },
+                        "WHWesternWaterfalls": {
+                            "Id": "WHWesternWaterfalls",
+                            "Precedence": 4,
+                            "DisplayName": "{{i18n:WHF.Teleport.WesternWaterfalls}}",
+                            "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_WesternWaterfallsBundleComplete Any",
+                            "Destination": "Farm 15 61"
+                        },
+                        "WHHeartField": {
+                            "Id": "WHHeartField",
+                            "Precedence": 5,
+                            "DisplayName": "{{i18n:WHF.Teleport.HeartField}}",
+                            "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_HeartFieldBundleComplete Any",
+                            "Destination": "Farm 75 17"
+                        },
+                        "WHOrchard": {
+                            "Id": "WHOrchard",
+                            "Precedence": 6,
+                            "DisplayName": "{{i18n:WHF.Teleport.Orchard}}",
+                            "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_OrchardBundleComplete Any",
+                            "Destination": "Farm 21 4"
+                        },
+                    }
+                }
+            },
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_StarterBundle": "true"
+            }
+        },
+        {
+            "LogName": "Teleport Network - Add Tile Properties 1",
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 115,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "sophie.WHF_TeleportNetwork {{ModId}}_WHNetwork WHNorthernTree"
+                    }
+                }
+            ],
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_StarterBundle": "true"
+            }
+        },
+        {
+            "LogName": "Teleport Network - Add Tile Properties 2",
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 121,
+                        "Y": 60
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "sophie.WHF_TeleportNetwork {{ModId}}_WHNetwork WHVastField"
+                    }
+                }
+            ],
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_VastFieldBundle": "true"
+            }
+        },
+        {
+            "LogName": "Teleport Network - Add Tile Properties 3",
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 61,
+                        "Y": 56
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "sophie.WHF_TeleportNetwork {{ModId}}_WHNetwork WHCenter"
+                    }
+                }
+            ],
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_WineryBundle": "true"
+            }
+        },
+        {
+            "LogName": "Teleport Network - Add Tile Properties 4",
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 33,
+                        "Y": 96
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "sophie.WHF_TeleportNetwork {{ModId}}_WHNetwork WHBerryCanopy"
+                    }
+                }
+            ],
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_BerryCanopyBundle": "true"
+            }
+        },
+        {
+            "LogName": "Teleport Network - Add Tile Properties 5",
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 61
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "sophie.WHF_TeleportNetwork {{ModId}}_WHNetwork WHWesternWaterfalls"
+                    }
+                }
+            ],
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_WesternWaterfallsBundle": "true"
+            }
+        },
+        {
+            "LogName": "Teleport Network - Add Tile Properties 6",
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 75,
+                        "Y": 16
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "sophie.WHF_TeleportNetwork {{ModId}}_WHNetwork WHHeartField"
+                    }
+                }
+            ],
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_HeartFieldBundle": "true"
+            }
+        },
+        {
+            "LogName": "Teleport Network - Add Tile Properties 7",
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 22,
+                        "Y": 4
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "sophie.WHF_TeleportNetwork {{ModId}}_WHNetwork WHOrchard"
+                    }
+                }
+            ],
+            "When": {
+                "DLX.Bundles/Purchased|contains=skellady.WHF_OrchardBundle": "true"
+            }
+        }
+    ]
+}

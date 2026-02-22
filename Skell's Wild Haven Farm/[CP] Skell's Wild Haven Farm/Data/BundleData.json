@@ -1,0 +1,195 @@
+{
+    "Changes": [
+        // Load Icons
+        {
+            "Action": "Load",
+            "Target": "Mods/skellady.WHF/StarterBundle, Mods/skellady.WHF/BerryCanopyBundle, Mods/skellady.WHF/HeartFieldBundle, Mods/skellady.WHF/OrchardBundle, Mods/skellady.WHF/VastFieldBundle, Mods/skellady.WHF/WesternWaterfallsBundle, Mods/skellady.WHF/WineryBundle",
+            "FromFile": "Assets/BundleIcons/{{TargetWithoutPath}}.png"
+        },
+        // Starting Bundle
+        {
+            "Action": "EditData",
+            "Target": "UnlockableBundles/Bundles",
+            "Entries": {
+                "{{ModId}}_StarterBundle": {
+                    "Location": "skellady.WHF_WildHavenCave",
+                    "BundleName": "{{i18n:WHF.StarterBundle.Name}}",
+                    "BundleDescription": "{{i18n:WHF.StarterBundle.Description}}",
+                    "BundleIconAsset": "Mods\\skellady.WHF\\StarterBundle",
+                    "BundleSlots": 2,
+                    "ShopEvent": "communityCenter/-100 -100/farmer -100 100 0 Junimo 31 22 2/skippable/changeToTemporaryMap WHFJunimoScene/viewport 31 20/playSound junimoMeep1/animate Junimo true true 50 0 1 2 3 4 5 6 7/spriteText 8 \"{{i18n:WHF.StarterBundle.01}}\"/pause 100/playSound junimoMeep1/spriteText 8 \"{{i18n:WHF.StarterBundle.02}}\"/globalFade/viewport -1000 -1000/pause 500/end",
+                    "ShopPosition": "5, 20",
+                    "ShopType": "CCBundle",
+                    "RandomPriceEntries": 2,
+                    "Price": {
+                        "(O)309": 5,
+                        "(O)292": 2,
+                        "(O)311": 5,
+                        "(O)310": 5
+                    },
+                    "BundleCompletedActions": [
+                        "AddMail Current {{ModId}}_StarterBundleComplete",
+                    ]
+                }
+            }
+        },
+        // Main Bundles
+        {
+            "Action": "EditData",
+            "Target": "UnlockableBundles/Bundles",
+            "Entries": {
+                "{{ModId}}_BerryCanopyBundle": {
+                    "Location": "skellady.WHF_WildHavenCave",
+                    "BundleName": "{{i18n:WHF.BerryCanopyBundle.Name}}",
+                    "BundleDescription": "{{i18n:WHF.BerryCanopyBundle.Description}}",
+                    "BundleIconAsset": "Mods\\skellady.WHF\\BerryCanopyBundle",
+                    "BundleSlots": 3,
+                    "ShopPosition": "3, 19",
+                    "ShopType": "CCBundle",
+                    "RandomPriceEntries": 4,
+                    "Price": {
+                        "(O)296": 20,
+                        "(UB.Flavored)Jelly.(O)296": 5,
+                        "(O)410": 20,
+                        "(UB.Flavored)Jelly.(O)410": 5,
+                        "(O)400:Silver": 5
+                    },
+                    "BundleReward": {
+						"(BC)15": 2
+					},
+                    "BundleCompletedActions": [
+                        "AddMail Current {{ModId}}_BerryCanopyBundleComplete",
+                    ]
+                },
+                "{{ModId}}_HeartFieldBundle": {
+                    "Location": "skellady.WHF_WildHavenCave",
+                    "BundleName": "{{i18n:WHF.HeartFieldBundle.Name}}",
+                    "BundleDescription": "{{i18n:WHF.HeartFieldBundle.Description}}",
+                    "BundleIconAsset": "Mods\\skellady.WHF\\HeartFieldBundle",
+                    "BundleSlots": 3,
+                    "ShopPosition": "5, 18",
+                    "ShopType": "CCBundle",
+                    "RandomPriceEntries": 6,
+                    "Price": {
+                        "(UB.Flavored)Honey.(O)591": 1,
+                        "(UB.Flavored)Honey.(O)593": 1,
+                        "(UB.Flavored)Honey.(O)595": 1,
+                        "(UB.Flavored)Honey.(O)597": 1,
+                        "(UB.Flavored)Honey.(O)376": 1,
+                        "(UB.Flavored)Honey.(O)421": 1,
+                        "(O)591": 3,
+                        "(O)593": 3,
+                        "(O)595": 3,
+                        "(O)597": 3,
+                        "(O)376": 3,
+                        "(O)421": 3,
+                    },
+                    "BundleReward": {
+						"(O)872": 10
+					},
+                    "BundleCompletedActions": [
+                        "AddMail Current {{ModId}}_HeartFieldBundleComplete",
+                    ]
+                },
+                "{{ModId}}_OrchardBundle": {
+                    "Location": "skellady.WHF_WildHavenCave",
+                    "BundleName": "{{i18n:WHF.OrchardBundle.Name}}",
+                    "BundleDescription": "{{i18n:WHF.OrchardBundle.Description}}",
+                    "BundleIconAsset": "Mods\\skellady.WHF\\OrchardBundle",
+                    "BundleSlots": 3,
+                    "ShopPosition": "7, 19",
+                    "ShopType": "CCBundle",
+                    "Price": {
+                        "(O)635": 2,
+                        "(UB.Flavored)DriedFruit.(O)635": 1,
+                        "(UB.Flavored)Jelly.(O)635": 3,
+                        "(O)638": 2,
+                        "(UB.Flavored)DriedFruit.(O)638": 1,
+                        "(UB.Flavored)Jelly.(O)638": 3,
+                    },
+                    "BundleReward": {
+						"(BC)Dehydrator": 2
+					},
+                    "BundleCompletedActions": [
+                        "AddMail Current {{ModId}}_OrchardBundleComplete",
+                    ]
+                },
+                "{{ModId}}_VastFieldBundle": {
+                    "Location": "skellady.WHF_WildHavenCave",
+                    "BundleName": "{{i18n:WHF.VastFieldBundle.Name}}",
+                    "BundleDescription": "{{i18n:WHF.VastFieldBundle.Description}}",
+                    "BundleIconAsset": "Mods\\skellady.WHF\\VastFieldBundle",
+                    "BundleSlots": 2,
+                    "ShopPosition": "7, 21",
+                    "ShopType": "CCBundle",
+                    "Price": {
+                        "(O)724": 5,
+                        "(O)725": 5,
+                        "(O)726": 5,
+                    },
+                    "BundleReward": {
+						"(BC)264": 1,
+                        "(BC)9": 2
+					},
+                    "BundleCompletedActions": [
+                        "AddMail Current {{ModId}}_VastFieldBundleComplete",
+                    ]
+                },
+                "{{ModId}}_WesternWaterfallsBundle": {
+                    "Location": "skellady.WHF_WildHavenCave",
+                    "BundleName": "{{i18n:WHF.WesternWaterfallsBundle.Name}}",
+                    "BundleDescription": "{{i18n:WHF.WesternWaterfallsBundle.Description}}",
+                    "BundleIconAsset": "Mods\\skellady.WHF\\WesternWaterfallsBundle",
+                    "BundleSlots": 3,
+                    "ShopPosition": "5, 22",
+                    "ShopType": "CCBundle",
+                    "RandomPriceEntries": 5,
+                    "Price": {
+                        "(O)812": 10,
+                        "(O)447": 3,
+                        "(O)186": 5,
+                        "(O)438": 5,
+                        "(O)424:Gold": 2,
+                        "(O)426:Gold": 2,
+                        "(O)442": 3,
+                        "(O)174": 3,
+                        "(O)182": 3,
+                    },
+                    "BundleReward": {
+						"(BC)FishSmoker": 1,
+                        "(BC)19": 2
+					},
+                    "BundleCompletedActions": [
+                        "AddMail Current {{ModId}}_WesternWaterfallsBundleComplete",
+                    ]
+                },
+                "{{ModId}}_WineryBundle": {
+                    "Location": "skellady.WHF_WildHavenCave",
+                    "BundleName": "{{i18n:WHF.WineryBundle.Name}}",
+                    "BundleDescription": "{{i18n:WHF.WineryBundle.Description}}",
+                    "BundleIconAsset": "Mods\\skellady.WHF\\WineryBundle",
+                    "BundleSlots": 2,
+                    "ShopPosition": "3, 21",
+                    "ShopType": "CCBundle",
+                    "RandomPriceEntries": 3,
+                    "Price": {
+                        "(O)398:Gold": 5,
+                        "(UB.Flavored)Wine.(O)398": 2,
+                        "(O)304:Gold": 5,
+                        "(O)303": 2,
+                    },
+                    "BundleReward": {
+						"(BC)12": 5,
+                        "(BC)62": 1
+					},
+                    "BundleCompletedActions": [
+                        "AddMail Current {{ModId}}_WineryBundleComplete",
+                    ]
+                }
+            },
+            "When": {
+                "DLX.Bundles/Purchased": "skellady.WHF_StarterBundle"
+            }
+        }
+    ]
+}

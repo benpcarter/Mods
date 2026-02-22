@@ -1,0 +1,153 @@
+{
+    "Changes": [
+        // Tree Data W/O WAG
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 628 5"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 41,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 630 5"
+                    }
+                },
+            ],
+            "When": {
+                /*"HasMod |contains= Wildflour.SASS": false,
+                "HasMod |contains= Wildflour.AtelierGoods, Allow Fruit Tree Changes": false,*/
+                "Query: ('{{HasMod |contains= Wildflour.AtelierGoods}}' = 'false' AND '{{HasMod |contains= Wildflour.SASS}}' = 'false') OR ('{{Allow Fruit Tree Changes}}' = 'false')": true,
+                /*"Allow Fruit Tree Changes": false*/
+            }
+        },
+        // Tree Data W/ WAG
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit Wildflour.AtelierGoods_Lemon_Sapling 5"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 41,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit Wildflour.AtelierGoods_Almond_Sapling 5"
+                    }
+                },
+            ],
+            "When": {
+                "HasMod |contains= Wildflour.SASS": false,
+                "HasMod |contains= Wildflour.AtelierGoods": true,
+                "HasMod |contains=Atelier.Cauldron": true,
+                "Atelier.Cauldron/ConfigValue:WildFood": true,
+                "Allow Fruit Tree Changes": true
+            }
+        },
+        // Tree Data W/ RatA
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild Wildflour.SASS_Coral_Fungus_Tree 5"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 41,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild Wildflour.SASS_Sparkling_Agaric_Tree 5"
+                    }
+                },
+            ],
+            "When": {
+                "HasMod |contains= Wildflour.SASS": true,
+                "HasMod |contains= Wildflour.AtelierGoods": false,
+                "Allow Fruit Tree Changes": true
+            }
+        },
+        // Tree Data W/ WAG and RatA
+        {
+            "Action": "EditMap",
+            "Target": "Maps/skellady.WHF_WildHavenFarm",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "wild Wildflour.SASS_Coral_Fungus_Tree 5"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 41,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet": "Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit Wildflour.AtelierGoods_Almond_Sapling 5"
+                    }
+                },
+            ],
+            "When": {
+                "HasMod |contains= Wildflour.SASS": true,
+                "HasMod |contains= Wildflour.AtelierGoods": true,
+                "HasMod |contains=Atelier.Cauldron": true,
+                "Atelier.Cauldron/ConfigValue:WildFood": true,
+                "Allow Fruit Tree Changes": true
+            }
+        },
+    ]
+}

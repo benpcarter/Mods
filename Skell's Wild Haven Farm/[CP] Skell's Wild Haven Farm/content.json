@@ -1,0 +1,44 @@
+{
+    "Format": "2.6.0",
+    "ConfigSchema": {
+        "Change Starter Gift": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "{{i18n:config.Change Starter Gift.description}}",
+        },
+        "Disable Right Fences": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "{{i18n:config.Disable Right Fences.description}}",
+        },
+        "Disable Center Fences": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "{{i18n:config.Disable Center Fences.description}}",
+        },
+        "Disable Left Fences": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "{{i18n:config.Disable Left Fences.description}}",
+        },
+        "Allow Fruit Tree Changes": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "{{i18n:config.Allow Fruit Tree Changes.description}}"
+        }
+    },
+    "EventLimiterExceptions": [
+        "WHF_BerryCanopyUnlock",
+        "WHF_VastFieldUnlock",
+        "WHF_CenterUnlock",
+        "WHF_HeartFieldUnlock",
+        "WHF_WesternWaterfallsUnlock",
+        "WHF_OrchardUnlock"
+    ],
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "Data/FarmData.json, Data/MinecartData.json, Data/MapPatches.json, Data/LocationData.json, Data/TreeData.json, Data/TeleportationData.json, Data/BundleData.json, Data/EventData.json, Data/MapStrings.json"
+        }
+    ]
+}
