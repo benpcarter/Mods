@@ -1,0 +1,18 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/Farm_FourCorners",
+			"FromFile": "assets/Four_Acres_Clean.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Farm_Greenhouse_Dirt_FourCorners",
+			"FromFile": "assets/Four_Acres_Clean_Greenhouse.tmx",
+			"When": {
+				"FarmType": "FourCorners"
+			}
+		}
+	]
+}

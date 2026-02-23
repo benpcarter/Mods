@@ -1,0 +1,12 @@
+{
+	"Name": "Four Acres Clean",
+	"Author": "Pluviophist",
+	"Version": "1.2",
+	"Description": "Clean version of the Four Acres map. An expanded Four Corners map, made for 4+ players.",
+	"UniqueID": "Pluviophist.FourAcres",
+	"UpdateKeys": [ "Nexus:29615" ],
+	"ContentPackFor":
+		{
+			"UniqueID": "Pathoschild.ContentPatcher"
+		}
+}

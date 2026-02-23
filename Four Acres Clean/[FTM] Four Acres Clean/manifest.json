@@ -1,0 +1,13 @@
+{
+    "Name": "Four Farms FTM",
+    "Author": "Pluviophist",
+    "Version": "1.1.2",
+    "Description": "The FTM pack for Four Farms.",
+    "UniqueID": "Pluviophist.FourFarms.FTM",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+      "UniqueID": "Esca.FarmTypeManager",
+      "MinimumVersion": "1.10.1"
+    }
+  }
