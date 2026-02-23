@@ -1,0 +1,101 @@
+{
+  "Format": "2.7.0",
+     "DynamicTokens": [],
+   "CustomLocations": [],
+
+	
+	// Map(s) load
+  "Changes":
+  [
+  
+  //Quarry
+  
+  {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModId}}_Quarry": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_Quarry"
+                    }
+                }
+            }
+        },
+		 {
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_Quarry",
+      "FromFile": "Assets/SM_Quarry.tmx",
+    },
+{
+      "Action": "EditData",
+      "Target": "Data/AdditionalFarms",
+      "Entries": {
+		"{{ModId}}/SilverMeadows": {
+        "ID": "SilverMeadows",
+        "TooltipStringPath": "Strings/UI:{{ModId}}/SilverMeadows",
+        "MapName": "Silver_Meadows",
+        "IconTexture": "Mods/{{ModId}}/Icon"
+					}
+				}
+},
+
+{
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+          "{{ModId}}/SilverMeadows": "Silver Meadows_ A large, no frills farm with so much room for activities."
+				}
+				},
+				
+				{
+        "Action": "Load",
+        "Target": "Maps/Silver_Meadows",
+        "FromFile": "assets/SilverMeadows_Farm.tmx",
+      },
+				{
+        "Action": "Load",
+        "Target": "Maps/Huskycursors",
+        "FromFile": "assets/HuskyCursors.png",
+      },
+
+	  
+	  
+	        {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Icon",
+        "FromFile": "assets/Icon.png"
+      },
+
+ {
+      "Action": "EditMap",
+      "Target": "Maps/Silver_Meadows",
+      "FromFile": "assets/SM_Night.tmx",
+      "FromArea": { "X": 0, "Y": 0,  "Width": 19, "Height": 12},
+      "ToArea": { "X": 89, "Y": 37,  "Width": 19, "Height": 12},
+      "EditMapMode": "Replace",
+      "When": {
+                "Weather": "Sun",
+				"Time": "{{Range: 1900, 2600}}",
+            },
+	  
+    }, 
+
+ {
+        "Action": "EditMap",
+        "Target": "Maps/Silver_Meadows",
+        "MapProperties": {
+          "Light": "98 47 4"
+		  
+        },
+ "When": {
+                "Weather": "Sun",
+				"Time": "{{Range: 1900, 2600}}",
+            },
+ }
+	  
+
+	]
+}
+
+
+

@@ -1,0 +1,24 @@
+{
+    "Name": "Silver Meadows",
+    "Author": "Huskyn1nja",
+    "Version": "1.2.0",
+    "Description": "a very large farm with plenty of room for activities",
+    "UniqueID": "Huskyn1nja.SilverMeadows",
+    "MinimumApiVersion": "4.0",
+    "UpdateKeys": ["Nexus:37183"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+
+ "Dependencies": [
+        {
+            "UniqueID":"DaisyNiko.Tilesheets",
+            "IsRequired": true
+        },
+
+ {
+            "UniqueID":"Esca.FarmTypeManager",
+            "IsRequired": true
+        },
+]
+}
