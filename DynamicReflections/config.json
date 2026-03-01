@@ -31,8 +31,8 @@
   },
   "PuddleReflectionSettings": {
     "AreReflectionsEnabled": true,
-    "ShouldGeneratePuddles": true,
-    "ShouldPlaySplashSound": true,
+    "ShouldGeneratePuddles": false,
+    "ShouldPlaySplashSound": false,
     "ShouldRainSplashPuddles": true,
     "ReflectionOffset": "0, 0",
     "NPCReflectionOffset": "0, 0.3",
