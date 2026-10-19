@@ -1,16 +1,14 @@
-Shardust's Animated Hairstyles for Fashion Sense 16.0.0
+Shardust's Animated Hairstyles for Fashion Sense 19.0.0
 
-December 2025 update: 5 new hairstyles for a total of 140.
+September 2026 update: 5 new styles for a total of 155.
 
-New Hairstyles/Animations:
+New Styles/Animations:
 
-Afro Buns Low Braids Bangs
-Dreads - Low Bun Side Lock
-Dreads - Low Ponytail Side Lock
-High Twin Buns Long Bangs
-Undercut - Long Braid Curly Lock
-Fixed:
-Half Undercut Curls Long & Short
+Bubble Twin Braids
+Buns - Tiny Pigtails
+Half-Braids Half-Wavy Pigtails
+Short Hair Pigtail Bangs
+Twin Fishtails Bangs
 
 To use this mod you need Fashion Sense. 
 

@@ -1491,6 +1491,82 @@
 				"FarmType":"FourCorners"
 				}
 		},
+		//Blackberry Fields Farm
+		{
+			"Action":"EditData",
+			"Target":"Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+			"Entries":{
+						"DaisyNiko.BlackberryFieldsNorth":{
+							"Id":"DaisyNiko.BlackberryFieldsNorth",
+					        "DisplayName":"{{i18n: DaisyNiko.BlackberryFieldsNorth}}",
+							"Price": "{{PriceToRide}}",
+					        "TargetLocation":"Farm",
+					        "TargetTile":{"X":34,"Y":9},
+					        "TargetDirection":"down"
+						},
+						"DaisyNiko.BlackberryFieldsQuarry":{
+							"Id":"DaisyNiko.BlackberryFieldsQuarry",
+					        "DisplayName":"{{i18n: DaisyNiko.BlackberryFieldsQuarry}}",
+							"Price": "{{PriceToRide}}",
+					        "TargetLocation":"Farm",
+					        "TargetTile":{"X":6,"Y":56},
+					        "TargetDirection":"down"
+						},
+						"DaisyNiko.BlackberryFieldsSouthEast":{
+							"Id":"DaisyNiko.BlackberryFieldsSouthEast",
+					        "DisplayName":"{{i18n: DaisyNiko.BlackberryFieldsSouthEast}}",
+							"Price": "{{PriceToRide}}",
+					        "TargetLocation":"Farm",
+					        "TargetTile":{"X":103,"Y":66},
+					        "TargetDirection":"down"
+						},
+				},
+			"When":{
+				"EnableDaisyNiko.BlackberryFields":"true",
+                "HasMod |contains=DaisyNiko.BlackberryFieldsFarm": "true",
+				}
+		},
+		//Blackberry Fields Farm Cave
+		{
+			"Action":"EditData",
+			"Target":"Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+			"Entries":{
+						"DaisyNiko.BlackberryFieldsCave":{
+							"Id":"DaisyNiko.BlackberryFieldsCave",
+					        "DisplayName":"{{i18n: DaisyNiko.BlackberryFieldsCave}}",
+							"Price": "{{PriceToRide}}",
+					        "TargetLocation":"FarmCave",
+					        "TargetTile":{"X":14,"Y":5},
+					        "TargetDirection":"down"
+						},
+				},
+			"When":{
+				"EnableDaisyNiko.BlackberryFields":"true",
+                "HasMod |contains=DaisyNiko.BlackberryFieldsFarm": "true",
+				}
+		},
+		//Moonshine Farm Cave Quarry
+		{
+			"Action":"EditData",
+			"Target":"Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+			"Entries":{
+						"MoonFox.MoonsFarmQuarry":{
+							"Id":"MoonFox.MoonsFarmQuarry",
+					        "DisplayName":"{{i18n: MoonFox.MoonsFarmQuarry}}",
+							"Price": "{{PriceToRide}}",
+					        "TargetLocation":"Custom_FoxQuarry",
+					        "TargetTile":{"X":8,"Y":23},
+					        "TargetDirection":"right"
+						},
+				},
+			"When":{
+				"EnableMoonFox.MoonsFarmQuarry":"true",
+                "HasMod |contains=MoonFox.MoonsFarmQuarry": "true",
+				}
+		},
 
         //Rename other mod's minecarts.
         //UncleArya's Beach

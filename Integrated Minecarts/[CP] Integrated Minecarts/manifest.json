@@ -1,7 +1,7 @@
 ﻿{
     "Name": "Integrated Minecarts (CP Component)",
     "Author": "Jibb",
-    "Version": "4.5.16",
+    "Version": "4.6.0",
     "Description": "Content Pack for Content Patcher",
     "UniqueID": "jibb.minecarts",
     "MinimumApiVersion": "3.0.0",
@@ -177,6 +177,15 @@
             "IsRequired": false,
         }, {
             "UniqueID": "Aimon111.MoreLivelyQuarryOverhaul",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "DaisyNiko.BlackberryFieldsFarm",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "MoonFox.MoonsFarmQuarry",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "LyzzCL.MPF_CP",
             "IsRequired": false,
         },
     ]

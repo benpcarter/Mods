@@ -7,18 +7,12 @@
     },
     "HeadPosition": {
       "X": 8,
-      "Y": 16
+      "Y": 0
     },
     "HairSize": {
       "Width": 32,
-      "Length": 48
+      "Length": 32
     },
-    "IdleAnimation": [
-      {
-        "Frame": 0,
-        "Duration": 85
-      }
-    ],
     "RequireAnimationToFinish": false,
     "MovementAnimation": [
        {
@@ -58,22 +52,16 @@
   "RightHair": {
     "StartingPosition": {
       "X": 0,
-      "Y": 48
+      "Y": 32
     },
     "HeadPosition": {
       "X": 8,
-      "Y": 16
+      "Y": 0
     },
     "HairSize": {
       "Width": 32,
-      "Length": 48
+      "Length": 32
     },
-    "IdleAnimation": [
-      {
-        "Frame": 0,
-        "Duration": 85
-      }
-    ],
     "RequireAnimationToFinish": false,
     "MovementAnimation": [
       {
@@ -114,25 +102,19 @@
     "Flipped": true,
     "StartingPosition": {
       "X": 0,
-      "Y": 48
+      "Y": 32
     },
     "HeadPosition": {
       "X": 8,
-      "Y": 16
+      "Y": 0
     },
     "HairSize": {
       "Width": 32,
-      "Length": 48
+      "Length": 32
     },
-    "IdleAnimation": [
-      {
-        "Frame": 0,
-        "Duration": 85
-      }
-    ],
     "RequireAnimationToFinish": false,
     "MovementAnimation": [
-    {
+      {
         "Frame": 0,
         "Duration": 85
       },
@@ -169,22 +151,16 @@
   "BackHair": {
     "StartingPosition": {
       "X": 0,
-      "Y": 96
+      "Y": 64
     },
     "HeadPosition": {
       "X": 8,
-      "Y": 16
+      "Y": 0
     },
     "HairSize": {
       "Width": 32,
       "Length": 48
     },
-    "IdleAnimation": [
-      {
-        "Frame": 0,
-        "Duration": 85
-      }
-    ],
     "RequireAnimationToFinish": false,
     "MovementAnimation": [
       {

@@ -32,7 +32,7 @@
     "ByLocationName": [],
     "ExceptLocationNames": []
   },
-  "DisplayMinutes": true,
+  "DisplayEveryMinute": true,
   "ShowPauseX": true,
   "Use24HourFormat": false,
   "DisplayVotePauseMessages": true,
@@ -51,5 +51,5 @@
   },
   "ShouldMergePauseInMultiplayerConfigOnNextRun": false,
   "ShouldMergeTimeSlowConfigOnNextRun": false,
-  "VotePauseHotkey": "None"
+  "VoteThresholdPercent": 1.0
 }

@@ -13,6 +13,12 @@
       "Width": 16,
       "Length": 32
     },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      }
+    ],
     "RequireAnimationToFinish": false,
     "MovementAnimation": [
       {
@@ -46,6 +52,12 @@
       "Width": 16,
       "Length": 32
     },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      }
+    ],
     "RequireAnimationToFinish": false,
     "MovementAnimation": [
       {
@@ -80,6 +92,12 @@
       "Width": 16,
       "Length": 32
     },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      }
+    ],
     "RequireAnimationToFinish": false,
     "MovementAnimation": [
       {
@@ -113,6 +131,12 @@
       "Width": 16,
       "Length": 32
     },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      }
+    ],
     "RequireAnimationToFinish": false,
     "MovementAnimation": [
       {

@@ -1,0 +1,87 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Version": {
+            "AllowValues": "Standard, Clean",
+            "Default": "Standard"
+        }
+    },
+    "Changes": [
+        //map icon
+        {
+            "Action": "Load",
+            "Target": "Mods/Pluviophist.FourAcres/icon",
+            "FromFile": "assets/icon.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalFarms",
+            "Entries": {
+                "Pluviophist.FourAcres": {
+                    "ID": "Pluviophist.FourAcres",
+                    "MapName": "Pluviophist_FourAcres",
+                    "TooltipStringPath": "Strings/StringsFromMaps:fouracres.description",
+                    "IconTexture": "Mods/Pluviophist.FourAcres/icon"
+                }
+            }
+        },
+        //farm
+        {
+            "Action": "Load",
+            "Target": "Maps/Pluviophist_FourAcres",
+            "FromFile": "assets/Four_Acres.tmx",
+            "When": {
+                "Version": "Standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Pluviophist_FourAcres",
+            "FromFile": "assets/Four_Acres_Clean.tmx",
+            "When": {
+                "Version": "Clean"
+            }
+        },
+        //minecarts
+		{
+			"Action": "EditData",
+			"Target": "Data/Minecarts",
+			"TargetField": ["Default", "Destinations"],
+			"Entries": {
+				"{{ModId}}.FarmPlaza": {
+					"Id": "{{ModId}}.FarmPlaza",
+					"DisplayName": "Farm Plaza",
+					"TargetLocation": "Farm",
+					"TargetTile": { "X": 105, "Y": 90 },
+					"TargetDirection": "down"
+				},
+					"{{ModId}}.FarmNortheast": {
+					"Id": "{{ModId}}.FarmNortheast",
+					"DisplayName": "Farm Northeast",
+					"TargetLocation": "Farm",
+					"TargetTile": { "X": 186, "Y": 3 },
+					"TargetDirection": "down"
+				},
+					"{{ModId}}.FarmNorthwest": {
+					"Id": "{{ModId}}.FarmNorthwest",
+					"DisplayName": "Farm Northwest",
+					"TargetLocation": "Farm",
+					"TargetTile": { "X": 56, "Y": 30 },
+					"TargetDirection": "down"
+				}
+			},
+			"When": {
+				"version": "Standard, Clean",
+				"FarmType": "Pluviophist.FourAcres"
+			}
+		},
+        //strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "fouracres.description": "{{i18n: fouracres.desc}}"
+            }
+        }
+    ]
+}

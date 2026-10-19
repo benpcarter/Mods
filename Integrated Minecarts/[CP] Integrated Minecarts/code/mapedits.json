@@ -2525,6 +2525,127 @@
                 "HasMod |contains=Pluviophist.FourAcres": "true",
 				"FarmType":"FourCorners"
             },
-        },		
+        },
+		//Blackberry Fields Farm Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm",
+            "MapTiles": [
+			//North
+				{
+                    "Position": {
+                        "X": "34",
+                        "Y": "8"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.BlackberryFieldsNorth",
+                    },
+                },
+			//Quarry
+				{
+                    "Position": {
+                        "X": "6",
+                        "Y": "55"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.BlackberryFieldsQuarry",
+                    },
+                },
+			//SouthEast
+				{
+                    "Position": {
+                        "X": "103",
+                        "Y": "65"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.BlackberryFieldsSouthEast",
+                    },
+                },
+            ],
+            "When": {
+				"EnableDaisyNiko.BlackberryFields":"true",
+                "HasMod |contains=DaisyNiko.BlackberryFieldsFarm": "true",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
+            },
+        },
+		//Blackberry Fields Farm Cave Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/FarmCave",
+            "MapTiles": [
+			//North
+				{
+                    "Position": {
+                        "X": "14",
+                        "Y": "4"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.BlackberryFieldsCave",
+                    },
+                },
+            ],
+            "When": {
+				"EnableDaisyNiko.BlackberryFields":"true",
+                "HasMod |contains=DaisyNiko.BlackberryFieldsFarm": "true",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
+            },
+        },
+		//Moonshine Farm Cave Quarry Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_FoxQuarry",
+            "MapTiles": [
+			//North
+				{
+                    "Position": {
+                        "X": "7",
+                        "Y": "23"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default MoonFox.MoonsFarmQuarry",
+                    },
+				},
+				{
+                    "Position": {
+                        "X": "6",
+                        "Y": "23"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default MoonFox.MoonsFarmQuarry",
+                    },
+				},
+				{
+                    "Position": {
+                        "X": "7",
+                        "Y": "22"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default MoonFox.MoonsFarmQuarry",
+                    },
+				},
+				{
+                    "Position": {
+                        "X": "6",
+                        "Y": "22"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default MoonFox.MoonsFarmQuarry",
+                    },
+                },
+            ],
+            "When": {
+				"EnableMoonFox.MoonsFarmQuarry":"true",
+                "HasMod |contains=MoonFox.MoonsFarmQuarry": "true",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
+            },
+        },				
     ]
 }

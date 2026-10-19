@@ -10,6 +10,7 @@
     "PageDown": "PageDown",
     "ToggleDebug": "None"
   },
+  "ToggleLookupOnDoubleTap": false,
   "ShowUnknownGiftTastes": true,
   "ShowUncaughtFishSpawnRules": true,
   "ShowUnknownRecipes": true,
