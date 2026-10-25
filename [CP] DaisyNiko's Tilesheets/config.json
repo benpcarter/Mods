@@ -1,6 +1,9 @@
 {
+  "EnableArrows": "true",
   "ManualRecolourSelection": "Off",
   "ManualInterfaceSelection": "Off",
-  "EnableArrows": "true",
-  "StarrySkyInterfaceDarkerFont": "false"
+  "StarrySkyInterfaceDarkerFont": "false",
+  "VibrantPastoralFallColour": "orange",
+  "WittilyNamedDirtVariant": "dark",
+  "StarblueValleyBluerGrass": "false"
 }

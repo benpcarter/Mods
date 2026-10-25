@@ -9,9 +9,9 @@
   "PassableWeeds": false,
   "PassableByAll": false,
   "SlowDownWhenPassing": true,
+  "SlowDownMore": true,
   "ShakeWhenPassing": true,
   "PlaySoundWhenPassing": true,
-  "UseCustomDrawing": true,
   "IncludeObjects": [
     ""
   ],
