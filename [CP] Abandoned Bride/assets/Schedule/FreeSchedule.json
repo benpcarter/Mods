@@ -1,0 +1,11 @@
+
+
+
+{
+  "spring": "610 Custom_AB_AbandonedHouse 2 12 0/800 Custom_AB_AbandonedHouse 8 8 2 aurelia_wheel/1000 Town 81 95 2/1400 ArchaeologyHouse 21 11 2 aurelia_read/1600 ArchaeologyHouse 31 4 2 \"Strings\\schedules\\Aurelia:gems.000\"/1700 Town 62 19 2 aurelia_sit/2000 Custom_AB_AbandonedHouse 5 5 0/2200 Custom_AB_AbandonedHouse 12 12 2 aurelia_sleep",
+  "rain": "610 Custom_AB_AbandonedHouse 2 12 0/800 Custom_AB_AbandonedHouse 8 8 2 aurelia_wheel/1000 Custom_AB_AbandonedHouse 11 7 2/1200 Custom_AB_AbandonedHouse 3 5 2 aurelia_read/1400 Custom_AB_AbandonedHouse 11 5 0/1600 Custom_AB_AbandonedHouse 2 12 0/1700 Custom_AB_AbandonedHouse 8 8 2 aurelia_wheel/1800 Custom_AB_AbandonedHouse 11 7 2/2000 Custom_AB_AbandonedHouse 3 5 2 aurelia_read/2200 Custom_AB_AbandonedHouse 12 12 2 arelia_sleep",
+  "spring_4": "610 Custom_AB_AbandonedHouse 2 12 0/800 Custom_AB_AbandonedHouse 8 8 2 aurelia_wheel/1000 Beach 42 24 2 \"Strings\\schedules\\Aurelia:beach.000\"/1400 Town 62 19 2 aurelia_sit/2000 Custom_AB_AbandonedHouse 5 5 0/2200 Custom_AB_AbandonedHouse 12 12 2 aurelia_sleep", 
+  "Mon": "610 Custom_AB_AbandonedHouse 2 12 0/800 Custom_AB_AbandonedHouse 8 8 2 aurelia_wheel/1000 SeedShop 3 20 2 \"Strings\\schedules\\Aurelia:shop.000\"/1400 ArchaeologyHouse 21 11 2 aurelia_read/1700 Town 62 19 2 aurelia_sit/2000 Custom_AB_AbandonedHouse 5 5 0/2200 Custom_AB_AbandonedHouse 12 12 2 aurelia_sleep",
+  "marriage_Mon": "610 Custom_AB_AbandonedHouse 2 12 0/800 Custom_AB_AbandonedHouse 8 8 2 aurelia_wheel/1000 SeedShop 3 20 2 \"Strings\\schedules\\Aurelia:shop.000\"/1400 ArchaeologyHouse 21 11 2 aurelia_read/1700 Town 62 19 2 aurelia_sit/2000 BusStop -1 23 3",
+  "summer_15": "610 Custom_AB_AbandonedHouse 2 12 0/800 Custom_AB_AbandonedHouse 8 8 2 aurelia_wheel/1000 Town 81 95 2/1400 ArchaeologyHouse 21 11 2 aurelia_read/1600 Beach 42 24 2 \"Strings\\schedules\\Aurelia:nightmarket.000\"/2000 Custom_AB_AbandonedHouse 12 12 2 aurelia_sleep"
+}
