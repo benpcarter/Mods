@@ -1,949 +1,929 @@
-// I dont know what I'm doing
-// This is all guess work
-
-
 {
-    "Format": "2.0.0",
-    "DynamicTokens": [
-
-        // Standard Dynamic Tokens
-
-        {
-            "Name": "Wedding",
-            "Value": "WeddingOutfits",
-            "When":
-            {
-                "DayEvent": "wedding",
-            }
-        },
-		
-		// Backup Aerobics Token
-		
+	"Format": "2.8.0",
+	"ConfigSchema": {
+		// APPEARANCE CONFIG OPTIONS
+		"WinterClothing": {
+			"AllowValues": "IndoorAndOutdoor, IndoorOnly, OutdoorOnly",
+			"Default": "IndoorAndOutdoor",
+			"Section": "EnableOutfits"
+		},
+		"BeachOutfitsEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "EnableOutfits"
+		},
+		"ExtraOutfitsEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "EnableOutfits"
+		},
+		"FestivalOutfitsEnabled": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "EnableOutfits"
+		},
+		// NPC APPEARANCE OPTIONS
+		"HideNoses": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Section": "NpcAppearance"
+		},
+		"GilSeasonalChairs": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcAppearance"
+		},
+		"HarveyFacialHair": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcAppearance"
+		},
+		"MaruGlasses": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Section": "NpcAppearance"
+		},
+		"LeoIslandClothes": {
+			"AllowValues": "Seasonal, Spring, Summer, Fall, Winter",
+			"Default": "Seasonal",
+			"Section": "NpcAppearance"
+		},
+		"PennyFreckles": {
+			"AllowValues": "AllYear, NotWinter, OnlySummer, NoFreckles",
+			"Default": "OnlySummer",
+			"Section": "NpcAppearance"
+		},
+		"WizardSeasonalHair": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcAppearance"
+		},
+		// NPC TOGGLE OPTIONS
+		"SlightlyCuterAbigail": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterAlex": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterCaroline": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterClint": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterDemetrius": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterElliott": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterEmily": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterEvelyn": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterGeorge": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterGil": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterGunther": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterGus": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterHaley": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterHarvey": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterJas": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterJodi": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterKent": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterKrobus": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterLeah": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterLeo": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterLewis": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterLinus": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterMarlon": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterMarnie": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterMaru": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterMorris": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterPam": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterPenny": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterPierre": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterRobin": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterSam": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterSandy": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterSebastian": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterShane": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterVincent": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterWilly": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		"SlightlyCuterWizard": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "NpcToggles"
+		},
+		// SECONDARY NPC TOGGLE OPTIONS
+		"SlightlyCuterBear": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "SecondaryNpcToggles"
+		},
+		"SlightlyCuterBirdie": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "SecondaryNpcToggles"
+		},
+		"SlightlyCuterFizz": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "SecondaryNpcToggles"
+		},
+		"SlightlyCuterMrQi": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "SecondaryNpcToggles"
+		},
+		"SlightlyCuterProfessorSnail": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "SecondaryNpcToggles"
+		},
+		"SlightlyCuterExtraNPCs": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "SecondaryNpcToggles"
+		},
+		// OTHER SPRITES
+		"SlightlyCuterBundles": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "OtherSprites"
+		},
+		"SlightlyCuterEmojis": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "OtherSprites"
+		},
+		"SlightlyCuterSpousePortraits": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "OtherSprites"
+		},
+		// FARMER OPTIONS
+		"SlightlyCuterFarmer": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Section": "FarmerOptions"
+		},
+		"HideFarmerNose": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Section": "FarmerOptions"
+		},
+		"FemaleShoeStyle": {
+			"AllowValues": "Vanilla, Flat, Dainty",
+			"Default": "Flat",
+			"Section": "FarmerOptions"
+		},
+		// SEASONAL FARMER OPTIONS
+		"SeasonalFarmerAppearance": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Section": "FarmerSeasonalOptions"
+		},
+		"ShirtSpring": {
+			"AllowValues": "Cold, Vanilla, Warm",
+			"Default": "Warm",
+			"Section": "FarmerSeasonalOptions"
+		},
+		"ShoesSpring": {
+			"AllowValues": "Cold, Vanilla, Warm",
+			"Default": "Vanilla",
+			"Section": "FarmerSeasonalOptions"
+		},
+		"ShirtSummer": {
+			"AllowValues": "Cold, Vanilla, Warm",
+			"Default": "Warm",
+			"Section": "FarmerSeasonalOptions"
+		},
+		"ShoesSummer": {
+			"AllowValues": "Cold, Vanilla, Warm",
+			"Default": "Warm",
+			"Section": "FarmerSeasonalOptions"
+		},
+		"ShirtFall": {
+			"AllowValues": "Cold, Vanilla, Warm",
+			"Default": "Vanilla",
+			"Section": "FarmerSeasonalOptions"
+		},
+		"ShoesFall": {
+			"AllowValues": "Cold, Vanilla, Warm",
+			"Default": "Cold",
+			"Section": "FarmerSeasonalOptions"
+		},
+		"ShirtWinter": {
+			"AllowValues": "Cold, Vanilla, Warm",
+			"Default": "Cold",
+			"Section": "FarmerSeasonalOptions"
+		},
+		"ShoesWinter": {
+			"AllowValues": "Cold, Vanilla, Warm",
+			"Default": "Cold",
+			"Section": "FarmerSeasonalOptions"
+		},
+		"LocalClimateOverride": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Section": "FarmerSeasonalOptions"
+		}
+	},
+	"DynamicTokens": [
+		// Flags used for winter appearances "Indoors" and "Outdoors" settings.
 		{
-            "Name": "Aerobics",
-            "Value": "Spring",
-        },
-		
+			"Name": "IndoorsWinterOutfitEnabled",
+			"Value": "{{WinterClothing |contains=IndoorAndOutdoor, IndoorOnly}}"
+		},
 		{
-            "Name": "Aerobics",
-            "Value": "Summer",
-            "When":
-            {
-                "Season": "Summer",
-            }
-        },
-		
+			"Name": "IndoorsWinterOutfitDisabled",
+			"Value": "{{WinterClothing |contains=OutdoorOnly}}"
+		},
 		{
-            "Name": "Aerobics",
-            "Value": "Fall",
-            "When":
-            {
-                "Season": "Fall",
-            }
-        },
-		
+			"Name": "OutdoorsWinterOutfitEnabled",
+			"Value": "{{WinterClothing |contains=IndoorAndOutdoor, OutdoorOnly}}"
+		},
 		{
-            "Name": "Aerobics",
-            "Value": "Winter_Indoor",
-            "When":
-            {
-                "Season": "Winter",
-				"WinterIndoorOutdoorOutfits": "IndoorOutdoor, IndoorOnly",
-            },
-        },
-		
+			"Name": "OutdoorsWinterOutfitDisabled",
+			"Value": "{{WinterClothing |contains=IndoorOnly}}"
+		},
+		// Used to determine the Calendar sprite to use.
+		// Also used in some cases where there's a custom Portrait but no sprites and viceversa.
 		{
-            "Name": "Aerobics",
-            "Value": "Winter_Outdoor",
-            "When":
-            {
-                "Season": "Winter",
-				"WinterIndoorOutdoorOutfits": "OutdoorOnly",
-            },
-        },
-    ],
-
-    "ConfigSchema":
-    {
-
-        "HarveyFacialHair":
-        {
-            "AllowValues": "True, False",
-            "Default": "True"
-        },
-        "NoNose":
-        {
-            "AllowValues": "True, False",
-            "Default": "True"
-        },
-        "FestivalOutfits":
-        {
-            "AllowValues": "True, False",
-            "Default": "True"
-        },
-        "WinterIndoorOutdoorOutfits":
+			"Name": "CurrentSeasonAttire",
+			"Value": "Spring"
+		},
 		{
-			"AllowValues": "IndoorOutdoor, IndoorOnly, OutdoorOnly",
-			"Default": "IndoorOutdoor",
+			"Name": "CurrentSeasonAttire",
+			"Value": "{{Season}}"
 		},
-        "ExtraOutfits":
-        {
-            "AllowValues": "True, False",
-            "Default": "True"
-        },
-        "MaruGlasses":
-        {
-            "AllowValues": "True, False",
-            "Default": "True"
-        },
-        "FarmerBase":
-        {
-            "AllowValues": "True, False",
-            "Default": "True"
-        },
-		"FemaleShoes":
-        {
-            "AllowValues": "Flat, Dainty",
-            "Default": "Flat"
-        },				
-		"SeasonalFarmerBases":
-        {
-            "AllowValues": "True, False",
-            "Default": "False"
-        },
-		"ShirtSpring":
-        {
-            "AllowValues": "ColdWeather, WarmWeather, False",
-            "Default": "WarmWeather"
-        },
-		"ShirtSummer":
-        {
-            "AllowValues": "ColdWeather, WarmWeather, False",
-            "Default": "WarmWeather"
-        },
-		"ShirtFall":
-        {
-            "AllowValues": "ColdWeather, WarmWeather, False",
-            "Default": "ColdWeather"
-        },
-		"ShirtWinter":
-        {
-            "AllowValues": "ColdWeather, WarmWeather, False",
-            "Default": "ColdWeather"
-        },
-		"ShoesSpring":
-        {
-            "AllowValues": "ColdWeather, WarmWeather, False",
-            "Default": "ColdWeather"
-        },
-		"ShoesSummer":
-        {
-            "AllowValues": "ColdWeather, WarmWeather, False",
-            "Default": "WarmWeather"
-        },
-		"ShoesFall":
-        {
-            "AllowValues": "ColdWeather, WarmWeather, False",
-            "Default": "WarmWeather"
-        },
-		"ShoesWinter":
-        {
-            "AllowValues": "ColdWeather, WarmWeather, False",
-            "Default": "ColdWeather"
-        },
-		"IslandSummerClothes":
-        {
-            "AllowValues": "True, False",
-            "Default": "True"
-        },		
-        "SlightlyCuterAbigail":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterAlex":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterBear":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},			
-		"SlightlyCuterBirdie":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterCaroline":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},		
-		"SlightlyCuterClint":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterDemetrius":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterElliott":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterEmily":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterEvelyn":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterFizz":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},			
-		"SlightlyCuterGeorge":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterGil":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterGunther":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterGus":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterHaley":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterHarvey":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterJas":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterJodi":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterKent":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterKrobus":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterLeah":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterLeo":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterLewis":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterLinus":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterMarlon":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterMarnie":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterMaru":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterMorris":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterMrQi":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterPam":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterPenny":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterPierre":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterProfessorSnail":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterRobin":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterSam":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterSandy":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterSebastian":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterShane":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterVincent":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterWilly":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},
-		"SlightlyCuterWizard":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},	
-		"SlightlyCuterExtraNPCs":
-        {
-			"AllowValues": "True, False",
-			"Default": "True",
-		},																							
-    },
-
-    "Changes": [
-
-// Farmer Changes
-
-      {  "LogName": "Farmer base changes",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True" }},
-		 
-      {  "LogName": "Farmer changes shoes spring",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesSpring}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "spring" }},
-
-      {  "LogName": "Farmer changes shoes summer",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesSummer}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "summer"}},
-
-      {  "LogName": "Farmer changes shoes fall",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesFall}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "Fall"}},
-
-      {  "LogName": "Farmer changes shoes winter",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesWinter}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "winter"}},
-
-      {  "LogName": "Farmer changes shirt Spring",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtSpring}}.png",
-         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
-         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "spring"}},
-
-      {  "LogName": "Farmer changes shirt Summer",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtSummer}}.png",
-         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
-         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "summer"}},
-
-      {  "LogName": "Farmer changes shirt fall",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtFall}}.png",
-         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
-         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "fall"}},
-
-      {  "LogName": "Farmer changes shirt winter",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtWinter}}.png",
-         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
-         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "winter"}},
-
- 	  {  "LogName": "Farmer island clothing",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_WarmWeather.png",
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "IslandSummerClothes": "True", "HasFile:{{FromFile}}": true, "LocationName": "IslandWest, IslandNorth, IslandSouth, IslandEast, IslandHut, IslandFarmHouse, IslandFieldOffice, Caldera, VolcanoDungeon0, VolcanoDungeon1, VolcanoDungeon2, VolcanoDungeon3, VolcanoDungeon4, VolcanoDungeon5, VolcanoDungeon6, VolcanoDungeon7, VolcanoDungeon8, VolcanoDungeon9, QiNutRoom, IslandFarmCave, IslandNorthCave1, IslandSouthEastCave, IslandShrine, IslandSouthEast"}},	 		 
-
-// Farmer female
-
-      {  "LogName": "Farmer base changes",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True" }},
-		 
-      {  "LogName": "Farmer changes shoes spring",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesSpring}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "spring" }},
-
-      {  "LogName": "Farmer changes shoes summer",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesSummer}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "summer"}},
-
-      {  "LogName": "Farmer changes shoes fall",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesFall}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "Fall"}},
-
-      {  "LogName": "Farmer changes shoes winter",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesWinter}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
-         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "winter"}},
-
-      {  "LogName": "Farmer changes shirt Spring",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtSpring}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
-         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "spring"}},
-
-      {  "LogName": "Farmer changes shirt Summer",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtSummer}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
-         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "summer"}},
-
-      {  "LogName": "Farmer changes shirt fall",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtFall}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
-         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "fall"}},
-
-      {  "LogName": "Farmer changes shirt winter",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtWinter}}_{{FemaleShoes}}.png",
-         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
-         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "winter"}},
-
- 	  {  "LogName": "Farmer island clothing",
-		 "Action": "EditImage",
-         "Update": "OnLocationChange",
-		 "Target": "characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
-         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_WarmWeather__{{FemaleShoes}}.png",
-		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "IslandSummerClothes": "True", "HasFile:{{FromFile}}": true, "LocationName": "IslandWest, IslandNorth, IslandSouth, IslandEast, IslandHut, IslandFarmHouse, IslandFieldOffice, Caldera, VolcanoDungeon0, VolcanoDungeon1, VolcanoDungeon2, VolcanoDungeon3, VolcanoDungeon4, VolcanoDungeon5, VolcanoDungeon6, VolcanoDungeon7, VolcanoDungeon8, VolcanoDungeon9, QiNutRoom, IslandFarmCave, IslandNorthCave1, IslandSouthEastCave, IslandShrine, IslandSouthEast"}},
-
-
-// Misc & Extra NPCs
-		
-		{  
-			"LogName": "Misc NPCs Seasonal Include",
-			"Action": "Include",
-			"FromFile": "assets/Code/MiscNPCs.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
+		{
+			"Name": "CurrentSeasonAttire",
+			"Value": "Winter_Indoor",
+			"When": {
+				"Season": "Winter",
+				"IndoorsWinterOutfitEnabled": true
 			}
 		},
-		{  
-			"LogName": "Extra NPCs Seasonal Include",
-			"Action": "Include",
-			"FromFile": "assets/Code/ExtraNPCs.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterExtraNPCs": "True",
+		{
+			"Name": "CurrentSeasonAttire",
+			"Value": "Winter_Outdoor",
+			"When": {
+				"Season": "Winter",
+				"IndoorsWinterOutfitDisabled": true
 			}
 		},
-		
-// Seasonal Character Includes
-
-		{  
-			"LogName": "Abigail Seasonal Include",
+		// Contains the game state query used to decide whether to load the aerbics outfit.
+		// Updated with custom conditions for compatibility with certain mods.
+		{
+			"Name": "UseAerobicsOutfit",
+			"Value": false
+		},
+		{
+			"Name": "UseAerobicsOutfit",
+			"Value": "ANY \"LOCATION_NAME Target SeedShop, DAY_OF_WEEK Tuesday, WEATHER Target Sun Wind Snow\" \"IS_EVENT 58\"",
+			"When": {
+				"ExtraOutfitsEnabled": true
+			}
+		},
+		{
+			"Name": "UseAerobicsOutfit",
+			"Value": "{{UseAerobicsOutfit}} \"IS_EVENT 3219874, LOCATION_NAME Target SeedShop\"", // Claire's 8 heart event
+			"When": {
+				"ExtraOutfitsEnabled": true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		// Contains the game state query used to decide whether to load the spirits eve outfit.
+		// Updated with custom conditions for compatibility with certain mods.
+		{
+			"Name": "UseSpiritsEveOutfit",
+			"Value": false
+		},
+		{
+			"Name": "UseSpiritsEveOutfit",
+			"Value": "ANY \"IS_EVENT festival_fall27\"",
+			"When": {
+				"FestivalOutfitsEnabled": true
+			}
+		},
+		{
+			"Name": "UseSpiritsEveOutfit",
+			// Can't use `LOCATION_CONTEXT Target Lemurkat_EastScarp` because EastScarp_VillageInn_SpiritEve didn't set its LocationContext=Lemurkat_EastScarp so we add every location that NPCs pass through.
+			"Value": "{{UseSpiritsEveOutfit}} \"SEASON Fall, DAY_OF_MONTH 27, LOCATION_NAME Target EastScarp_Crossing EastScarp_Village EastScarp_VillageInn EastScarp_VillageInn_SpiritEve\"",
+			"When": {
+				"FestivalOutfitsEnabled": true,
+				"HasMod |contains=Lemurkat.EastScarp": true
+			}
+		},
+		// Used to determine in which seasons Penny should have freckles.
+		// GingerIsland beach portrait will have freckles regardless of season unless PennyFreckles=Disabled.
+		{
+			"Name": "SeasonsToDrawPennyFreckles",
+			"Value": ""
+		},
+		{
+			"Name": "SeasonsToDrawPennyFreckles",
+			"Value": "Summer",
+			"When": {
+				"PennyFreckles": "OnlySummer"
+			}
+		},
+		{
+			"Name": "SeasonsToDrawPennyFreckles",
+			"Value": "Spring, Summer, Fall",
+			"When": {
+				"PennyFreckles": "NotWinter"
+			}
+		},
+		{
+			"Name": "SeasonsToDrawPennyFreckles",
+			"Value": "Spring, Summer, Fall, Winter",
+			"When": {
+				"PennyFreckles": "AllYear"
+			}
+		},
+		// FARMER DYNAMIC TOKENS
+		// Stores the season to be used by the farmer edits.
+		// Further edits can be done to add compatibility with LocationContexts from other mods.
+		{
+			"Name": "SeasonToLoad",
+			"Value": "Spring",
+			"When": {
+				"SeasonalFarmerAppearance": true
+			}
+		},
+		{
+			"Name": "SeasonToLoad",
+			"Value": "{{Season}}",
+			"When": {
+				"SeasonalFarmerAppearance": true
+			}
+		},
+		{
+			"Name": "SeasonToLoad",
+			"Value": "Summer",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"LocalClimateOverride": true,
+				"LocationContext": "Desert, Island"
+			}
+		},
+		{
+			"Name": "SeasonToLoad",
+			"Value": "Summer",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"LocalClimateOverride": true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"LocationContext": "FlashShifter.StardewValleyExpandedCP_CastleVillageOutpost"
+			}
+		},
+		// Retrieve the choosen t-shirt for this season/location.
+		{
+			"Name": "SeasonalClothes",
+			"Value": "Vanilla"
+		},
+		{
+			"Name": "SeasonalClothes",
+			"Value": "{{ShirtSpring}}",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"SeasonToLoad": "Spring"
+			}
+		},
+		{
+			"Name": "SeasonalClothes",
+			"Value": "{{ShirtSummer}}",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"SeasonToLoad": "Summer"
+			}
+		},
+		{
+			"Name": "SeasonalClothes",
+			"Value": "{{ShirtFall}}",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"SeasonToLoad": "Fall"
+			}
+		},
+		{
+			"Name": "SeasonalClothes",
+			"Value": "{{ShirtWinter}}",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"SeasonToLoad": "Winter"
+			}
+		},
+		// Retrieve the choosen shoes for this season/location.
+		{
+			"Name": "SeasonalShoes",
+			"Value": "Vanilla"
+		},
+		{
+			"Name": "SeasonalShoes",
+			"Value": "{{ShoesSpring}}",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"SeasonToLoad": "Spring"
+			}
+		},
+		{
+			"Name": "SeasonalShoes",
+			"Value": "{{ShoesSummer}}",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"SeasonToLoad": "Summer"
+			}
+		},
+		{
+			"Name": "SeasonalShoes",
+			"Value": "{{ShoesFall}}",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"SeasonToLoad": "Fall"
+			}
+		},
+		{
+			"Name": "SeasonalShoes",
+			"Value": "{{ShoesWinter}}",
+			"When": {
+				"SeasonalFarmerAppearance": true,
+				"SeasonToLoad": "Winter"
+			}
+		}
+	],
+	"Changes": [
+		// SlightlyCuterNpcs
+		{
+			"LogName": "Abigail_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Abigail.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterAbigail": "True",
+			"When": {
+				"SlightlyCuterAbigail": true
 			}
 		},
-		{  
-			"LogName": "Alex Seasonal Include",
+		{
+			"LogName": "Alex_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Alex.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterAlex": "True",
+			"When": {
+				"SlightlyCuterAlex": true
 			}
 		},
-		{  
-			"LogName": "Caroline Seasonal Include",
+		{
+			"LogName": "Caroline_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Caroline.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterCaroline": "True",
+			"When": {
+				"SlightlyCuterCaroline": true
 			}
 		},
-		{  
-			"LogName": "Clint Seasonal Include",
+		{
+			"LogName": "Clint_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Clint.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterClint": "True",
+			"When": {
+				"SlightlyCuterClint": true
 			}
 		},
-		{  
-			"LogName": "Demetrius Seasonal Include",
+		{
+			"LogName": "Demetrius_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Demetrius.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterDemetrius": "True",
+			"When": {
+				"SlightlyCuterDemetrius": true
 			}
 		},
-		{  
-			"LogName": "Elliott Seasonal Include",
+		{
+            "LogName": "Dwarf_Include",
+            "Action": "EditImage",
+            "Target": "Characters/Dwarf",
+            "FromFile": "assets/{{Target}}.png",
+            "When": {
+                "HasMod |contains=Lemurkat.Dwarf.CP": false
+            }
+        },
+        {
+			"LogName": "Elliott_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Elliott.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterElliott": "True",
+			"When": {
+				"SlightlyCuterElliott": true
 			}
 		},
-		{  
-			"LogName": "Emily Seasonal Include",
+		{
+			"LogName": "Emily_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Emily.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterEmily": "True",
+			"When": {
+				"SlightlyCuterEmily": true
 			}
 		},
-		{  
-			"LogName": "Evelyn Seasonal Include",
+		{
+			"LogName": "Evelyn_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Evelyn.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterEvelyn": "True",
+			"When": {
+				"SlightlyCuterEvelyn": true
 			}
 		},
-		{  
-			"LogName": "George Seasonal Include",
+		{
+			"LogName": "George_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/George.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterGeorge": "True",
+			"When": {
+				"SlightlyCuterGeorge": true
 			}
 		},
-		{  
-			"LogName": "Gil Seasonal Include",
+		{
+			"LogName": "Gil_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Gil.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterGil": "True",
+			"When": {
+				"SlightlyCuterGil": true
 			}
 		},
-		{  
-			"LogName": "Gunther Seasonal Include",
+		{
+			"LogName": "Gunther_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Gunther.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterGunther": "True",
-				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+			"When": {
+				"SlightlyCuterGunther": true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
-		{  
-			"LogName": "Gus Seasonal Include",
+		{
+			"LogName": "Gus_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Gus.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterGus": "True",
+			"When": {
+				"SlightlyCuterGus": true
 			}
 		},
-		{  
-			"LogName": "Haley Seasonal Include",
+		{
+			"LogName": "Haley_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Haley.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterHaley": "True",
+			"When": {
+				"SlightlyCuterHaley": true
 			}
 		},
-		{  
-			"LogName": "Harvey Seasonal Include",
+		{
+			"LogName": "Harvey_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Harvey.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterHarvey": "True",
+			"When": {
+				"SlightlyCuterHarvey": true
 			}
 		},
-		{  
-			"LogName": "Jas Seasonal Include",
+		{
+			"LogName": "Jas_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Jas.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterJas": "True",
+			"When": {
+				"SlightlyCuterJas": true
 			}
 		},
-		{  
-			"LogName": "Jodi Seasonal Include",
+		{
+			"LogName": "Jodi_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Jodi.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterJodi": "True",
+			"When": {
+				"SlightlyCuterJodi": true
 			}
 		},
-		{  
-			"LogName": "Kent Seasonal Include",
+		{
+			"LogName": "Kent_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Kent.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterKent": "True",
+			"When": {
+				"SlightlyCuterKent": true
 			}
 		},
-		{  
-			"LogName": "Leah Seasonal Include",
+		{
+			"LogName": "Krobus_EditImage",
+			"Action": "EditImage",
+			"Target": "Portraits/Krobus, Characters/Krobus",
+			"FromFile": "assets/{{Target}}.png",
+			"When": {
+				"SlightlyCuterKrobus": true
+			}
+		},
+		{
+			"LogName": "Leah_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Leah.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterLeah": "True",
+			"When": {
+				"SlightlyCuterLeah": true
 			}
 		},
-		{  
-			"LogName": "Leo Seasonal Include",
+		{
+			"LogName": "Leo_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Leo.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterLeo": "True",
+			"When": {
+				"SlightlyCuterLeo": true
 			}
 		},
-		{  
-			"LogName": "Lewis Seasonal Include",
+		{
+			"LogName": "Lewis_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Lewis.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterLewis": "True",
+			"When": {
+				"SlightlyCuterLewis": true
 			}
 		},
-		{  
-			"LogName": "Linus Seasonal Include",
+		{
+			"LogName": "Linus_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Linus.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterLinus": "True",
+			"When": {
+				"SlightlyCuterLinus": true
 			}
 		},
-		{  
-			"LogName": "Marlon Seasonal Include",
+		{
+			"LogName": "Marlon_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Marlon.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterMarlon": "True",
-				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+			"When": {
+				"SlightlyCuterMarlon": true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
-		{  
-			"LogName": "Marnie Seasonal Include",
+		{
+			"LogName": "Marnie_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Marnie.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterMarnie": "True",
+			"When": {
+				"SlightlyCuterMarnie": true
 			}
 		},
-		{  
-			"LogName": "Maru Seasonal Include",
+		{
+			"LogName": "Maru_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Maru.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterMaru": "True",
+			"When": {
+				"SlightlyCuterMaru": true
 			}
 		},
-		{  
-			"LogName": "Morris Seasonal Include",
+		{
+			"LogName": "Morris_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Morris.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterMorris": "True",
-				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+			"When": {
+				"SlightlyCuterMorris": true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
-		{  
-			"LogName": "Pam Seasonal Include",
+		{
+			"LogName": "Pam_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Pam.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterPam": "True",
+			"When": {
+				"SlightlyCuterPam": true
 			}
 		},
-		{  
-			"LogName": "Penny Seasonal Include",
+		{
+			"LogName": "Penny_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Penny.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterPenny": "True",
+			"When": {
+				"SlightlyCuterPenny": true
 			}
 		},
-		{  
-			"LogName": "Pierre Seasonal Include",
+		{
+			"LogName": "Pierre_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Pierre.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterPierre": "True",
+			"When": {
+				"SlightlyCuterPierre": true
 			}
 		},
-		{  
-			"LogName": "Robin Seasonal Include",
+		{
+			"LogName": "Robin_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Robin.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterRobin": "True",
+			"When": {
+				"SlightlyCuterRobin": true
 			}
 		},
-		{  
-			"LogName": "Sam Seasonal Include",
+		{
+			"LogName": "Sam_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Sam.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterSam": "True",
+			"When": {
+				"SlightlyCuterSam": true
 			}
 		},
-		{  
-			"LogName": "Sandy Seasonal Include",
+		{
+			"LogName": "Sandy_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Sandy.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterSandy": "True",
+			"When": {
+				"SlightlyCuterSandy": true
 			}
 		},
-		{  
-			"LogName": "Sebastian Seasonal Include",
+		{
+			"LogName": "Sebastian_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Sebastian.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterSebastian": "True",
+			"When": {
+				"SlightlyCuterSebastian": true
 			}
 		},
-		{  
-			"LogName": "Shane Seasonal Include",
+		{
+			"LogName": "Shane_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Shane.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterShane": "True",
+			"When": {
+				"SlightlyCuterShane": true
 			}
 		},
-		{  
-			"LogName": "Vincent Seasonal Include",
+		{
+			"LogName": "Vincent_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Vincent.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterVincent": "True",
+			"When": {
+				"SlightlyCuterVincent": true
 			}
 		},
-		{  
-			"LogName": "Willy Seasonal Include",
+		{
+			"LogName": "Willy_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Willy.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterWilly": "True",
+			"When": {
+				"SlightlyCuterWilly": true
 			}
 		},
-		{  
-			"LogName": "Wizard Seasonal Include",
+		{
+			"LogName": "Wizard_Include",
 			"Action": "Include",
 			"FromFile": "assets/Code/Wizard.json",
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-				"SlightlyCuterWizard": "True",
-				"HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,				
+			"When": {
+				"SlightlyCuterWizard": true,
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
-		
-    ]
+		// SlightlyCuterSecondaryNpcs
+		{
+			"LogName": "SecondaryNPCs_Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/SecondaryNPCs.json"
+		},
+		{
+			"LogName": "ExtraNPCs_Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/ExtraNPCs.json",
+			"When": {
+				"SlightlyCuterExtraNPCs": true
+			}
+		},
+		// SlightlyCuterFarmer
+		{
+			"LogName": "Farmer_Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/Farmer.json",
+			"When": {
+				"SlightlyCuterFarmer": true
+			}
+		},
+		// OtherSprites
+		{
+			"LogName": "OtherSprites_Include",
+			"Action": "Include",
+			"FromFile": "assets/Code/OtherSprites.json"
+		}
+	]
 }

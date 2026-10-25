@@ -1,58 +1,64 @@
--------config options-------
+* config options *
 
 
+"EnableArrows"
 
-# "ManualRecolourSelection"
+	> Replaces the _ [ ] { } symbols in the font with diagonal arrows for map modders to use in signs. Most players won't need to change this setting.
 
-> Change this if you want to manually decide which version of the tilesheets you see in your game.
-> "Off" detects what recolour you have installed and automatically applies the tilesheets that match.
+	Accepted values: true, false
 
-Allowed Values:
-
-	- "Off"
-	- "Vanilla"
-	- "Earthy"
-	- "Starblue"
-	- "VibrantPastoral"
-	- "WittilyNamed"
+	Default: true
 
 
+"ManualRecolourSelection"
 
-# "ManualInterfaceSelection"
+	> When "Off", the mod will automatically match whatever recolour you have installed as long as it's one of the compatible ones listed. If none are detected, it will default to Vanilla. Most players won't need to change this setting, but it's useful if you're using a non-compatible recolour and want to choose one that matches better than vanilla.
 
-> Change this if you want to manually decide which version of the arrows you see in your game. 
-> "Off" detects what interface mod you have installed and automatically applies the arrows that match its font.
+	Accepted values: Off, Vanilla, Earthy, Starblue, VibrantPastoral, WittilyNamed
 
-Allowed Values:
-
-	- "Off"
-	- "Vanilla"
-	- "Earthy"
-	- "OvergrownFlowery"
-	- "StarrySky"
-	- "StarrySkyDark"
-	- "Vintage"
+	Default: Off
 
 
+"ManualInterfaceSelection"
 
-# "EnableArrows"
+	> Same as above but for UI mods.
 
-> Replaces some symbols in the game's font tilesheets with more directional arrows for use in signs. 
-> You probably won't ever need to turn this off, but the option is there if necessary. The symbols are: _ { } [ ]
+	Accepted values: Off, Vanilla, Earthy, OvergrownFlowery, StarrySky, StarrySkyDark, Vintage
 
-Allowed Values:
-
-	- "true"
-	- "false"
+	Default: Off
 
 
+"StarrySkyInterfaceDarkerFont"
 
-# "StarrySkyInterfaceDarkerFont"
+	> If you're using the Stary Sky UI mod and have the darker font option selected in its config, change this to "true".
 
-> This is only relevant if you use the Starry Sky Interface mod for Content Patcher. 
-> Set to "true" if you have replaced the font file with the darker version.
+	Accepted values: true, false
 
-Allowed Values:
+	Default: false
 
-	- "true"
-	- "false"
+
+"VibrantPastoralFallColour"
+
+	> If you're using Vibrant Pastoral Recolor, use this to switch between its orange and green fall variants.
+
+	Accepted values: orange, green
+
+	Default: orange
+
+
+"WittilyNamedDirtVariant"
+
+	> If you're using Wittily Named Recolor, use this to switch between its dark and light dirt variants.
+
+	Accepted values: dark, light
+
+	Default: dark
+
+
+"StarblueValleyBluerGrass"
+
+	> If you're using Starblue Valley, use this to enable/disable its bluer spring grass variant.
+
+	Accepted values: true, false
+
+	Default: false

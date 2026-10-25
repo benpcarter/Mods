@@ -1,94 +1,100 @@
 {
 	"Changes": [
-		
 		// OUTFIT LOADS
-	
 		{
-			"LogName": "Load Leo's Outfits",
+			"LogName": "Load_Leo_Assets",
 			"Action": "Load",
 			"Priority": "High",
 			"Target": "Portraits/Leo_Spring, Portraits/Leo_Summer, Portraits/Leo_Fall, Portraits/Leo_Winter, Portraits/Leo_FlowerDance, Portraits/Leo_SpiritsEve, Characters/Leo_Spring, Characters/Leo_Summer, Characters/Leo_Fall, Characters/Leo_Winter, Characters/Leo_FlowerDance, Characters/Leo_SpiritsEve",
 			"FromFile": "assets/{{TargetPathOnly}}/Leo/{{TargetWithoutPath}}.png"
 		},
-		
 		// NOSE OVERLAY
 		{
-			"LogName": "Leo - Seasonal Nose",
+			"LogName": "Add_Leo_Seasonal_Nose",
 			"Action": "EditImage",
 			"Target": "Characters/Leo_Spring, Characters/Leo_Summer, Characters/Leo_Fall, Characters/Leo_Winter, Characters/Leo_FlowerDance, Characters/Leo_SpiritsEve",
-			"FromFile": "assets/{{TargetPathOnly}}/Leo/Leo_nose.png",
-            "PatchMode": "Overlay",
-			"When":
-			{
-				"NoNose": "false",
-			},
+			"FromFile": "assets/{{TargetPathOnly}}/Leo/Leo_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HideNoses": false
+			}
 		},
-		
-		//APPEARANCE DATA 
+		// APPEARANCE DATA
 		{
-			"LogName": "Leo Appearance Data",
+			"LogName": "Add_Leo_Appearances",
 			"Action": "EditData",
 			"Target": "Data/Characters",
-			"TargetField": ["Leo", "Appearance"],
+			"TargetField": [
+				"Leo",
+				"Appearance"
+			],
 			"Entries": {
-				
-				//Regular Outfits
+				// Seasonal Outfits
 				"{{ModId}}.LeoSpring": {
 					"Id": "{{ModId}}.LeoSpring",
-					"Condition": "SEASON spring",
-					"Sprite": "Characters/Leo_Spring",
 					"Portrait": "Portraits/Leo_Spring",
-					"Precedence": -120,
+					"Sprite": "Characters/Leo_Spring",
+					"Condition": "SEASON Spring"
 				},
-
 				"{{ModId}}.LeoSummer": {
 					"Id": "{{ModId}}.LeoSummer",
-					"Condition": "SEASON Summer",
-					"Sprite": "Characters/Leo_Summer",
 					"Portrait": "Portraits/Leo_Summer",
-					"Precedence": -120,
+					"Sprite": "Characters/Leo_Summer",
+					"Condition": "SEASON Summer"
 				},
-				
 				"{{ModId}}.LeoFall": {
 					"Id": "{{ModId}}.LeoFall",
-					"Condition": "SEASON Fall",
-					"Sprite": "Characters/Leo_Fall",
 					"Portrait": "Portraits/Leo_Fall",
-					"Precedence": -120,
+					"Sprite": "Characters/Leo_Fall",
+					"Condition": "SEASON Fall"
 				},
-				
 				"{{ModId}}.LeoWinter": {
 					"Id": "{{ModId}}.LeoWinter",
-					"Condition": "SEASON Winter",
-					"Sprite": "Characters/Leo_Winter",
 					"Portrait": "Portraits/Leo_Winter",
-					"Precedence": -120,
+					"Sprite": "Characters/Leo_Winter",
+					"Condition": "SEASON Winter",
+					"Precedence": -101
 				},
-				
-				//Festival Outfits
-				
+				"{{ModId}}.LeoIsland": {
+					"Id": "{{ModId}}.LeoIsland",
+					"Portrait": "Portraits/Leo_{{LeoIslandClothes}}",
+					"Sprite": "Characters/Leo_{{LeoIslandClothes}}",
+					"Condition": "!{{LeoIslandClothes |contains=Seasonal}}, LOCATION_CONTEXT Target Island",
+					"Precedence": -102
+				},
+				// Festival Outfits
 				"{{ModId}}.LeoFlowerDance": {
 					"Id": "{{ModId}}.LeoFlowerDance",
-					"Condition": "IS_EVENT festival_spring24, {{FestivalOutfits}}",
-					"Sprite": "Characters/Leo_FlowerDance",
 					"Portrait": "Portraits/Leo_FlowerDance",
-					"Precedence": -1000,
+					"Sprite": "Characters/Leo_FlowerDance",
+					"Condition": "IS_EVENT festival_spring24, {{FestivalOutfitsEnabled}}",
+					"Precedence": -300
 				},
-				
 				"{{ModId}}.LeoSpirit": {
 					"Id": "{{ModId}}.LeoSpirit",
-					"Condition": "ANY \"IS_EVENT festival_fall27, {{FestivalOutfits}}\" \"SEASON Fall, DAY_OF_MONTH 27, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn, {{FestivalOutfits}}\"",
-					"Sprite": "Characters/Leo_SpiritsEve",
 					"Portrait": "Portraits/Leo_SpiritsEve",
-					"Precedence": -1000,
-				},
-			},
+					"Sprite": "Characters/Leo_SpiritsEve",
+					"Condition": "{{UseSpiritsEveOutfit}}",
+					"Precedence": -300
+				}
+			}
+		},
+		// CALENDAR
+		{
+			"LogName": "Edit_Leo_Calendar_Sprite",
+			"Action": "EditImage",
+			"Target": "Characters/ParrotBoy",
+			"FromFile": "assets/{{TargetPathOnly}}/Leo/Leo_{{Season}}.png"
 		},
 		{
-            "LogName": "Abigail Calendar Sprite Edits",
-            "Action": "EditImage",
-            "Target": "Characters/Parrotboy",
-            "FromFile": "assets/Characters/Leo/Leo_{{Season}}.png",
-        },			
+			"LogName": "Add_Leo_Calendar_Nose",
+			"Action": "EditImage",
+			"Target": "Characters/ParrotBoy",
+			"FromFile": "assets/{{TargetPathOnly}}/Leo/Leo_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HideNoses": false
+			}
+		}
 	]
 }

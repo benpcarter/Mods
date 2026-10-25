@@ -1,240 +1,225 @@
 {
 	"Changes": [
-		
 		// OUTFIT LOADS
-	
 		{
-			"LogName": "Load Penny's Outfits",
+			"LogName": "Load_Penny_Assets",
 			"Action": "Load",
 			"Priority": "High",
 			"Target": "Portraits/Penny_Spring, Portraits/Penny_Summer, Portraits/Penny_Fall, Portraits/Penny_Winter_Outdoor, Portraits/Penny_Winter_Indoor, Portraits/Penny_FlowerDance, Portraits/Penny_SpiritsEve, Portraits/Penny_EggF, Portraits/Penny_Fair, Portraits/Penny_Jellies, Portraits/Penny_Luau, Portraits/Penny_Winter_IceF, Portraits/Penny_Winter_WinterStar, Characters/Penny_Spring, Characters/Penny_Summer, Characters/Penny_Fall, Characters/Penny_Winter_Outdoor, Characters/Penny_Winter_Indoor, Characters/Penny_FlowerDance, Characters/Penny_SpiritsEve, Characters/Penny_EggF, Characters/Penny_Fair, Characters/Penny_Jellies, Characters/Penny_Luau, Characters/Penny_Winter_IceF, Characters/Penny_Winter_WinterStar, Characters/Penny_Event",
 			"FromFile": "assets/{{TargetPathOnly}}/Penny/{{TargetWithoutPath}}.png"
 		},
-		
 		{
-			"LogName": "Edit Penny's Beach Outfit",
+			"LogName": "Edit_Penny_Beach_Assets",
 			"Action": "EditImage",
 			"Target": "Portraits/Penny_Beach, Characters/Penny_Beach",
-			"FromFile": "assets/{{TargetPathOnly}}/Penny/{{TargetWithoutPath}}.png"
+			"FromFile": "assets/{{TargetPathOnly}}/Penny/{{TargetWithoutPath}}.png",
+			"When": {
+				"BeachOutfitsEnabled": true
+			}
 		},
-		
 		// NOSE OVERLAY
 		{
-			"LogName": "Penny - Seasonal Nose",
+			"LogName": "Add_Penny_Seasonal_Nose",
 			"Action": "EditImage",
-			"Target": "Characters/Penny_Spring, Characters/Penny_Summer, Characters/Penny_Fall, Characters/Penny_Winter_Outdoor, Characters/Penny_Winter_Indoor, Characters/Penny_FlowerDance, Characters/Penny_SpiritsEve, Characters/Penny_EggF, Characters/Penny_Fair, Characters/Penny_Jellies, Characters/Penny_Luau, Characters/Penny_Winter_IceF, Characters/Penny_Winter_WinterStar, Characters/Penny_Event",
-			"FromFile": "assets/{{TargetPathOnly}}/Penny/Penny_nose.png",
-            "PatchMode": "Overlay",
-			"When":
-			{
-				"NoNose": "false",
-			},
+			"Target": "Characters/Penny_Spring, Characters/Penny_Summer, Characters/Penny_Fall, Characters/Penny_Winter_Outdoor, Characters/Penny_Winter_Indoor, Characters/Penny_FlowerDance, Characters/Penny_EggF, Characters/Penny_Fair, Characters/Penny_Jellies, Characters/Penny_Luau, Characters/Penny_Winter_IceF, Characters/Penny_Winter_WinterStar, Characters/Penny_Event",
+			"FromFile": "assets/{{TargetPathOnly}}/Penny/Penny_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HideNoses": false
+			}
 		},
-		
 		{
-			"LogName": "Penny - Beach Nose",
+			"LogName": "Add_Penny_Beach_Nose",
 			"Action": "EditImage",
 			"Target": "Characters/Penny_Beach",
-            "FromFile": "assets/{{TargetPathOnly}}/Penny/{{TargetWithoutPath}}_nose.png",
-            "PatchMode": "Overlay",
-			"When":
-			{
-				"NoNose": "false",
-			},
+			"FromFile": "assets/{{TargetPathOnly}}/Penny/{{TargetWithoutPath}}_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HideNoses": false,
+				"BeachOutfitsEnabled": true
+			}
 		},
-		
 		{
-			"LogName": "Penny - Spirit's Eve Nose",
+			"LogName": "Add_Penny_SpiritsEve_Nose",
 			"Action": "EditImage",
 			"Target": "Characters/Penny_SpiritsEve",
-            "FromFile": "assets/{{TargetPathOnly}}/Penny/{{TargetWithoutPath}}_nose.png",
-            "PatchMode": "Overlay",
-			"When":
-			{
-				"NoNose": "false",
-			},
+			"FromFile": "assets/{{TargetPathOnly}}/Penny/{{TargetWithoutPath}}_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HideNoses": false
+			}
 		},
-		
-		// Summer Freckles Overlay
+		// PENNY FRECKLES
 		{
-			"LogName": "Penny - Freckles",
+			"LogName": "Apply_PennyFreckles_Spring",
 			"Action": "EditImage",
-			"Target": "Portraits/Penny_Summer, Portraits/Penny_Luau, Portraits/Penny_Jellies", //Summer Outfits only
+			"Target": "Portraits/Penny_Spring, Portraits/Penny_EggF, Portraits/Penny_FlowerDance",
 			"FromFile": "assets/Portraits/Penny/Penny_Freckles.png",
-            "PatchMode": "Overlay",
+			"PatchMode": "Overlay",
+			"When": {
+				"SeasonsToDrawPennyFreckles": "Spring"
+			}
 		},
-		
-		//APPEARANCE DATA 
 		{
-			"LogName": "Penny Appearance Data",
+			"LogName": "Apply_PennyFreckles_Summer",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Summer, Portraits/Penny_Luau, Portraits/Penny_Jellies, Portraits/Penny_Beach",
+			"FromFile": "assets/Portraits/Penny/Penny_Freckles.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"SeasonsToDrawPennyFreckles": "Summer"
+			}
+		},
+		{
+			"LogName": "Apply_PennyFreckles_Fall",
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_Fall, Portraits/Penny_Fair",
+			"FromFile": "assets/Portraits/Penny/Penny_Freckles.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"SeasonsToDrawPennyFreckles": "Fall"
+			}
+		},
+		{
+			"LogName": "Apply_PennyFreckles_Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Portraits/Penny_Winter_Indoor, Penny_Winter_Outdoor, Portraits/Penny_Winter_IceF, Portraits/Penny_Winter_WinterStar",
+			"FromFile": "assets/Portraits/Penny/Penny_Freckles.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"SeasonsToDrawPennyFreckles": "Winter"
+			}
+		},
+		// APPEARANCE DATA
+		{
+			"LogName": "Add_Penny_Appearances",
 			"Action": "EditData",
 			"Target": "Data/Characters",
-			"TargetField": ["Penny", "Appearance"],
+			"TargetField": [
+				"Penny",
+				"Appearance"
+			],
 			"Entries": {
-				
-				//Regular Outfits
+				// Seasonal Outfits
 				"{{ModId}}.PennySpring": {
 					"Id": "{{ModId}}.PennySpring",
-					"Condition": "SEASON spring",
-					"Sprite": "Characters/Penny_Spring",
 					"Portrait": "Portraits/Penny_Spring",
-					"Precedence": -120,
+					"Sprite": "Characters/Penny_Spring",
+					"Season": "spring"
 				},
-
 				"{{ModId}}.PennySummer": {
 					"Id": "{{ModId}}.PennySummer",
-					"Condition": "SEASON Summer",
-					"Sprite": "Characters/Penny_Summer",
 					"Portrait": "Portraits/Penny_Summer",
-					"Precedence": -120,
+					"Sprite": "Characters/Penny_Summer",
+					"Season": "summer"
 				},
-				
 				"{{ModId}}.PennyFall": {
 					"Id": "{{ModId}}.PennyFall",
-					"Condition": "SEASON Fall",
-					"Sprite": "Characters/Penny_Fall",
 					"Portrait": "Portraits/Penny_Fall",
-					"Precedence": -120,
+					"Sprite": "Characters/Penny_Fall",
+					"Season": "fall"
 				},
-				
 				"{{ModId}}.PennyWinterIndoor": {
 					"Id": "{{ModId}}.PennyWinterIndoor",
-					"Condition": "SEASON Winter, {{WinterIndoorOutdoorOutfits |contains=IndoorOutdoor,IndoorOnly}}",
-					"Sprite": "Characters/Penny_Winter_Indoor",
 					"Portrait": "Portraits/Penny_Winter_Indoor",
-					"Outdoors": "{{WinterIndoorOutdoorOutfits |contains=IndoorOnly}}",
-					"Precedence": -120,
+					"Sprite": "Characters/Penny_Winter_Indoor",
+					"Season": "winter",
+					"Indoors": "{{IndoorsWinterOutfitEnabled}}",
+					"Outdoors": "{{OutdoorsWinterOutfitDisabled}}",
+					"Precedence": -101
 				},
-				
 				"{{ModId}}.PennyWinterOutdoor": {
 					"Id": "{{ModId}}.PennyWinterOutdoor",
-					"Condition": "SEASON Winter, {{WinterIndoorOutdoorOutfits |contains=IndoorOutdoor,OutdoorOnly}}",
-					"Sprite": "Characters/Penny_Winter_Outdoor",
 					"Portrait": "Portraits/Penny_Winter_Outdoor",
-					"Indoors": "{{WinterIndoorOutdoorOutfits |contains=OutdoorOnly}}",
-					"Precedence": -120,
+					"Sprite": "Characters/Penny_Winter_Outdoor",
+					"Season": "winter",
+					"Indoors": "{{IndoorsWinterOutfitDisabled}}",
+					"Outdoors": "{{OutdoorsWinterOutfitEnabled}}",
+					"Precedence": -101
 				},
-				
-				//Festival Outfits
-				
+				// Festival Outfits
 				"{{ModId}}.PennyEggFest": {
 					"Id": "{{ModId}}.PennyEggFest",
-					"Condition": "IS_EVENT festival_spring13, {{FestivalOutfits}}",
-					"Sprite": "Characters/Penny_EggF",
 					"Portrait": "Portraits/Penny_EggF",
-					"Precedence": -1000,
+					"Sprite": "Characters/Penny_EggF",
+					"Condition": "IS_EVENT festival_spring13, {{FestivalOutfitsEnabled}}",
+					"Precedence": -300
 				},
-				
 				"{{ModId}}.PennyFlowerDance": {
 					"Id": "{{ModId}}.PennyFlowerDance",
-					"Condition": "IS_EVENT festival_spring24, {{FestivalOutfits}}",
-					"Sprite": "Characters/Penny_FlowerDance",
 					"Portrait": "Portraits/Penny_FlowerDance",
-					"Precedence": -1000,
+					"Sprite": "Characters/Penny_FlowerDance",
+					"Condition": "IS_EVENT festival_spring24, {{FestivalOutfitsEnabled}}",
+					"Precedence": -300
 				},
-					
 				"{{ModId}}.PennyLuau": {
 					"Id": "{{ModId}}.PennyLuau",
-					"Condition": "IS_EVENT festival_summer11, {{FestivalOutfits}}",
-					"Sprite": "Characters/Penny_Luau",
 					"Portrait": "Portraits/Penny_Luau",
-					"Precedence": -1000,
+					"Sprite": "Characters/Penny_Luau",
+					"Condition": "IS_EVENT festival_summer11, {{FestivalOutfitsEnabled}}",
+					"Precedence": -300
 				},
-				
 				"{{ModId}}.PennyJellies": {
 					"Id": "{{ModId}}.PennyJellies",
-					"Condition": "IS_EVENT festival_summer28, {{FestivalOutfits}}",
-					"Sprite": "Characters/Penny_Jellies",
 					"Portrait": "Portraits/Penny_Jellies",
-					"Precedence": -1000,
+					"Sprite": "Characters/Penny_Jellies",
+					"Condition": "IS_EVENT festival_summer28, {{FestivalOutfitsEnabled}}",
+					"Precedence": -300
 				},
-					
 				"{{ModId}}.PennyFair": {
 					"Id": "{{ModId}}.PennyFair",
-					"Condition": "IS_EVENT festival_fall16, {{FestivalOutfits}}",
-					"Sprite": "Characters/Penny_Fair",
 					"Portrait": "Portraits/Penny_Fair",
-					"Precedence": -1000,
+					"Sprite": "Characters/Penny_Fair",
+					"Condition": "IS_EVENT festival_fall16, {{FestivalOutfitsEnabled}}",
+					"Precedence": -300
 				},
-				
 				"{{ModId}}.PennySpirit": {
 					"Id": "{{ModId}}.PennySpirit",
-					"Condition": "ANY \"IS_EVENT festival_fall27, {{FestivalOutfits}}\" \"SEASON Fall, DAY_OF_MONTH 27, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn, {{FestivalOutfits}}\"",
-					"Sprite": "Characters/Penny_SpiritsEve",
 					"Portrait": "Portraits/Penny_SpiritsEve",
-					"Precedence": -1000,
+					"Sprite": "Characters/Penny_SpiritsEve",
+					"Condition": "{{UseSpiritsEveOutfit}}",
+					"Precedence": -300
 				},
-					
 				"{{ModId}}.PennyIceFestival": {
 					"Id": "{{ModId}}.PennyIceFestival",
-					"Condition": "IS_EVENT festival_winter8, {{FestivalOutfits}}",
-					"Sprite": "Characters/Penny_Winter_IceF",
 					"Portrait": "Portraits/Penny_Winter_IceF",
-					"Precedence": -1000,
+					"Sprite": "Characters/Penny_Winter_IceF",
+					"Condition": "IS_EVENT festival_winter8, {{FestivalOutfitsEnabled}}",
+					"Precedence": -300
 				},
-				
 				"{{ModId}}.PennyWinterStar": {
 					"Id": "{{ModId}}.PennyWinterStar",
-					"Condition": "IS_EVENT festival_winter25, {{FestivalOutfits}}",
-					"Sprite": "Characters/Penny_Winter_WinterStar",
 					"Portrait": "Portraits/Penny_Winter_WinterStar",
-					"Precedence": -1000,
+					"Sprite": "Characters/Penny_Winter_WinterStar",
+					"Condition": "IS_EVENT festival_winter25, {{FestivalOutfitsEnabled}}",
+					"Precedence": -300
 				},
-				
-				//Beach
-				
-				"{{ModId}}.PennyBeach": {
-					"Id": "{{ModId}}.PennyBeach",
-					"Sprite": "Characters/Penny_Beach",
-					"Portrait": "Portraits/Penny_Beach",
-					"IsIslandAttire": true,
-					"Precedence": -10000,
-				},
-				
-				//Event
-				
+				// Event
 				"{{ModId}}.PennyEvent": {
 					"Id": "{{ModId}}.PennyEvent",
-					"Condition": "IS_EVENT 38",
+					"Portrait": "Portraits/Penny_{{CurrentSeasonAttire}}", // Aerobics token will output the proper season's Portrait sheet
 					"Sprite": "Characters/Penny_Event",
-					"Portrait": "Portraits/Penny_{{Aerobics}}", //Aerobics token will output the proper season's Portrait sheet
-					"Precedence": -10000,
-				},
-			},
+					"Condition": "IS_EVENT 38", // Penny's 10 heart event
+					"Precedence": -1000
+				}
+			}
 		},
-		
-// MISCELLANEOUS
+		// CALENDAR
 		{
-			"LogName": "Penny - Emoji",
+			"LogName": "Edit_Penny_Calendar_Sprite",
 			"Action": "EditImage",
-			"Target": "LooseSprites/emojis",
-            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
-			"FromArea": {"X": 9, "Y": 99, "Width": 9, "Height": 9},
-			"ToArea": {"X": 9, "Y": 99, "Width": 9, "Height": 9},
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-			},
+			"Target": "Characters/Penny",
+			"FromFile": "assets/{{Target}}/Penny_{{CurrentSeasonAttire}}.png"
 		},
 		{
-			"LogName": "Penny - Spouse Picture",
+			"LogName": "Add_Penny_Calendar_Nose",
 			"Action": "EditImage",
-			"Target": "TileSheets/junimo_furniture",
-            "FromFile": "assets/Characters/junimo_furniture.png",
-			"FromArea": {"X": 135, "Y": 279, "Width": 18, "Height": 18},
-			"ToArea": {"X": 135, "Y": 279, "Width": 18, "Height": 18},
-			"When": 
-			{
-				"HasFile:{{FromFile}}": true,
-			},
-		},
-		{
-            "LogName": "Penny Calendar Sprite Edits",
-            "Action": "EditImage",
-            "Target": "Characters/Penny",
-            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Aerobics}}.png",
-        },		
-
-		
+			"Target": "Characters/Penny",
+			"FromFile": "assets/{{Target}}/Penny_Nose.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HideNoses": false
+			}
+		}
 	]
 }

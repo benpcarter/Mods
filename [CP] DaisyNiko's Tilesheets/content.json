@@ -1,78 +1,90 @@
 {
-    "Format": "2.3",
-    "ConfigSchema": {
-        "ManualRecolourSelection":{
-            "AllowValues":"Off, Vanilla, Earthy, Starblue, VibrantPastoral, WittilyNamed",
-            "Default":"Off"
-        },
-        "ManualInterfaceSelection":{
-            "AllowValues":"Off, Vanilla, Earthy, OvergrownFlowery, StarrySky, StarrySkyDark, Vintage",
-            "Default":"Off"
-        },
+	"Format":"2.3",
+	"ConfigSchema":{
         "EnableArrows":{
             "AllowValues":"true, false",
             "Default":"true"
         },
+        "ManualRecolourSelection":{
+            "AllowValues":"off, Vanilla, Earthy, Starblue, VibrantPastoral, WittilyNamed",
+            "Default":"off"
+        },
+        "ManualInterfaceSelection":{
+            "AllowValues":"off, Vanilla, Earthy, OvergrownFlowery, StarrySky, StarrySkyDark, Vintage",
+            "Default":"off"
+        },		              
         "StarrySkyInterfaceDarkerFont":{
             "AllowValues":"true, false",
             "Default":"false"
+        },
+        "VibrantPastoralFallColour":{
+        	"AllowValues":"orange, green",
+        	"Default":"orange"
+        },
+        "WittilyNamedDirtVariant":{
+            "AllowValues":"dark, light",
+            "Default":"dark"
+        },
+        "StarblueValleyBluerGrass":{
+            "AllowValues":"true, false",
+            "Default":"false"
         }
-    },
 
-    "DynamicTokens": [
-        //recolours        
+	},
+	"DynamicTokens":[
+		// recolours        
         {
             "Name": "recolour",
-            "Value": "Vanilla",
+            "Value": "vanilla",
             "When":{
-                "ManualRecolourSelection":"Off, Vanilla"
+                "ManualRecolourSelection":"off, Vanilla"
             }
         },
         {
             "Name": "recolour",
-            "Value": "Starblue",
+            "Value": "starblue",
             "When": {
-                "HasMod": "Lita.StarblueValley",
-                "ManualRecolourSelection":"Off"
+                "HasMod": "Lita.StarblueValley, Lita.StarblueValleyUnofficial",
+                "ManualRecolourSelection":"off"
             }
         },
         {
             "Name": "recolour",
-            "Value": "WittilyNamed",
+            "Value": "wittily",
             "When": {
                 "HasMod": "Acerbicon.Recolor",
-                "ManualRecolourSelection":"Off"
+                "ManualRecolourSelection":"off"
             }
         },
         {
             "Name": "recolour",
-            "Value": "Earthy",
+            "Value": "earthy",
             "When": {
                 "HasMod": "DaisyNiko.EarthyRecolour",
-                "ManualRecolourSelection":"Off"
+                "ManualRecolourSelection":"off"
             }
         },
         {
             "Name": "recolour",
-            "Value": "VibrantPastoral",
+            "Value": "vpr",
             "When": {
                 "HasMod": "grapeponta.VibrantPastoralRecolor",
-                "ManualRecolourSelection":"Off"
+                "ManualRecolourSelection":"off"
             }
         },
         {
             "Name":"recolour",
             "Value":"{{ManualRecolourSelection}}",
             "When":{
-                "ManualRecolourSelection |contains=Off":"false"
+                "ManualRecolourSelection |contains=off":"false"
             }
         },
         // ui mods        
         {
             "Name":"ui",
-            "Value":"Vanilla",
+            "Value":"vanilla",
             "When":{
-                "ManualInterfaceSelection":"Off, Vanilla"
+                "ManualInterfaceSelection":"off, Vanilla"
             }
         },
         {
@@ -80,15 +92,15 @@
             "Value":"OvergrownFlowery",
             "When":{
                 "HasMod":"Amaryn.OvergrownFloweryInterface",
-                "ManualInterfaceSelection":"Off"
+                "ManualInterfaceSelection":"off"
             }
         },
         {
             "Name":"ui",
             "Value":"Vintage",
             "When":{
-                "HasMod |contains=ManaKirel.VMI, ManaKirel.VintageInterface2, Maythorn.VintageInterfaceMultipack":"True",
-                "ManualInterfaceSelection":"Off"
+                "HasMod |contains=ManaKirel.VMI, ManaKirel.VintageInterface2, Maythorn.VintageInterfaceMultipack":"true",
+                "ManualInterfaceSelection":"off"
             }
         },
         {
@@ -97,7 +109,7 @@
             "When":{
                 "HasMod":"BeneathThePlass.StarrySkyInterfaceCP",
                 "StarrySkyInterfaceDarkerFont":"false",
-                "ManualInterfaceSelection":"Off"
+                "ManualInterfaceSelection":"off"
             }
         },
         {
@@ -105,8 +117,8 @@
             "Value":"StarrySkyDark",
             "When":{
                 "HasMod":"BeneathThePlass.StarrySkyInterfaceCP",
-                "StarrySkyInterfaceDarkerFont":"True",
-                "ManualInterfaceSelection":"Off"
+                "StarrySkyInterfaceDarkerFont":"true",
+                "ManualInterfaceSelection":"off"
             }
         },
         {
@@ -114,26 +126,26 @@
             "Value":"Earthy",
             "When":{
                 "HasMod":"DaisyNiko.EarthyInterface",
-                "ManualInterfaceSelection":"Off"
+                "ManualInterfaceSelection":"off"
             }
         },
         {
             "Name":"ui",
             "Value":"{{ManualInterfaceSelection}}",
             "When":{
-                "ManualInterfaceSelection |contains=Off":"false"
+                "ManualInterfaceSelection |contains=off":"false"
             }
         },
-        //panorama stuff
+        // panorama stuff
         {
             "Name":"pan",
             "Value":"vanilla",
-            "When":{"recolour":"Vanilla"}
+            "When":{"recolour":"vanilla"}
         },
         {
             "Name":"pan",
             "Value":"desaturated",
-            "When":{"recolour |contains=Vanilla":false}
+            "When":{"recolour |contains=vanilla":"false"}
         },
         {
             "Name":"seas",
@@ -184,62 +196,125 @@
             "Name":"nighttime",
             "Value":"1800",
             "When":{"Season":"winter"}
-        }
-    ],
-    "Changes": [
-        //seasonal
-        {
-            "Action": "Load",
-            "Target": "Maps/spring_daisyextras, Maps/summer_daisyextras, Maps/fall_daisyextras, Maps/winter_daisyextras",
-            "FromFile": "assets/{{recolour}}/{{TargetWithoutPath}}.png"
         },
-        //cave
+        // base vibrant/desaturated
+        {
+        	"Name":"version",
+        	"Value":"vibrant",
+        	"When":{"recolour":"vanilla"}
+        },
+        {
+        	"Name":"version",
+        	"Value":"desat",
+        	"When":{"recolour":"earthy, wittily, vpr, starblue"}
+        }
+	],
+	"Changes":[
+		// load new seasonal tilesheets
+		{
+			"Action":"Load",
+			"Target":"Maps/spring_daisyextras, Maps/summer_daisyextras, Maps/fall_daisyextras",
+			"FromFile":"assets/base/base_{{version}}.png"
+		},
+		{
+			"Action":"Load",
+			"Target":"Maps/winter_daisyextras",
+			"FromFile":"assets/base/base_{{version}}_winter.png"
+		},
+		// crops overlay
+		{
+			"Action":"EditImage",
+			"Target":"Maps/spring_daisyextras, Maps/summer_daisyextras, Maps/fall_daisyextras",
+			"FromFile":"assets/crops/crops_{{version}}_{{TargetWithoutPath}}.png",
+			"PatchMode":"Overlay"
+		},
+		// recolour overlay
+		{
+            "Action":"EditImage",
+            "Target": "Maps/spring_daisyextras, Maps/summer_daisyextras, Maps/fall_daisyextras, Maps/winter_daisyextras",
+            "FromFile":"assets/recolours/{{recolour}}/{{TargetWithoutPath}}.png",
+            "PatchMode":"Overlay"
+        },
+        // green fall patch (vpr)
+        {
+            "Action":"EditImage",
+            "Target":"Maps/fall_daisyextras",
+            "FromFile":"assets/recolours/vpr/fall_daisyextras_green.png",
+            "PatchMode":"Overlay",
+            "When":{
+                "recolour":"vpr",
+                "VibrantPastoralFallColour":"green"
+            }
+        },
+        // light dirt patch (wittily)
+        {
+            "Action":"EditImage",
+            "Target":"Maps/spring_daisyextras, summer_daisyextras, fall_daisyextras",
+            "FromFile":"assets/recolours/wittily/{{TargetWithoutPath}}_light.png",
+            "PatchMode":"Overlay",
+            "When":{
+                "recolour":"wittily",
+                "WittilyNamedDirtVariant":"light"
+            }
+        },
+        // bluer grass patch (starblue)
+        {
+            "Action":"EditImage",
+            "Target":"Maps/spring_daisyextras",
+            "FromFile":"assets/recolours/starblue/spring_daisyextras_bluer.png",
+            "PatchMode":"Overlay",
+            "When":{
+                "recolour":"starblue",
+                "StarblueValleyBluerGrass":"true"
+            }
+        },
+        // cave
         {
             "Action": "Load",
             "Target": "Maps/cave_daisyextras",
-            "FromFile": "assets/Vanilla/cave_daisyextras.png"
+            "FromFile": "assets/base/cave_daisyextras.png"
         },
-        //desert
+        // desert
         {
             "Action":"Load",
             "Target":"Maps/desert_daisyextras",
-            "FromFile":"assets/{{recolour}}/desert_daisyextras.png"
+            "FromFile":"assets/base/desert_daisyextras.png"
         },
-        //panorama load
+        // panorama load
         {
             "Action":"Load",
             "Target":"Maps/panorama",
-            "FromFile":"assets/Panorama/{{pan}}_day.png"
+            "FromFile":"assets/panorama/{{pan}}_day.png"
         },
-        //panorama edit day
+        // panorama edit day
         {
             "Action":"EditImage",
             "Target":"Maps/panorama",
-            "FromFile":"assets/Panorama/{{pan}}_day{{seas}}{{weath}}.png",
+            "FromFile":"assets/panorama/{{pan}}_day{{seas}}{{weath}}.png",
             "Update":"OnDayStart"
         },
-        //panorama edit evening
+        // panorama edit evening
         {
             "Action":"EditImage",
             "Target":"Maps/panorama",
-            "FromFile":"assets/Panorama/evening{{seas}}{{weath}}.png",
+            "FromFile":"assets/panorama/evening{{seas}}{{weath}}.png",
             "When":{"Time":"{{Range:{{sunset}},{{nighttime}}}}"},
             "Update":"OnTimeChange"
         },
-        //panorama edit night
+        // panorama edit night
         {
             "Action":"EditImage",
             "Target":"Maps/panorama",
-            "FromFile":"assets/Panorama/night{{seas}}{{weath}}.png",
+            "FromFile":"assets/panorama/night{{seas}}{{weath}}.png",
             "When":{"Time":"{{Range:{{nighttime}},2600}}"},
             "Update":"OnTimeChange"
         },
-       //arrows       
-       //down replaces _       
+       // arrows       
+       // down replaces _       
        {
             "Action":"EditImage",
             "Target":"LooseSprites/font_bold",
-            "FromFile":"assets/Arrows/{{ui}}_Down.png",
+            "FromFile":"assets/arrows/{{ui}}_Down.png",
             "ToArea":{
                 "X":120,
                 "Y":48,
@@ -250,11 +325,11 @@
                 "EnableArrows":"true"
             }
        },
-       //up left replaces [
+       // up left replaces [
        {
             "Action":"EditImage",
             "Target":"LooseSprites/font_bold",
-            "FromFile":"assets/Arrows/{{ui}}_UpLeft.png",
+            "FromFile":"assets/arrows/{{ui}}_UpLeft.png",
             "ToArea":{
                 "X":88,
                 "Y":48,
@@ -265,11 +340,11 @@
                 "EnableArrows":"true"
             }
        },
-       //up right replaces ]
+       // up right replaces ]
        {
             "Action":"EditImage",
             "Target":"LooseSprites/font_bold",
-            "FromFile":"assets/Arrows/{{ui}}_UpRight.png",
+            "FromFile":"assets/arrows/{{ui}}_UpRight.png",
             "ToArea":{
                 "X":104,
                 "Y":48,
@@ -280,11 +355,11 @@
                 "EnableArrows":"true"
             }
        },
-       //down left replaces {
+       // down left replaces {
        {
             "Action":"EditImage",
             "Target":"LooseSprites/font_bold",
-            "FromFile":"assets/Arrows/{{ui}}_DownLeft.png",
+            "FromFile":"assets/arrows/{{ui}}_DownLeft.png",
             "ToArea":{
                 "X":88,
                 "Y":80,
@@ -295,11 +370,11 @@
                 "EnableArrows":"true"
             }
        },
-       //down right replaces }
+       // down right replaces }
        {
             "Action":"EditImage",
             "Target":"LooseSprites/font_bold",
-            "FromFile":"assets/Arrows/{{ui}}_DownRight.png",
+            "FromFile":"assets/arrows/{{ui}}_DownRight.png",
             "ToArea":{
                 "X":104,
                 "Y":80,
@@ -310,5 +385,5 @@
                 "EnableArrows":"true"
             }
        },
-    ]
+	]
 }

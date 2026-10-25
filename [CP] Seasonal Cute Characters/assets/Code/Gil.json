@@ -1,55 +1,77 @@
 {
 	"Changes": [
-		
+		// PORTRAITS
 		{
-			"LogName": "Gil - Seasonal",
+			"LogName": "Gil_Portraits_Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Gil",
-			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-			},
-		},
-
-//Normal Gil
-		{   
-			"LogName": "Gil - TownInterior 1",
-            "Action": "EditImage",
-            "Update": "OnLocationChange",
-            "Target": "Maps/townInterior",
-            "FromFile": "assets/{{NoNose}}/Random/townInterior_{{Season}}.png",
-            "FromArea": { "X": 181, "Y": 624, "Width": 26, "Height": 64 },
-            "ToArea": { "X": 181, "Y": 624, "Width": 26, "Height": 64 },
-		},
-		{   
-			"LogName": "Gil - TownInterior 2",
-            "Action": "EditImage",
-            "Update": "OnLocationChange",
-            "Target": "Maps/townInterior",
-            "FromFile": "assets/{{NoNose}}/Random/townInterior_{{Season}}.png",
-            "FromArea": { "X": 214, "Y": 657, "Width": 24, "Height": 31 },
-            "ToArea": { "X": 214, "Y": 657, "Width": 24, "Height": 31 },
-		},
-		
-// MISCELLANEOUS
-		{
-			"LogName": "Gil - Movie Theater",
-            "Action": "EditImage",
-            "Update": "OnLocationChange",
-            "Target": "Maps/MovieTheater_TileSheet",
-            "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
-            "FromArea": { "X": 228, "Y": 217, "Width": 21,  "Height": 29 },
-            "ToArea": { "X": 228, "Y": 217, "Width": 21,  "Height": 29 },
+			"FromFile": "assets/Portraits/Gil/Gil_{{Season}}.png"
 		},
 		{
-			"LogName": "Gil - Joja Theater",
-            "Action": "EditImage",
-            "Update": "OnLocationChange",
-            "Target": "Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
-            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
-            "FromArea": { "X": 228, "Y": 217, "Width": 21,  "Height": 29 },
-            "ToArea": { "X": 228, "Y": 217, "Width": 21,  "Height": 29 },
-		},			
+			"LogName": "Gil_Portraits_Seasonal_Chair",
+			"Action": "EditImage",
+			"Target": "Portraits/Gil",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}_Chair_Overlay.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"GilSeasonalChairs": true
+			}
+		},
+		// SPRITES
+		// SEASONAL
+		{
+			"LogName": "Gil_Sprites_Seasonal",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Other/HideNoses/{{HideNoses}}/{{Target}}_{{Season}}.png",
+			"FromArea": { "X": 176, "Y": 624, "Width": 32, "Height": 64 },
+			"ToArea": { "X": 176, "Y": 624, "Width": 32, "Height": 64 }
+		},
+		{
+			"LogName": "Gil_Sprites_Seasonal",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Other/HideNoses/{{HideNoses}}/{{Target}}_{{Season}}.png",
+			"FromArea": { "X": 208, "Y": 656, "Width": 32, "Height": 32 },
+			"ToArea": { "X": 208, "Y": 656, "Width": 32, "Height": 32 }
+		},
+		{
+			"LogName": "Gil_Sprites_Seasonal_Chair",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/Other/HideNoses/{{HideNoses}}/{{Target}}_Chair_Overlay_{{Season}}.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 176, "Y": 624, "Width": 64, "Height": 64 },
+			"When": {
+				"GilSeasonalChairs": true,
+				"Season |contains=Summer, Winter": true
+			}
+		},
+		// DESERT FESTIVAL
+		{
+			"LogName": "Gil_Sprites_DesertFestival",
+			"Action": "EditImage",
+			"Target": "Maps/desert_festival_tilesheet",
+			"FromFile": "assets/Other/HideNoses/{{HideNoses}}/{{Target}}.png",
+			"FromArea": { "X": 48, "Y": 320, "Width": 32, "Height": 64 },
+			"ToArea": { "X": 48, "Y": 320, "Width": 32, "Height": 64 }
+		},
+		{
+			"LogName": "Gil_Sprites_DesertFestival",
+			"Action": "EditImage",
+			"Target": "Maps/desert_festival_tilesheet",
+			"FromFile": "assets/Other/HideNoses/{{HideNoses}}/{{Target}}.png",
+			"FromArea": { "X": 80, "Y": 352, "Width": 32, "Height": 32 },
+			"ToArea": { "X": 80, "Y": 352, "Width": 32, "Height": 32 }
+		},
+		// MOVIE THEATER
+		{
+			"LogName": "Gil_Sprites_MovieTheaterTileSheet",
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "assets/Other/HideNoses/false/{{Target}}_{{Season}}.png",
+			"FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+			"ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 }
+		}
 	]
 }
