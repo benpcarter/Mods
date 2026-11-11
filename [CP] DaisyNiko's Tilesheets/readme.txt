@@ -3,11 +3,11 @@
 
 "EnableArrows"
 
-	> Replaces the _ [ ] { } symbols in the font with diagonal arrows for map modders to use in signs. Most players won't need to change this setting.
+	> Replaces the _ [ ] { } symbols in the fonts tilesheet with diagonal arrows for map modders to use in signs. Most players won't need to change this setting.
 
-	Accepted values: true, false
+	Accepted values: True, False
 
-	Default: true
+	Default: True
 
 
 "ManualRecolourSelection"
@@ -30,35 +30,35 @@
 
 "StarrySkyInterfaceDarkerFont"
 
-	> If you're using the Stary Sky UI mod and have the darker font option selected in its config, change this to "true".
+	> If you're using the Stary Sky UI mod and have the darker font option selected in its config, change this to "True".
 
-	Accepted values: true, false
+	Accepted values: True, False
 
-	Default: false
+	Default: False
 
 
 "VibrantPastoralFallColour"
 
 	> If you're using Vibrant Pastoral Recolor, use this to switch between its orange and green fall variants.
 
-	Accepted values: orange, green
+	Accepted values: Orange, Green
 
-	Default: orange
+	Default: Orange
 
 
 "WittilyNamedDirtVariant"
 
 	> If you're using Wittily Named Recolor, use this to switch between its dark and light dirt variants.
 
-	Accepted values: dark, light
+	Accepted values: Dark, Light
 
-	Default: dark
+	Default: Dark
 
 
 "StarblueValleyBluerGrass"
 
 	> If you're using Starblue Valley, use this to enable/disable its bluer spring grass variant.
 
-	Accepted values: true, false
+	Accepted values: True, False
 
-	Default: false
+	Default: False

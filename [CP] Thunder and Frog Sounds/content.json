@@ -1,18 +1,10 @@
 ﻿{
-    "Format": "2.0.0",
+    "Format": "2.8.0",
     "Changes": [
 	{
 		"Action": "EditData",
 		"Target": "Data/AudioChanges",
 		"Entries": {
-			"Croak": {
-				"Id": "croak",
-				"Category": "Ambient",
-				"FilePaths": [
-					"{{AbsoluteFilePath: assets/frog_croak1.ogg}}"
-				],
-				"StreamedVorbis": true
-			},
 			"ActualCroak": {
 				"Id": "rainsound",
 				"Category": "Ambient",

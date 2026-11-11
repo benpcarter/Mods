@@ -1,7 +1,7 @@
 {
     "Name": "Simple Location Display",
     "Author": "Kkthnx",
-    "Version": "2.0.1",
+    "Version": "2.0.3",
     "Description": "Shows the current location name as a fading corner HUD popup (like \"It's getting late\"), with game localization, i18n overrides for modded maps, and optional Generic Mod Config Menu support.",
     "UniqueID": "Kkthnx.SimpleLocationDisplay",
     "EntryDll": "SimpleLocationDisplay.dll",

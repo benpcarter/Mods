@@ -2,32 +2,32 @@
 	"Format":"2.3",
 	"ConfigSchema":{
         "EnableArrows":{
-            "AllowValues":"true, false",
-            "Default":"true"
+            "AllowValues":"True, False",
+            "Default":"True"
         },
         "ManualRecolourSelection":{
-            "AllowValues":"off, Vanilla, Earthy, Starblue, VibrantPastoral, WittilyNamed",
-            "Default":"off"
+            "AllowValues":"Off, Vanilla, Earthy, Starblue, VibrantPastoral, WittilyNamed",
+            "Default":"Off"
         },
         "ManualInterfaceSelection":{
-            "AllowValues":"off, Vanilla, Earthy, OvergrownFlowery, StarrySky, StarrySkyDark, Vintage",
-            "Default":"off"
+            "AllowValues":"Off, Vanilla, Earthy, OvergrownFlowery, StarrySky, StarrySkyDark, Vintage",
+            "Default":"Off"
         },		              
         "StarrySkyInterfaceDarkerFont":{
-            "AllowValues":"true, false",
-            "Default":"false"
+            "AllowValues":"True, False",
+            "Default":"False"
         },
         "VibrantPastoralFallColour":{
-        	"AllowValues":"orange, green",
-        	"Default":"orange"
+        	"AllowValues":"Orange, Green",
+        	"Default":"Orange"
         },
         "WittilyNamedDirtVariant":{
-            "AllowValues":"dark, light",
-            "Default":"dark"
+            "AllowValues":"Dark, Light",
+            "Default":"Dark"
         },
         "StarblueValleyBluerGrass":{
-            "AllowValues":"true, false",
-            "Default":"false"
+            "AllowValues":"True, False",
+            "Default":"False"
         }
 
 	},
@@ -35,17 +35,14 @@
 		// recolours        
         {
             "Name": "recolour",
-            "Value": "vanilla",
-            "When":{
-                "ManualRecolourSelection":"off, Vanilla"
-            }
+            "Value": "vanilla"
         },
         {
             "Name": "recolour",
             "Value": "starblue",
             "When": {
-                "HasMod": "Lita.StarblueValley, Lita.StarblueValleyUnofficial",
-                "ManualRecolourSelection":"off"
+                "HasMod": "Lita.StarblueValley, Lita.StarblueValleyUnOfficial",
+                "ManualRecolourSelection":"Off"
             }
         },
         {
@@ -53,7 +50,7 @@
             "Value": "wittily",
             "When": {
                 "HasMod": "Acerbicon.Recolor",
-                "ManualRecolourSelection":"off"
+                "ManualRecolourSelection":"Off"
             }
         },
         {
@@ -61,7 +58,7 @@
             "Value": "earthy",
             "When": {
                 "HasMod": "DaisyNiko.EarthyRecolour",
-                "ManualRecolourSelection":"off"
+                "ManualRecolourSelection":"Off"
             }
         },
         {
@@ -69,14 +66,14 @@
             "Value": "vpr",
             "When": {
                 "HasMod": "grapeponta.VibrantPastoralRecolor",
-                "ManualRecolourSelection":"off"
+                "ManualRecolourSelection":"Off"
             }
         },
         {
             "Name":"recolour",
             "Value":"{{ManualRecolourSelection}}",
             "When":{
-                "ManualRecolourSelection |contains=off":"false"
+                "ManualRecolourSelection |contains=Off":"false"
             }
         },
         // ui mods        
@@ -84,7 +81,7 @@
             "Name":"ui",
             "Value":"vanilla",
             "When":{
-                "ManualInterfaceSelection":"off, Vanilla"
+                "ManualInterfaceSelection":"Off, Vanilla"
             }
         },
         {
@@ -92,7 +89,7 @@
             "Value":"OvergrownFlowery",
             "When":{
                 "HasMod":"Amaryn.OvergrownFloweryInterface",
-                "ManualInterfaceSelection":"off"
+                "ManualInterfaceSelection":"Off"
             }
         },
         {
@@ -100,7 +97,7 @@
             "Value":"Vintage",
             "When":{
                 "HasMod |contains=ManaKirel.VMI, ManaKirel.VintageInterface2, Maythorn.VintageInterfaceMultipack":"true",
-                "ManualInterfaceSelection":"off"
+                "ManualInterfaceSelection":"Off"
             }
         },
         {
@@ -109,7 +106,7 @@
             "When":{
                 "HasMod":"BeneathThePlass.StarrySkyInterfaceCP",
                 "StarrySkyInterfaceDarkerFont":"false",
-                "ManualInterfaceSelection":"off"
+                "ManualInterfaceSelection":"Off"
             }
         },
         {
@@ -118,7 +115,7 @@
             "When":{
                 "HasMod":"BeneathThePlass.StarrySkyInterfaceCP",
                 "StarrySkyInterfaceDarkerFont":"true",
-                "ManualInterfaceSelection":"off"
+                "ManualInterfaceSelection":"Off"
             }
         },
         {
@@ -126,14 +123,14 @@
             "Value":"Earthy",
             "When":{
                 "HasMod":"DaisyNiko.EarthyInterface",
-                "ManualInterfaceSelection":"off"
+                "ManualInterfaceSelection":"Off"
             }
         },
         {
             "Name":"ui",
             "Value":"{{ManualInterfaceSelection}}",
             "When":{
-                "ManualInterfaceSelection |contains=off":"false"
+                "ManualInterfaceSelection |contains=Off":"false"
             }
         },
         // panorama stuff
@@ -199,12 +196,11 @@
         },
         // base vibrant/desaturated
         {
-        	"Name":"version",
-        	"Value":"vibrant",
-        	"When":{"recolour":"vanilla"}
+        	"Name":"vers",
+        	"Value":"vibrant"
         },
         {
-        	"Name":"version",
+        	"Name":"vers",
         	"Value":"desat",
         	"When":{"recolour":"earthy, wittily, vpr, starblue"}
         }
@@ -214,18 +210,41 @@
 		{
 			"Action":"Load",
 			"Target":"Maps/spring_daisyextras, Maps/summer_daisyextras, Maps/fall_daisyextras",
-			"FromFile":"assets/base/base_{{version}}.png"
+			"FromFile":"assets/base/base_{{vers}}.png",
+            "Priority":"High"
 		},
 		{
 			"Action":"Load",
 			"Target":"Maps/winter_daisyextras",
-			"FromFile":"assets/base/base_{{version}}_winter.png"
+			"FromFile":"assets/base/base_{{vers}}_winter.png",
+            "Priority":"High"
 		},
+        // cave
+        {
+            "Action": "Load",
+            "Target": "Maps/cave_daisyextras",
+            "FromFile": "assets/base/cave_daisyextras.png",
+            "Priority":"High"
+        },
+        // desert
+        {
+            "Action":"Load",
+            "Target":"Maps/desert_daisyextras",
+            "FromFile":"assets/base/desert_daisyextras.png",
+            "Priority":"High"
+        },
+        // panorama
+        {
+            "Action":"Load",
+            "Target":"Maps/panorama",
+            "FromFile":"assets/panorama/{{pan}}_day.png",
+            "Priority":"High"
+        },
 		// crops overlay
 		{
 			"Action":"EditImage",
 			"Target":"Maps/spring_daisyextras, Maps/summer_daisyextras, Maps/fall_daisyextras",
-			"FromFile":"assets/crops/crops_{{version}}_{{TargetWithoutPath}}.png",
+			"FromFile":"assets/crops/crops_{{vers}}_{{TargetWithoutPath}}.png",
 			"PatchMode":"Overlay"
 		},
 		// recolour overlay
@@ -243,7 +262,7 @@
             "PatchMode":"Overlay",
             "When":{
                 "recolour":"vpr",
-                "VibrantPastoralFallColour":"green"
+                "VibrantPastoralFallColour":"Green"
             }
         },
         // light dirt patch (wittily)
@@ -254,7 +273,7 @@
             "PatchMode":"Overlay",
             "When":{
                 "recolour":"wittily",
-                "WittilyNamedDirtVariant":"light"
+                "WittilyNamedDirtVariant":"Light"
             }
         },
         // bluer grass patch (starblue)
@@ -265,26 +284,8 @@
             "PatchMode":"Overlay",
             "When":{
                 "recolour":"starblue",
-                "StarblueValleyBluerGrass":"true"
+                "StarblueValleyBluerGrass":"True"
             }
-        },
-        // cave
-        {
-            "Action": "Load",
-            "Target": "Maps/cave_daisyextras",
-            "FromFile": "assets/base/cave_daisyextras.png"
-        },
-        // desert
-        {
-            "Action":"Load",
-            "Target":"Maps/desert_daisyextras",
-            "FromFile":"assets/base/desert_daisyextras.png"
-        },
-        // panorama load
-        {
-            "Action":"Load",
-            "Target":"Maps/panorama",
-            "FromFile":"assets/panorama/{{pan}}_day.png"
         },
         // panorama edit day
         {
@@ -322,7 +323,7 @@
                 "Height":16
             },
             "When":{
-                "EnableArrows":"true"
+                "EnableArrows":"True"
             }
        },
        // up left replaces [
@@ -337,7 +338,7 @@
                 "Height":16
             },
             "When":{
-                "EnableArrows":"true"
+                "EnableArrows":"True"
             }
        },
        // up right replaces ]
@@ -352,7 +353,7 @@
                 "Height":16
             },
             "When":{
-                "EnableArrows":"true"
+                "EnableArrows":"True"
             }
        },
        // down left replaces {
@@ -367,7 +368,7 @@
                 "Height":16
             },
             "When":{
-                "EnableArrows":"true"
+                "EnableArrows":"True"
             }
        },
        // down right replaces }
@@ -382,7 +383,7 @@
                 "Height":16
             },
             "When":{
-                "EnableArrows":"true"
+                "EnableArrows":"True"
             }
        },
 	]
