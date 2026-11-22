@@ -1,0 +1,13 @@
+{
+  "Name": "Forage Fantasy Automate Fix",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Re-applies Forage Fantasy's mushroom box and berry bush quality patches for Automate, which Forage Fantasy 4.3.1 skips because Automate 2.6 removed its tapper machine class.",
+  "UniqueID": "benpc.ForageFantasyAutomateFix",
+  "EntryDll": "ForageFantasyAutomateFix.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "Goldenrevolver.ForageFantasy", "IsRequired": true },
+    { "UniqueID": "Pathoschild.Automate", "IsRequired": true }
+  ]
+}
