@@ -7,6 +7,7 @@
   "EntryDll": "SprinklerActivationLimit.dll",
   "MinimumApiVersion": "4.0.0",
   "Dependencies": [
-    { "UniqueID": "f4iTh.ActivateSprinklers", "IsRequired": true }
+    { "UniqueID": "f4iTh.ActivateSprinklers", "IsRequired": true },
+    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false }
   ]
 }
