@@ -1,0 +1,37 @@
+{
+  "Format": "2.9.0",
+  "Changes": [
+    // Reverse crafting recipes: 1 line sprinkler -> 1 regular sprinkler of the same tier.
+    // Same Farming level as Line Sprinklers Redux's own recipes (2 / 6 / 9); the game
+    // grants level recipes you already qualify for when the save loads.
+    // Format: ingredients / unused / output / isBigCraftable / unlock / display name
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "{{ModId}}_Sprinkler": "(BC)rtrox.LineSprinklersRedux_LineSprinkler 1/Field/599/false/Farming 2/{{i18n:Sprinkler.FromLine}}",
+        "{{ModId}}_QualitySprinkler": "(BC)rtrox.LineSprinklersRedux_QualityLineSprinkler 1/Field/621/false/Farming 6/{{i18n:QualitySprinkler.FromLine}}",
+        "{{ModId}}_IridiumSprinkler": "(BC)rtrox.LineSprinklersRedux_IridiumLineSprinkler 1/Field/645/false/Farming 9/{{i18n:IridiumSprinkler.FromLine}}"
+      }
+    },
+
+    // Line Sprinklers Redux 1.2.0 sets the Recycling Machine output for the basic and
+    // quality tiers to "(0)599"/"(0)621" (digit zero instead of letter O), which gives an
+    // Error Item. Replace those outputs with the correct item IDs. Runs Late so it applies
+    // after that mod adds its rules.
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC)20", "OutputRules" ],
+      "Priority": "Late",
+      "Fields": {
+        "rtrox.LineSprinklersRedux_LineSprinkler": {
+          "OutputItem": [ { "Id": "Default", "ItemId": "(O)599" } ]
+        },
+        "rtrox.LineSprinklersRedux_QualityLineSprinkler": {
+          "OutputItem": [ { "Id": "Default", "ItemId": "(O)621" } ]
+        }
+      }
+    }
+  ]
+}

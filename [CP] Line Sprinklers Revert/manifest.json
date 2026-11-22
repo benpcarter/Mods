@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Line Sprinklers Revert",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Adds crafting recipes that turn Line Sprinklers Redux line sprinklers back into regular sprinklers, and fixes its Recycling Machine output for the basic and quality tiers.",
+  "UniqueID": "benpc.LineSprinklersRevert",
+  "MinimumApiVersion": "4.0.0",
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies": [
+    { "UniqueID": "rtrox.LineSprinklersRedux", "IsRequired": true }
+  ]
+}

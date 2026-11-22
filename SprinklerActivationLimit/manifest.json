@@ -1,0 +1,12 @@
+{
+  "Name": "Sprinkler Activation Limit",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Companion to Activate Sprinklers: each sprinkler can only be activated by hand a limited number of times per day (default 3).",
+  "UniqueID": "benpc.SprinklerActivationLimit",
+  "EntryDll": "SprinklerActivationLimit.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "f4iTh.ActivateSprinklers", "IsRequired": true }
+  ]
+}

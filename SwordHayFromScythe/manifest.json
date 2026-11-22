@@ -1,0 +1,12 @@
+{
+  "Name": "Sword Hay From Scythe",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Cutting grass with a sword gives hay at the rate of the best scythe you own (companion to Harvest With Scythe's HarvestWithSword option).",
+  "UniqueID": "benpc.SwordHayFromScythe",
+  "EntryDll": "SwordHayFromScythe.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "bcmpinc.HarvestWithScythe", "IsRequired": false }
+  ]
+}
