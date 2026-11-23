@@ -1,0 +1,12 @@
+{
+  "Name": "More Data Layers",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Adds a Tappers layer to Data Layers that shows which trees have no tapper.",
+  "UniqueID": "benpc.MoreDataLayers",
+  "EntryDll": "MoreDataLayers.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "Pathoschild.DataLayers", "IsRequired": true }
+  ]
+}
