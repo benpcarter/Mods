@@ -1,8 +1,8 @@
 {
   "Name": "More Data Layers",
   "Author": "benpc",
-  "Version": "1.0.0",
-  "Description": "Adds a Tappers layer to Data Layers that shows which trees have no tapper.",
+  "Version": "1.1.0",
+  "Description": "Adds Tappers and multiplayer-friendly Machines layers to Data Layers.",
   "UniqueID": "benpc.MoreDataLayers",
   "EntryDll": "MoreDataLayers.dll",
   "MinimumApiVersion": "4.0.0",
