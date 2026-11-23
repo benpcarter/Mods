@@ -1,0 +1,9 @@
+{
+  "OpacityPercent": 60,
+  "MinCoveredPercent": 60,
+  "FadeMapOverlays": true,
+  "FadeWholeOverlay": false,
+  "MaxOverlayTiles": 20000,
+  "FadeBushesAndClumps": true,
+  "FadeObjects": true
+}

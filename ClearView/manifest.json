@@ -1,7 +1,7 @@
 {
   "Name": "Clear View",
   "Author": "benpc",
-  "Version": "1.0.0",
+  "Version": "1.1.0",
   "Description": "Map overlays, bushes, furniture and anything else drawn over your character goes see-through.",
   "UniqueID": "benpc.ClearView",
   "EntryDll": "ClearView.dll",
