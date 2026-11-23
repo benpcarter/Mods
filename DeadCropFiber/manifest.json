@@ -1,7 +1,7 @@
 {
   "Name": "Dead Crop Fiber",
   "Author": "benpc",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "Description": "Cutting a dead crop with a scythe or weapon drops fiber, in fields and garden pots.",
   "UniqueID": "benpc.DeadCropFiber",
   "EntryDll": "DeadCropFiber.dll",
