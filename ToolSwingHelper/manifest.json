@@ -1,0 +1,12 @@
+{
+  "Name": "Tool Swing Helper",
+  "Author": "benpc",
+  "Version": "1.1.0",
+  "Description": "Axe, pickaxe and hoe swings that hit nothing cost 10% energy, and near-misses snap onto wood, giant crops, stone or untilled ground.",
+  "UniqueID": "benpc.ToolSwingHelper",
+  "EntryDll": "ToolSwingHelper.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false }
+  ]
+}

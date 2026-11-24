@@ -1,0 +1,13 @@
+{
+  "Name": "It's Stardew Time Companion",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "While another player pauses time, bad buffs keep running out. While every player is paused, monsters freeze.",
+  "UniqueID": "benpc.StardewTimeCompanion",
+  "EntryDll": "StardewTimeCompanion.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "Cabbose.Sage.TimeMaster.ItsStardewTime", "IsRequired": true },
+    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false }
+  ]
+}

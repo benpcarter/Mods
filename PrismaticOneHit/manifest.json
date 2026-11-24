@@ -1,0 +1,13 @@
+{
+  "Name": "Prismatic One Hit",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "The prismatic axe and pickaxe break trees, stumps, rocks, nodes, boulders and logs in one hit; felled trees clear their stump too.",
+  "UniqueID": "benpc.PrismaticOneHit",
+  "EntryDll": "PrismaticOneHit.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "iargue.PrismaticToolsContinued", "IsRequired": false },
+    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false }
+  ]
+}
