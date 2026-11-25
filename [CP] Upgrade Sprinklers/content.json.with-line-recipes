@@ -1,0 +1,23 @@
+{
+    "Format": "1.18.0",
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+          "Sprinkler to Quality": "599 1 336 1 338 1/Home/621/false/Farming 6",
+          "Quality to Iridium": "621 1 337 1 787 1/Home/645/false/Farming 9"
+        }
+      },
+      {
+        // Added: same upgrades for Line Sprinklers Redux line sprinklers (big craftables).
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+          "Line to Quality Line": "(BC)rtrox.LineSprinklersRedux_LineSprinkler 1 336 1 338 1/Home/rtrox.LineSprinklersRedux_QualityLineSprinkler/true/Farming 6/Quality Line Sprinkler (upgrade)",
+          "Quality Line to Iridium Line": "(BC)rtrox.LineSprinklersRedux_QualityLineSprinkler 1 337 1 787 1/Home/rtrox.LineSprinklersRedux_IridiumLineSprinkler/true/Farming 9/Iridium Line Sprinkler (upgrade)"
+        },
+        "When": { "HasMod": "rtrox.LineSprinklersRedux" }
+      }
+    ]
+  }

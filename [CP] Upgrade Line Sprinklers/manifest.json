@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Upgrade Line Sprinklers",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Upgrade Sprinklers-style recipes for Line Sprinklers Redux: line to quality line (Farming 6), quality line to iridium line (Farming 9).",
+  "UniqueID": "benpc.UpgradeLineSprinklers",
+  "MinimumApiVersion": "4.0.0",
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies": [
+    { "UniqueID": "rtrox.LineSprinklersRedux", "IsRequired": true }
+  ]
+}

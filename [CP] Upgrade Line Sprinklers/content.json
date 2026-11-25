@@ -1,0 +1,15 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      // Same idea as OchoLinda's Upgrade Sprinklers, for line sprinklers. The recipe names match the ones
+      // that used to be added straight into Upgrade Sprinklers, so anyone who already learned them keeps them.
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Line to Quality Line": "(BC)rtrox.LineSprinklersRedux_LineSprinkler 1 336 1 338 1/Home/rtrox.LineSprinklersRedux_QualityLineSprinkler/true/Farming 6/Quality Line Sprinkler (upgrade)",
+        "Quality Line to Iridium Line": "(BC)rtrox.LineSprinklersRedux_QualityLineSprinkler 1 337 1 787 1/Home/rtrox.LineSprinklersRedux_IridiumLineSprinkler/true/Farming 9/Iridium Line Sprinkler (upgrade)"
+      }
+    }
+  ]
+}

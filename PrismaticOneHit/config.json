@@ -1,0 +1,9 @@
+{
+  "Trees": true,
+  "ClearStumpAfterFall": true,
+  "FruitTrees": false,
+  "Rocks": true,
+  "LargeStumpsLogsBoulders": true,
+  "GiantCrops": true,
+  "BarrelsAndCrates": true
+}

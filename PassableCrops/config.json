@@ -8,14 +8,10 @@
   "PassableFruitTreeGrowth": 2,
   "PassableWeeds": false,
   "PassableByAll": false,
-  "SlowDownWhenPassing": true,
-  "SlowDownMore": true,
+  "SlowDownWhenPassing": false,
+  "SlowDownMore": false,
   "ShakeWhenPassing": true,
   "PlaySoundWhenPassing": true,
-  "IncludeObjects": [
-    ""
-  ],
-  "ExcludeObjects": [
-    ""
-  ]
+  "IncludeObjects": [],
+  "ExcludeObjects": []
 }
