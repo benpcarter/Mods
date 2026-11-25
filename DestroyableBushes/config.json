@@ -1,7 +1,7 @@
 {
   "AxeUpgradesRequired": 0,
   "AxeDamageMultiplier": 1.0,
-  "WhenBushesRegrow": "3 days",
+  "WhenBushesRegrow": "8 days",
   "DestroyableBushLocations": [],
   "DestroyableBushTypes": {
     "SmallBushes": true,
