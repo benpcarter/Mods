@@ -1,0 +1,13 @@
+{
+  "Name": "Destroyable Painted Bushes",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Companion for Destroyable Bushes: turns bushes painted into the map into real bushes you can chop, except where removing one could open a way off the map or into a restricted area.",
+  "UniqueID": "benpc.DestroyablePaintedBushes",
+  "EntryDll": "DestroyablePaintedBushes.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "Esca.DestroyableBushes", "IsRequired": true },
+    { "UniqueID": "benpc.SVERealTrees", "IsRequired": false }
+  ]
+}

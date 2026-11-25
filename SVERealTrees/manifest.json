@@ -1,7 +1,7 @@
 {
   "Name": "SVE Real Trees",
   "Author": "benpc",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "Description": "Turns painted, uncuttable ordinary trees and stumps in SVE and other map mods into real trees (towns, festivals and decorations left alone). Stumps regrow into trees after you clear them.",
   "UniqueID": "benpc.SVERealTrees",
   "EntryDll": "SVERealTrees.dll",
