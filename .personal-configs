@@ -1,0 +1,30 @@
+# Personal preferences that should NOT be shared through this repo (display, controls, UI layout, performance).
+# The Stardew updater keeps your local changes to these out of commits, without deleting anyone else's copy.
+# One path per line, relative to the Mods folder. * and ? wildcards work. Lines starting with # are notes.
+
+AbilitiesExperienceBars/config.json
+AutomaticGates/config.json
+BetterCrafting/config.json
+CJBCheatsMenu/config.json
+ClearView/config.json
+CombatControlsRedux/config.json
+ConvenientInventory/config.json
+DataLayers/config.json
+DropItHotkey/config.json
+DynamicNightTime/config.json
+DynamicReflections/config.json
+EvenBetterArtisanGoodIcons/config.json
+FashionSense/config.json
+ForagePointers/config.json
+GenericModConfigMenu/config.json
+ImprovedTracker/config.json
+LookupAnything/config.json
+MultiPlayer Info/config.json
+NPCMapLocations/config.json
+SimpleLocationDisplay/config.json
+SocialPageOrderRedux/config.json
+StardewHighPriorityWithAutoUnfocus/config.json
+StardewUI/config.json
+UIInfoSuite2/config.json
+UnofficialModUpdateMenu/config.json
+WindEffects/config.json

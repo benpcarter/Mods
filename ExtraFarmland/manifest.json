@@ -1,7 +1,7 @@
 {
   "Name": "Extra Farmland",
   "Author": "benpc",
-  "Version": "1.1.0",
+  "Version": "1.2.0",
   "Description": "Makes Grampleton Fields, and all of Forest West once the Aurora Vineyard is unlocked, work like part of the farm: crows (scarecrows protect), grass spreads, and storms strike there with their own roll, so each needs its own lightning rods.",
   "UniqueID": "benpc.ExtraFarmland",
   "EntryDll": "ExtraFarmland.dll",
