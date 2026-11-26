@@ -1,0 +1,36 @@
+{
+  "Areas": [
+    {
+      "Name": "Grampleton Fields",
+      "Location": "Custom_GrampletonFields",
+      "X": null,
+      "Y": null,
+      "Width": null,
+      "Height": null,
+      "RequireMapProperty": null,
+      "GrassX": null,
+      "GrassY": null,
+      "GrassWidth": null,
+      "GrassHeight": null
+    },
+    {
+      "Name": "Forest West (Aurora Vineyard)",
+      "Location": "Custom_ForestWest",
+      "X": null,
+      "Y": null,
+      "Width": null,
+      "Height": null,
+      "RequireMapProperty": "IsFarm",
+      "GrassX": 40,
+      "GrassY": 9,
+      "GrassWidth": 37,
+      "GrassHeight": 29
+    }
+  ],
+  "Crows": true,
+  "GrassSpreads": true,
+  "Lightning": true,
+  "AnimalReport": true,
+  "VineyardSize": "Original",
+  "GrassSpreadsInExpandedVineyard": false
+}
