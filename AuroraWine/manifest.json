@@ -1,0 +1,13 @@
+{
+  "Name": "Aurora Vineyard Wine",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "At Aurora Vineyard, Grape Starters and Summer Seeds grow red-leaved Aurora grape vines (summer and fall) with green Aurora Grapes, which kegs turn into very valuable Aurora White Wine.",
+  "UniqueID": "benpc.AuroraWine",
+  "EntryDll": "AuroraWine.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false },
+    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false }
+  ]
+}

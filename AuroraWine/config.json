@@ -1,0 +1,10 @@
+{
+  "Locations": [
+    "Custom_ForestWest",
+    "Custom_AuroraVineyard"
+  ],
+  "GrapePrice": 850,
+  "WinePrice": 5500,
+  "CaskAging": true,
+  "GreenVines": true
+}
