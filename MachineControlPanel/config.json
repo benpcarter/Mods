@@ -1,11 +1,13 @@
 {
   "ControlPanelKey": "OemOpenBrackets",
   "MachineSelectKey": "LeftControl + Q",
+  "ToggleMachineOverlayKey": "None",
   "DefaultPage": "Rules",
   "DefaultIsGlobal": true,
   "ProgressionMode": true,
   "AltQuestionMark": false,
   "ConfigPerSave": true,
+  "OnlyHostCanEdit": false,
   "RuleEntriesPageSize": 8,
   "GridItemsPageSize": 1024
 }

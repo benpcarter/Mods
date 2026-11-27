@@ -1,0 +1,11 @@
+{
+  "Name": "IF2R Greenhouse Everywhere",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Uses Immersive Farm 2 Remastered's greenhouse (with its Remove Objects option) on every farm type, not just the Standard farm.",
+  "UniqueID": "benpc.IF2RGreenhouseEverywhere",
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies": [
+    { "UniqueID": "flashshifter.immersivefarm2remastered", "IsRequired": true }
+  ]
+}

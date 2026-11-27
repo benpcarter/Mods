@@ -1,0 +1,47 @@
+{
+  "Format": "2.0",
+  "Changes": [
+    // Immersive Farm 2 Remastered only loads its greenhouse on the Standard farm, but its
+    // "Remove_Objects_From_Greenhouse" patch runs on every farm type, which pastes it over the
+    // vanilla greenhouse (broken picture, broken exit door). Loading IF2R's greenhouse on the
+    // other farm types too makes that patch land on the map it was made for.
+    // assets/Greenhouse.tbin is an unchanged copy of IF2R's assets/Maps/Greenhouse.tbin (1.15.11).
+    {
+      "Action": "Load",
+      "Target": "Maps/Greenhouse",
+      "Priority": "Low",
+      "FromFile": "assets/Greenhouse.tbin",
+      "When": {
+        // Standard is IF2R's own case; Frontier Farm has its own greenhouse.
+        "FarmType |contains=Standard, FrontierFarm": false,
+        "HasMod |contains=flashshifter.GrandpasFarm": false,
+        "HasMod |contains=DaisyNiko.OasisGreenhouse": false,
+        "HasMod |contains=Forkmaster.CustomGreenhouse": false,
+        "HasMod |contains=Acerbicon.AEG": false,
+        "HasMod |contains=tlitookilakin.xgreenhouse": false,
+        "HasMod |contains=Lantern.SunsetGreenhouse": false,
+        "HasMod |contains=Greenhouse.Who_M": false
+      }
+    },
+    // IF2R's Greenhouse_Cleared patch has its own Warp property in patch coordinates (14 32), which can
+    // overwrite the real door (20 40) when the patch is pasted at 6,8. Put the exit door back where it is.
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Greenhouse",
+      "Priority": "Late",
+      "MapProperties": {
+        "Warp": "20 40 Farm 28 16"
+      },
+      "When": {
+        "FarmType |contains=Standard, FrontierFarm": false,
+        "HasMod |contains=flashshifter.GrandpasFarm": false,
+        "HasMod |contains=DaisyNiko.OasisGreenhouse": false,
+        "HasMod |contains=Forkmaster.CustomGreenhouse": false,
+        "HasMod |contains=Acerbicon.AEG": false,
+        "HasMod |contains=tlitookilakin.xgreenhouse": false,
+        "HasMod |contains=Lantern.SunsetGreenhouse": false,
+        "HasMod |contains=Greenhouse.Who_M": false
+      }
+    }
+  ]
+}

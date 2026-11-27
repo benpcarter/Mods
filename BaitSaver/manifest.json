@@ -1,0 +1,9 @@
+{
+  "Name": "Bait Saver",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Bait isn't used up when the fishing rod catches something that isn't a fish (trash, algae, seaweed, artifacts, notes and so on).",
+  "UniqueID": "benpc.BaitSaver",
+  "EntryDll": "BaitSaver.dll",
+  "MinimumApiVersion": "4.0.0"
+}
