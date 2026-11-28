@@ -1,8 +1,8 @@
 {
   "Name": "It's Stardew Time Companion",
   "Author": "benpc",
-  "Version": "1.0.0",
-  "Description": "While another player pauses time, bad buffs keep running out. While every player is paused, monsters freeze.",
+  "Version": "1.1.0",
+  "Description": "While another player pauses time, bad buffs keep running out. While every player is paused, monsters freeze. The Night Market mermaid show counts as a cutscene.",
   "UniqueID": "benpc.StardewTimeCompanion",
   "EntryDll": "StardewTimeCompanion.dll",
   "MinimumApiVersion": "4.0.0",
