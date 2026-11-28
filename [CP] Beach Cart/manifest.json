@@ -1,8 +1,8 @@
 {
   "Name": "Beach Cart",
   "Author": "benpc",
-  "Version": "1.0.0",
-  "Description": "Companion to Integrated Minecarts: adds a Beach stop to its minecart network, with a cart in the top-left woods at 27,2 on the normal beach and the Night Market beach.",
+  "Version": "1.1.0",
+  "Description": "Companion to Integrated Minecarts: adds a Beach stop to its minecart network, with a cart in the top-left woods at 27,2 on the normal beach and the Night Market beach. Also marks the Squid Fest area with a pebble border and stops things being built there.",
   "UniqueID": "benpc.BeachCart",
   "MinimumApiVersion": "4.0.0",
   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
