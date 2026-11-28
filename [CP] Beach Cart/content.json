@@ -1,0 +1,71 @@
+{
+  "Format": "2.0",
+  "Changes": [
+    // The Beach stop, on Integrated Minecarts' network ("Default", the same one it adds all its stops to).
+    // Riders arrive on 27,4, just below the cart, facing down.
+    {
+      "LogName": "Beach Cart destination",
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": ["Default", "Destinations"],
+      "Entries": {
+        "benpc.BeachCart": {
+          "Id": "benpc.BeachCart",
+          "DisplayName": "{{i18n: Beach}}",
+          "TargetLocation": "Beach",
+          "TargetTile": { "X": 27, "Y": 4 },
+          "TargetDirection": "down",
+          "Price": 0
+        }
+      }
+    },
+    // Integrated Minecarts moves its own stops to the top in its configured order and leaves others at the
+    // bottom. Put Beach right after Town (12th), so it's 13th. This pack loads after Integrated Minecarts
+    // (it's a dependency), so this runs after its reordering.
+    {
+      "LogName": "Beach Cart menu position",
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": ["Default", "Destinations"],
+      "MoveEntries": [
+        { "ID": "benpc.BeachCart", "AfterID": "Town" }
+      ]
+    },
+
+    // The cart, on every non-festival beach map: the normal one and the Night Market one (the Night Market
+    // swaps the whole Beach map out, so edits to Maps/Beach don't show then). The Luau and Jellies maps
+    // are festival maps where nobody can ride carts anyway, so they're left alone.
+    // 27,2-3 sits just east of Squid Fest's patch (x 11-26, y 3-7), which wipes every tile it covers.
+    //
+    // First clear the 2x2 palm at 27-28, 2-3 (Buildings layer only; the ground under it stays).
+    {
+      "LogName": "Beach Cart: clear palm",
+      "Action": "EditMap",
+      "Target": "Maps/Beach, Maps/Beach-NightMarket",
+      "MapTiles": [
+        { "Position": { "X": 27, "Y": 2 }, "Layer": "Buildings", "Remove": true },
+        { "Position": { "X": 28, "Y": 2 }, "Layer": "Buildings", "Remove": true },
+        { "Position": { "X": 27, "Y": 3 }, "Layer": "Buildings", "Remove": true },
+        { "Position": { "X": 28, "Y": 3 }, "Layer": "Buildings", "Remove": true }
+      ]
+    },
+    // Then the cart (assets/Cart.tmx is an unchanged copy of Integrated Minecarts' own 1x2 cart, 4.6.0),
+    // and the ride action on its lower tile. The last word hides this stop from its own menu.
+    {
+      "LogName": "Beach Cart: cart",
+      "Action": "EditMap",
+      "Target": "Maps/Beach, Maps/Beach-NightMarket",
+      "FromFile": "assets/Cart.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 2 },
+      "ToArea": { "X": 27, "Y": 2, "Width": 1, "Height": 2 },
+      "PatchMode": "Overlay",
+      "MapTiles": [
+        {
+          "Position": { "X": 27, "Y": 3 },
+          "Layer": "Buildings",
+          "SetProperties": { "Action": "MinecartTransport Default benpc.BeachCart" }
+        }
+      ]
+    }
+  ]
+}
