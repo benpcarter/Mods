@@ -1,0 +1,9 @@
+{
+  "Name": "Cabin Mailbox Icon Fix",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Draws the farmhand 'you've got mail' icon over a cabin's real mailbox, even when a cabin mod (like Cabins to Farmhouses) moves the mailbox.",
+  "UniqueID": "benpc.CabinMailboxFix",
+  "EntryDll": "CabinMailboxFix.dll",
+  "MinimumApiVersion": "4.0.0"
+}
