@@ -1,0 +1,12 @@
+{
+  "Name": "Claud's Brighter Piglets for Elle",
+  "Author": "benpc",
+  "Version": "1.0.0",
+  "Description": "Companion to Elle's Cuter Barn Animals: piglets get brighter 'new skin' colours so they stand out from adult pigs (pink skins turn a soft peach).",
+  "UniqueID": "benpc.BrighterPiglets",
+  "MinimumApiVersion": "4.0.0",
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies": [
+    { "UniqueID": "Elle.CuterBarnAnimals", "IsRequired": true }
+  ]
+}
